@@ -1,0 +1,22 @@
+Pedido de venda em base não-PAF pode ser vendido mais de uma vez no caixa.
+LOCAL:
+Dincash_PDV  Frente de Caixa  Tela de vendas de produtos
+
+VERSÃO:
+Identificado na versão (2.7H)
+
+PRÉ-CONDIÇÕES:
+  Base Não-PAF;
+  Usar impressora matricial ou MA01;
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Fazer pedido no Dincash_web;
+2) Abrir o PDv e tentar importar o pedido;
+3) Concluir a venda;
+4) Tentar importar mais uma vez o pedido.
+
+ERRO:
+Mesmo após concluir a venda, o pedido continua como aberto; sendo possivel que seja importado e vendido novamente no caixa.
+
+SITUAÇÃO DESEJADA:
+O pedido de venda só deve ser importado uma vez.

@@ -1,0 +1,17 @@
+Devolução de cliente - Erro na validação da CFOP quando a nota de venda possui substituição tributária
+*1) Qual o comportamento observado?***
+Ao efetuar devolução de cliente de notas com produtos com substituição tributária, mesmo a licenciada e o cliente sendo do mesmo estado, o sistema está apresentando a mensagem: "Não é permitido o uso da CFOP 24031 em emitente da UB BA e destinatário da UF BA", conforme imagem anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pré-condição: Ter uma nota de venda com produto com substituição tributária.
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Começar digitar uma devolução de cliente de uma nota com produto substituído;
+3- Selecionar o produto para informar a quantidade a ser devolvida;
+4- Informar a quantidade e clicar no botão 'OK';
+5- Verificar a mensagem de apresentada pelo sistema (Arquivo anexo);
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema informe e valide corretamente a CFOP de acordo com a nota de venda informada.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

@@ -1,0 +1,16 @@
+Calculo da Substituição Tributária não está sendo feito para clientes com CPF
+1) Qual o comportamento observado?
+
+Foi identificado que na venda para clientes que possuem CPF e necessita ser calculada a substituição, o sistema não está fazendo por conta de uma nova implementação do layout 3.10, onde para emitir NFe em clientes que não possuem IE, deve-se colocar o campo Contribuinte como 'N'. Porém, para que seja gerada a substituição para clientes, deve-se colocar o campo Contribuinte 'S'. Segue em anexo um documento onde explica como deve ser feito o cálculo e a configuração.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+As etapas estão no documento anexado.
+
+3) Qual o comportamento esperado?
+
+Existem clientes que precisam gerar substituição para vendas CPF, conforme explica o anexo, logo o sistema deve realizar o cálculo.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+.

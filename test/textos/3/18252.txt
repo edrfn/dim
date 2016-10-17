@@ -1,0 +1,22 @@
+Pedidos de Venda - Erro na tentativa de impressão de pedidos de venda
+*1) Qual o comportamento observado?*
+Ao imprimir pedido de venda, o campo de cliente está vindo desabilitado, impossibilitando o usuário de imprimir o pedido,
+além de trazer os botões "imprimir" e "sair" totalmente desalinhados.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: vendas, movimentos, pedido de venda
+2- Clicar no botão novo;
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação
+5- Imprimir pedido;Sim;
+
+*3) Qual o comportamento esperado?*
+ sistema deve trazer um formulário de impressão já preenchido(filia, cliente, pedido) de acordo com o pedido gravado no momento.
+e com os botões "imprimir" e "sair" alinhados de forma correta, facilitando a visualização do usuário
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Acessar a rotina pelo menu: vendas, movimentos, pedido de venda
+2- Clicar no botão novo;
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação
+5- Imprimir pedido;Sim;

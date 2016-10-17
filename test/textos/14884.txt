@@ -1,0 +1,5 @@
+[CHECKLIST] Parametro de Usar Vale compra não funciona
+Existe um parâmetro no Dincash Web que quando habilitado permite o uso do vale compra no PDV, porem percebi que este parâmetro fica desabilitado e o uso do vale compra continua funcionando normalmente no PDV, onde não deveria, pois está desabilitado.
+
+Como simular o erro?
+No web, certifique-se que este parametro esteja desabilitado. Sincronize o PDV e faça uma venda. Na tela de recebimento, use o Vale como forma de pagamento. insira o numero de um vale comprar para o cliente usado na venda e conclua a mesma. veja que o sistema irá vender normalmente, quando na verdade não era nem para mostrar a forma de pagamento na lista.

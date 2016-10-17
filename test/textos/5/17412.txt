@@ -1,0 +1,8 @@
+Permitir que a rotina de Outras Operações contenha 4 casas decimais no valor unitário
+Eu: Victor Hugo;
+
+Como: Product Owner;
+
+Quero: Que a rotina de outras operações contenha 4 casas decimais;
+
+Porque: O cliente Realce, ao receber uma remessa para industrialização, precisa que o campo de valor unitário contenha 4 decimais, para que ao realizar o retorno de industrialização, a nota seja devolvida da mesma forma que foi recebida. Para liberar o número de casas decimais na rotina. a validação pode ser feita através da CFOP de retorno de industrialização (5.902.1).

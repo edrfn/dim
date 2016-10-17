@@ -1,0 +1,8 @@
+Alteração de Criptografia do arquivo MD5 utilizado na validação de contratos ativos do sistema
+Eu: Thiago;
+
+Como: ScrumMaster;
+
+Quero: Que o sistema possua nova criptografia no arquivo md5 para melhores validações.
+
+Porque: É necessário que tenhamos uma criptografia mais forte, foi levantada a suspeita de que nossa criptografia pode estar sendo quebrada.

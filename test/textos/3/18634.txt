@@ -1,0 +1,12 @@
+Geração do Financeiro na Rotina de Efetivar Pedido
+Quero: Geração do financeiro na rotina de efetivar pedido
+Para: Ao confirmar pedido seja gerado títulos quando a forma de pagamento for a prazo;
+
+Critério de validação
+
+* Ter acesso à funcionalidade.
+* Digitar Pedido de Venda com forma de pagamento a prazo;
+* Efetuar a efetivação do pedido;
+* Verificar os títulos gerados no financeiro;
+
+

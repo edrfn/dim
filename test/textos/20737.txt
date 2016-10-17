@@ -1,0 +1,11 @@
+Valor de desconto no pedido está sendo divido de forma incorreta na NF-e.
+*Comportamento observado:*
+
+- Quando dado desconto no total do pedido ao emitir a nota fiscal o valor divido para os produtos está incorreto, causando erro na emissão pois os cálculos de BC ICMS e Valor ICMS ficam negativos.
+Observando o XML é encontrado o motivo, o sistema está fornecendo o valor de desconto divido pela quantidade de itens. Exemplo: O valor do desconto dado foi de 10 reais e a nota tem 2 itens, o sistema preencherá o valor de desconto no item com 5 reais cada um.
+
+*Comportamento esperado:*
+
+- Que seja feito o rateio do desconto de forma proporcional a porcentagem e não ao valor dado.
+
+(Em anexo está o banco e o um XML para auxilio na correção)

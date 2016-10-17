@@ -1,0 +1,16 @@
+Pedidos de Venda - mostrar estoque atual do produto ao realizar a pesquisa  do mesmo na tela de vendas ou em cadastros
+*Descrição*
+
+Como: P.O
+Quero: Inclusão de uma coluna de visualização de estoque ao pesquisar um produto em qualquer tela.
+Para: Facilitar a visualização do estoque atual de cada produto a ser vendido pelo usuário.
+      para que assim, o mesmo possa ter ciência da quantidade contida em estoque, no momento da venda, sem se fazer necessária
+      a consulta do estoque do produto por meio de relatórios
+      
+*Critério de validação*
+cliente poder verificar o estoque no momento em que pesquisa um produto a ser vendido
+Não se fazer necessária uma consulta no cadastro ou por meio de relatório, para saber o estoque de um produto no momento da venda.
+
+*Como implementar*
+Adicionar uma coluna de visualização do estoque atual dos produtos entre a coluna de PREÇO e CODIGO DE BARRAS ao pesquisar algum produto, seja na tela de vendas ou cadastro de produtos
+Seguir foto anexada com um exemplo prático.

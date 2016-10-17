@@ -1,0 +1,11 @@
+Refazer a configuração do Jenkins
+*Como:* SM
+*Quero:* A configuração do Jenkins
+*Para:* A geração das builds através do Jenkins
+
+*Critério de validação* 
+* Verificar a geração das builds obedecendo todas as configurações
+
+*Como implementar* 
+* Instalar o servidor do Jenkins;
+* Realizar as configurações necessárias.

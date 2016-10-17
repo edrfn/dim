@@ -1,0 +1,11 @@
+Implementar a funcionalidade de geração do custo real, do custo contábil e do custo médio dos produtos
+Descrição
+
+Como: Tester
+Quero: Implementação da funcionalidade de geração do custo real, do custo contábil e do custo médio dos produtos
+Para: Que a tabela produto_estoque seja populada com os valores dos custos dos produtos.
+
+Critério de validação
+Lançar uma nota de compra através do caminho: Compras->Movimentos-> Digitar NF de Compra.
+Liberar a nota gerada;
+Verificar na tabela produto estoque que os campos 'pes_custoreal', 'pes_custocontabil' e 'customedio' estão vazios.

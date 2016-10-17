@@ -1,0 +1,7 @@
+Escrever requisito de cadastro de cliente
+Escrever requisitos de cadastro de cliente;
+
+
+**Validação**
+
+Requisito de de cliente escrito

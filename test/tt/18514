@@ -1,0 +1,14 @@
+Refatoração da mensagem de progresso do PDV (feedback)
+Quero: Melhorar a forma que as mensagens de progresso são mostradas no PDV.
+Como: Melhorando o FXML e o CSS utilizados para criar a mensagem atual.
+Para: Deixar a visualização dessas mensagens de forma mais profissional.
+
+Critério de validação:
+
+- Mensagem de progresso mais bonita, profissional e funcional no sistema.
+
+Como implementar:
+- Substituir "sincronizando..." por "atualizando..."
+- Criar novo FXML
+- Criar novo CSS
+- Alterar controller

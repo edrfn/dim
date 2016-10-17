@@ -1,0 +1,17 @@
+Relatório de Faturamento
+*Como:* Analista de negócio
+*Quero:* O relatório de faturamento
+*Para:* Criar uma possibilidade de analisar o faturamento da empresa
+
+*Critério de validação*
+- Imprimir o relatório de faturamento
+- Exportar para qualquer formato permitido do sistema.
+
+*Como Implementar*
+- Vide especificação.
+- Na tela do sistema onde tem "Visualizar", usar o ícone "Gerar Relatório"
+
+h1. Somente implementar
+> Resumido - Ordenar por Emissão
+> Resumido - Ordenar por Vendedor
+> Detalhado - Vendedor

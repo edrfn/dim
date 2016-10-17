@@ -1,0 +1,19 @@
+Ao criar um orçamento com desconto e importá-lo para criar um novo, os produtos são exibidos sem desconto
+*1) Qual o comportamento observado?*
+
+Quando é feita a importação de um orçamento para gerar um novo orçamento, os produtos vem sem desconto. Os produtos são reprocessados e voltam ao preço de venda padrão, sem o desconto.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+F2>>Orçamento>>Digita um novo orçamento>>Insere produtos com desconto e confirma;
+Em seguida importa o orçamento para gerar um novo:
+F2>>Orçamento>>INSERIR>>Alt + O>>Importa o orçamento já digitado>>Esse orçamento virá sem o desconto nos produtos;
+
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve manter os valores de desconto dados anteriormente, para que o orçamento fique igual ao original.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

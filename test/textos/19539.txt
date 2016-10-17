@@ -1,0 +1,16 @@
+Refatoração - Tela de Agências
+*Como*: Tester
+*Quero*: Refatoração da tela de Bancos conforme novo padrão
+*Para*: Adaptar a tela ao novo padrão
+
+h3. Critério de validação
+
+* Ter acesso à funcionalidade através do menu de cadastro
+* Validação Endereço 
+* Validação Telefone
+* Validação ao relacionar contato
+
+h3. Como implementar
+
+* Criar formulário no novo padrão;
+* Implementar todas as validações de acordo com a tela no padrão anterior.

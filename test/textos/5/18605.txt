@@ -1,0 +1,16 @@
+Recebimento e leitura de mensagem de solicitação de carga inicial (via arquivo de texto)
+*Como:* Tester
+*Quero:* Que o Dinâmico ERP receba a mensagem de requisição de carga inicial enviada  pelo Dinâmico PDV via arquivo de texto solicitando a carga inicial
+*Para:* Ser possível ao ERP receber essa mensagem e enviar os arquivos solicitados pelo PDV para execução da carga inicial.
+ 
+*Critérios de validação*
+* Ter o Dinâmico PDV instalado e pronto para a carga inicial;
+* Ter o Dinâmico ERP instalado e configurado para a carga inicial;
+* Ao ser inicializado o sistema operacional, o Servidor de PDV deverá ser iniciado como serviço e deve enviar uma requisição ao Dinâmico ERP
+
+*Como Implementar*
+
+h3. Anotações da Reunião de Planejamento:
+
+> - Fazer com que o sistema escute através da api do Windows uma pasta, onde lerá um arquivo de "solicitação de carga";
+> - Caso os métodos de carga inicial do sistema ainda não estejam prontos, uma forma de validar poderia mostrar a mensagem "Carga Inicial" quando o arquivo for colocado na pasta;

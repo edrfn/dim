@@ -1,0 +1,12 @@
+Gerar um novo instalador do Dinamico ERP
+Como: Coordenadora do Projeto
+Quero: A geração de um novo instalador do Dinâmico ERP
+Para: Ser gerado um novo instalador retirando o nome 'beta' e com a nova proposição da Versão.
+Critério de validação
+
+    Ser atualizado o instalador já existente do Dinâmico ERP.
+    Retirar o nome 'Beta' existente no instalador.
+    Validar a versão existente com a última versão gerada.
+
+
+O padrão do número das versões está no Ticket #17377

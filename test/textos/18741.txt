@@ -1,0 +1,18 @@
+Devolução de cliente - Ao efetuar devolução de venda com desconto no item, o valor do desconto fica duplicado na devolução
+*1) Qual o comportamento observado?*
+Quando a nota de venda a ser devolvida tem desconto informado no produto, o sistema está trazendo o valor do produto já abatido o desconto e trazendo também o percentual do desconto informado na venda, com isso o valor do produto fica errado. Logo, todos os campos de impostos que são baseados no valor total dos produtos ficam com o valor errado;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pré-condição: Ter uma nota de venda com produtos com desconto para ser efetuado a devolução.
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Informar o cliente e pesquisar a nota com produtos com desconto;
+4- Na tela de informar os produtos a serem devolvidos, verificar que o valor do produto já vem abatido o valor do desconto e o sistema traz também o percentual do desconto, gerando uma duplicidade; 
+
+apresentada.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao efetuar devolução de venda na qual foi concedido desconto no produto, o sistema traga o produto com o valor original e o percentual do desconto concedido, evitando erro nos cálculos.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

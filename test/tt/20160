@@ -1,0 +1,12 @@
+Comunicação com impressora Elgin
+*Como:* Scrum Master
+*Quero:* Que seja implementado no sistema a possibilidade de comunicação com a impressora fiscal da marca Elgin
+*Para:* Ser possivel realizar qualquer operação no sistema que dependa de impressoras fiscais com um impressora Elgin
+
+*Critério de validação:*
+
+O pleno do funcionamento do sistema com impressora da maraca Elgin, desde emissão de leitura x ate a criação dos arquivos necessarios para o PAF.
+
+*Como implementar:*
+- Implementar comunicação.
+- Testar.

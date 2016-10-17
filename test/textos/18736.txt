@@ -1,0 +1,27 @@
+Devolução de Cliente e Devolução ao Fornecedor - CFOP do pedido não está sendo gravado no banco
+*1) Qual o comportamento observado?***
+Ao gravar um pedido de devolução de cliente ou ao fornecedor no banco de dados, o campo peds_fknat_id (pedidosaida) e pde_fknat_id (pedidoentrada) referentes ao CFOP não estão sendo gravados.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Devolução de Cliente:
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Devolução Cliente
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- Verificar que na tabela pedidoentrada o campo pde_fknat_id não foi preenchido.
+
+Devolução ao Fornecedor:
+1- Acessar a rotina pelo menu: Compras - Movimentos - Devolução ao Fornecedor
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- Verificar que na tabela pedidosaidao campo peds_fknat_id não foi preenchido.
+
+*3) Qual o comportamento esperado?*
+É esperado que após gravar as devoluções que os campos referentes a CFOP (pde_fknat_id e peds_fknat_id) sejam preenchidos em suas respectivas tabelas.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+
+

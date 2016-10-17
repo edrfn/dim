@@ -1,0 +1,13 @@
+Gerenciamento de créditos do cliente no Financeiro
+*Como:* Analista de negócios
+*Quero:* Ver os créditos gerados de todos os clientes
+*Para:* Ter um controle administrativos dessas informações do sistema
+
+*Critérios de Validação*
+- Ter uma chamada de dentro do cadastro do cliente
+- Ter a possibilidade de filtrar por clientes
+- Ver o total disponível para uso
+- Fazer as validações relevantes a validade e uso.
+
+*Como Implementar*
+- vide especificação (Gestão de créditos do cliente (Financeiro > Administrativo > Créditos de Clientes))

@@ -1,0 +1,14 @@
+[CASE DE SUCESSO] Não é possível editar o valor de pagamento do cartão
+*Comportamento observado*
+Ao tentar efetivar uma venda com cartão, não conseguir alterar o valor. O sistema permite que eu digite mas não apaga.
+O teste realizado era para reduzir o valor total da venda e ao digitar o valor ficou na casa dos milhares.
+
+*Passos para reproduzir o comportamento*
+- Realizar uma venda;
+- Navegar com os direcionais para alterar o valor
+- Digitar aleatoriamente no campo pra ver se altera
+
+*Comportamento esperado*
+Que o valor do pagamento sugerido de cartão já venha selecionado e que seja possível alterar o valor.
+
+OBS: Atualmente é possível alterar o valor se utilizar o mouse para fazer a seleção. 

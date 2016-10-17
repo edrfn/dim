@@ -1,0 +1,16 @@
+Corrigir a rotina de relatório de cadastro de fornecedor
+*Como:* Scrumaster
+*Quero:* Correção dos filtros e da geração do relatório de fornecedores.
+*Para:* Ser possível emitir relatório de fornecedores utilizando várias opções de filtros.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Compras - Relatórios - Fornecedores;
+* Poder utilizar os filtros disponíveis na geração do relatório;
+* Poder visualizar os relatórios gerados;
+* Verificar se os relatórios gerados atendem aos filtros informados;
+
+*Como implementar* 
+* Corrigir os filtros;
+* Corrigir sequencia e alinhamento dos campos;
+* Corrigir a pesquisa dos campos fornecedores e cidade;
+* Retirar o debug que está sendo apresentado ao clicar em imprimir;

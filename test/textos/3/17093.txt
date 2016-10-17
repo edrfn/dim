@@ -1,0 +1,8 @@
+Criar a Rotina de Geração de Código de Barras
+Criar a rotina de Geração de Código de Barras do módulo de Estoque com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/).
+
+Como implementar:
+
+# Criar rotina de geração de código de barras, baseando-se no parâmetro de EAN 8 ou 13
+# Testar a geração do código de barras
+# Documentação da rotina de geração de código de barras

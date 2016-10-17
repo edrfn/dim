@@ -1,0 +1,10 @@
+Orçamento Data Center
+Realizar Orçamento Data Center, com todos os equipamentos, com base na arquitetura definida no link abaixo.
+
+http://goo.gl/9fK47s
+
+**Critério de Validação**
+
+* Orçamento em PDF com todos os equipamentos para montagem do Data Center;
+
+

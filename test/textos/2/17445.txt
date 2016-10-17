@@ -1,0 +1,15 @@
+As vendas realizadas no PDV não estão sendo gravadas no banco de dados
+*Qual o comportamento observado?*
+As vendas realizadas pelo PDV não estão sendo gravadas no banco de dados. Realizei vendas com a MA01  e foram gravadas no banco, quando realizei vendas com uma impressora fiscal Bematech as vendas não gravaram. Segue log em anexo.
+
+*Quais as etapas para obter o comportamento observado?*
+Não sei apontar os passos necessários para simulação do erro. Mas após a ocorrência do erro, é necessário apenas realizar vendas e verificar que elas não foram gravadas no banco de dados. 
+
+*Qual o comportamento esperado?*
+Que as vendas realizadas no PDV sejam armazenadas no banco de dados.
+
+*Como implementar?*
+- Correção do problema;
+- Testes.
+
+Obs.: Como o problema já havia sido corregido com a tabela item_venda, sugiro que a mesma correção seja feita em todas as tabelas referente a venda.

@@ -1,0 +1,17 @@
+Pedidos de Venda - Sistema exibe DEBUG ao informar manualmente um valor menor, na venda.
+Descrição
+
+*1) Qual o comportamento observado?*
+Ao digitar um preço menor que o lançado no cadastro, no momento da venda, o sistema informa o desconto em forma de DEBUG, na tela.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+a- Acessar a rotina pelo menu: Vendas - Movimentos - Pedidos de Venda
+b- Preencher as informações obrigatórias até a tela de produtos
+c- Informar um preço no produto, menor que o informado no cadastro 
+    ex: no Cadastro o preço é 1,50... informar 1,49, o que ficaria caracterizado como desconto
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema acate o novo preço, caso o parâmetro  *"Digita preço na venda balcão"* ativo, sem mostrar nenhum tipo de Debug na tela, encarando o mesmo como um desconto normal, sem que apresente nenhum tipo de mensagem ao usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2

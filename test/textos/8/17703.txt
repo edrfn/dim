@@ -1,0 +1,10 @@
+Criação do conversor para o sistema DG PRÊMIO
+1. Breve descrição do caso:
+
+Criação do conversor para o sistema *DG PRÊMIO*
+
+Informações Adicionais:
+
+Planilha de conversão consta no servidor na pasta:
+
+*Y:\Teste\Bases Redmine\QUEIJOS E CIA*

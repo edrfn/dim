@@ -1,0 +1,6 @@
+Criar a Rotina de Registrar Recebimento
+Criar a rotina de Registrar Recebimento do módulo de Vendas com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/doku.php?id=requisitos:vendas:registro_de_recebimento).
+
+Como implementar:
+
+# Analisar requisito

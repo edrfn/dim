@@ -1,0 +1,11 @@
+[Total NFCE] Rejeição ao emitir nota com pagamento por cartão
+*Como:* Usuário do PDV de caixa
+*Quero:* Emitir uma nota com o Total NFC-e e pagamento por cartão com as devidas tags.
+*Para:* Emitir a nota e autoriza-la.
+
+*Critério de validação* 
+* Vender com pagamento por cartão seja TEF ou não.
+* Xml da nota com grupo "card"
+
+*Como implementar* 
+* Preencher as tags do grupo card.

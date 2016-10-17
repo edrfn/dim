@@ -1,0 +1,14 @@
+Melhorar  funcionamento da rotina de limite de crédito 
+O sistema realiza o tratamento de limite de crédito ao realizar pagamento com espécie do tipo outras, e as ações para esta rotina são parametrizáveis no Dinâmico ERP. Neste contexto deve ser analisado duas situações: 
+
+1. se as opções de configuração para Liberar, Avisar, Bloquear ou Liberar com Senha são válidas para o operador de caixa. 
+2. a mensagem que indica que o limite foi ultrapassado é "vexatória". Uma mensagem interessante seria "O limite de crédito do cliente foi ultrapassado". 
+
+Após análise destes casos, deve ser implementado a melhor solução.
+
+*Como implementar*
+
+- Analisar os pontos de modificação;
+- Discutir com o P.O. qual a melhor maneira de o sistema se comportar;
+- Realizar as alterações no código;
+- Testes;

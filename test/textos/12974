@@ -1,0 +1,10 @@
+Módulo de produção não imprime relatórios
+Qual o comportamento observado?
+- Módulo de produção não está imprimindo nenhum relatório, permite visualizar, porem não imprime e não é apresentado nenhum erro, apenas não imprime.
+Quais as etapas para reproduzir o comportamento observado?
+- Relatórios - Todos os relatórios dessa aba estão com o mesmo problema, não imprime
+Qual o comportamento esperado?
+- Que seja emitido os relatórios independente da forma de impressão e impressora
+Qual a versão do produto ?
+- 5375
+

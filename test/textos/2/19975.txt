@@ -1,0 +1,23 @@
+Balanço
+*Como:* Analista de negócios
+*Quero:* Refatorar a rotina de balanço.
+*Para:* Manter a coerência com o novo framework e banco de dados
+
+*Critérios de validação*
+- Permitir a inserção de itens
+- Permitir atualizar saldo do estoque
+
+*Como implementar*
++Nova+
+> Salvar
+> Salvar e Liberar
+
++Editar+
+> Salvar
+> Salvar e Liberar 
+
++Pesquisar+
+_(Apenas balanço com situação Aberta)_
+> Editar 
+> Excluir (link na tela)
+> Cancelar

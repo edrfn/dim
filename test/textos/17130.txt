@@ -1,0 +1,8 @@
+Homologação TEF Pay&Go
+*O que?*
+Executar roteiro de homologação de TEF Pay&Go;
+Homologar TEF Pay&Go;
+
+*Como implementar?*
+1. Realizar comunicação com TEF Discado, após configuração do sistema para utilização do mesmo;
+2. Executar roteiro de teste para homologação;

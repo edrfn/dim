@@ -1,0 +1,11 @@
+Erro ao cadastrar produto por importação de xml de compras
+1 -Qual o comportamento observado?
+Foi verificado que ao importar o xml em anexo e tentar cadastrar o primeiro item, na confirmação do cadastro ocorre o erro em anexo.
+2 -Quais os passos para reproduzir o comportamento observado?
+Acesse a rotina de digitar nf de compras;
+clica no botão xml para importação do arquivo xml em anexo;
+selecione o primeiro item e clica no botão cadastrar;
+preencha todos os campos obrigatórios do cadastro do produto;
+clica em gravar e confirma a gravação.
+
+Verifica que ao confirmar ocorre o erro em anexo.

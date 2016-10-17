@@ -1,0 +1,11 @@
+Sistema não comunica com impressora não fiscal Daruma Dr700
+
+*Situação:* 
+
+- Sistema não comunica com a ECNF através do configurador e não envia a impressão quando a mesma está configurada como impressora padrão do sistema através do driver de Spooler. 
+
+*Situação desejada:* 
+
+- O sistema deverá comunicar como a ECNF para impressão não fiscal utilizando o configurador ou funcionando corretamente quando a impressora está definida como impressora padrão do sistema. 
+
+*Segue em anexo drivers adquiridos no site da Daruma.

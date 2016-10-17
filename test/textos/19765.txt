@@ -1,0 +1,11 @@
+Refatorar a tela de Resumo da Nota
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração da tela do Resumo da Nota.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar os cálculos apresentados.
+
+Como implementar:
+
+- Interface.

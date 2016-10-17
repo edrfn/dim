@@ -1,0 +1,20 @@
+Erro na entrada da rotina Digitar NF de Compra
+Descrição:
+
+Ao iniciarmos a rotina de NF de Compra o sistema exibe uma mensagem de erro que impede o funcionamento de toda a rotina;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao iniciarmos a rotina de NF de Compra, o sistema exibe a mensagem de erro "is not a valid integer value";
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Compras > Movimentos > Digitar NF de Compra > Mensagem de erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema permite a entrada e a utilização da rotina sem exibir nenhuma mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Compras > Movimentos > Digitar NF de Compra > Sistema inicia a rotina sem exibir nenhuma mensagem de erro.

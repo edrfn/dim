@@ -1,0 +1,11 @@
+Problemas na emissão de NFe
+*1) Quais os comportamentos observados?*
+1.1- Não está calculando a redução de base de ICMS;
+
+1.2- Apresentou a seguinte rejeição: "Valor do Produto difere do produto Valor Unitário de Comercialização e Quantidade Comercial". Ao abrir o pedido em edição, o valor total estava zerado; 
+
+1.3- Apresentou a seguinte rejeição: "Total da NF difere do somatório dos Valores compõe o valor Total da NF". Ao emitir NFe de outras entradas informando o valor de frete, arquivo xml anexo;
+
+1.4-Nota com substituição está destacando a base e o valor do ICMS de substituição, mas +não+ está destacando a base e ICMS normal.
+
+

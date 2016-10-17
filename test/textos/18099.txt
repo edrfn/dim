@@ -1,0 +1,15 @@
+Identificar e corrigir lentidão de sincronização Painel > PDV
+*Qual o comportamento observado?*
+O sistema voltou a sincronizar as informações do painel para o PDV de forma lenta. É necessário verificar qual implementação causou o problema e corrigir. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Realizar uma sincronização inicial do Painel para o PDV, preferencialmente com uma base de 23 mil produtos; 
+2. A sincronização da carga inicial (uma base de 23 mil produtos) durava no mínimo 14 minutos;
+
+*Qual o comportamento esperado?*
+Que a sincronização de informações do Painel para o PDV continue com o tempo mínimo que tínhamos alcançado.
+
+Como implementar?
+1. Identificar o problema;
+2. Corrigir o problema;
+3. Testar;

@@ -1,0 +1,16 @@
+CCe - Após o envio e visualização da CCe gerada está sendo necessário clicar no botão gravar novamente
+*1) Qual o comportamento observado?*
+Após o envio e visualização da CCe gerada está sendo necessário clicar no botão 'Gravar' novamente, sendo que as informações já se encontram devidamente gravadas no banco de dados.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Carta de Correção Eletrônica;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Informar um cliente e pesquisar uma nota;
+4- Preencher a informação do campo correção, gravar e enviar a CCe;
+5- Verificar que ao fechar a visualização da CCe gerada está sendo necessário clicar no botão 'Gravar' novamente.
+
+*3) Qual o comportamento esperado?*
+É esperado que após a visualização da CCe não seja necessário clicar novamente no botão 'Gravar', pois os dados já estão gravados no banco de dados.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

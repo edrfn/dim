@@ -1,0 +1,24 @@
+O sistema utiliza a mesma regra tanto para Cartões que TEF quanto para os que não consultam.
+LOCAL:
+PDV  Módulo vendas  Tela de pagamento.
+
+VERSÃO:
+Identificado na última versão (2.8H)
+
+PRÉ-CONDIÇÕES:
+ Utilizar TEF.
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+O erro ocorre quando o sistema está configurado para TEF Discado/Dedicado.
+Para reproduzir você precisa possuir especies do tipo cartão que consultam TEF e outra que não consulte (manual).
+Efetue uma venda e pague metade em uma especie que consulte TEF e outra em uma que não consulte.
+Efetue também o pagamento em duas especies que não consultem o TEF
+
+PS. As especies precisam ser do tipo cartão.
+
+ERRO:
+É Retornado a mensagem, de que a especie que consulta o TEF deve ser passada primeiro mesmo que a especie inserida não consulte TEF.
+Conclui-se que a regra está "amarrada" ao tipo de especie e não a flag que indica se há ou não consulta ao TEF;
+
+SITUAÇÃO DESEJADA:
+É necessário fazer com que a validação considere a Flag em especie, indicando que consulta o TEF ou não. Evitando que este problema ocorra.

@@ -1,0 +1,17 @@
+Orçamento com numeração duplicada
+*1) Qual o comportamento observado?*
+
+Ao digitar orçamentos simultaneamente, os mesmos adquirem o mesmo número, apesar de gravarem por fim no banco com numeração diferente. Porém ao cancelar um orçamento, os itens do orçamento cancelado são levados para o outro orçamento concluído que possui a mesma numero.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça dois orçamentos ao mesmo tempo;
+Cancele um dos orçamentos feitos;
+Observe que o produto aparece, porém não soma ao final do orçamento.
+
+*3) Qual o comportamento esperado?*
+
+Não incluir produtos de orçamentos cancelados.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

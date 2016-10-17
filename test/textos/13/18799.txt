@@ -1,0 +1,4 @@
+Criar método para contingência offline e função para envio separado da NFC-e no menu de Vendas
+*Como:* Product Owner
+*Quero:* Criar método para contingência offline e função para envio separado da NFC-e no menu de Vendas
+*Para:* Emissão de NFC-e para Automaster/Dinamico

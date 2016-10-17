@@ -1,0 +1,17 @@
+Comunicação com TotalNFC-e
+*Como:* Scrum Master
+*Quero:* Construir o envio de NFC-e através da dll TotalNFC-e.
+*Para:* Que o sistema seja capaz de realizar o envio de NFC-e.
+
+Critério de validação
+
+Sistema enviar NFC-e através da DLL.
+
+
+Como implementar
+
+Construir Model de Comunicação;
+Construir XML de comunicação;
+Construir interface para o PDV;
+Testes unitários;
+

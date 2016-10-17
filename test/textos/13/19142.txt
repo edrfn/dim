@@ -1,0 +1,69 @@
+O sistema gera base de calculo PIS e COFINS para os produtos com a CST "06 Alíquota tributada a zero"
+*1) Qual o comportamento observado?*
+
+Foi verificado através do relatório de Consolidação no SPED Contribuições que esta sendo gerado base de calculo de PIS e Cofins
+para a (CST de PIS e COFINS) "06 Alíquota tributada a zero".
+
+O relatório de consolidação do Sped pega os dados dos registros C481-Detalhamento de PIS por item e C485-Detalhamento de Cofins por item.
+
+OBS: A solicitação é que o sistema não gere base de calculo para movimetação com CST PIS e COFINS "06".
+
+Legislação:
+
+Art. 1o  A Contribuição para o Financiamento da Seguridade Social - Cofins, com a incidência não cumulativa, incide sobre o total das receitas auferidas no mês pela pessoa jurídica, independentemente de sua denominação ou classificação contábil. (Redação dada pela Lei nº 12.973, de13 de maio de 2014)(Vide art. 119 da Lei nº 12.973/2014)
+
+§ 1o  Para efeito do disposto neste artigo, o total das receitas compreende a receita bruta de que trata o art. 12 do Decreto-Lei no 1.598, de 26 de dezembro de 1977, e todas as demais receitas auferidas pela pessoa jurídica com os seus respectivos valores decorrentes do ajuste a valor presente de que trata o inciso VIII do caput do art. 183 da Lei no6.404, de 15 de dezembro de 1976. (Redação dada pela Lei nº 12.973, de13 de maio de 2014)(Vide art. 119 da Lei nº 12.973/2014)
+§ 2o  A base de cálculo da Cofins é o total das receitas auferidas pela pessoa jurídica, conforme definido no caput e no § 1o. (Redação dada pela Lei nº 12.973, de13 de maio de 2014)(Vide art. 119 da Lei nº 12.973/2014)
+§ 3º Não integram a base de cálculo a que se refere este artigo as receitas:
+
+*I - isentas ou não alcançadas pela incidência da contribuição ou sujeitas à alíquota 0 (zero);*
+
+II - de que trata o inciso IV do caput do art. 187 da Lei no 6.404, de 15 de dezembro de 1976, decorrentes da venda de bens do ativo não circulante, classificado como investimento, imobilizado ou intangível; (Redação dada pela Lei nº 12.973, de13 de maio de 2014)(Vide art. 119 da Lei nº 12.973/2014)
+
+III - auferidas pela pessoa jurídica revendedora, na revenda de mercadorias em relação às quais a contribuição seja exigida da empresa vendedora, na condição de substituta tributária;
+ 
+ Fonte: https://www.receita.fazenda.gov.br/Legislacao/Leis/2003/lei10833.htm
+
+ ------------------
+ 
+*Exclusões ou deduções da Base de Cálculo*
+
+*Para fins de determinação da base de cálculo, podem ser excluídos do faturamento, quando o tenham integrado, os valores: (Lei nº 10.637, de 2002, art 1º, §3º e Lei nº 10.833, de 2003, art. 1º, § 3º; IN SRF nº 247, de 2002, art. 24):*
+
+*das receitas isentas ou não alcançadas pela incidência da contribuição ou sujeitas à alíquota 0 (zero);*
+
+Fontes:
+http://www.receita.fazenda.gov.br/pessoajuridica/pispasepcofins/RegIncidenciaNaoCumulativa.htm#Exclusões
+http://www.receita.fazenda.gov.br/pessoajuridica/pispasepcofins/RegIncidenciaNaoCumulativa.htm#Receitas
+ 
+-----------------
+
+*Obs:* A legislação que trata do assunto e instruções da Receita indicam que não é informada a base de cálculo para as operações não alcançadas pelas contribuições.
+
+Além da legislação se observarmos o leiaute dos registros M400/M800 e filhos, onde são totalizadas as receitas isentas ou não alcançadas pelas contribuições, iremos perceber que não existe um campo referente a base de cálculo das contribuições justamente pelo fato da legislação prever a exclusão desses valores da base de cálculo. 
+
+
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pegar uma base com os dados exportados pelo dincash e ao gerar o Sped contribuições verificar os registros C481-Detalhamento PIS e C485-Detalhamento Cofins  que esta gerando o valor de base de calculo de Pis e Cofins para os produtos com CST 06 , sendo que o dincash não envia esses dados, o mesmo é processado conforme descrito no cadastro do Produto do Automaster.
+
+O teste pode ser feita em qualquer base, basta ter a CST 06.
+
+*3) Qual o comportamento esperado?*
+Não gerar Base de calculo de Pis e Cofins para CST "06" nos registros C481 e C485.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Utilizar para testar uma base a qual foi exportada movimentações do dincash, exportar o Sped Contribuições e verifica os itens com CST PIS e COFINS 06 nos registros C481 e C485 e a base de calculo tem que esta zerada. 
+
+
+*Obs:* A base foi integração de Automaster e Dincash.
+Foi verificado com o Setor web e constatado que o Dincash não gera a base de calculo de pis e cofins , o tratamento do processamento parte do automaster.
+
+Antes de cadastrar o ticket foi feito o alinhamento com Queops da E-Auditoria.
+
+Versão
+Automaster: 6.1c
+Xintegra: 1166
+
+A Base encontra-se:"\Teste\Bases Redmine\AUTOMASTER-Hiper-CST PIS E COFINS 06.rar"
+Exportei o arquivo do dia 13-09-2015 ate 30-09-2015

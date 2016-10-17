@@ -1,0 +1,2 @@
+Correção de bugs no cadastro de transportador
+1- Problema ao incluir e excluir várias vezes um contato;

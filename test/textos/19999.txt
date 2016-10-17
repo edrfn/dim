@@ -1,0 +1,22 @@
+(NT2015-002) Problema com emissão de NFC-e (CEAN inválido)
+LOCAL:
+Dincash PDV  Módulo de Vendas  Emissão de NFCE
+
+VERSÃO:
+Identificado na última versão (2.8J)
+
+PRÉ-CONDIÇÕES:
+  Acessar o ambiente de homologação do PR;
+  Tentar emitir uma Nota com a versão 2.8J
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema venda um item
+2) Termine o pagamento e aguarde o retorno.
+3) Na tela aparecerá o erro 225 que significa erro de XML.
+4) Consulte o XML no Site ( https://www.sefaz.rs.gov.br/NFE/NFE-VAL.aspx ) E verifique os erros.
+
+ERRO:
+O sistema não consegue emitir NFC-e por conta de uma validação de Codigo de barras que não é efetuada em outros estados.
+
+SITUAÇÃO DESEJADA:
+O sistema deve enviar a tag corretamente e enviar a nota para a sefaz.

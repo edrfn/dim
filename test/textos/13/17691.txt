@@ -1,0 +1,1 @@
+Na rotina de vendas, quando deseja vender "Grade" o sistema não está reconhecendo alguns produtos

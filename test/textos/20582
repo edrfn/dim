@@ -1,0 +1,13 @@
+[Total NFCE] Implementar o CEST no total NFCe
+Implementar a tag "cest", conforme NT2015.003
+
+Para que a tag seja chamada são necessários três condições; o arquivo "TABCEST.txt' deve estar na pasta do sistema, o produto deve possuir um NCM válido na tabela CEST e a CST deve ser uma das listadas abaixo:
+10-tributada com cobrança de ICMS por substituição tributária
+30-isenta ou não tributada com cobrança de ICMS por substituição tributária
+60-ICMS cobrado anteriormente por substituição tributária
+70-com redução de base de cálculo e cobrança de ICMS por substituição tributária
+90-outros, desde que com a TAG vICMSST
+201 -tributada pelo Simples Nacional com permissão de crédito e com cobrança do ICMS por substituição tributária
+202- tributada pelo Simples Nacional sem permissão de crédito e com cobrança do ICMS por substituição tributária
+203-isenção de ICMS do Simples Nacional para a faixa de receita, com cobrança do ICMS por substituição tributária
+900-outros, desde que com a TAG vICMSST)

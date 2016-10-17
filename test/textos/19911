@@ -1,0 +1,16 @@
+Erro.log na alteração de junção do orçamento
+1) Qual o comportamento observado?
+
+Na junção de orçamento ao tentar fazer uma alteração, o sistema apresenta error.log e aborta.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+. Fazer dois ou mais orçamentos para um mesmo cliente;
+. Ir na rotina de orçamento, ALT+I, ALT+J para fazer a junção dos orçamentos;
+. F9 para alterar e em um dos produtos alterar a quantidade;
+. Depois que passar pela quantidade e valor unitário aparece o erro.log e aborta o sistema.
+
+3) Qual o comportamento esperado?
+
+Que se possa fazer as alterações sem apresentar erro.log.
+Em anexo o erro

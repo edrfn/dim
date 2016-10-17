@@ -1,0 +1,26 @@
+Erro na consulta da Pré venda no momento da venda.
+*1) Qual o comportamento observado?*
+No PDV ao apertar F10 aparece a tela de pedidos sendo que quando tem o pedido oriundo de um sistema retaguarda ao qual contém um código próprio (cod Retaguarda) e o Dincash cria um código (chamado sequenciapedido), o problema ocorre quando o sistema apresenta em tela o código de sequencia e quando tenta confirmar a venda o sistema pega o cod retaguarda sendo que os códigos não são iguais.
+
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Ex: Operação 1: código retaguarda= 505 e a sequencia pedido = 608
+    Operação 2: código retaguarda = 608 e a sequencia é 620
+
+Quando tenta confirmar a venda do pedido sequenciapedido 608 o sistema pega o código retaguarda( sendo que são vendas diferentes ) 
+
+*3) Qual o comportamento esperado?*
+Quando a sequencia do pedido for 608 ao confirmar o pedido na venda e apertar enter não faça a busca pelo código retaguarda.   
+
+
+*
+4) Quais as etapas para executar o comportamento esperado?*
+Enviar uma pré venda do sistema de terceiros com o código retaguarda 505 sendo que a sequencia do pedido do dincash é 608, abrir a tela de pre venda F10 e a selecionar o pedido 608, ao invés de pegar  o código sequencia  "608" o sistema entenderá que o 608 é numero retaguarda e ai vai pegar outra pré venda.
+ 
+*2.8J*
+*2.7*
+Ocorre em todas as versões 
+
+*Obs:* A solução de contorno é:
+1º: Igualar os arquivos de Sequencia_pedido e Codigo_retaguarda 
+2º: Configurar no sistema para o cliente digitar o código retaguarda ao invés de selecionar o pedido 

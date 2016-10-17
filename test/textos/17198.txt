@@ -1,0 +1,1 @@
+Criar tela nova para geração de senha no SMART

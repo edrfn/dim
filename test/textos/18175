@@ -1,0 +1,17 @@
+Opção para informar CPF de compras acima de R$400 não aparece no Dinamico
+1) Qual o comportamento observado?
+
+Foi implementado ao sistema a opção de solicitar o CPF para compras acima de R$400,00. Porém, esta opção ficou restrita ao Automaster, sendo necessário adicioná-la ao Dinamico. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Abra a tela de parâmetros;
+Verifique que a opção de solicitar o CPF não consta;
+
+3) Qual o comportamento esperado?
+
+A opção deve constar na tela de parâmetros
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

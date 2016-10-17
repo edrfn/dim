@@ -1,0 +1,7 @@
+Formatação: Abrir o sistema em tela cheia  - tela de vendas
+*Qual o comportamento observado?*
+Ao ser executado, atualmente o sistema abre maximizado.
+
+*Qual o comportamento esperado?*
+Ao ser executado, o sistema deve ser aberto no modo tela cheia.
+Ao exibir uma tabela os valores devem estar alinhados à direita e os campos alfanuméricos, alinhados à esquerda 

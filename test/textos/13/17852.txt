@@ -1,0 +1,8 @@
+Implementar na rotina de balanço a informação de LOTE de Medicamento;
+Eu: Thiago;
+
+Como: ScrumMaster;
+
+Quero: Que quando for feito balanço em clientes que possuam medicamentos seja possível a opção de informar o lote;
+
+Porque: Atualmente é impossível que o REGISTRO SNGPC seja gerado corretamente se o cliente utilizar balanço na sua base.

@@ -1,0 +1,27 @@
+Valor da nota duplicado no relatório de movimento de entradas
+1) Qual o comportamento observado?
+
+Ao emitir um relatório de movimento de entradas, foi observado que existem notas que estão aparecendo no relatório em duplicidade, porém no sistema só estão lançadas uma vez, gerando movimento duplicado no SPED. Foi observado também que, as notas duplicam acontecem por um item pertencente a nota aparecer separado da mesma no relatório e repetindo o valor final da nota.
+Exemplo: 
+Relatório 01/01/2012 a 31/01/2012
+Nota = 50832 sequencia 2
+Data: 10/01/2012
+Fornecedor = 15
+
+Situação se repete em outros meses. *Base disponível em: "\Teste\Bases Redmine\Aut01_Sacolao.rar"*
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Tire o movimento de entradas de acordo com o exemplo:
+Relatório 01/01/2012 a 31/01/2012
+Nota = 50832 sequencia 2
+Data: 10/01/2012
+Fornecedor = 15
+
+3) Qual o comportamento esperado?
+
+As notas não devem ser duplicadas os valores e não devem também exibir itens pertencentes a mesma de forma separada.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

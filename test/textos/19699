@@ -1,0 +1,13 @@
+Refatorar o cadastro de Embalagem Secundária no cadastro de Produtos
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de embalagem secundária
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validação valor a vista menor que valor a prazo
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir

@@ -1,0 +1,4 @@
+Criar na DLL de geração de XML de NF-e, as novas tags referentes à partilha de ICMS entre UF's
+*Como:* P.O
+*Quero:* Criar na DLL de geração de XML de NF-e, as novas tags referentes à partilha de ICMS entre UF's
+*Para:* Implementação das normas técnicas de NF-e

@@ -1,0 +1,14 @@
+Criar paginação de dados de tabelas mais utilizadas no PDV
+Quero: Melhorar a experiência do usuário com as buscas de dados volumosos do sistema.
+Como: Transformando a forma de como esses dados são buscados do banco de dados e apresentando na interface gráfica de forma que o usuário tenha a impressão de que todos os dados foram carregados de uma vez só sem afetar o desempenho do sistema.
+Para: Melhorar a usabilidade do cliente com as tabelas de clientes, produtos e emitentes no DinâmicoPDV.
+
+*Critério de validação:*
+
+O usuário ter a impressão de que todos os dados foram buscados no banco ao mesmo tempo sendo que sempre que chegue às últimas posições da tabela o carregamento dos próximos dados seja feita de forma automática.
+
+*Como implementar:*
+
+- Modificar os métodos de busca do banco.
+- Modificar as tabelas da interface.
+- Testes.

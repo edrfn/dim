@@ -1,0 +1,16 @@
+Ao emitir boleto, o cadastro de cedente está indo no lugar do código da agência - CobreBemx
+1) Qual o comportamento observado?
+
+Ao realizar a geração de boletos,está sendo exibido no campo de agência o cadastro do cedente.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Contas a Receber>> Lançamento de Títulos>>Lançar títulos com tipo de documento  "Duplicata">> Ao finalizar GERAR BLOQUETES.
+
+3) Qual o comportamento esperado?
+
+O número da agência deve ser exibido no local correto.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+As mesmas do passo 2.

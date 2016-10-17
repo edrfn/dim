@@ -1,0 +1,16 @@
+Painel não funciona corretamente ao iniciar com o Windows
+*Qual o comportamento observado?*
+Quando o painel é executado juntamente com o Windows, ele abre a tela mas não funciona. Mesmo inserindo arquivos para serem importados na pasta de Importação, o painel não faz nada. Como ele não faz nada não há log.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Instalar o Dinâmico ERP;
+2. Reiniciar o Windows para que o Painel seja iniciado; 
+3. Ao iniciar o Windows, perceba que o Painel é executado, mas nada acontece.
+
+*Qual o comportamento esperado?*
+Que o funcionamento do Painel ao iniciar com o Windows, seja o mesmo que ao clicar duas vezes no arquivo painel_dinamicopdv.jar.
+
+*Como implementar*
+1. Identificar o problema;
+2. -Corrigir o problema- Soluções para corrigir o problema;
+-3. Testar;-

@@ -1,0 +1,2 @@
+[Total NFCE] Ao tentar inutilizar uma faixa de notas mesmo quando há rejeição o sistema informa que houve sucesso
+Ao realizar testes de inutilização de faixas de notas, percebi através do log que uma das solicitações foi rejeitada, porém o sistema registrou com se fosse autorizada.

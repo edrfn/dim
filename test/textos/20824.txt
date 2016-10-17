@@ -1,0 +1,8 @@
+Problema de conexões não fechadas no banco
+*Comportamento observado*
+Ficar o dia todo com o sistema aberto em execução, mesmo que apenas uma instância. o sistema gera um erro que não permite executar mais nada, nem se recupera.
+
+*Comportamento esperado*
+- Fechar as conexões ao final de cada rotina (sei lá!)
+
+

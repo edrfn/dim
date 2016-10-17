@@ -1,0 +1,11 @@
+Tratar o comportamento do estoque Varejo <-> PDV
+*Como:* Analista de negócio
+*Quero:* validar o comportamento do sistema quanto ao estoque quando tem vendas no PDV
+*Para:* Manter o estoque do cliente atualizado
+
+*Critérios de validação*
+- Realizar uma venda no PDV e o saldo do estoque do produto vendido ser atualizado
+- Realizar uma venda proveniente de pedido de venda e atualizar a reserva do estoque
+
+*Como implementar*
+- Vide requisito

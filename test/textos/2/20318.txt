@@ -1,0 +1,14 @@
+Parâmetro de CPF no cupom
+*Como:* Analista de negócios
+*Quero:* Ajustar o sistema para os estados que possuem validação de CPF no cupom
+*Para:* Responder a legislação vigente
+
+*Critério de Validação*
+- O sistema deve permitir cadastrar nos parâmetros do PDV, sessão de vendas o valor que o PDV irá checar para solicitar do cliente o CPF
+- O valor padrão do parâmetro é zero. Não deve ser permitido deixa vazio.
+- Na instalação já deve ser tratado o parâmetro com valor zero.
+- Não deve ser permitido digitar um valor negativo.
+
+*Como Implementar*
+- Adicionar a lista de parametros do PDV, na sessão de vendas um campo para digitação do valor
+- Gravar no banco e enviar ao PDV

@@ -1,0 +1,6 @@
+Filtro no registro de inventário para produtos tributados ou substituídos
+Nos últimos dias foi solicitado por vários clientes  o relatório do registro de inventário, filtrando por produto de acordo a sua tributação.  Após analisar essa solicitação junto a alguns contadores, inclusive a nossa consultoria a MIT  tivemos o esclarecimento do motivo dessa demanda.
+
+A necessidade de gerar o registro de inventário dos produtos substituídos ocorre devido ao pagamento do ICMS de forma antecipada para considerar esse valor na geração do crédito de ICMS.
+
+Ticket 67349 - Rafael Ribeiro (MIT)

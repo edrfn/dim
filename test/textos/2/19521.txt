@@ -1,0 +1,12 @@
+Refatoração - Tela de Equipe de Vendas
+*Como:* Tester
+*Quero:* Refatoração da tela de Equipe de vendas conforme novo padrão
+*Para:* Adaptar a tela ao novo padrão
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu de cadastro
+* Testar todas as validações
+
+*Como implementar* 
+* Criar formulário no novo padrão;
+* Implementar todas as validações de acordo com a tela no padrão anterior. 

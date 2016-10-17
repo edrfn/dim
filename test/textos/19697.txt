@@ -1,0 +1,19 @@
+Refatorar o cadastro de Produto
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de produtos
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+-Validação de código de barras validas;
+-Validação se o Grupo é um subgrupo;
+-Validação de CST/CSOSN para o regime de tributação;
+-Validação Preço a Prazo menor que preço a vista; 
+-Validação para habilitar percentual de desconto máximo;
+-Validação peso bruto Maior que peso Liquido;
+-Validação se produto já usado em movimento não poder excluir; 
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

@@ -1,0 +1,17 @@
+Ao emitir um boleto, não é apresentado o CNPJ do cliente que fez a venda
+*1) Qual o comportamento observado?*
+
+Ao gerar um boleto de venda para o cliente, o sistema não está trazendo o CNPJ do cliente que foi feita a venda, deixando o campo em branco.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma venda;
+Gere um boleto;
+Observe o campo CNPJ do cliente que foi feita a venda no boleto;
+
+*3) Qual o comportamento esperado?*
+
+Exibir o CNPJ
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

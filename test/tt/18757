@@ -1,0 +1,4 @@
+Corrigir a chamada do Relatório de Cliente
+Realizar teste funcional na rotina referente ao relatório de clientes
+
+Será necessário validar a geração do relatório com a validação pelos filtros também;

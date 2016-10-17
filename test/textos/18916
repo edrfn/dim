@@ -1,0 +1,14 @@
+Fechamento de Balanço - A quantidade dos produtos está negativa no pedido de saída gerado pelo fechamento do balanço
+*1) Qual o comportamento observado?*
+Observou-se que na tabela 'itenspedidosaida' a quantidade dos produtos informados no balanço fica com a quantidade negativa após fechá-lo, ou seja, está sendo levado em consideração a diferença entre o que há no estoque e o que foi informado no balanço da forma que está gravado no campo 'item_qntresultante' da tabela 'balançoitens', logo, a quantidade vai negativa quando o informado no balanço é menor do que o que está no estoque.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir um balanço e inserir um produto com uma quantidade menor do que a que há no estoque. (Estoque- Movimento- Abertura de balanço);
+2- Fechar o balanço (Estoque- Movimento- Finalizar Digitação de balanço);
+3- Observar na tabela 'itenspedidosaida' que a quantidade do produto está negativa, o que está errado pois, não pode haver saída de uma quantidade negativa.
+
+*3) Qual o comportamento esperado?*
+Que a quantidade do produto não fique negativo na tabela 'itenspedidosaida'.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

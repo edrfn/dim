@@ -1,0 +1,24 @@
+Vendas não sincronizam do PDV para o WEB
+Descrição:
+
+O sistema não consegue sincronizar as vendas importadas pelo utilitário de importar MFD.
+
+LOCAL:
+Dincash PDV - sincronização entre vendas.
+
+VERSÃO:
+Identificado na versão 2.8f
+
+PRÉ-CONDIÇÕES:
+ recuperar a base do cliente WEB e PDV
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Recuperar a base do cliente PDV e WEB.
+2) Verificar as vendas que não estão sincronizadas no PDV.
+3) Tentar efetuar a sincronização das vendas.
+
+ERRO:
+Ao importar as vendas do dia 17/08/2015 no cliente Technos Center, as mesmas não sincronizaram para o wEB, foi verificado várias soluções paliativas mas nenhuma funcionou. Se torna necessário descobrir qual a causa deste problema.
+
+SITUAÇÃO DESEJADA:
+As vendas devem sincronizar corretamente para o WEB.

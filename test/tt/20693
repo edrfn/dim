@@ -1,0 +1,9 @@
+Problema ao ler arquivo de Unidade de Negócio e verificar o registro do windows
+Como: Testador
+Quero: Que o sistema seja capaz de verificar o registro no Windows.
+Para: Que seja possivel cadastrar a licença de demonstração quando necessário.
+
+Critérios de validação:
+
+Servidor de PDV realizar a leitura de arquivo de Unidade de Negócio com o banco vazio
+

@@ -1,0 +1,19 @@
+Emissão de NFe - Sistema está gerando as tags do 'Grupo Tributação do ICMS' para empresa com regime tributário simples nacional
+*1) Qual o comportamento observado?*
+Ao emitir NFe para empresa com regime tributário Simples Nacional o sistema está gerando as tags 'Grupo Tributação do ICMS'. O correto seria gerar as tags específicas para 'Tributação ICMS pelo Simples Nacional' e o CSOSN (Código de Situação de Operação do Simples Nacional), conforme manual de NFe layout 3.10 anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
++Pré-condição:+ A empresa licenciada do sistema estar com regime tributário Simples Nacional (Verificar em Cadastro - Estoque - Licenciada, Super simples = SIM)
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Digitar Pedidos de Venda;
+2- Digitar um pedido de venda com produto tributado;
+3- Acessar a rotina de exportação de NFe: Cadastros - Vendas - Exportar NFe;
+4- Emitir a NFe e verificar o danfe e o arquivo XML gerados. Observar no arquivo XML as tags dos impostos;
+
+*3) Qual o comportamento esperado?*
+É esperado que quando a empresa licenciada tiver o regime tributário Simples Nacional, o sistema gere corretamente as tags referentes aos impostos com CSOSN (Código de Situação de Operação do Simples Nacional)
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*Observação:* 
+Para empresas com regime tributário +Simples Nacional+ deve-se gerar o CSOSN e para empresas com regime tributário +Normal+ deve-se gerar a CST.

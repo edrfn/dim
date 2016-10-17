@@ -1,0 +1,19 @@
+SPED Contribuições apresenta diferença nos valores de saída entre sistema e arquivo gerado
+1) Qual o comportamento observado?
+
+Foi identificado que ao gerar o EFD Contribuições, existem divergências de valores entre o relatório de mov. de saídas e o relatório de receita também de saídas do arquivo. Em alguns clientes, o valor fica maior no arquivo gerado, em outros clientes o valor é menor. Em contato com a E-Auditoria, foi informado que o valor deve corresponder as saídas do cliente. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base do cliente GR AUTO PEÇAS, disponível em: \Teste\Bases Redmine\GR_AUTO_PECAS_SPED.rar;
+Gere o SPED Contribuições referente a Março/2015;
+Tire o relatório de Mov. de Saídas;
+Tire o relatório de receitas de saídas do SPED;
+
+3) Qual o comportamento esperado?
+
+Os valores de saída que estão no sistema e no EFD devem ser iguais, para que o cliente não tenha problemas na hora de pagar imposto a mais ou a menos.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

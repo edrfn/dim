@@ -1,0 +1,14 @@
+[CASE DE SUCESSO] Implementar a impressão de orçamento
+*Como:* Tester
+*Quero:* A implementação da impressão de orçamento
+*Para:* Ao digitar ou abrir um orçamento coo pesquisa ser possível realizar a impressão do mesmo
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimentos - Orçamento;
+* Poder imprimir um orçamento ao finalizar a digitação;
+* Poder reimprimir orçamentos;
+
+*Como implementar* 
+* Gerar o orçamento conforme formato definido (bobina ou normal);
+* Incluir a chamada para a impressão/reimpressão do orçamento.
+

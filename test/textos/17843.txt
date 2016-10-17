@@ -1,0 +1,20 @@
+Erro ao tentar Gravar um registro com os mesmos dados de um já registrado
+Descrição:
+
+O sistema exibe uma mensagem de erro quando tentamos inserir um novo registro com os mesmos dados de um já registrado e ativo no sistema;
+
+1) Qual o comportamento observado?
+
+Ao inserirmos um novo registro com os mesmos dados de um já registrado, ao clicarmos em Gravar, o sistema exibe uma mensagem de erro de Access Violation. Logo após, outra mensagem fora do padrão do sistema, informando que a inclusão foi negada pois o login já foi cadastrado;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Cadastros > Estoque > Usuários > Novo (ou ALT + N) > Preenche todos os campos > Clica em Gravar > Erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema exiba uma mensagem de alerta sobre o ocorrido, e não uma mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Cadastros > Estoque > Usuários > Novo (ou ALT + N) > Preenche todos os campos > Clica em Gravar > Mensagem de alerta sobre a indisponibilidade de gravação informando que já existe um registro gravado com os mesmos dados inseridos.

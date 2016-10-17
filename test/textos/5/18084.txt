@@ -1,0 +1,11 @@
+Adicionar novo parâmetro nas pesquisas
+Como: Desenvolvedor do Sistema 
+Quero: Adicionar novo parâmetro nas pesquisas
+Para: Realização de consultas.
+
+*Critério de validação*
+Acessar as rotinas que contenham consultas.
+
+*Como implementar* 
+Adicionar o parâmetro na chamada das telas de busca
+

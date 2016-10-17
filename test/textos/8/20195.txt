@@ -1,0 +1,12 @@
+Substituição de títulos
+*Como:* Analista de negócios
+*Quero:* Realizar a substituição de títulos
+*Para:* Manter a coerência no sistema com o novo framework e banco
+
+*Critérios de validação*
+- Saída é um título;
+- Título substituído;
+- Dados do Cheque;
+
+*Como implementar*
+Vide versão 1.0

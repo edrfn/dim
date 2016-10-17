@@ -1,0 +1,15 @@
+Forma de pagamento saindo incorreto no Atacado
+1) Qual o comportamento observado?
+
+No Automaster Atacado quando feito a venda com forma de pagamento à prazo, na NF-e o campo fatura está saindo forma de pagamento à vista.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+. Venda atacado - pedido de cliente - concluir utilizando uma forma de pagamento à prazo e exportar NF-e;
+. Verificar que na fatura está saindo pagamento à vista.
+
+3) Qual o comportamento esperado?
+
+Que na fatura saia a forma de pagamento à prazo.
+
+OBS: Se fizer uma alteração do pedido para depois exportar, ele sai corretamente na NF-e.

@@ -1,0 +1,11 @@
+Tratar o comportamento dos títulos Varejo <-> PDV
+*Como:* Analista de negócio
+*Quero:* Validar o comportamento do sistema quanto aos títulos quando tem vendas no PDV
+*Para:* Manter a compatibilidade da situação dos títulos atualizado, incluso validações do financeiro
+
+*Critérios de validação*
+- Realizar uma venda pré-datada no PDV, e ter os títulos gerados
+- Alterar títulos no Dinâmico Varejo, e verificar a atualização no PDV
+
+*Como implementar*
+- Vide requisito

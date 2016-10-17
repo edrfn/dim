@@ -1,0 +1,4 @@
+abertura e fechamento do bloco K SPED FISCAL
+Como: Tester;
+Quero: Que seja implementado no SPED FISCAL a abertura e fechamento do bloco K;
+Para: Que não ocorra erros de estrutura na geração do sped, com a nova atualização do PVA.

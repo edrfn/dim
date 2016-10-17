@@ -1,0 +1,28 @@
+Problemas com acréscimo e desconto.
+*Qual o comportamento observado?*
+
+Sistema está se comportando de maneiro inesperada quando é realizada alteração nos valores de desconto ou de acréscimo (nos dois o comportamento é o mesmo).
+
+Quando é inserido um valor por percentual o sitema mostra o valor do desconto que será dado em real e o valor total, caso o valor de percentual seja inserido seja apagado e seja inserido o valor em reais que o sistema calculou o valor em percentual muda.
+
+Quando apagado o valor em real e inserido o valor mostrado em percentual o sistema calcula um outro resultado.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Inserir desconto ou acréscimo na venda por percentual, observar o valor em reais calculado, apagar o valor em percentual inserido, colocar o valor em reais calculado, nesse momento o sistema irá mostrar um outro valor em percentual, apagar o valor em reais inserido e inserir o novo valor de percentual calculado.
+
+
+*Qual o comportamento esperado?*
+
+Que o sistema calcule corretamente os valores inseridos.
+
+
+Obs:.
+
+Observei que o valor mostrado em log, nesse caso de acréscimo, é um valor com muitas casas decimais, pode ser uma pista do que está acontecendo.
+
+*Como implementar?*
+
+- Analisar código atual
+- Alterar comportamento
+- Testar

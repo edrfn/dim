@@ -1,0 +1,23 @@
+Custo medio do Relatório de Inventario difere da ficha kadex
+* Breve descrição
+
+Ao tirar um relatório de inventario e Kardex, ambos do mesmo período, o cliente reclamou que estaria saindo errado devido o inventario esta com um valor total e o kardex com outro, devido o custo médio não bater
+
+* Qual o comportamento observado?
+
+Ao tirar o relatório de inventario e kardex, sendo que o estoque estão iguais, o sistema  deveria me trazer o mesmo valor total, já que são do mesmo período.
+
+* Quais as etapas para reproduzir o comportamento observado?
+
+Tirar um relatório de inventario e outro de kardex do mesmo período e tendo como base um produto, exemplo: na base da cliente Norflex, tive como base o produto 8461, depois tirei um inventario do ano de 2014 depois tirei uma fixa kardex do mesmo período de 01/01/2014 ate 31/12/2014 e comparara as informações.
+
+* Qual o comportamento esperado?
+        
+ Ao tira o relatório de inventario e outro de kardex do mesmo período e tendo como base um produto, exemplo: na base da cliente Norflex, tive como base o produto 8461, depois tirei um inventario do ano de 2014 depois tirei uma fixa kardex do mesmo período de 01/01/2014 ate 31/12/2014 os valores teriam que bater devido as informações serem da mesma data e o mesmo conter estoques iguais
+
+* Quais as etapas para executar o comportamento esperado?
+
+Tirar um relatório de inventario e outro de kardex do mesmo período e tendo como base um produto, exemplo: na base da cliente Norflex, tive como base o produto 8461, depois tirei um inventario do ano de 2014 depois tirei uma fixa kardex do mesmo período de 01/01/2014 ate 31/12/2014 e comparara as informações, o valor total tem que esta igual (mesmo custo médio).
+Foi visto que o cliente trabalha com outras embalagens e por isso deve estar influenciando em um dos  relatórios.  Em conversa com Sergio e Felix, pensamos em fazer com que o sistema sempre calcule em cima da embalagem principal
+
+OBS: Base da cliente esta na pasta TESTE\Bases Redmine\Norflex_Atual

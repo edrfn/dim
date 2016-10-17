@@ -1,0 +1,38 @@
+Recuperação de venda não permite a inserção de novos itens
+*Comportamento Observado*
+Ao configurar o sistema para verificar a obrigatoriedade de CPF/CNPJ na venda e o sistema se recupera de uma falha, não é possível inserir itens na venda recuperada.
+
+*Passos para reproduzir o comportamento*
+- Configurar o sistema para solicitar CPF/CNPJ do cliente a partir de um determinado valor;
+- Iniciar uma venda (abrir cupom e inserir pelo menos um item);
+- Fechar o sistema incorretamente, pode ser finalizando o processo (simulação de uma queda de energia);
+- Iniciar o sistema novamente;
+- Recuperar a venda
+- inserir um novo item.
+
+Observe nesse momento que o sistema irá apresentar uma mensagem de erro.
+
+*Comportamento Esperado*
+Que seja possível recuperar uma venda e adicionar itens ou mesmo finalizá-la.
+
+
+*Log do Sistema*
+<pre>
+63053 2015-08-12 13:45:17,460 INFO Thread-9 workflow.VenderItemAction - item a ser vendido: CODBARRA = '10237472' DESC = '00000TANTE CORPORAL CEREJA E
+AVELA ICMS: (17.00) 1' UNIDADE = 'CX' VALORUNI = '3' QUANT = '1' ACRE = '0.059999999999999997779553950749686919152736663818359375' DESC = '0' ALIQUOTA =
+'InfoAliquota {taxa = 7,00; indice = ; tipo = T; valorAcumulado = 0,00; indiceNfceBematech = }' NCM = '' CFOP = '0' Codigo IBGE = '' CSOSN = '' SIIMPLES
+NACIONAL = 'false
+63054 2015-08-12 13:45:17,461 ERROR Thread-9 workflow.VenderItemAction - 
+java.lang.NullPointerException
+	at com.total.orion.workflow.VenderItemAction.venderItem(VenderItemAction.java:992)
+	at com.total.orion.workflow.VenderItemAction.venderItens(VenderItemAction.java:1140)
+	at com.total.orion.workflow.VenderItemAction$VendaItemWorker.doInBackground(VenderItemAction.java:1326)
+	at com.total.orion.workflow.VenderItemAction$VendaItemWorker.doInBackground(VenderItemAction.java:1316)
+	at com.total.orion.util.ExecutorRotinaComFeedback.execute(ExecutorRotinaComFeedback.java:9)
+	at com.total.orion.workflow.VenderItemAction.execute(VenderItemAction.java:193)
+	at org.jbpm.gop.Execution.fire(Execution.java:109)
+	at org.jbpm.gop.Execution.enter(Execution.java:100)
+	at org.jbpm.gop.Execution.take(Execution.java:95)
+	at org.jbpm.gop.Execution.run(Execution.java:86)
+63055 2015-08-12 13:45:17,462 INFO Thread-9 DinamicoUI - mensagem exibida ao usuário: >>>null<<<
+</pre>

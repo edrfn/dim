@@ -1,0 +1,14 @@
+Criar a interface e os filtros no relatório de movimento de entrada
+*Como:* Scrumaster
+*Quero:* Construção da tela inicial e dos filtros do relatório de movimento de saída.
+*Para:* Concluir a parte inicial da geração do relatório citado;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Compras - Relatórios - Movimento de Saída;
+* Os filtros estarem funcionando corretamente;
+
+
+*Como implementar* 
+* Criar a interface do relatório; 
+* Criar os selects dos filtros necessários;
+* Criar as telas de busca dos filtros;

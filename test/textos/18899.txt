@@ -1,0 +1,21 @@
+Devolução de Cliente - Os dados de valores do grid principal ficam zerados após cancelar a alteração de um produto
+*1) Qual o comportamento observado?*
+Observou-se que ao entrar e sair da tela de alterar produtos de uma devolução de cliente, os dados de valores somem do grid principal.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo caminho: Vendas - Movimentos - Devolução Cliente
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher os campos pertinentes e pesquisar por uma nota para lançar a devolução;
+4- Na tela que abre automaticamente, devolver pelo menos um produto e clicar em "confirmar";
+5- Observar que os campos de valores estão preenchidos;
+6- Clicar no botão "alterar" para alterar os itens e quantidades devolvidos;
+7- Na tela de itens para serem devolvidos, clicar em "sair";
+8- Confirmar que deseja cancelar as alterações;
+9- Verificar que na tela principal da Devolução de Cliente os campos de valores ficaram zerados.
+
+*3) Qual o comportamento esperado?*
+Espera-se que os dados de valores permaneçam em seus devidos campos quando a alteração dos produtos for cancelada.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.
+ao cancelar a alteração de um produto, os dados de valores do grid principal ficam zerados

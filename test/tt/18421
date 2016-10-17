@@ -1,0 +1,26 @@
+Situação encontrada no Parâmetro de Venda Alerta de estoque Negativo.
+O sistema está dando prioridade à informação dada no parâmetro da rotina grupo ao invés da que é informada no parâmetro de venda.
+
+*1)Comportamento Observado*
+Foi informado na rotina grupo para não aceitar estoque negativo, e no parâmetro de venda foi inserida as opções Não consistir e Permite Liberar, E o sistema não permitiu a venda do produto que pertencia àquele grupo.
+Quando alterado o parâmetro na rotina grupo para opção sim, o sistema permitiu a venda do produto pertencente àquele grupo, mesmo quando no parâmetro de venda estava as opções Permite Liberar e Sem liberação.
+
+*2) Passos para reproduzir o comportamento Observado*
+1- Abrir o sistema e acessar o módulo de vendas;
+2- Colocar a opção Não em algum grupo existente no sistema;
+3- Acessar a tela de Parâmetros e alterar o campo Alerta Estoque Negativo para opção Não consistir ou Permite Liberar;
+4- Salvar a alteração, sair do sistema e entrar novamente;
+5- Na tela de Pedido de venda, inserir um produto que pertença ao grupo alterado inicialmente e que esteja com estoque zerado;
+6- Observar que o sistema exibe uma mensagem informando que o produto está com quantidade insuficiente e não permite a venda do mesmo.
+7- Cancelar  a venda;
+8- Acessar o cadastro de grupo e alterar o campo permite estoque negativo (do mesmo grupo) e colocar a opção Sim
+9- Acessar a tela de Parâmetros e alterar o campo Alerta Estoque Negativo para opção Permite Liberar ou sem Liberação;
+10- Salvar a alteração, sair do sistema e entrar novamente;
+11- Na tela de Pedido de venda, tentar vender o produto novamente.
+12- Observar que o sistema não exibe nenhuma mensagem informando que o produto está com quantidade insuficiente e permite a venda do mesmo.
+
+*3) Comportamento Esperado*
+Que o sistema priorize as informações dos parâmetros de venda.
+
+*4) Passos para reproduzir o comportamento Esperado*
+As mesmas informada no passo 2.

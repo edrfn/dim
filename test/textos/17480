@@ -1,0 +1,11 @@
+Criação do bloco 9 para geração do SEFII
+*Como:* Usuário
+*Quero:* Criação do bloco 09
+*Para:* Geração do arquivo SEFII
+
+*Critério de validação* 
+* Verificar se o registro gerado está de acordo com as especificações do layout em anexo.
+
+*Como implementar* 
+* Possibilitar que o bloco seja gerado após a solicitação de geração do arquivo. 
+* Criar os arquivos na especificação do layout disponível em anexo.

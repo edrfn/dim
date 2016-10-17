@@ -1,0 +1,34 @@
+Problemas com exibir CPF/CNPJ com o sistema configurado para exibir no inicio
+h2. *Comportamento Observado*
+
+O Sistema não está exibindo as informações de cliente (nenhuma delas) no início da venda. Mesmo com o sistema configuração para imprimir essas informações no cabeçalho do cupom.
+
+h2. *Passos para reproduzir o comportamento*
+
+h3. Cenário 1 - Sistema configurado para verificar a obrigatoriedade CPF/CNPJ
+
+1. Em configuração do sistema, configurar um valor maior que zero para obrigatoriedade CPF/CNPJ;
+2. Ainda em configuração do sistema, configure o sistema para exibir as informações do cliente (Comprador) no inicio da venda;
+3. Configure o sistema para operar com uma ECF. Não é interessante utilizar, nesse cenário, TestDefault;
+4. Execute o sistema;
+5. Realize uma venda;
+6. Observe que ao inserir itens o cabeçalho do cupom as informações não estarão lá.
+
+h3. Cenário 2 - Sistema livre. Não tem valor para obrigar o CPF/CNPJ da venda 
+
+1. Repita os passos do cenário 1, apenas configurando o sistema para desprezar as validações de obrigatoriedade do CPF/CNPJ;
+
+h2. *Comportamento esperado*
+
+Que seja exibida as informações do cliente, mesmo na ausência de dados como endereço e CPF/CNPJ, Desde que verificado que as ECFs suportam tal situação.
+
+h2. *Como Implementar*
+
+1. Comparar com os resultados do DinCash - verificar o funcionamento pelo core do sistema;
+   1.1. Análise;
+   1.2. Testes.
+
+2. Se verificado que os códigos estão iguais, verificar a implementação da obrigatoriedade de CPF/CNPJ;
+   2.1. Debug;
+   2.2. Desenvolvimento (correção);
+   2.3. Teste.

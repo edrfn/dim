@@ -1,0 +1,4 @@
+[EXPERIENCE WEEK] Implementar a opção de filtro de NCM no relatório de Produtos.
+Como: ScrumMaster
+Quero: Que seja possível filtrar no relatório de produtos pela opção NCM;
+Para: Que seja possível um melhor acompanhamento dos produtos.

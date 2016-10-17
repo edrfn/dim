@@ -1,0 +1,13 @@
+Refatorar o cadastro de ramo de atividade
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de ramo de atividade
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validação se o ramo de atividade já existe;
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

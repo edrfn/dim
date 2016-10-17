@@ -1,0 +1,4 @@
+Acrescentar a coluna VALOR PAGO dos itens que teve desconto nas notas de conferência
+Como: Tester;
+Quero: Que em parâmetros de impressão, quando o modelo de pedido de venda balcão seja Papel ao meio ou Papel inteiro, o sistema mostre no parâmetro Modelo da Nota de Conferencia (1 e 2)a opção(3) como um novo modelo de nota de conferencia conforme segue em anexo;
+Para: Que nas impressões das notas de conferência Papel Inteiro e Papel ao Meio, o modelo da nota de conferência seja o (3), saia as colunas VALOR. UNITÁRIO, VALOR DE DESCONTO, VALOR PAGO E VALOR TOTAL.

@@ -1,0 +1,11 @@
+Editar lançamento períodico de contas a pagar
+Editar um lançamentos períodico de contas a pagar no sistema e visualizar as despesas geradas por ele.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17337
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem criou.
+* Deverá perguntar se deseja alterar todos os lançamentos;
+* Se escolher alterar todos os lançamentos todos deverão ser alterados

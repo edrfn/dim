@@ -1,0 +1,54 @@
+Sistema informando valor do faturamento diário de forma incorreta
+*Qual o comportamento observado?*
+
+No relatório de Faturamento Diário, a coluna Valor da seção Parcelas está exibindo o valor informado pelo operador ao invés do valor real da parcela calculada pelo sistema.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+1. Faça uma venda a prazo, de preferência com mais de uma parcela.
+2. Registre o recebimento informando um valor recebido maior que o valor da parcela para cada parcela.
+3. Feche o dia.
+4. Emita o relatório de Faturamento Diário e verifique a coluna Valor da seção Parcelas referente a este pedido.
+
+*Qual o comportamento esperado?*
+
+No relatório de Faturamento Diário, a coluna Valor da seção Parcelas deverá exibir o valor real de cada parcela calculada pelo sistema.
+
+*Quais as etapas para executar o comportamento esperado?*
+
+1. Faça uma venda a prazo, de preferência com mais de uma parcela.
+2. Registre o recebimento informando um valor recebido maior que o valor da parcela para cada parcela.
+3. Feche o dia.
+4. Emita o relatório de Faturamento Diário e verifique a coluna Valor da seção Parcelas referente a este pedido.
+
+*Qual a motivação?*
+
+O relatório deve conter os reais valores das parcelas para assertividade do Faturamento Diário nas empresas.
+
+*Qual a versão do produto e sistema operacional utilizados?*
+
+Automaster Varejo 5.0N
+
+*Informações adicionais.*
+
+Em análise, foi verificado que o sistema está lendo o arquivo AUTREC, coluna VALPCL, que não informa o valor real da parcela, e sim o valor digitado pelo operador. 
+
+*Exemplo do relatório*
+
+<pre>
+autoMASTER 5.0l - VENDAS                        ***  FATURAMENTO DIARIO  ***                                      EMISSAO:29/04/2014
+01-JM TECNOLOGIA                             MATRIZ => ENTRE 28/04/2014  E  28/04/2014                            PAGINA :001
+====================================================================================================================================
+                                                                                                    /------  P A R C E L A S  -----\
+D A T A    NUMERO CX NOME DO CLIENTE                         VALOR NF (%)DESC VENDEDOR   PRAZO      NUMERO     VENCIMENTO      VALOR
+====================================================================================================================================
+28/04/2014 000054 01 00002-WESLEY  BARBOSA PORTUGAL             75,00   0,00% ADSON      30/60 DD   000054     28/05/2014      50,00
+                                                                                                    000054A    27/06/2014      50,00
+28/04/2014 000055 01 00004-MARIVALDO SILVA                     150,00   0,00% ADSON      30/60 DD   000055A    28/05/2014     100,00
+                                                                                                    000055B    27/06/2014     100,00
+28/04/2014 500301 01 00006-ROBERTO CARLOS                        4,50   0,00% ADSON      A VISTA    500301     28/04/2014      10,00
+-------------------------= TOTAL DO DIA 28/04/2014 ==>         229,50  =  FATURAMENTO:         229,50  -  DEVOLUCOES:           0,00
+
+-------------------------= TOTAL GERAL DO PERIODO ===>         229,50  =  FATURAMENTO:         229,50  -  DEVOLUCOES:           0,00
+====================================================================================================================================
+</pre>

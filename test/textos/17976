@@ -1,0 +1,17 @@
+Checklist de ortografia - Cadastro de Licenciada
+*Objetivos do teste:*
+Criar um _checklist_ com todas as situações em que forem identificados erros de ortografia na rotina de cadastro de licenciada.
+
+Relação:
+|*Ordem*|*Palavra/Campo*|*Aba/Mensagem*|*Escrita correta*|
+|1| Insc. Municipal|Parte superior|Inscrição Municipal|
+|2| Insc. Estadual|Parte superior|Inscrição Estadual|
+|3| Jt. Coml|Parte superior|Junta Comercial|
+|4| R. Tributação|Parte superior|Regime de Tributação|
+|5| Incid. Tributária|Parte superior|Incidência Tributária|
+|6| Email|Aba Dados Básicos|E-mail|
+|7| No. Unidade|Coluna na aba Filiais|Número Unidade|
+|8| C.R.C|Janela de pesquisa do campo Contador na aba Dados Complementares|CRC|
+|9| Fantasia|Coluna na aba Filiais|Nome Fantasia|
+|10|Telefone|Aba Dados Básicos|Telefone 02|
+

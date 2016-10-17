@@ -1,0 +1,20 @@
+Adicionar os dados dos cupons fiscais no relatório de movimento de saída
+*Como:* Desenvolvedor
+*Quero:* Adicionar os dados dos cupons fiscais no relatório de movimento de saída
+*Para:* Visualizar no relatório os dados dos cupons fiscais;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Venda - Relatórios - Movimento de Saída;
+* Apertar em imprimir e visualizar os dados das notas e dos cupons fiscais no sistema.
+
+
+*Como implementar* 
+* Adicionar as querys os dados dos cupons
+* Adicionar o filtro de cupom fiscal ao tipo de relatório;
+
+*========== Anotações da Reunião de Planejamento [25/09] ==========*
+
+* Fazer um UNION na query;
+* Colocar um filtro na tela;
+* Modificar o layout de saída do relatório;
+* Validar o layout com Charlene;

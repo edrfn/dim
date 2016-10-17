@@ -1,0 +1,27 @@
+Corrigir verificação de configuração de TEF Dedicado
+*Qual o comportamento observado?*
+Ao abrir o sistema é feita uma verificação nas configurações do TEF dedicado, mesmo quando o sistema não tem licença para TEF. E como o sistema não possui nenhuma configuração de TEF, é mostrado o erro no log. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Abrir o sistema e verificar o log.
+
+*Qual o comportamento esperado?*
+Que o sistema realize verificação de configuração de TEF Dedicado apenas quando possuir uma licença com TEF.
+
+*Parte do log*
+
+43346 2015-06-19 12:15:57,603 ERROR Thread-8 workflow.IniciarHardwareAction - [TEFDEDICADO] Nao carregou o modulo de tef Dedicado
+tef.dedicado.exception.TefDedicadoException: Erro de configuracao. Codigo 1
+	at tef.dedicado.TransacaoTef.configuraSiTef(TransacaoTef.java:53)
+	at com.total.orion.workflow.IniciarHardwareAction.carregarTef(IniciarHardwareAction.java:1051)
+	at com.total.orion.workflow.IniciarHardwareAction.execute(IniciarHardwareAction.java:153)
+	at com.total.orion.workflow.MostrarTelaInicialAction$InicializacaoTask.doInBackground(MostrarTelaInicialAction.java:46)
+	at com.total.orion.workflow.MostrarTelaInicialAction$InicializacaoTask.doInBackground(MostrarTelaInicialAction.java:42)
+	at com.total.orion.util.ExecutorRotinaComFeedback.execute(ExecutorRotinaComFeedback.java:9)
+	at com.total.orion.workflow.MostrarTelaInicialAction.execute(MostrarTelaInicialAction.java:25)
+	at org.jbpm.gop.Execution.fire(Execution.java:103)
+	at org.jbpm.gop.Execution.enter(Execution.java:94)
+	at org.jbpm.gop.Execution.take(Execution.java:89)
+	at org.jbpm.gop.Execution.run(Execution.java:80)
+
+*Obs.:* Segue o log em anexo.

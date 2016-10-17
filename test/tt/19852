@@ -1,0 +1,16 @@
+[Migrate NFCE] Forçar rejeições NFC-e para validar Notas Técnicas 2015/002 
+*Sistema:*
+Dincash/CashOne.
+*Solução NFC-e:* 
+Migrate.
+*UF de validação dos testes:*
+Bahia.
+
+*Situação:* 
+Realizar teste forçando as rejeições de acordo a planilha obtida através da analise das alterações notas técnicas 2015-002, a planilha pode ser acessada através do link [[https://docs.google.com/spreadsheets/d/1Gv5rW-Elvv29CbO1aiOGRZfl3KsENaa5uQIj9SIAslk/edit#gid=1253997607]]
+
+Conforme analise junto ao desenvolvedor notou-se que o servidor do Amazonas não realiza todas as validações impostas pela nova regra, com isso os testes serão realizados com o sistema configurado para emitir NFC-e pela Migrate no estado da Bahia.
+
+*Situação desejada:*
+Validar as novas obrigatoriedades a fim de confirmar o que deve ser implementado, o que não se aplica e o que o sistema já atende.
+Deve ser validado o minimo de 50% do documento.

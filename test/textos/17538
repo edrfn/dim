@@ -1,0 +1,10 @@
+Verificar problemas de sincronização com diversas instâncias no pgAdmin
+Teste para verificar se duas instâncias do postgreSQL implica em erros durante a sincronização entre painel e PDV;
+
+Deverá ser realizado os seguintes testes:
+
+1. O painel deve estar em um computador que o pgAdmin possua duas instâncias, e as informações deste devem ser sincronizadas com um PDV, que estará em outro computador que possui apenas uma instância; 
+2. O painel deve estar em um computador que o pgAdmin possua apenas uma instância, e as informações deste devem ser sincronizadas com um PDV, que estará em outro computador que possui duas instâncias; 
+3. O painel deve estar em um computador que o pgAdmin possua apenas uma instância, e as informações deste devem ser sincronizadas com um PDV, que estará em outro computador que possui também uma instância; 
+4. O painel deve estar em um computador que o pgAdmin possua duas instâncias, e as informações deste devem ser sincronizadas com um PDV, que estará em outro computador que possui duas instâncias; 
+

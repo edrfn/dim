@@ -1,0 +1,20 @@
+[Urgente]Pedidos de venda - Sistema está gerando reserva indevida ao alterar um produto num pedido.
+*1) Qual o comportamento observado?***
+Ao lançar um pedido de vendas e gravalo, sistema gera a reserva normalmente no produto.
+Porém, ao alterar este pedido e o produto, mesmo sem modificar valor ou quantidade e grava-lo, o sistema está gerando mais uma reserva indevidamente, como se o pedido estivesse sendo incluido naquele momento
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedidos de Venda
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- Alterar o pedido recem gravado, alterar um dos itens, gravalo sem fazer nenhuma modificação
+6- Gravar o pedido novamente e verificar que foi gerada mais uma reserva de acordo ao produto contido no pedido
+
+*3) Qual o comportamento esperado?*
+Que o sistema interprete a alteração normalmente e altere o valor da reserva, apenas caso haja modificação de quantidade nos produtos.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

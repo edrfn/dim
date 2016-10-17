@@ -1,0 +1,15 @@
+Pedido de Venda - Sistema não está calculando corretamente, quiçá calculando o desconto ou acréscimo informados no cadastro da forma de pagamento
+*1) Qual o comportamento observado?*
+Ao digitar um pedido de venda usando uma forma de pagamento que possua percentual de desconto, encargos financeiros ou valor de despesas acessórias o sistema não está gravando os valores referentes a desconto ou acréscimo. Deveria gravar na tabela pedidosaida, colunas peds_percdescfpgto/peds_percacresfpgto e destacar na NFe gerada após exportar o pedido de venda. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pré-condição: Ter formas de pagamento cadastradas com percentuais de desconto, encargos ou valor de despesas acessórias.
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Digitar Pedidos de Venda;
+2- Digitar e gravar pedidos de venda usando as formas de pagamento citadas na pre-condição;
+3- Verificar no banco de dados que na tabela pedidosaida, os campos referentes a desconto ou acréscimo não foram preenchidos com os respectivos valores;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao digitar pedido de venda usando formas de pagamento que contenham percentuais de desconto, encargos ou valor de despesas acessórias, o sistema processe os valores de desconto ou acréscimo e popule os respectivos campos na tabela pedidosaida para que ao imprimir o pedido de venda e/ou emitir a NFe esses valores sejam destacados corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

@@ -1,0 +1,12 @@
+[NFC-e] Enviar venda para a SEFAZ.
+*Como:* Scrum Master
+*Quero:* Enviar as vendas realizadas no PDV para a SEFAZ.
+*Para:* Iniciar a utilização do Dinâmico PDV com NFC-e.
+
+*Critérios de validação*
+1. Realizar vendas com o Dinâmico PDV.
+2. Testar no sistema
+
+*Como Implementar*
+1. Fazer a comunicação do total-pdv com o total-comm-nfce;
+2. Adicionar os enviadores na classe de finalização de venda.

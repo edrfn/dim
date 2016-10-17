@@ -1,0 +1,17 @@
+Configuração TEF (Discado e Dedicado) via integração
+Devido a necessidade de realizar alguns testes com o sistema configurado para TEF, verificou-se que em todas as situações foi necessária a intervenção via banco de dados.
+Para garantir o pleno funcionamento do sistema, quando configurado para transações dessa natureza, necessário realizar testes, visando configurar a partir dos registros de integração.
+
+*Base de testes:*
++1. Restrições de configurações+
+1.1. Não permitir configurar discado e dedicado ao mesmo tempo;
+1.2. Não realizar nenhum tipo de alteração em banco;
+1.3. Conferir com o layout de integração os campos e tipos de dados.
+
++2. Modalidades:+
+2.1. Discado;
+2.2. Dedicado;
+
++3. Fluxo do sistema+
+3.1. Vendas e
+3.2. Demais funções disponibilizadas no sistema ou gerenciador.

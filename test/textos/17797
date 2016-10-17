@@ -1,0 +1,10 @@
+Excluir lançamento períodico de contas a pagar
+Excluir o lançamentos periódico de contas a receber no sistema 
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17337
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem criou.
+* Deverá ser excluído todos os lançamentos criados;

@@ -1,0 +1,20 @@
+Rejeição: Total do vOutro difere do somatório dos itens, em uma venda com forma de pagamento que tenha encargos financeiros 
+1) Qual o comportamento observado?
+
+Ao fazer uma venda com forma de pagamento que tenha encargos financeiros e alterar esse valor colocando um acréscimo no momento de concluir a venda, é apresentada a Rejeição: Total do vOutro difere do somatório dos itens.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1. Fazer uma venda com alguns itens e na forma de pagamento utilizada tenha encargos financeiros;
+2. No momento de concluir a venda depois do F10 colocar um acréscimo com valor qualquer, alterando assim o valor do encargo;
+3. Concluir a venda e exportar a NF-e;
+4. Verificar a rejeição apresentada.
+
+OBS: Em anexo o xml.
+
+3) Qual o comportamento esperado?
+
+Que permita exportar a nota sem rejeições.
+
+
+http://www.oobj.com.br/bc/article/rejei%c3%a7%c3%a3o-604-total-do-voutro-difere-do-somat%c3%b3rio-dos-itens-como-resolver-316.html#sthash.Y51QNs2N.dpuf

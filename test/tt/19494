@@ -1,0 +1,10 @@
+Criar mecanismo para atualizar os clientes case com a nova estrutura de licença
+Descrição
+
+Como: Tester
+Quero: A Implementação de rotina que permita atualizar os clientes case(instalados) com a nova estrutura de licença.
+
+Critério de validação
+Apagar os dados da tabela DBVer e executar o sistema.
+
+Comportamento esperado: O sistema deverá dar um insert com os dados criptografados e uma validade de apenas 7 dias.

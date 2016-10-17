@@ -1,0 +1,2 @@
+Ao instalar uma nova versão do sistema, a desinstalação da versão anterior deve ser realizada automaticamente
+Por conta de alguns erros que ocorrem ao realizar a instalação do sistema, sem desinstalar a versão anterior, é necessário que o sistema realize a desinstalação da versão anterior automaticamente. Tal funcionalidade deve ser feita no Web e no PDV.

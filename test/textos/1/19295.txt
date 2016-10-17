@@ -1,0 +1,21 @@
+Desdobramento de Espécie - O sistema está guardando o troco da espécie dinheiro quando, num segundo momento, esta assume um valor para o qual não há necessidade de troco
+*1) Qual o comportamento observado?*
+Observou-se que quando o sistema está guardando o troco mesmo quando foi eliminada essa possibilidade.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessa a rotina Pedido de Venda pelo caminho: Vendas - Movimentos - Pedido de venda;
+2- Insere os dados obrigatórios, insere produtos e clica em gravar ou aperta a tecla F10;
+3- Escolhe uma forma de pagamento que possua espécies para pagamento a prazo e clica na opção 'Informar espécies';
+4- Escolhe uma espécie qualquer, exceto 'Dinheiro', atribui um valor menor que o total do pedido e clica em 'Iserir';
+5- Escolhe agora a espécie 'dinheiro' e atribui um valor maior do que o que sobrou, gerando um troco, dessa forma;
+6- Exclui a espécie que foi inserida primeiro;
+7- Observar que a espécie 'dinheiro' assume o valor todo que foi atribuído a ela;
+8- Inserir novamente uma espécie, atribuindo o valor restante;
+9- Gravar o pedido e confirmá-lo através da rotina Efetivar Movimento ou Emissão de NF-e;
+10- Verificar, na rotina Lançamento de Títulos a Receber, que o título gerado para a espécie 'dinheiro' está com um valor menor do que o que foi inserido, pois ele está descontando o valor do troco que existia outrora.
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema desconsidere o troco que havia anteriormente para a espécie dinheiro, quando esta assumir um valor para o qual não haja necessidade de troco.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

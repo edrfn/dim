@@ -1,0 +1,4 @@
+Parametrizar as rotinas de remessa e de retorno para chamar as funções da nova classe, em caso do cobrador ser "TotalBoletos"
+*Como:* Product Owner
+*Quero:* Parametrizar as rotinas de remessa e de retorno para chamar as funções da nova classe, em caso do cobrador ser "TotalBoletos"
+*Para:* Emissão de boletos pelo ACBr

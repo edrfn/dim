@@ -1,0 +1,4 @@
+Está ocorrendo erro de requisição com frequência no sistema
+*Qual o comportamento observado?*
+Em determinados momentos do dia o sistema trava, e pode ser verificado no log que ocorre erro de requisição. Foi verificado que o problema ocorre por que o tomcat cria conexões e não consegue apagar. Segue o log em anexo.
+

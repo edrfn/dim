@@ -1,0 +1,16 @@
+Sistema não está arredondando valores específicos no pedido
+1. Qual o comportamento observado?
+
+Foi identificado que no sistema, ao fazer um pedido que tenha quantidade específica e valor unitário específico, o sistema não faz o arredondamento, gerando divergência de valores e impedindo de enviar uma NF-e.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça um pedido que contenha os valores a seguir:
+ Quantidade: 117.7128
+ Valr. Unit: 8.869
+Exporte NF-e;
+Verifique o erro;
+
+3) Qual o comportamento esperado?
+
+A nota deve ser exportada sem apresentar erros.

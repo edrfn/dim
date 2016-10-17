@@ -1,0 +1,14 @@
+Refatoração do Framework - Cadastro de NCM
+Como: Coordenadora de Projetos
+Quero: Uma refatoração na tela de cadastro NCM.
+Para: Para adotar o novo padrão do framework.
+
+Critério de validação
+
+Ter acesso a funcionalidade de inserir, alterar, pesquisar e excluir um NCM.
+Realizar validações de acordo com o cadastro original.
+Gravar o cadastro com as informações.
+
+Como implementar
+
+Adaptar a rotina ao novo formado;

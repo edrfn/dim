@@ -1,0 +1,13 @@
+[License Manager]Recolocar validação do campo Inscrição Estadual
+Qual o comportamento observado?
+Foi informado que o CRM (Smart) possui um Bug no campo da inscrição estadual que na maioria das vezes não permite inserir a informação. Ao executar a rotina para "gerar licença Windows" o License Manager valida a inscrição estadual através de uma consulta no banco do Smart, quando o campo retorna nulo o sistema não consegue concluir a rotina. Por isso foi removido a rotina no ticket relacionado.
+
+Se torna necessário que essa validação volte a ocorrer.
+
+Quais as etapas para obter o comportamento observado?
+1. Ter um cliente sem inscrição estadual no Smart;
+2. Executar a rotina para gerar a licença Windows com o CNPJ do cliente que não possui dado de inscrição estadual;
+
+
+Qual o comportamento esperado?
+Tratar na rotina para que a mesma valide o campo de inscrição estadual.

@@ -1,0 +1,1 @@
+Estrutura das telas fullscreen - Alteração da arquitetura do sistema

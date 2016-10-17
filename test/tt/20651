@@ -1,0 +1,16 @@
+Arquivo de integração CGE (Configurações Gerais) está sendo gerado incorretamente
+*Comportamento Observado*
+- Valores de integração não confere com o layout
+ >> [ESTNEGAT] valor enviado [N], esperado [L],[A] ou [S]
+ >> [MODTRAB] valor enviado [NT], esperado [TR] ou [AR]
+
+*Comportamento Esperado*
+- Validar as opções do layout de integração
+
+*Passos para reproduzir o comportamento*
+- Ativar o Dinâmico Server
+- Alterar as configurações de Venda (Estoque negativo)
+
+*Observações importantes*
+- Verificar a construção dos parâmetros de venda e PDV
+- Verificar as condições do layout de integração

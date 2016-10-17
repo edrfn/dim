@@ -1,0 +1,8 @@
+Dados do insert padrão
+*Comportamento observado*
+Ao instalar o sistema, o mesmo preenche algumas informações padrão.
+Foi observado que alguns dos _inserts_ estão trazendo "lixo".
+
+*Relatório final*
+Apresentar de cada tabela que é preenchida na instalação do sistema a consistência dos dados.
+Caso o sistema apresente tabelas com dados "lixo", deve ser reportadas todas as tabelas para posterior correção.

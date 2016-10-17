@@ -1,0 +1,14 @@
+Nota de compra não permite "gravar" ou liberar quando o total da nota é maior que o total dos produtos
+_As situações relatadas valem para digitação de nota e importação de XML_
+
+*Comportamento Observado*
+- Notas que possuem frete, desconto e outros o sistema não permite "digitar o valor" (digitação da nota) ou "Gravar" (importação de XML)
+- O sistema apresenta nota com diferença, mas não valida que foi digitado frete, por exemplo
+- Para sair da tela de nota é preciso cancelar o processo. Ao consultar de imediato a nota não aparece. Ao fechar o sistema e abrir novamente, se verifica a duplicidade de notas salvas.
+
+*Comportamento Esperado*
+- Que a nota possa ser gravada validando as condições em que o total da nota pode ser menor (desconto) ou maior (frete, outros) do que o valor total dos produtos.
+
+*Passos para reproduzir o comportamento*
+- Importar um XML com frete ou desconto em que o nota da nota é diferente
+- digitar uma nota com uma dessas condições

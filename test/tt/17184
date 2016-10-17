@@ -1,0 +1,7 @@
+Cliente solicita que o campo de descrição fique Maior.
+- Breve descrição:
+
+Cliente solicita que o campo descrição fique maior, hoje temos uma forma de fazer isso no sistema, porém ao custo da funcionalidade de busca de código de retaguarda. A ideia seria que a funcionalidade fosse mantida mesmo removendo a mesma.
+
+**Verificar ticket vinculado**
+Basicamente alterar para que mesmo com essa remoção, a busca por código de retaguarda possa ser efetuada.

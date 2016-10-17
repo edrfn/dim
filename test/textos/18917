@@ -1,0 +1,23 @@
+O Estoque não está sendo atualizado após o fechamento do balanço nem após efetivar o pedido de saída gerado por ele.
+*1) Qual o comportamento observado?*
+Observou-se que o estoque não está sendo atualizado após o fechamento do balanço nem após efetivar o pedido de saída gerado por ele. Isso pode ser observado na tabela produto_estoque.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir um balanço e inserir um produto com uma quantidade menor do que a que há no estoque para gerar um pedido de saída. (Estoque- Movimento- Abertura de balanço);
+2- Fechar o balanço (Estoque- Movimento- Finalizar Digitação de balanço);
+3- Verificar na tabela produto-estoque que a quantidade de produtos não mudou.
+4- Liberar o pedido gerado pelo balanço, através da rotina Efetivar Pedido, que pode ser acessada pelo caminho: Vendas - Movimentos - Efetivar Pedido;
+5- Verificar novamente na tabela do banco que o estoque não foi atualizado.
+
+*3) Qual o comportamento esperado?*
+Que após o fechamento do balanço ou após efetivar o pedido de saída gerado por ele o estoque seja atualizado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Dicas:
+
+* O estoque só é atualizado após efetivar o pedido;
+* Os itens do pedido do balanço não estão indo na nota. Pode ser a causa da não atualização do estoque. Esta gerando a capa, mas não gera com os itens;

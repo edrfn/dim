@@ -1,0 +1,14 @@
+Plano de pagamento, quando definido como padrão, não está sendo alterado.
+*Qual o comportamento observado?*
+
+Quando o plano de pagamento está configurado como padrão, caso seja realizado alguma alteração no seu cadastro as informações não são atualização.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+1 - Cadastrar uma forma de pagamento como padrão.
+2 - Realizar alteração na forma. (Adicionar uma especie diferente)
+3 - Sincronizar o PDV e observar que a atualização não foi feita.
+
+*Qual o comportamento esperado?*
+
+Que mesmo sendo a forma de pagamento padrão o sistema deve realizar a alteração das informações contidas.

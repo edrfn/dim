@@ -1,0 +1,14 @@
+Testar sistema com impressora não fiscal
+*Como:* Scrum Master
+*Quero:* Testar o sistema com impressora não fiscal
+*Para:* Identificar no sistema eventuais problemas antes de liberar o hardware
+
+*O que deve ser observado*
+- Resposta no tempo
+- Usabilidade
+
+*O que deve ser relatado*
+- Bugs especificando qual o problema encontrado
+
+*O que deve ser testado*
+- As principais rotinas do sistema

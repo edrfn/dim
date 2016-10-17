@@ -1,0 +1,17 @@
+Pasta "lib" não está sendo copiada no build. 
+*Comportamento observado:*
+
+Quando um build é feito pelo Jenkins a pasta lib do projeto do Servidor de PDV não é copiado para a pasta de versões.
+
+*Passos para reproduzir o comportamento:*
+
+- Gerar uma versão pelo Jenkins.
+- Ir no diretório: @\\192.168.0.1\Areas\Versao\Builds\Web\DinamicoPDV\(versão gerada)@
+- Ver que a pasta lib não foi copiada para o diretório do projeto.
+
+*Como implementar*
+- corrigir script
+
+*Comportamento esperado:*
+
+- Que a pasta lib do Servidor de PDV seja copiada junto com o projeto. 

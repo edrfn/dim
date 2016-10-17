@@ -1,0 +1,26 @@
+Validador de banco de dados
+*Descrição:*
+
+Após o teste inicial e validação do escopo mínimo definido anteriormente, levar em consideração observações do Tester.
+
+*Problemas e sugestões.*
+
+_1 - Foco do teclado na tela de senha.
+
+2 - Repetindo o nome do campo no resultado da analise ex:
+
+"Produto com campo codigo_ncm nulo ou vazio codigo_ncm".
+
+3 - Depois de feita verificação se mudarmos o tipo de verificação, de WEB para PDV, por exemplo, a pesquisa feita some da tela, tendo assim, que realizarmos a pesquisa novamente.
+
+4 - Na validação para o WEB o nome em tela está incompleto faltando o nome "WEB" pois está Validador de banco de dados.
+
+5 - Na aba de alerta não é possivel clicar em "+ info", caso essa função não esteja disponivel para essa aba sugiro retirar. Durante o teste foi verificado que o cliente consumidor possui CPF ou CNPJ, porém o "+ Info" não trouxe maiores informações.
+
+6 - As informações adicionais estão mostrando o resultado da pesquisa, sugiro que seja condesado o que é mostrado como informação e se for o caso adicionar uma linha "oculta" onde fosse possivel visualizar do modo que é exibido hoje.
+
+7 - Possibilidade de realizar a busca novamente sem ter que cancelar a pesquisa já feita e realizar novamente.
+
+8 - Atualmente o validador não verifica o CFOP no produto, é interessante que seja implementado para as emissões de NFC-e.
+ 
+9 - Verificação se plano de pagamento possui especie associada._

@@ -1,0 +1,15 @@
+Inutilização de faixa de Nfe - Criação do Envio de inutilização para a SEFAZ da Tela de Inutilização de Faixa de NF-e
+*Como:* Usuário do sistema
+*Quero:* Criação do Envio de inutilização para a SEFAZ da tela de Inutilização de Faixa de NF-e
+*Para:* Enviar para a SEFAZ as faixas de NF-e a serem inutilizadas.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu Vendas->Movimentos-> Inutilização de faixa de NF-e.
+* Fazer o envio da faixa a ser inutilizada para a SEFAZ;
+* Fazer os tratamentos necessários no retorno da SEFAZ e gravar no banco de dados (vide Ticket #18612).
+* Fazer o tratamento de falhas de envio (timeOut, Falha de conexão com a internet, Rejeição).
+* Mostrar ao usuário uma mensagem de envio de nota "Enviando inutilização de nota...";
+* Mostrar uma mensagem de inutilizado com sucesso ou erro ao inutilizar nota, dependendo do retorno da SEFAZ.
+
+*Como implementar* 
+* Utilizar a DLL TotalNFe para fazer o envio da faixa (Vide especificação no Ticket #18585);

@@ -1,0 +1,14 @@
+Adaptação ao novo banco - Módulo Vendas - Parte 1
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja adaptado ao novo banco as telas que já foram adicionadas ou não no sistema.
+*Para:* que seja adequado ao banco.
+
+*Critérios de validação:*
+
+- Telas adaptadas ao novo banco.
+
+*Telas Refatoradas:*
+# Busca Cliente
+# Busca Vendedores
+# Busca Espécie de Pagamento
+# Cadastro Especie de Pagamento

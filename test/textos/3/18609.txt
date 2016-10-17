@@ -1,0 +1,17 @@
+Clientes com cpf duplicado não vão para o PDV
+LOCAL:
+PDV  Módulo vendas 
+
+VERSÃO:
+Identificado na última versão (2.8H)
+
+PRÉ-CONDIÇÕES:
+ Utilizar cliente com vários cadastros com o mesmo CPF
+ De preferência utilizar a base do cliente.
+
+ERRO:
+Devido a alteração no ticket anexado, o cliente que utilizava varios cadastros de clientes com o mesmo CPF obteve problemas ao integrar os mesmos com o PDV, sendo integrado apenas um por vez.
+
+
+SITUAÇÃO DESEJADA:
+O cliente deve poder exportar esses cadastros para o PDV, como ele fazia antes da alteração efetuada no ticket em anexo.

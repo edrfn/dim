@@ -1,0 +1,9 @@
+Emissão em produção e consulta pelo QrCode - Chalé Catarinense
+*Situação:* 
+Durante a implantação do Cliente Chalé Catarinense, foram identificados alguns erros por parte da solução Daruma/Migrate NFC-e, sendo esses impeditivos para a liberação e emissão de NFC-e em produção. 
+
+*Situação desejada:* 
+Deverá ser realizados contato com a Daruma/Migrate para obter sucesso no processo de emissão e consulta pelo QrCode.
+
+*Critérios para validação:*
+O Ticket será validado no momento em que for emitido notas com exito e que as mesmas permitam consulta pelo QrCode.

@@ -1,0 +1,13 @@
+Erro ao emitir NFe: IPI difere dos somatórios dos itens
+1-Breve descrição do caso:
+
+Na emissão de NF-e de Vendas, apresenta a mensagem: IPI difere dos somatórios dos itens, impedindo que a mesma seja enviada.
+ 
+2-Comportamento Observado:
+
+O valor do IPI tem 3 casas decimais, o sistema arredonda o valor assim dando a diferença de R$0,01 centavo.
+ 
+3-Etapas para o Comportamento Observado:
+
+Faça um pedido com um produto que possua IPI;
+Vendas >> Digitar pedido de venda >> Exportar nfe

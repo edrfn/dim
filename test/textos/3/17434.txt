@@ -1,0 +1,8 @@
+Analisar e implementar a melhor forma de exportar as informações de pagamento das vendas
+Analisar e implementar a melhor forma de exportar as informações de pagamento das vendas.
+
+*Como implementar?*
+- Analisar a melhor maneira;
+- Alteração do layout;
+- Implementar a melhor maneira:
+- Testes.

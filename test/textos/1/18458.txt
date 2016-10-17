@@ -1,0 +1,15 @@
+A nota de compra liberada não vai para a tabela Notas, do Banco, com Status 6(liberada) e sim 5(fechada)
+1)Comportamento Observado
+Foi observado que a nota de compra liberada não vai para a tabela Notas, do Banco, com Status 6(liberada) e sim 5(fechada)
+
+2) Passos para reproduzir o comportamento Observado
+1- Abrir o sistema e acessar o módulo de Compras;
+2- Acessar a rotina Digitar NF de Compra, lançar uma nota (que não tenha diferença) e salvar;
+3- Liberar a nota para o estoque através da rotina Liberar NF de Compra;
+4- Observar no banco, na tabela Notas, que a nota liberada não está com status 6-liberada. Ela está com status 5(Fechada); 
+
+3) Comportamento Esperado
+Que o sistema atualize corretamente o status das notas liberadas.
+
+4) Passos para reproduzir o comportamento Esperado
+As mesmas informada no passo 2.

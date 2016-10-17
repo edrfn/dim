@@ -1,0 +1,17 @@
+Concluir a tela de embalagem secundária
+*Qual o comportamento observado?*
+A tela que mostra as embalagens principal e secundária do sistema está incompleta e completamente diferente das outras telas do sistema. Falta título, ícone, dentre outras coisas, que será visível ao visualizar a tela.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Cadastrar um produto com Outras embalagens; (segue em anexo o arquivo de importação do produto e da embalagem secundária)
+2. Digitar o código de barras do produto principal, no campo de busca na tela principal do sistema, e pressionar ENTER. Será mostrada uma tela com duas opções deste produto. Uma opção é o produto com as informações da embalagem principal e a outra com as informações da embalagem secundária; 
+
+*Qual o comportamento esperado?*
+Concluir a tela de embalagem secundária seguindo a tela que foi desenhada pela Hanck. 
+
+*Como implementar*
+- Criar FXML
+- Criar CSS
+- Modificar Controller
+
+Obs.: Deve ser verificado com Charlene se já existe esta tela desenhada pela Hanck.

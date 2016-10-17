@@ -1,0 +1,13 @@
+Ao gerar remessa de boleto, os números dos títulos ficavam todos iguais.
+1) Qual o comportamento observado?
+Ao gerar remessa de boleto, os números dos títulos ficavam todos iguais.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+Gerar remessa no contas a receber;
+verificar no arquivo de remessa as numerações dos títulos gerados.
+
+3) Qual o comportamento esperado?
+Que cada título possua numeração única.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2

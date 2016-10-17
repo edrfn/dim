@@ -1,0 +1,35 @@
+Identificar e corrigir  erro durante sincronização do Painel > PDV - Erro 3
+*Como implementar*
+* Debug;
+* Corrigir problema;
+* Testes;
+
+
+ ERROR Thread-8 sync.AbstractAtualizaDados - 
+java.lang.IllegalArgumentException: Parameter value [%1%] did not match expected type [java.lang.Long (n/a)]
+	at org.hibernate.ejb.AbstractQueryImpl.validateBinding(AbstractQueryImpl.java:382)
+	at org.hibernate.ejb.AbstractQueryImpl.registerParameterBinding(AbstractQueryImpl.java:356)
+	at org.hibernate.ejb.AbstractQueryImpl.registerParameterBinding(AbstractQueryImpl.java:347)
+	at org.hibernate.ejb.QueryImpl.setParameter(QueryImpl.java:373)
+	at org.hibernate.ejb.QueryImpl.setParameter(QueryImpl.java:74)
+	at com.total.orion.dao.administrativo.jpa.JPAEmitenteDAO.getEmitente(JPAEmitenteDAO.java:24)
+	at com.total.orion.service.administrativo.EmitenteServiceImpl.insertUpdate(EmitenteServiceImpl.java:64)
+	at com.total.orion.service.administrativo.EmitenteServiceImpl.insertAll(EmitenteServiceImpl.java:126)
+	at com.total.orion.sync.administrativo.EmitenteAtualizaImpl.atualizar(EmitenteAtualizaImpl.java:15)
+	at com.total.orion.sync.AbstractAtualizaDados.atualizarDados(AbstractAtualizaDados.java:33)
+	at com.total.orion.sync.Requisicao.requisitarDados(Unknown Source)
+	at com.total.orion.sync.Requisicao.buscarDadosServidor(Unknown Source)
+	at com.total.orion.business.SincronizacaoBusiness.buscar(SincronizacaoBusiness.java:130)
+	at com.total.orion.business.SincronizacaoBusiness.buscar(SincronizacaoBusiness.java:98)
+	at com.total.orion.workflow.IniciarRecursosAction.initSincronizacao(IniciarRecursosAction.java:138)
+	at com.total.orion.workflow.IniciarRecursosAction.access$100(IniciarRecursosAction.java:44)
+	at com.total.orion.workflow.IniciarRecursosAction$InitTaskWorker.doInBackground(IniciarRecursosAction.java:272)
+	at com.total.orion.workflow.IniciarRecursosAction$InitTaskWorker.doInBackground(IniciarRecursosAction.java:255)
+	at com.total.orion.util.ExecutorRotinaComFeedback.execute(ExecutorRotinaComFeedback.java:9)
+	at com.total.orion.workflow.IniciarRecursosAction.execute(IniciarRecursosAction.java:51)
+	at org.jbpm.gop.Execution.fire(Execution.java:103)
+	at org.jbpm.gop.Execution.enter(Execution.java:94)
+	at org.jbpm.gop.Execution.take(Execution.java:89)
+	at org.jbpm.gop.Execution.run(Execution.java:80)
+
+Obs.: Segue log completo em anexo.

@@ -1,0 +1,19 @@
+[ACAOBACKLOG]Campo ALIQUOTA INTERNA aparece 2x nos Dados Complementares do Produto
+1) Qual o comportamento observado?
+
+Foi identificado que no grupo, ao habilitar o parâmetro "Destaca ICMS Transporte?" para "S", o sistema coloca nos produtos pertencentes a este grupo o campo para inserir a alíquota interna do produto duas vezes, conforme tela de print anexada ao ticket.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Alterar um grupo e habilitar o parâmetro "Destaca ICMS Transporte" para "S";
+Vincular este grupo alterado a um produto;
+Alterar o produto, indo na aba de Dados Complementares;
+Verificar que existem dois campos: 1. ICMS operação interna, 2.Alíquota interna.
+
+3) Qual o comportamento esperado?
+
+No grupo, ao habilitar o parâmetro "Destaca ICMS Transporte?" para "S", o sistema coloca nos produtos pertencentes a este grupo o campo para inserir a alíquota interna e externa.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

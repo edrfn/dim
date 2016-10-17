@@ -1,0 +1,10 @@
+Refatorar a rotina "Gerar titulos" no cadastro de Digitar NF de Compras
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração da rotina "Gerar títulos" no cadastro de Digitar NF de Compras.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar se existe informação e se esta é pertinente para a geração de titulos.
+
+Como implementar:
+- Criar interface para a geração.

@@ -1,0 +1,22 @@
+Problemas com desinstalação do sistema
+*Qual o comportamento observado?*
+
+Quando realizada a desinstalação do sistema ainda ficam resquícios como registros e pastas que não estão sendo apagadas devidamente.
+
+Também existem problemas nas telas do desinstalador que as tornam ilegíveis.
+ 
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar a desinstalação do ERP e tentar reinstala-lo, não será possível por conta dos registros e pastas que não foram removidos.
+
+Dentre as tentativas para realizar a reinstalação foi necessario apagar todas as informações referentes a esses registros abaixo no Editor de Registros do windows.
+
+{ACF366CF-4E0B-4D4C-B26B-4ECC6FA0164F} {0103A8E7-8459-47A7-9DA1-82DD790AAAC6} 
+
+*Qual o comportamento esperado?*
+
+Que as telas mostradas seja legíveis e quando desinstalado o sistema consigo realizar a remoção de todas as informações.
+
+*Validação adicional*
+
+Verificar todos os passos da instalação/desinstalação do sistema através do novo instalador.

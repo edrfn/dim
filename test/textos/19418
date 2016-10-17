@@ -1,0 +1,16 @@
+Atualizar data de expiração dos caixas ao atualizar a licença por data criptografada
+*1) Qual o comportamento observado?***
+Ao atualizar a licença data criptografada, a data de expiração do PDV não é atualizada.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Ter um sistema devidamente atualizado, e com a mesma data de expiração da licença e do caixa.
+2- Avançar a data do computador para a data de expiração + 1.
+3- Tentar abrir o caixa.
+4- Gerar a data criptografada com a mesma data do passo 2 e atualizar a licença no web.
+5- Passo 3.
+
+*3) Qual o comportamento esperado?*
+É esperado que após atualizar a data no passo 4 o sistema também atualize a data de expiração dos caixas e permita abrir o caixa normalmente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

@@ -1,0 +1,13 @@
+Sistema apresenta lentidão na leitura de periféricos.
+
+*Comportamento observado:*
+
+Sistema apresenta lentidão no momento de abertura do PDV quando está lendo os periféricos.
+
+*Passos para reproduzir o comportamento:*
+
+- Abrir o PDV e observar o tempo na leitura de periféricos.
+
+*Comportamento esperado:*
+
+Que o sistema não apresente a lentidão no momento da leitura dos periféricos.

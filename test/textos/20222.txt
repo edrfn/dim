@@ -1,0 +1,19 @@
+Ao importar um orçamento e modificar a forma de pagamento de uma que possui acréscimo para uma que não possui, o acréscimo não é retirado automaticamente.
+1) Qual o comportamento observado?
+
+Ao fazer importação de orçamento, caso a forma de pagamento possua acréscimo, e efetuar a mudança dessa forma para uma que não possui acréscimo
+o sistema não está removendo este acréscimo automaticamente mas, caso a forma de pagamento não possua acréscimo e seja alterada para uma que possua, este acréscimo é incluído automaticamente.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça um orçamento (alt+i);
+Importe o orçamento(alt+o);
+verificar a forma de pagamento, caso ela possua acréscimo, alterar para uma que não possua;
+Verificar que o acréscimo não é retirado automaticamente.
+
+3) Qual o comportamento esperado?
+
+Que o acréscimo seja removido automaticamente pelo sistema.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

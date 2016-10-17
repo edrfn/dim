@@ -1,0 +1,16 @@
+Criação das permissões de usuário (As mais urgentes)
+Como: Coordenadora de Projetos
+Quero: Que sejam criadas as permissões de usuário mais urgentes para o sistema;
+Para: Que o sistema seja liberado inicialmente com as mais importantes.
+
+*Informações Adicionais*
+
+Será testado os cadastros e os movimentos nos módulos de *Compras* e *Estoque* as seguintes permissões:
+
+* Abrir a rotina;
+* Inserir novo registro;
+* Editar registro;
+* Excluir registro;
+* Localizar registros;
+
+*OBS: Recomendado apagar as permissões dos banco para verificar se as mesmas são geradas novamente* 

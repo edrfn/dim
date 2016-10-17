@@ -1,0 +1,11 @@
+Problema ao alterar NF de compra
+O sistema deveria deixar o usuário reutilizar o título na alteração da NF de compra, mas o mesmo só possibilita que o usuário altere o número do título, ou após cancelar a NF e antes de altera-la se o usuário executar a reindexação o sistema aceita que o usuário reutilize o mesmo número de título.
+
+1° Digita uma NF de compra em Compras/Cadastros/Digitar NF de Compras e gerar duplicatas referentes a essa nota e fechar a mesma.
+2° Libera-se essa NF em Compras/Cadastros/Liberar NF de Compras
+3° Cancela essa NF de compra em Compras/Cadastros/Cancelar NF de Compras
+4° Após cancelar a NF, você vai em Digitar NF no caminho do 1° passo, só que ao invés de adcionar você vai em alterar a NF que você cancelou, segue com a alteração e quando chega na parte de lançar as duplicatas, você tenta reutilizar o mesmo número de título ele apresenta um erro "Número de título já existente no contas a pagar!".
+
+
+
+O cliente utiliza Automaster 4.0z 6146 / Sistema Operacional: Windows Server 2003

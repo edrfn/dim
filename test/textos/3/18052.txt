@@ -1,0 +1,12 @@
+Permitir o uso do sistema por 3 dias após instalação
+*Como:* Product Owner
+*Quero:* Permitir 3 dias de uso após a instalação
+*Para:* Facilitar o processo de instalação em novos clientes
+
+*Critério de validação* 
+* Poder utilizar o sistema por 3 dias, assim que houver a instalação
+* Bloquear o uso após o prazo, solicitando o arquivo
+
+*Como implementar* 
+* Após a instalação, liberar o cliente para uso por 3 dias
+* Após passar o prazo, o sistema deve solicitar o arquivo de licença

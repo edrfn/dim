@@ -1,0 +1,12 @@
+Busca de vendedor com campo preenchido não funciona.
+*Qual o comportamento observado?*
+
+Ao tentar realizar um busca por vendedor quando o campo já está preenchido, através da tecla "page down" o sistema não está realizando a busca, trazendo a seguinte mensagem: "Não há itens a serem exibidos".
+
+*Quais as etapas para obter o comportamento observado?*
+
+Preencher as informações de vendedor no inicio da venda e após selecionar um vendedor pressionar "page down" para que o sistema liste novamente os vendedores disponíveis.
+
+*Qual o comportamento esperado?*
+
+Que mesmo com o campo preenchido o sistema traga a janela de busca, com o vendedor já selecionado, não sendo necessário apagar o campo na tela de confirmação para que seja necessário buscar um novo vendedor.

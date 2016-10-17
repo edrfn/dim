@@ -1,0 +1,8 @@
+Mudança do repositório de SVN para GIT
+*Como:* Scrum Master.
+*Quero:* Mudar o atual repositório do sistema para o Git.
+*Para:* Que o repositório dos sistemas sejam iguais.
+
+*Como implementar:*
+
+- Realizar a clonagem do repositório que esta no SVN e "subir" para o GIT

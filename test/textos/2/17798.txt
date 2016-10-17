@@ -1,0 +1,9 @@
+Cadastrar categoria de conta
+Eu quero cadastrar e editar uma categoria de conta;
+
+
+**Validações**
+
+* Todas do requisito de produto #17283;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem criou;

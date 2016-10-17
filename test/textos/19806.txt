@@ -1,0 +1,21 @@
+Senha de registro não está sendo solicitada ao emitir boletos com o 'Total Boletos'.
+*1) Qual o comportamento observado?*
+
+Ao utilizar a opção de TotalBoletos, a senha de registro não está sendo solicitada.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a versão 6.1d;
+Configure o cobrador para emitir a partir do Total Boletos;
+A base não pode estar com o CobreBem liberado;
+Configure uma forma de pagamento com o cobrador criado, permitindo o documento Duplicata;
+Faça uma venda utilizando a forma de pagamento;
+Ao registrar o recebimento, emita o boleto em "Imprimir Bloquete";
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve solicitar a senha de registro, caso o cliente não possua o módulo liberado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

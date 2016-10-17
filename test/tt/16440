@@ -1,0 +1,10 @@
+[NFC-e] Como inserir as informações do endereço do cliente separadamente com a nota fiscal paulista
+Qual o comportamento observado?
+Para utilização da NFC-e foi necessário fazer a validação no preenchimento de alguns campos no cadastro de clientes, pois a SEFAZ exige que as informações do endereço seja completa. A partir de agora os campos citados a seguir serão obrigatórios o preenchimento ao cadastrar clientes: Logradouro, Número, Bairro, Município, Estado, País, CEP.
+
+Deve ser estudado como o sistema irá inserir as informações de endereço do cliente, quando for utilizado a nota fiscal paulista.
+
+Como a SEFAZ exige que as informações de endereço sejam completas, e pode acontecer de ter cadastros na base do cliente que não tenha todas as informações necessárias, hoje optamos por apenas enviar as informações do endereço, caso este esteja completo, caso contrário, enviamos apenas o CPF. Desta forma, não é obrigatório que seja feita uma atualização de dados nos cadastros de cliente. Mas quando a NFC-e for utilizada no estado de São Paulo, o sistema deverá permitir inserir as informações do endereço separadamente na tela de nota fiscal paulista.
+
+Qual o comportamento esperado?
+Implementar a melhor forma de inserir as informações de endereço do cliente separadamente, pela nota fiscal paulista.

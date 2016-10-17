@@ -1,0 +1,11 @@
+Refatoração do framework - Telas de pesquisa do cadastro Natureza de Operação
+Como: Scrumaster
+Quero: Refatoração das telas de pesquisa do cadastro de natureza de operação, de acordo com o modelo proposto.
+Para: Iniciar a adequação das telas de pesquisa ao novo formato;
+
+*Critério de validação*
+Ter acesso à funcionalidade através do menu: Cadastros - Estoque - Natureza de Operação.
+Poder realizar consultas de natureza de operação usando o novo formato.
+
+*Como implementar*
+Colocar as pesquisas no novo formato;

@@ -1,0 +1,13 @@
+Em nova instalação do Sistema o Arquivo "Dicas" não é encontrado
+1) Qual o comportamento observado? 
+Foi observado que realizando uma nova instalação o sistema acusa que não existe o arquivo Dicas.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+Instalar o sistema em novo diretório;
+Executar o vendas.exe;
+	
+3) Qual o comportamento esperado?
+É esperado que o arquivo dicas já esteja presente no instalador.
+
+4) Quais as etapas para executar o comportamento esperado?
+Mesmas do passo 2.

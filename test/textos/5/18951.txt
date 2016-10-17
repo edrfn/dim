@@ -1,0 +1,19 @@
+Importação de XML - Sistema importa os produtos mesmo contendo caracteres especiais e letras minusculas
+*1) Qual o comportamento observado?***
+Ao importar um XML, e cadastrar um produto na tela de PRODUTOS NÃO ENCONTRADOS NO XML, o sistema traz para cadastro as informações iguais as contidas no arquivo.
+Contendo letras minusculas e caracteres especiais.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - movimentos - Digitar nf de Compra
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Importar um XMl;
+4- pegar um arquivo que contenha caracteres especiais e letras minusculas na descrição do produto;
+5- Verificar que o sistema traz essas informações para cadastro e as grava mesmo assim;
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema possa filtrar essas informações e adequalas de acordo as nossas normas padrões: Letras maiusculas e ausência de caracteres especiais
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

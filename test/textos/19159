@@ -1,0 +1,11 @@
+[Outras Saídas] trabalhar tanto com cliente e fornecedor.
+Como: Usuário do sistema
+Quero: Que seja possível realizar uma outra saída para fornecedor
+Para: Que não seja necessário criar um cliente e um fornecedor para a outra saída
+Critério de validação
+* Na tela de outra saída ser possível vender para cliente e fornecedor, conforme requisito #18733. 
+
+Como implementar 
+* Colocar radiobutton para escolher entre cliente, fornecedor e ambos.
+* realizar pesquisa de acordo com o selecionado no radiobutton.
+OBS.: As regras fiscais não serão contempladas agora.

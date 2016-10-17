@@ -1,0 +1,10 @@
+CPF do contador com validação incorreta está impedindo a geração do Sped
+*Como:* Analista de negócio
+*Quero:* Corrigir a validação do cadastro de cobrador
+*Para:* Permitir que o Sped seja gerado corretamente
+
+*Critério de validação*
+- No campo de CPF do contador só permitir CPF
+
+*Como implementar*
+- Alterar a máscara para aceitar somente CPF

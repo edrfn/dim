@@ -1,0 +1,18 @@
+Painel não exibe erro de importação do cadastro de caixa.
+*Comportamento observado:*
+
+Quando um arquivo de cadastro de caixa é importado pelo Servidor de PDV os erros contidos no arquivo não estão sendo exibidos na tela de transferência.
+
+*Passos para reproduzir o comportamento:*
+
+- Importar um arquivo de cadastro de caixa com erros.
+- Verificar que os mesmos não são mostrados na tela de transferência.
+
+*Como implementar*
+- Identificar mensagens que não estão sendo exibidas
+- Implementar correção
+- Testar
+
+*Comportamento esperado:*
+
+Que os erros contidos no arquivo de caixa e nos demais arquivos que são importados sejam mostrados na tela de transferência.

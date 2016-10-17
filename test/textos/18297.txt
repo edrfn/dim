@@ -1,0 +1,7 @@
+[Evolução] Preparar o sistema para implatar NFC-e (Total NFC-e)
+*Como:* Coordenadora de projetos.
+*Quero:* Implantar no sistema a utilização com NFC-e.
+*Para:* Atender a legislação vigente.
+
+*Como implementar* 
+* Desenvolver um projeto completo (estrutura) de como inserir essas mudanças no sistema.

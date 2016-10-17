@@ -1,0 +1,14 @@
+Erro durante a inserção e pesquisa de registros na rotina de Centro de Custo
+1) Qual o comportamento observado?**
+Foi observado que ao tentarmos inserir um Novo registro na rotina de Centro de Custo, o sistema exibe a mensagem de erro Cannot focus a disabled or invisible window. Ao tentarmos Pesquisar registros cadastrados, o sistema exibe a mensagem de erro function fn_fin_doccusto_busca (character varying) does not exist que impede o acesso a pesquisa da rotina.;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Cadastros > Financeiro > Centro de Custo;
+2- Selecionar o botão Novo ou Pesquisar;
+3- Sistema exibe mensagem de erro ao clicarmos no botão Novo e/ou Pesquisar;
+
+3) Qual o comportamento esperado?
+Espera-se que a rotina esteja funcional e permita cadastrar novos registros e depois pesquisá-los sem exibir nenhuma mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do ponto 2.

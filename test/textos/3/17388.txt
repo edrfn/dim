@@ -1,0 +1,9 @@
+Criar DLL para NFC-e
+Criar a DLL para NFC-e com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/).
+
+Como implementar:
+
+# Analisar requisitos de NFC-e
+# Implementar DLL baseado nos requisitos utilizando o ACBR
+# Testes da rotina de NFC-e
+# Documentação da rotina de NFC-e

@@ -1,0 +1,11 @@
+Implementar a integração do Dinâmico ERP com o Dinamico PDV
+De acordo com o layout de integração do Dinamico PDV, implementar a integração entre o Dinamico ERP e o PDV. 
+
+Como implementar:
+
+# Revisar layout de integração
+# Revisar consultas
+# Refactoring das classes
+# Testar o envio dos arquivos gerados pelo ERP
+# Testar o retorno dos arquivos gerados pelo PDV
+# Documentação da integração

@@ -1,0 +1,12 @@
+Ao abrir o sistema com o caixa aberto, ir direto para a tela de vendas
+Ao abrir o sistema, se não for a primeira execução do dia e o operador for o mesmo que abriu o caixa, o sistema está apresentando a tela de "opções de abertura do caixa".
+*Simulação da problemática*
+1. Executar o DinamicoPDV;
+2. Realizar abertura do caixa;
+3. Realizar qualquer tipo de rotina com o caixa aberto, uma venda por exemplo;
+4. Fechar o sistema por F12, F8 (NÃO FECHAR O CAIXA, SOMENTE O SISTEMA);
+5. Abrir o sistema novamente
+6. Verificar que entre após a autenticação e a tela de venda é possível ver a tela de opções de abertura, quando na verdade o caixa já está aberto.
+
+*Comportamento esperado*
+Ao abrir o sistema, verificado que o caixa já está aberto. Direcionar para a rotina de venda direto!

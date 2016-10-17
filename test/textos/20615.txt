@@ -1,0 +1,19 @@
+Alterar visualização de titulos e baixa de titulos (histórico de baixas)
+*Como:* Analista de negócios
+*Quero:* Ter o histórico de baixas disponível no sistema
+*Para:* Fornecer essas informações ao usuário do sistema para tomada de decisão.
+
+*Critério de validação*
+- Apresentar o histórico de baixas
+- Manter o comportamento anterior de cancelamento de baixa
+
+*Como Implementar*
+1. Reduzir a distância entre o campo de juros e o subtítulo "Informações das parcelas"
+2. Remover a coluna de "Data de emissão" do grid de parcelas
+3. Adicionar o botão de "Prorrogar Vencimento"
+4. Padronizar o tamanho dos botões "Prorrogar Vencimento", "Dados do Cheque" e "Cancelar baixa"
+5. Aumentar a fonte do grid de parcelas para o mesmo tamanho do grid de "Baixas realizadas"
+6. Manter a validação de permitir cancelar baixa apenas da ultima baixa realizada em cada parcela
+7. Fixar o grid de parcelas para aparecer no máximo 5
+8. Fixar o grid de baixas para aparecer no máximo 5
+9. Alterar a posição do botão "Cancelar baixa" como indicado na imagem anexa.

@@ -1,0 +1,15 @@
+Tipo de atualização da natureza de operação não estavam aparecendo as opções corretas
+*Comportamento Observado*
+
+Na tela de natureza de operação no combo do tipo de atualização estar aparecendo as opções Sim/Não, quando era para aparecer as opções, Saída/Entrada/Livre/Transferência.
+
+*Procedimento para simulação*
+
+* Entrada na tela de natureza de operação;
+* Apertar em novo;
+* Escolher o tipo de atualização;
+* Verificar que aparecer Sim/Não;
+
+*Comportamento esperado*
+
+Era esperado que o tipo de atualização aparecesse as opções Saída/Entrada/Livre/Transferência. 

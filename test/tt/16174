@@ -1,0 +1,26 @@
+[PEDIDOS] Outras Operações e Devolução
+Breve descrição do caso:
+
+O usuário ira acessar a opção outras operações ou devolução. 
+
+Comportamento Observado:
+
+Acessar o sistema com permissões iguais ou superiores ao usuário autorizado.
+
+Etapas para o Comportamento Observado:
+
+1. O usuário ira acessar a rotina de outras operações ou devolução;
+2. Sistema ira validar o nome da estação se a mesma tem permissão para gravação do pedido.
+3. O usuário confirma digitação sem emissão da NFE ou Impressão de Nota.
+4. O Sistema grava no campo Pedido liberado para sincronização como NÃO Liberado.
+5. O usuário tem a opção de emitir a nota ou partir para o próximo pedido;
+6. O sistema grava Pedido liberado para sincronização como Liberado após a emissão da NF ou escolha de partir para próximo pedido;
+7. O Sistema faz a sincronização do pedido com o Servidor 
+
+Comportamento Esperado:
+
+Sistema Efetua a gravação do pedido.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0n 718

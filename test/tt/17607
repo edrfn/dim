@@ -1,0 +1,5 @@
+Testes com a versão "clear"
+Realizar testes em 2 cenários, com a versão que contém a modificação o _clear()_:
+
+1. Testes com o Painel > PDV na mesma máquina;
+2. Testes com Painel > PDV em máquinas diferentes;

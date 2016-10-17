@@ -1,0 +1,8 @@
+Refatorar o processo "Dar entrada no estoque" no cadastro de Digitar NF de Compras
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração o processo "Dar entrada no estoque" no cadastro de Digitar NF de Compras.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar se está sendo incrementado o valor.
+

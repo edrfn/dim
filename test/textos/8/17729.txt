@@ -1,0 +1,13 @@
+Erro na rotina de Reimpressao quando selecionado o modelo Bobina 1 ou 2 linhas
+*Como:* Usuário do sistema
+*Quero:* Alteração do layout para reimpressão de pedido (bobina 1 ou 2 linhas)
+*Para:* Obter os dados da mesma forma que um pedido de conferência
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu;
+* Poder digitar o número do pedido;
+* Poder realizar consultas por pedidos abertos e fechados;
+
+*Como implementar* 
+* Observar o layout do Pedido de Conferência;
+* Trazer o mesmo layout para a opção, que encontra-se em: Vendas/Relatórios de Movimentos/Pedidos/Bobina 1 ou 2 Linhas

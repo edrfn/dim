@@ -1,0 +1,15 @@
+Outras Entradas - Criação da Interface Visual da Tela de Outras Entradas
+*Como:* Usuário do sistema
+*Quero:* Criação da Interface Visual da tela de Outras Entradas
+*Para:* Possuir uma interface de entrada para manipulação de dados de Outras Entradas no sistema.
+
+*Critério de validação*
+
+Ter acesso à funcionalidade através do menu Vendas > Outras Entradas
+Possuir os campos pertinentes como descritos no requisito #18954
+Respeitar o padrão visual encontrado no protótipo do requisito #18954
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

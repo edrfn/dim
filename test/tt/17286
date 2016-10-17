@@ -1,0 +1,27 @@
+O Sistema não envia o percentual de IPI do Item quando é feita venda com a CFOP 5.910 
+*1) Qual o comportamento observado?*
+Nos casos de Remessa de Doação ou Bonificação e Brinde , pode ser observada que o emitente que é do ramo de industria precisa informar o IPI e haverá a incidência do imposto se a NF-e for emitida pelo próprio.
+
+O sistema com as demais CFOP's consegue fazer a nota de forma correta , apenas com a CFOP de numero 5.910.1 apresenta rejeição,o problema ocorre ao fazer a exportação do XML é enviado o valor calculado do IPI no cabeçalho , más o percentual do IPI no item não é enviado, sendo assim o correto seria tributar a nota normalmente, no banco de dados todas informações são preenchidas somente na hora da exportação que não é enviado.
+
+A solução de contorno foi efetuar a venda no sistema e importar o xml no Emissor Gratuito e após a importação informar os dados de IPI no item e exportar a nota .
+
+Observação da Controller - Consultor: Franclin Medeiros
+De acordo com o RIPI  Art. 190 a indústria é responsável pelo IPI, tanto na venda como numa remessa em bonificação.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Digitar o pedido por outras operações, com CFOP 5910.1, adicionar o Item que contenha IPI e exportar a NFE , vai apresentar o erro: ''Rejeição: Total da NF difere do somatório dos valores que compõe o valor total da nf " . Poderá verificar que o IPI foi somado no valor da CAPA más não informado o percentual no item.
+
+Produto de codigo: 1508 Descrição: PASTILHA DE VIDRO MIXPRETO/RUSTICO MC361
+
+*3) Qual o comportamento esperado?*
+Como foi feita a consulta a nota de bonificação e doação tem que sair com os mesmos tributos de uma nota com outra CFOP , sendo assim informar o IPI no produto e continuar calculando os impostos normais , como uma operação com outra CFOP.
+
+*4) Quais as etapas para executar o comportamento esperado?*
++6.0f+
+*Base: "Teste\Bases Redmine\MERIDIANO-BASE-IPI.zip"*
+
+Produto de *código: 1508* Descrição: PASTILHA DE VIDRO MIXPRETO/RUSTICO MC361
+
+*CFOP 5.910.1*

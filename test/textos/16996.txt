@@ -1,0 +1,19 @@
+Erro ao cancelar baixa de títulos a receber
+1) Qual o comportamento observado?
+
+Na base do cliente Hiper S. Francisco, ao tentar cancelar a baixa de dois títulos específicos, o sistema emite uma mensagem que impede o cancelamento do mesmo. Segue imagem do erro em anexo.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base do Hiper S. Francisco, disponível em: "\Teste\Bases Redmine\Hiper S. Francisco_BACKUP.rar";
+Pegue os títulos específicos: Cliente de código 396 e titulo de numero 002801A / Cliente de código 563 e titulo de numero 003253A;
+Realize uma baixa, logo em seguida tente cancelar a baixa do título;
+Verifique a mensagem apresentada.
+
+3) Qual o comportamento esperado?
+
+Ao realizar o cancelamento da baixa de um título, respeitando a ordem de baixas para cancelamento, o sistema não deve impedir que este seja cancelado.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

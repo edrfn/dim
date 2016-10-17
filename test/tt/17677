@@ -1,0 +1,21 @@
+Ao utilizar CFOP de bonificação (5.910 ou 6.910) o sistema não destaca ICMS
+1) Qual o comportamento observado?
+
+No cliente HiperPan (Total Sistemas), quando selecionado CFOP de Bonificação(5.910 ou 6.910), o sistema solicita a Natureza da Receita e CST de PIS e Cofins de saída para o pedido. Porém, independente da opção selecionada, que no caso do cliente, ele precisa que saia tributado de PIS e Cofins, pois a isenção de bonificação é apenas de ICMS, não destaca, qualquer uma das opções escolhidas sempre o PIS e Cofins saem zerados. Segue trecho da publicação para destaque dos tributos em anexo.
+
+Em contato com a Controller, os mesmos informaram que as notas são tributadas.
+ 
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma venda utilizando CFOP 5.910 ou 6.910;
+Coloque as opções de CST solicitadas;
+Emita NF-e;
+Verifique os tributos;
+
+3) Qual o comportamento esperado?
+
+De acordo com o anexo, as notas devem sair tributadas.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

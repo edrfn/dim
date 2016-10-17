@@ -1,0 +1,21 @@
+Cliente e vendedor não são modificados ao importar o orçamento e solicitar estas mudanças.
+1) Qual o comportamento observado?
+
+Foi identificado que, ao importar orçamento e alterar o cliente e forma de pagamento, ao salvar o orçamento o cliente anterior é mantido
+e apenas a forma de pagamento é alterada.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça um orçamento (alt+i);
+Importe o orçamento(alt+o);
+altere o cliente e a forma de pagamento;
+Ao verificar este orçamento o cliente não foi alterado, apenas a forma de pagamento.
+
+3) Qual o comportamento esperado?
+
+Que o cliente e a forma de pagamento sejam alterados, não apenas a forma de pagamento. 
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.
+
+- apesar disto, o sistema está fazendo alterações aleatórias. Ora mantem o cliente e o vendedor alterando a forma de pagamento, ora altera a forma de pagamento mantendo o cliente e o vendedor e assim ele vai variando as alterações entre os 3 campos!

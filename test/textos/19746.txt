@@ -1,0 +1,19 @@
+[Urgente] TESTAR - Efetivar movimento - Rotina não apresenta as notas de devolução
+*1) Qual o comportamento observado?***
+Rotina de Efetivação de Movimento não apresenta as notas de devolução,
+O que inviabilizaria também uma troca.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - efetivar movimento
+2- Pesquisar um pedido
+3- Verificar que nenhuma devolução está aparecendo na rotina.
+
+
+*3) Qual o comportamento esperado?*
+Espera-se que a rotina também contemple devoluções, já que nem todo cliente irá emitir NFE
+e mesmo assim, eles precisam efetuar devoluções e trocas, controlando seu estoque.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

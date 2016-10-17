@@ -1,0 +1,20 @@
+Seleção das espécies no pedido de vendas - Erros de validações
+*1) Qual o comportamento observado?***
+
+- Ao informar uma espécie, o sistema ainda informar valor restante... pressionar esc na tela e voltar ao desdobramento de espécies, espécie salva no GRID permanece, porém, valor restante, não!
+- Ao gravar um pedido com espécies e altera-lo, o sistema traz o GRID preenchido corretamente, porem, com o campo Espéceie, Valor e o botão inserir, ativos...
+- Ao gravar um pedido com espécies, altera-lo, excluir os lançamentos anteriores e adicionar um novo lançamento de espécie e gravar, sistema apresenta a mensagem:
+"Unable to find record. No Key specified" 
+- Ao alterar um pedido salvo com espécies lançadas, o sistema deve verificar aquilo que já foi lançado e conserva-lo.. fazendo as vaalidações necessárias
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Os mesmos do passo 1.
+
+*3) Qual o comportamento esperado?*
+Que os erros citados não ocorram.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 1.
+
+
+

@@ -1,0 +1,11 @@
+[License Manager] Ao solicitar ou editar uma licença o campo revendas só carrega as 18 primeiras revendas ativas
+*Qual o comportamento observado?*
+Ao solicitar ou editar uma licença o campo revendas só carrega as 18 primeiras revendas ativas
+
+*Quais as etapas para obter o comportamento observado?*
+1. Ativar mais de 18 revendas;
+2. Carregar uma arquivo request ou editar uma licença existente;
+3. Observar quais e quantas revendas são ativadas;
+
+*Qual o comportamento esperado?*
+Que todas as revendas que estão ativas sejam exibidas no campo referido

@@ -1,0 +1,15 @@
+Importação de XML - Acrescentar barra de rolagem lateral na tela de associação dos produtos
+*1) Qual o comportamento observado?*
+Ao importar um arquivo XML com mais de 14 produtos fica impossível associar todos os produtos pois na tela de associação não tem barra de rolagem lateral. (Seguem imagem da tela e arquivo XML)
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo com mais de 14 produtos a ser importado e verificar que não é possível acessar todas as linhas da tela por não haver barra de rolagem lateral.
+
+*3) Qual o comportamento esperado?*
+É esperado que na tela de associação de produtos seja acrescentado uma barra de rolagem lateral para que seja possível acessar e associar todos os produtos.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+

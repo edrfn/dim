@@ -1,0 +1,5 @@
+Criação do utilitário para corrigir registros gravados na AUTITE sem referência com AUTNFF (Integração Automaster/DinCash)
+*Como:* P.O
+*Quero:* Criação de um utilitário para corrigir registros gravados no ITE sem referência a tabela AutNFF pelo campo OCCcap, que é a referência correta do item com a capa.
+OBS: Esse problema é gerado pelo processo de integração do automaster com Dincash
+*Para:* Correção dos valores gerados no relatório de movimento de saídas.

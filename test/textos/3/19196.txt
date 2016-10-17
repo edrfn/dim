@@ -1,0 +1,17 @@
+Cancelar pedido de venda - Produto não sai da reserva.
+*1) Qual o comportamento observado?***
+Ao cancelar um pedido de venda, produto não sai da reserva e vai para o SALDO
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Cancelar pedido de venda
+2- Cancelar um pedido
+3- Conferir o cadastro de um dos produtos contidos na venda.
+4- Verificar que a reserva permanece inalterada, refletindo no saldo
+
+*3) Qual o comportamento esperado?*
+Que o sistema retire a quantidade contida no pedido cancelado da reserva, adicionando ao Saldo.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

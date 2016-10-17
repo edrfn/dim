@@ -1,0 +1,7 @@
+Remover ou alterar todas as evidências "Dincash"
+Remover ou alterar em todos os pontos do sistema as evidências "Dincash".
+
+*Como implementar?*
+- Localização de conceito;
+- Teste;
+- Alteração do nome Dincash em pontos do log; (Bug) 

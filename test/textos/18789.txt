@@ -1,0 +1,20 @@
+NFE de Ressarcimento de ICMS ST
+*Como:* Product Owner
+*Quero:* Implementar NFE de ressarcimento de ICMS ST
+*Para:* Atender a necessidade de clientes que precisam emitir este tipo de nota
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu
+* Poder digitar a chave de acesso da nota para envio
+
+*Como implementar* 
+
+
+Obs.: O ICMS substituição tributária (ICMS-ST) é o mecanismo pelo qual há tributação pelo imposto de forma antecipada, englobando as etapas seguintes. Lei estadual poderá atribuir a contribuinte do imposto ou a depositário a qualquer título a responsabilidade pelo seu pagamento, hipótese em que assumirá a condição de substituto tributário.
+O recolhimento do ICMS Substituto é destinado à Unidade da Federação onde as mercadorias serão destinadas e na presunção que tais mercadorias serão comercializadas dentro desta mesma Unidade da Federação destino.
+Ocorre que os contribuintes distribuidores e atacadistas operam com todos os Estados brasileiros e a presunção, determinada pelo regime da substituição tributária do ICMS na entrada das mercadorias em seus estabelecimentos, de que tais mercadorias serão negociadas dentro de seus Estados (operações internas) não se realiza de forma integral, passando a haver um crédito fiscal quando esta mercadoria é negociada com outras Unidades da Federação (artigo 10 da Lei Complementar 87/1996).
+Desta forma, os contribuintes distribuidores e atacadistas têm direito de recuperar o ICMS-ST pago na nota fiscal ao fornecedor
+
+http://guiatributario.net/2014/06/26/ressarcimento-do-icms-substituicao-tributaria-2/
+Base: Convênio ICMS 81/1993. (http://www.normaslegais.com.br/legislacao/convenioconfaz81.htm)
+Segue em anexo um modelo de NF-e de ressarcimento de ICMS ST e o XML, observando que ela foi emitida no layout 2.00, a TAG "finNFe" deve ser no layout 3.10 (3) AJUSTE.

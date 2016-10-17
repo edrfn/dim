@@ -1,0 +1,19 @@
+Erros não impeditivos na rotina de  Devolução ao Fornecedor
+1) Qual o comportamento observado?
+*Foram observados alguns erros na rotina, são eles:*
+1. Ordem do tab nas informações de valores da nota está errada;
+2. Ao pesquisar na rotina por um fornecedor que possua notas o sistema abre a buca sem os resultados
+   e exibe a mensagem: 'syntax error at or near ")"';
+3. Ao digitar um número de fornecedor que não exista no campo 'Fornecedor' e 
+   clicar em enter ou tab o sistema informa que não existe aquele fornecedor pesquisado
+   e logo depois exibe o erro: 'Could not convert variant of type (UnicodeString) into type
+   (Integer)';
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras> Movimentos > Devolução ao Fornecedor;
+2- Verificar a ordem do tab nas Informações da Nota na arte inferior da rotina;
+3- Clicar no botão Pesquisar e observar o erro;
+4- Digitar um fornecedor inexistente, teclar enter ou tab e observar o erro;
+
+*3) Qual o comportamento esperado?*
+Espera-se que a rotina esteja funcional e seja possível pesquisar fornecedor sem erros, que a ordem d tab esteja correta e que apareça apenas a mensagem de fornecedor inexistente sem erros.

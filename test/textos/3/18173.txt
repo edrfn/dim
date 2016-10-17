@@ -1,0 +1,14 @@
+Corrigir a pesquisa na rotina de Cancelamento de NFe para mostrar apenas as autorizadas
+Notas canceladas continuam sendo exibidas na pesquisa do campo Nota Fiscal em Cancelamento de NFe;
+
+*1) Qual o comportamento observado?*
+Foi observado que após realizarmos o cancelamento de uma nota, o sistema continua exibindo a nota cancelada na pesquisa do campo Nota Fiscal;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente e seleciona o botão de pesquisa do campo Nota Fiscal > Sistema traz todas as notas autorizadas e canceladas referentes àquele cliente selecionado;
+
+*3) Qual o comportamento esperado?*
+Espera-se que as notas canceladas não apareçam na pesquisa do campo Nota Fiscal, apenas as notas autorizadas;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente e seleciona o botão de pesquisa do campo Nota Fiscal > Sistema traz somente as notas +autorizadas+ vinculadas ao cliente informado.

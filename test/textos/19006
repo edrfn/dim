@@ -1,0 +1,22 @@
+Inserir no sistema todas as telas já refatoradas
+*Quero:* Inserção no sistema de todas as telas já refatoradas.
+*Para:* Verificar a otimização do uso de um tela refatorada para uma tela já existente no sistema atual;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade;
+* As validações serem feitas corretamente;
+
+*Telas Já refatoradas:*
+1. Grupos
+2. Unidade de Medida
+3. NCM
+4. Natureza de Operação 
+
+E a que mais estiver refatorada.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Informações Adicionais:
+
+* Revisar o funcionamento das novas telas antes e depois de adicionar;
+* Fazer o CRUD e testar;

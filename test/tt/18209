@@ -1,0 +1,8 @@
+Teste funcional do módulo financeiro
+Realizar teste +funcional+ em todas as rotinas do módulo de Financeiro.
+
+*Principais pontos a validar:*
+Operações básicas: Incluir, pesquisar, alterar e excluir registros;
+Validar lançamento, baixa, cancelamento de baixa e prorrogação de títulos no +contas a receber+;
+Validar lançamento, baixa, cancelamento de baixa e prorrogação de títulos no +contas a pagar+;
+Validar a geração de relatórios com contas a receber e do contas a pagar;

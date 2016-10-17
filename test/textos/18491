@@ -1,0 +1,5 @@
+[EXPERIENCE WEEK] Ser permitido seis casas decimas no campo Quantidade Volumes, Peso Bruto e Peso Líquido na tela de exportação de NF-e
+Como: Tester
+Quero: Que seja possível colocar seis casas decimais nos campos Quantidade Volumes, Peso Bruto e Peso Líquido na tela de exportação de NF-e.
+Para: Que o cliente consiga colocar uma quantidade acima de 100.000.
+Ex: Manutenção de dados da nota fiscal eletrônica,campo Quantidade Volumes, Peso Bruto e Peso Líquido permitir seis casas decimais.

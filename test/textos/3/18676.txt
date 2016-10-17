@@ -1,0 +1,5 @@
+Erro: JAVA HEAP SPACE acontece mesmo depois de parâmetrizar
+Situação Atual
+
+
+O problema ocorre mesmo após configurar os parâmetros que temos hoje, o que antes ocorria apenas quando não tinha memória disponível no computador ou quando não era parametrizado o Java, está acontecendo em máquinas com boa quantidade de memória  disponível. O erro já ocorreu inclusive em nossas máquinas, não foi possível identificar um padrão para que o erro de fato ocorra.

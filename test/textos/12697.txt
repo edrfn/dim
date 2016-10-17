@@ -1,0 +1,11 @@
+Importando dados  vindos do Automaster, a data de vencimento de cliente fica sempre 1
+Passos do teste:
+> Cadastrado um cliente no Automaster e informada uma data de vencimento em dados complementares do cliente.
+
+> Exportado os dados do cliente (Automática)
+
+> Ao realizar a importação dos dados no Dincash (manual) percebe-se que a data de vencimento foi preenchida com 1.
+
+Mesmo os clientes que não tiveram data de vencimento definida, o Dincash salva a data destes com 1.
+
+Verificado no banco de importação do Dincash que a informação da data vai correta. O problema é no banco do Dincash que a informação passa a ser 1.

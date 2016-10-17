@@ -1,0 +1,2 @@
+Ao emitir orçamento em bobina 2 linhas o somatório está calculando incorretamente
+Ao efetuar a inclusão de um orçamento com acréscimo na forma de pagamento (apenas uma forma de pagamento), o somatório está calculando o valor incorretamente.

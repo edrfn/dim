@@ -1,0 +1,4 @@
+Colocar as Tags que são geradas pra NF-e e que não devem ser geradas pra NFC-e de forma condicionada ao modelo 55
+*Como:* Product Owner
+*Quero:* Colocar as tags que são geradas pra NF-e e que não devem ser geradas pra NFC-e de forma condicionada ao modelo 55
+*Para:* Emissão de NFC-e para Automaster/Dinamico

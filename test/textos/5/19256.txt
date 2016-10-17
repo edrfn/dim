@@ -1,0 +1,3 @@
+Criação da TAG <autXML> (usuários que podem fazer download do NFe) na emissão de NFe
+Descrição:
+  Na emissão da NFe, gerar a tag [aXML] contendo o CPF ou CNPJ da pessoa(pessoas) que poderá realizar o download do XML.

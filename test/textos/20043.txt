@@ -1,0 +1,8 @@
+Alteração TOTAL ECF - Passagem de Desconto 
+Em uma venda feita com impressora fiscal ao dar um desconto
+tem que mudar a forma de passagem de desconto de valor 
+para percentual.
+
+
+Descrição para Salatiel.
+Um tratamento para o TOTAL ECF.

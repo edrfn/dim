@@ -1,0 +1,8 @@
+Mudanças dos icones do sistema
+Como: Scrum Master.
+Quero: Que os icones do sistema sejam atualizados.
+Para: Padronizar com o novo icone do Varejo.
+
+Critérios de validação
+
+- Icones do sistema devem mudar para o que foi fornecido pela HANK

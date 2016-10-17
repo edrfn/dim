@@ -1,0 +1,12 @@
+Refatoração dos códigos legados de licença
+*Como:* Time Scrum
+*Quero:* Refatorar parte do sistema (tratamento de licença)
+*Para:* Fornecer um código mais limpo e fácil de executar manutenção.
+
+*Critério de validação* 
+* Manter o funcionamento do código.
+
+*Como implementar*
+1. Identificar os pontos do código referentes à licença antiga.
+2. Remover o que for possível.
+3. Testes para verificar que a refatoração não quebrou nada.

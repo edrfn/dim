@@ -1,0 +1,18 @@
+O sistema não está exibindo corretamente, no Resumo (F6), o valor total de uma Nota  Fiscal de Compra
+No resumo de uma nota fiscal de compra, no campo Valor Total da Nota, só está sendo exibido o valor do último produto inserido na nota.
+
+
+1) Qual o comportamento observado?
+Foi observado que o Campo 'valor total da nota', na tela de resumo da nota, não está está exibindo o valor correto da nota. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo caminho: Compras - Movimento - Digitar Nota Fiscal de Compra;
+2- Preencher os campos principais e, logo após, inserir produtos na nota;
+3- Sair da tela de inserção de Produtos e apertar a tecla F6 ou clicar no botão Resumo que se encontra no canto inferior direito da tela;
+4- Observar, na tela que se abrir, que o campo Valor Total da Nota exibe o valor total do último produto inserido na nota.
+
+3) Qual o comportamento esperado?
+Espera-se que o campo mencionado exiba o valor correto da nota fiscal de compra.
+
+4) Quais as etapas para executar o comportamento esperado?
+A mesmas citadas no passo 2.

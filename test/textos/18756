@@ -1,0 +1,24 @@
+Criaçao da Configuração por Plug&Play (ECF)
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja possível realizar as configurações dos periféricos utilizando o "Plug&Play"
+*Para:* Fornecer uma otimização no processo.
+
+*Observações importantes*
+- Criar o arquivo de caixa na abertura do sistema, quando o sistema identificar o periférico;
+- Somente permitir que o periférico a ser conectado seja detectado na abertura do sistema e se recupere de falhas como "não está em linha", foi "desligada e ligada novamente no meio do processo" e etc.
+  Não é necessário que seja identificado E NEM PERMITIDA A TROCA DE PERIFÉRICOS DO TIPO _ECF_ com o sistema aberto;
+- Guardar as informações no arquivo .DCONF - Sempre que abrir o sistema identificar se o .DCONF foi alterado, tendo em vista que ler o arquivo de configurações é mais rápido que efetuar as configurações.
+
+*Critério de validação*
+ * Realizar a conexão dos periféricos;
+ * Os periféricos se conectarem automaticamente sem precisar de configuração para tal;
+ * Os periféricos funcionarem corretamente sem impedimentos
+
+*Como Implementar*
+- Pesquisar API do SO que permite que seja possível essa configuração.
+- Alterar o arquivo .DCONF, salvar as alterações;
+- ECF para de funcionar no meio do sistema;
+- Verificar portas do dispositivo e testar;
+- Criar arquivo de caixa na abertura do sistema - se não existir;
+- Testar arquivo de caixa;
+- Testar .DCONF e funcionamento.

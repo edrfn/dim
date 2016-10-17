@@ -1,0 +1,17 @@
+Carta de Correção eletrônica - Emissão é concluída, mas a rotina não traz a impressão.
+*1) Qual o comportamento observado?*
+Após gravar a carta de correção eletrônica, o sistema finaliza a emissão, porem não traz a impressão para o usuário
+apresentando uma mensagem de erro ao usuário.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - movimentos - carta de correção eletrônica
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- preencher os campos obrigatórios;
+4- Gravando a carta
+5- pressionando F9 para envio
+
+*3) Qual o comportamento esperado?*
+Espera-se que após a emissão da carta de correção, seja mostrada na tela a carta com suas respectivas informações para impressão.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

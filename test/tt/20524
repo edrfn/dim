@@ -1,0 +1,11 @@
+[URGENTE] Pedido de venda
+*Comportamento observado*
+1. Não salvou o cliente, quando cadastrado por dentro do pedido
+
+*Comportamento esperado*
+1. Salvar o cliente quanto cadastrado no momento do pedido de venda
+
+*Passos para reproduzir o comportamento*
+1. Criar um pedido de venda
+2. Utilizar o atalho para criar o cliente de dentro do pedido
+3. Tentar pesquisar pelo cliente recém cadastrado.

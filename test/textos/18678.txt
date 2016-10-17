@@ -1,0 +1,3 @@
+Otimização da primeira sincronização Web x PDV
+Cenário atual: 
+Dado nosso cenário atual onde nossos clientes possuem grade quantidades de dados e cadastros é necessário otimizar o tempo da primeira sincronização entre o Web e o PDV.

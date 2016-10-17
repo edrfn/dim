@@ -1,0 +1,21 @@
+Implementar a Logomarca estendida na reimpressão do Danfe
+*1) Qual o comportamento observado?*
+Ao emitir uma Nf-e existe um parâmetro para informar se a Logomarca será estendida ou não , só que na hora de reimpressão de Danfe o sistema não faz a validação do parâmetro. Solicitamos que a reimpressão do danfe saia conforme parametrizado.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+O parâmetro solicitando a logo estendida fica em: Gerenciador --> Configurações --> Parametros --> Configuração da Nf-e --> Imprime Logo Estendida: informar S.
+Tentar reimprimir o Danfe na rotina: Vendas--> Cadastro--> Vendas Balcão-->Procedimentos Especiais --> Reimprimir Danfe
+
+Ao fazer a reimpressão a logomarca sairá apenas de tamanho reduzido.
+ 
+
+
+*3) Qual o comportamento esperado?*
+Ao fazer a reimpressão seja validado o parâmetro de Logomarca estendida conforme ocorre na impressão após exportação.
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Seguir os passos 2)
+
+*5) Versão:*
+6.0g

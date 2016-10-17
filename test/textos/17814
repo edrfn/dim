@@ -1,0 +1,19 @@
+Suprimento não está gravando no banco
+*Qual o comportamento observado?*
+Ao realizar o suprimento na primeira abertura do caixa, o suprimento não grava no banco. Ao fechar e abrir o PDV, e emitir novamente, o suprimento é gravado corretamente. Não ocorre erro durante a emissão do suprimento, e o relatório é impresso corretamente. Segue log em anexo.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Abrir o PDV na primeira vez do dia;
+2. Emitir o suprimento;
+3. Verificar se gravou no banco, nas tabelas suprimento e especiepagamento;
+4. Emitir o suprimento novamente, e verificar se gravou no banco;
+5. Fechar e abrir o sistema, e emitir novamente o suprimento;
+6. Verificar se gravou no banco;
+
+*Qual o comportamento observado?*
+Que o suprimento seja gravado corretamente no banco de dados.
+
+*Como implementar*
+1. Identificar o problema.
+2. Corrigir o problema.
+3. Testar.

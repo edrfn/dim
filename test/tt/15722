@@ -1,0 +1,30 @@
+[ACAOBACKLOG]Impressão incorreta de duplicatas em modo gráfico.
+Breve descrição do caso:
+
+Quando tentamos imprimir ou reimprimir mais de uma duplicata em Modo Grafico o sistema preenche um quadrado na segunda pagina e preenche a terceira, repetindo esse processo a depender da quantidade de duplicatas a serem impressar.
+
+Comportamento Observado:
+
+Segue PRINT do problema.
+Utilizei uma forma de pagamento com 5 Parcelas, o Sistema gera as 5 porem a SEGUNDA FOLHA e a QUARTA FOLHA saem em branco, como pode ser observado na imagem "ERRO3"
+
+Este problema é semelhante ao que acontecia no ticket relacionado.
+
+Etapas para o Comportamento Observado:
+
+Efetuar a imressão em modo gráfico de 5 duplicatas.
+
+Comportamento Esperado: 
+
+Não devem existir os espaçamentos que utilizam toda a pagina posterior a Impressa normalmente.
+
+Etapas Comportamento Esperado:
+
+Efetuar a imressão em modo gráfico de 5 duplicatas.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0e		
+
+Informações adicionais.
+Segue imagens do erro.

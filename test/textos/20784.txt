@@ -1,0 +1,18 @@
+[Migrate] Sistema não consegue emitir notas com produtos substituídos.
+LOCAL:
+Dincash PDV  Venda 
+
+VERSÃO:
+Identificado na última versão (2.8l), o problema não ocorre em versões anteriores.
+
+PRÉ-CONDIÇÕES:
+ Acessar o ambiente de homologação;
+ Utilizar Migrate.
+
+ERRO:
+Ao emitir uma nota com um produto com cst 060 e alíquota 5405 é retornado uma mensagem de erro do Framework da daruma informando que uma tag obrigatória não foi informada.
+
+Não é informado no LOG qual a tag que não é preenchida, e o XML não passa da informação sobre os produtos.  
+
+SITUAÇÃO DESEJADA:
+O sistema deve emitir a nota normalmente.

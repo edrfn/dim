@@ -1,0 +1,20 @@
+Auditoria de caixa
+O sistema deve liberar a rotina de auditoria.
+
+O DinamicoPDV já possui a implementação da rotina, porém a mesma não está liberada para uso.
+É necessária a implementação e correção das telas do sistema para que esteja liberada para o usuário
+
+Ao realizar todos esses procedimentos é necessário indica na rotina de sincronização de configuração do sistema a liberação do campo.
+Atualmente o mesmo está com valor padrão "falso" para evitar chamadas a telas do Dincash e erros durante a execução.
+
+Ainda como sugestão, sugiro que seja habilitado o uso do ESC, para encerrar a chamada da rotina.
+
+*Critério de validação*
+* Permitir ao usuário realizar a auditoria de caixa;
+
+*Como implementar*
+* Implementar a tela de fechamento de caixa (tela 1);
+* Implementar a tela de status de auditoria (tela 2);
+* Implementar eventos (listeners); (tela 1)
+* Implementar eventos (listeners); (tela 2)
+* Testes.

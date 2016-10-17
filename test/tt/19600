@@ -1,0 +1,14 @@
+Exportar arquivo de licença para o PDV
+Descrição
+
+Qual o comportamento observado?
+
+Quando atualizar o arquivo de licença no varejo, copiar o mesmo arquivo para o servidor de PDV.
+
+Quais as etapas para obter o comportamento observado?
+
+Solicitar um arquivo de licença ao sistema Licence, e verificar se, estando válida a licença, a mesma é copiada para o PDV.
+
+Qual o comportamento esperado?
+
+Que o sistema consiga copiar o arquivo de licença para o servidor de PDV(se a licença for válida).

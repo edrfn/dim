@@ -1,0 +1,11 @@
+Editar lançamento períodico de contas a receber
+Editar um lançamentos períodico de contas a receber no sistema e visualizar as receitas geradas por ele.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17365
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem criou.
+* Deverá perguntar se deseja alterar todos os lançamentos;
+* Se escolher alterar todos os lançamentos todos deverão ser alterados

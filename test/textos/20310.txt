@@ -1,0 +1,20 @@
+Ao efetuar venda (cupom), ela está salvando como D1 ao invés de 2D
+1) Qual o comportamento observado?
+
+Quando é feita uma venda (cupom) na base fiscal, o pedido está sendo salvo como D1 ao invés de 2D.
+Isso ocorre tanto quando o pedido é efetuado e o recebimento ainda não (autpdc), como também ao efetuar o recebimento(autnff).
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma venda;
+Verifique no autpdc o SERNFF;
+Registre o recebimento desta venda;
+Verifique no autnff o SERNFF.
+
+3) Qual o comportamento esperado?
+
+Ao realizar uma venda a cupom, esta seja salva automaticamente como 2D.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

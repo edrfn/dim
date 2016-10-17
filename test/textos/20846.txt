@@ -1,0 +1,4 @@
+Criação de reajustes programados ao escolher opção "Preço Previso" na NF de compra
+Como: P.O.
+Quero: Realizar modificações no momento da liberação da NF de compra, fazendo com que preços previstos (uma vez maiores que o preço atual de venda) gerem reajustes programados. Para preços informados, a atualização do preço deve permanecer de forma automática.
+Para: Automatização de preços de venda;

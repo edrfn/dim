@@ -1,0 +1,8 @@
+Alteração da Integração para leitura da informação de chave da tabela
+*Como:* Scrum Master
+*Quero:* Que seja integrada informação de chave da tabela IBPT.
+*Para:* Que o sistema possua as informação adequadas segundo a legislação.
+
+*Critérios de validação:*
+
+- Sistema deve ler informação do cadastro de produto e imprimir cupom a informação de chave da tabela IBPT.

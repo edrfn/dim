@@ -1,0 +1,7 @@
+Apresentar a imagem no produto na venda
+*Como Implementar*
+
+1. Salvar o caminho da imagem no banco do painel;
+2. Sincronização para o PDV;
+3. Apresentar a imagem do produto na hora da venda;
+4. Sincronizar alteração de imagem para o PDV; (Bug)

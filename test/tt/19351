@@ -1,0 +1,16 @@
+Sistema nao permite alterar item após pesquisar um item
+*Comportamento Observado*
+Ao pesquisar um pedido de venda e tentar alterar os dados dos itens aparece a mensagem em anexo dizendo que não é possível alterar o produto, após inserir um novo produto o sistema estar permitindo a edição;
+
+*Procedimentos para simulação*
+
+# Pesquisar um pedido;
+# Clickar em alterar;
+# Apertar em aterar o item do pedido;
+# O sistema apresenta a mensagem em anexo;
+# Inserir um novo item;
+# Tentar alterar qualquer item;
+# Agora o sistema permite alterar;
+
+*Comportamento esperado*
+Com o pedido em edição deverá ser possível alterar os dados do item;

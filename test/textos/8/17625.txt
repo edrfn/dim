@@ -1,0 +1,24 @@
+Corrigir campos de busca
+Alguns campos de busca não estão funcionando corretamente, não busca nenhuma informação, nem pelo início e nem por parte da palavra. Segue abaixo os campos que devem ser corrigidos:
+
+1. Campo "plano de pagamento" na tela de solicitar dados no início da venda;
+2. Campo "buscar" na tela de vendas canceladas(F3);
+3. Campo "buscar" na tela de títulos (F8);
+
+Existem alguns campos de busca que funcionam corretamente quando o parâmetro de busca contida está habilitado, são eles: 
+1. campo de vendedor na tela de dados no início da venda;
+2. campo de descrição/código de barras na tela de busca de produtos;
+3. campo código de barras da tela principal;
+4. campo cliente na tela de dados no início da venda;
+5. campo cliente na tela de nota fiscal (F9);
+
+O sistema também não está se comportando de acordo quando: (se não informado o código, deve abrir a tela de pesquisa produto)
+1. Utiliza-se do caractere '*' para indicar multiplicação de itens;
+2. Atalho de desconto (mesma situação item 1);
+3. Atalho de acréscimo (mesma situação item 1);
+
+Outras abordagens sugeridas
+1. Não utilizar o texto digitado para as telas de pesquisas quando da interação do usuário com o PageDown. Nesses casos o sistema deve retornar a listagem completa e utilizar o campo de busca para fazer o filtro.
+
+Obs.: Seria interessante que o sistema funcionasse sempre com o parâmetro de busca contida habilitado, pois é mais ágil utilizar busca por parte do nome. 
+

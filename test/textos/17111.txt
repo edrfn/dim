@@ -1,0 +1,23 @@
+'Logo marca da NFE sendo impressa desconfigurada
+1) Qual o comportamento observado?
+
+Na impressão da NFe pelo sistema, após habilitar para o novo layout foi observado que ao imprimir o danfe, a 'logo' esta saindo desconfigurada.
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Gerenciador --> Comercial --> Vendas --> Cadastros --> Vendas Balcão --> Procedimentos Especiais --> reimprimir Danfe Via arquivo XML ou
+
+Imprimir o Danfe após a exportação e autorização da NFE;
+
+3) Quais as etapas para executar o comportamento esperado?
+
+As mesmas do passo3
+
+4) Qual a versão do produto e sistema operacional utilizados?
+
+6.0 F 1053
+
+5) Dados Adicionais
+
+Clientes que utilizavam o Acbrnfe tinham necessidade de imprimir a logo marca no danfe, essa logo marca era impressa pelo acbrnfe. Saia de maneira correta expandida na parte superior direita, corretamente.

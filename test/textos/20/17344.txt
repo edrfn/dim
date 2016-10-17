@@ -1,0 +1,6 @@
+Permitir que várias devoluções sejam feitas em apenas uma nota
+Eu: Usuário;
+
+Como: Operador de caixa;
+
+Quero: Ser possível fazer a devolução de várias notas de compra de um mesmo fornecedor em apenas uma nota, conforme explicita a norma técnica em anexo, segue trecho destacado: "_Permitida novamente a consolidação de várias devoluções de NF-e distintas, em uma mesma NF-e de devolução de mercadoria (eliminada a validação B25-80);_". Página 8, tópico 2.  

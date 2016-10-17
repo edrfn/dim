@@ -1,0 +1,12 @@
+Total de troco das vendas, utilizando as impressoras Daruma e Epson, não é gravado na tabela de reducaoz no banco de dados.
+Qual o comportamento observado?
+Ao emitir a redução Z com a impressora Epson e Daruma, foi verificado que o valor de troco informado não é gravado no banco de dados. Vale ressaltar que com outras impressoras, este valor é gravado corretamente.
+
+Quais as etapas para obter o comportamento observado?
+1. Realizar vendas e dar troco;
+2. Emitir uma redução Z;
+3. Verificar na Redução Z o valor total de troco;
+4. Verificar no banco de dados do PDV ou Web, na tabela redução Z, que o campo de troco está preenchido com 0.
+
+Qual o comportamento esperado?
+Que o valor total de troco referente as vendas, seja gravado no banco de dados, na tabela reducaoz.

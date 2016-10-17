@@ -1,0 +1,28 @@
+Etiqueta impressa com valor incorreto
+*Qual o comportamento observado?*
+
+Foi verificado que na emissão das etiquetas a linha onde está sendo impresso o código do produto, grupo e preço,
+ocorre que o preço esta saindo cortado.
+Onde deveria sair impresso R$ 153,56 está saindo R$ 15
+Isso ocorre quando o grupo possui 3 dígitos, caso o grupo possua 2 dígitos o preço do produto sai da seguinte forma R$ 153, ou seja sempre a impressão do preço esta saindo cortada.
+
+*Quais os passos para simular o comportamento observado?*
+
+Estoque \ Relatórios \ Etiquetas de Produtos
+Tipo de emissão = Individual
+Modelo de Etiqueta = 53 - Nome Produto, Código de Barras, Código de Produtos,  Grupo, Preço
+Informar um produto qualquer
+Quantidade = 3
+Forma de Impressão = PPLA
+Impressora utilizada para a impressão das etiquetas = Argox OS 214 Plus
+
+Obs.: Exemplo de impressão no setor de suporte
+
+*Qual o comportamento esperado?*
+
+Esperamos que ao realizar a impressão deste modelo de etiqueta que o preço do produto venha a ser impresso por completo
+
+*++Informações Extras*
+
+Caso no layout deste modelo de etiqueta não possua campo suficiente onde possa ser ajustado pode ser criado novo modelo de 
+impressão com base neste modelo 53 eliminando o campo GRUPO.

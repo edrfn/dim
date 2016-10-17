@@ -1,0 +1,13 @@
+ERP não gera arquivos de Pré-venda.
+*Qual o comportamento observado?*
+
+Quando finalizada a Pré-venda o ERP não está gerando todos os arquivos para integração, gerando somente a capa.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Finalizar uma pré-venda e observar se os arquivos são criados.
+
+*Qual o comportamento esperado?*
+
+Que todos os arquivos sejam gerados.
+

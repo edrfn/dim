@@ -1,0 +1,8 @@
+Criar classe com cabeçalhos das funções existentes da TotalNfce.dll que serão usadas no sistema.
+*Como:* Product Owner
+*Quero:* Criação do cabeçalho da função do Total NFC-e
+*Para:* Emissão de NFC-e através do Dinamico/Automaster
+
+*Critério de validação* 
+
+*Como implementar* 

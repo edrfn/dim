@@ -1,0 +1,6 @@
+Criar Licença para a NFC-e
+*Qual o comportamento observado?*
+Já está em implementação uma nova funcionalidade no sistema, a NFC-e. Esta função não se enquadra como PAF e não PAF, e com isto há a necessidade de um novo tipo de licença para o sistema, a licença NFC-e.  
+
+*Qual o comportamento esperado?*
+Gerar um novo tipo de licença para o sistema Dincash e Cashone liberando a função NFC-e.

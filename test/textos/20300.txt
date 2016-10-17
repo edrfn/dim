@@ -1,0 +1,24 @@
+Sistema não se comporta corretamente ao Cancelar notas em modo de contingência.
+LOCAL:
+Dincash PDV  Cancelamento em modo de contigência
+
+VERSÃO:
+Identificado na última versão (2.8k), o problema ocorre em versões anteriores.
+
+PRÉ-CONDIÇÕES:
+  Acessar o ambiente de homologação;
+  Utilizar Migrate.
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+ 1- O cliente emitiu a nota original em Contigência Offline. Nesse momento ele fez a emissão e a cliente levou a mercadoria.
+ 2- A cliente voltou querendo cancelar a compra. Então o cliente fez o cancelamento da nota.
+ Nessa parte está o Bug.
+ 3- Como a nota não havia sido autorizada ainda, o sistema se comportou de forma erronêa, como não havia nota no Servidor da Sefaz, o sistema simplesmente deu como cancelada a nota.
+ 4- Quando a conexão ficou aceitável a nota em contigência foi enviada em condições normais.
+ 5- Resultado: Nota autorizada na Sefaz e cancelada no sistema.
+
+ERRO:
+O sistema não consegue fazer o cancelamento, pois registra a nota de forma incorreta no sistema. Inclusive se a nota não tiver sido enviada ainda o sistema não consegue efetuar o cancelamento, e posteriormente a nota é enviada normalmente para a sefaz.
+
+SITUAÇÃO DESEJADA:
+O sistema deve impedir o Envio de notas que foram canceladas em contingência ou fazer uma verificação para fazer o cancelamento. 

@@ -1,0 +1,2 @@
+Não é possivel imprimir corretamente o campo quantidade na NF-e pois só está permitindo 2 casas decimais.
+Thi, se vc olhar o campo de quantidade vc vai reparar que uma tem 2 casas decimais e outra 4, sendo que a de 2 foi reimpressa pelo nosso sistema e a 4 pelo emissor, ambos feitos a partir do mesmo xml. Com o nosso arredondando para 2 tava causando problema pro cliente pq o valor acaba mudando por causa do arredondamento

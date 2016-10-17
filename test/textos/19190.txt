@@ -1,0 +1,5 @@
+Teste funcional da rotina reajuste de preço
+Testar a inclusão, pesquisa, alteração e gravação do reajuste;
+Validar os dados iniciais e pesquisa;
+Validar o que mais for necessário;
+Validar a rotina "Liberação do Reajuste"

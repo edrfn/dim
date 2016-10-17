@@ -1,0 +1,16 @@
+Refatoração dos menus dos módulos
+*Como:* Analista de negócios
+*Quero:* Que seja realizado a criação dos menus dos módulos do sistema.
+*Para:* Que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Novo menu dos módulos de vendas, geral, financeiro, compras e estoque;
+
+*Como implementar:*
+
+- Menus na nova interface
+
+*Requisito:*
+* Seguir o padrão já existente no sistema.
+* Adicionar Ordem Alfabética dos Itens dos Módulos;

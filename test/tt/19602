@@ -1,0 +1,15 @@
+Alterar validação na importação da Licença pelo Servidor.
+*Como:* Desenvolvedor
+*Quero:* Que o Servidor de PDV valide o CNPJ do arquivo de Licença.
+*Para:* Para que um arquivo de licença seja usado somente por uma única licenciada.
+
+*Critérios de validação:*
+
+- Servidor de PDV deve exibir mensagem de erro e não importar a licença caso o CNPJ da licença não seja igual ao da Licenciada cadastrada.
+
+*Como implementar:*
+
+- Durante a importação de Licenciada, validar existência e CNPJ da licença.
+- Testes
+
+

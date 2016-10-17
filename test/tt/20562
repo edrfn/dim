@@ -1,0 +1,8 @@
+Problema na geração de titulos através do pedido de venda, quando temos duas espécie do tipo outros
+*Comportamento observado*
+
+* Quando vamos fazer um pedido de venda com duas espécie do tipo outras ao apertar em finalizar nota o sistema internamente apresenta um erro, porém o mesmo não aparece ao usuário, porém os títulos de uma espécie é inserido no banco, quando o usuário tenta novamente o sistema não apresenta o erro e insere os títulos, porém o título de uma espécie fica duplicado, pois foi inserido na primeira tentativa e na segunda tentativa.
+
+*Comportamento esperado*
+
+* Que seja dado uma mensagem se acontecer algum erro e que o sistema insira todos os títulos juntos ou nenhum título.

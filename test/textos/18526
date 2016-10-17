@@ -1,0 +1,15 @@
+Refatoração do Framework - Mensagem Produto
+Como: Coordenadora de Projetos
+Quero: Refatoração do cadastro Mensagem Produto.
+Para: A rotina ser adaptada ao novo formado proposto.
+
+*Critério de validação*
+
+    Ter acesso à funcionalidade através do menu: Estoque -> Cadastro -> Mensagem Produto;
+    Inserir, alterar, excluir, pesquisar.
+    Poder gravar os dados, novos ou alterados, da mensagem produto;
+
+*Como implementar*
+
+    Adaptar a rotina ao novo formato;
+

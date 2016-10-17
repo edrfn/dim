@@ -1,0 +1,13 @@
+Carta de Correção para notas de devolução a cliente
+*Como:* Product Owner
+*Quero:* Possibilidade de enviar Carta de Correção para notas de devolução a clientes
+*Para:* Permitir a correção de notas emitidas 
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu.
+* Poder cadastrar, alterar e excluir cartas digitadas
+* Poder realizar consultas das notas.
+
+*Como implementar* 
+* Incluir opção de 'Entrada' no tipo de nota emitida na inclusão da CC-e.
+* Não permitir que sejam feitas correções para notas de entrada.

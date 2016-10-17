@@ -1,0 +1,11 @@
+Criar interface de licenciamento do sistema
+*Como:* Analista de negócio
+*Quero:* Criar uma interface de licenciamento do sistema
+*Para:* Que o usuário possa solicitar/inserir licença
+
+*Critério de validação*
+* Ter a funcionalidade disponível no menu
+* Ter um botão de solicitação do arquivo
+* Ter um campo de entrada do arquivo de licença
+
+*Como implementar*

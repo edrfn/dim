@@ -1,0 +1,22 @@
+Rejeição: Total da NF difere do somatório dos Valores compõe o valor Total da NF.  venda de veículos novos com IPI e substituição
+1) Qual o comportamento observado?
+
+Ao fazer uma venda de veículos novos que tenha substituição e IPI, é apresentada Rejeicao: Total da NF difere do somatório dos Valores compõe o valor Total da NF.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1. Colocar a empresa que vai emitir a nota como indústria;
+2. Fazer a venda de veículos novos colocando 10% de IPI e 10% de substituição na venda. O valor do produto teste foi 14,741;
+3. No momento da venda colocar o tipo de operação: FAT. DIRETO CONSUMIDOR FINAL;
+4. Colocar 10% de desconto na venda;
+5. No momento de exportar a nota fiscal colocar transportador e valor de frete 10,00;
+6. Verificar a rejeição.
+
+OBS: Em anexo o xml.
+A diferença entre o valor calculado e o valor total da NF é de 0,01
+
+http://www.oobj.com.br/bc/article/rejei%C3%A7%C3%A3o-610-total-da-nf-difere-do-somat%C3%B3rio-dos-valores-comp%C3%B5e-o-valor-total-da-nf-como-resolver-297.html
+
+3) Qual o comportamento esperado?
+
+Que permita exportar a nota sem rejeições.

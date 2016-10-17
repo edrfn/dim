@@ -1,0 +1,33 @@
+Transformar Orçamento em pedido de venda
+*Como:* Analista de negócio
+*Quero:* Importar orçamento e transformar em pedido
+*Para:* Facilitar o processo de venda
+
+*Critério de validação*
+- Somente orçamentos dentro da validade
+- Validar todos os campos do pedido de venda
+
+*Comportamento do sistema:*
+# Acessar o menu de Pedido de venda (Novo)
+## Exibir a opção de "Importar Orçamento" na barra de ações
+### Para um pedido novo, aparecer as opções de "Importar Orçamento" e "Juntar Pedido"
+### Para um pedido novo (em digitação), aparecer a opção "Salvar"
+# Abrir a tela de pesquisa de Orçamentos
+## Apresentar: Código, Cliente, Valor Total do Orçamento e data de validade
+# Sair com apenas um orçamento
+## Não deve ser permitido importar orçamentos fora da validade
+### Não exibir na lista orçamentos vencidos.
+## Abrir a tela de pedido com as informações do orçamento
+### Marcar orçamento como Fechado
+1.	Entende-se por fechado, um orçamento que já foi importado
+2.	Não é necessário bloquear a importação novamente, apenas notificar o usuário.
+# Realizar todas as validações de Pedido de venda
+## Permitir todos os comportamentos de pedido desse ponto em diante.
+### Faturar
+### Emitir NF-e ou Finalizar movimento
+
+*Adicionais*
+# A Chamada do "Importar Orçamento" também poderão ser chamadas de fora junto das opções de "Novo", "Pesquisar" e "Editar".
+# a Chamada de juntar pedido não terá essa opção. Regras do PAF
+
+h2. Não será adicionado no menu de orçamento apenas, no menu de pedido de venda!

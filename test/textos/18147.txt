@@ -1,0 +1,14 @@
+Mensagem de erro ao preencher o campo Cliente com um registro inativado em Cancelamento de NFe
+Mensagem de erro ao preenchermos o campo Cliente com um registro inativo em Cancelamento de NFe;
+
+*1) Qual o comportamento observado?*
+Foi observado que ao preenchermos o campo Cliente manualmente com o código de um cliente inativo ou inexistente, o sistema exibe a mensagem de erro argument of AND must be type boolean, not type integer  outrora, exibe uma mensagem de erro de Access Violation. Se selecionarmos o botão de pesquisa do campo e pesquisarmos o cliente inativo, o sistema exibe normalmente e permite a seleção do mesmo;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente com o código de um registro inativo ou inexistente e dar Enter e/ou pesquisar o cliente inativado na janela de pesquisa do campo > Sistema exibe mensagem de erro e mostra na pesquisa o registro inativado;
+
+*3) Qual o comportamento esperado?*
+Espera-se que ao preenchermos o campo Cliente com código de um registro inativo ou inexistente, o sistema exiba uma mensagem de alerta sobre e não mostre na pesquisa o registro inativado;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente com código de um registro inativo ou inexistente e dar Enter e/ou pesquisa o cliente inativado na janela de pesquisa do campo > Sistema exibe mensagem de alerta sobre e não traz na pesquisa o cliente inativado.

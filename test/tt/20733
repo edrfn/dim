@@ -1,0 +1,14 @@
+Problemas na geração do relatório de movimento de saída
+*Comportamento Observado:*
+
+- Resumo de CFOP está mostrando linhas distintas e quantidades variadas para a mesmo CFOP.
+- No relatório está sendo exibido, no resumo de CFOP, uma CFOP que não aparece no corpo do relatório. Possivelmente seja relativo a cupons.
+- Total Geral não bate com os da CFOP nem somando todos os valores de todas as CFOPs e nem comparando individualmente.
+- Se filtramos o relatório por CFOP, não é exibida nenhuma informação. Sem o filtro o relatório é impresso normalmente. O mesmo acontece com cliente. 
+- Lista de "Ordenado por" está trazendo opções que não deve. 
+
+*Comportamento Esperado:*
+
+- O correto é que mostre uma única linha com a quantidade referente ao quanto a CFOP "se repete" (No detalhado a contagem é dos itens da nota e no resumido a contagem é por nota)
+- Sendo que o filtro está sendo feito com informações apresentadas no relatório "sem filtro", o sistema deveria ser capaz de gerar normalmente.
+- A lista só deve conter Data de emissão, Cliente: (internamente organizado por data) e Fornecedor: (internamente organizado por data), como indicado no requisito.

@@ -1,0 +1,13 @@
+Criar Query da Rotina [Ficha Kardex]
+Quero: Construção do select baseado nos filtros da Ficha Kardex;
+Para: Concluir a parte inicial da geração do relatório citado;
+
+*Critério de validação:*
+A Query estar funcionando corretamente;
+Ter uma interface para escolher o produto e um grid para apresentar os resultados da pesquisa.
+
+*Como implementar*
+Criar uma janela com um FindProduto e um grid;
+Adicionar a janela ao menu do sistema (Menu Estoque > Movimento > Ficha Kardex);
+Criar a query para trazer as movimentações para aquele produto;
+Conectar o resultado da query ao grid;

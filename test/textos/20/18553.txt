@@ -1,0 +1,2 @@
+Conserto da emissão de NF-E para Olyver Motos
+Foi necessário corrigir a exportação de NF-E quando auto-serviço, pois não estava atendendo as exigências do cliente.

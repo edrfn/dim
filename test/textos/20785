@@ -1,0 +1,18 @@
+[TOTAL NFC-E] Erro ao enviar nfce, sistema passa incorretamente as informações do certificado.
+LOCAL:
+Dincash PDV  Venda
+
+VERSÃO:
+Identificado na última versão (2.8k), o problema não ocorre em versões anteriores.
+
+PRÉ-CONDIÇÕES:
+ Acessar o ambiente de homologação;
+ Utilizar TOTAL NFCE.
+
+ERRO:
+O sistema não consegue emitir notas pois repassa no momento do teste de conexão com o servidor os dados do certificado incorretamente.
+
+Foi visto que o mesmo repassa alguns caracteres estranhos logo após o numero de série ocasionando a impressão da nota em contingência.
+
+SITUAÇÃO DESEJADA:
+O sistema deve enviar os dados normalmente para que assim seja possível emitir as notas.

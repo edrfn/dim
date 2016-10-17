@@ -1,0 +1,14 @@
+Refatoração da tela de Desconto
+*Como:* Scrum Master
+*Quero:* Refatorar Tela de Desconto/Acréscimo para adequá-la ao novo padrão e torná-la mais responsiva
+*Para:* Tornar a tela mais responsiva e esteticamente agradável e fornecer uma melhor experiência de uso ao cliente.
+
+*Critério de validação*
+* Ter acesso à funcionalidade através do menu.
+* Verificar que não há distorção com outras resoluções e tamanhos de telas.
+* Poder operar a função com mouse e teclado independente.
+
+*Como implementar*
+- Criar novo FXML/CSS
+- Modificar Controller
+- Testar

@@ -1,0 +1,12 @@
+Refatoração da estrutura da interface para telas fullscreen
+*Como:* Desenvolvedor
+*Quero:* Que a estrutura do código de interface gráfica instancie uma única janela fullscreen e mude o conteúdo de acordo com a tela exibida  
+*Para:* O sistema exibir a mensagem "clique ESC para sair da tela cheia" apenas uma vez ao iniciar.
+
+*Critérios de Validação:*
+O sistema exibir a mesma janela fullscreen durante toda a execução, apenas trocando o conteúdo.
+
+*Como implementar:*
+- Analisar estrutura atual
+- Modificar estrutura para telas fullscreen
+- testar

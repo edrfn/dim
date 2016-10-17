@@ -1,0 +1,12 @@
+Criar o gerenciemento do número de estações
+Descrição
+
+Como: Administrador do sistema
+Quero: Que o número de estações usando o sistema simultaneamente seja determinado pela licença
+Para: Comunicação segura com o License Manager.
+
+Critério de validação
+O ERP deve limitar o número de usuários por meio da licença.
+
+Como implementar 
+O ERP deve ler o arquivo de licença encriptado pelo License Manager.

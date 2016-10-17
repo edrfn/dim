@@ -1,0 +1,11 @@
+Refatoração do instalador Dinâmico Varejo
+*Como:* Tester
+*Quero:* Construção do novo instalador do sistema Dinâmico Varejo
+*Para:* Ser possível instalar o sistema e os recursos necessários para a execução do sistema
+
+*Critério de validação* 
+* Ser possível instalar o sistema corretamente;
+* Efetuar a instalação do banco de dados e demais recursos necessários.
+
+*Como implementar* 
+* Implementar o instalador que irá executar a instalação do sistema, do banco e dos recursos necessários.

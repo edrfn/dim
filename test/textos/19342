@@ -1,0 +1,10 @@
+[CASE DE SUCESSO] Impressão de espelho do cupom precisa ser configurável
+*Comportamento observado*
+O Dinâmico Varejo está enviando para o Dinâmico PDV as configurações de espécie sem que o operador tenha a possibilidade de configurar.
+No cadastro de espécies somente é possível informar um nome e sigla, porém o PDV espera as seguintes informações:
+1. Grupo da espécie
+2. Consiste Limite de crédito
+3. Consulta TEF
+4. Modalidade,
+Como especificado no layout de integração
+

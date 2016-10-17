@@ -1,0 +1,12 @@
+Preencher o nome da licenciada e seu endereço nos Relatórios com os dados do banco
+Como: Desenvolvedor
+Quero: Preencher o nome da licenciada e seu endereço com os dados do banco
+Para: Que nos relatórios saiam estes dados
+Critério de validação
+* Em todos os relatórios feitos com o Kernel novo(Movimento de saída, Movimento de entrada, Posição de estoque, Faturamento diário e Orçamento) do sistema sair o nome da licenciada e o endereço. 
+
+Como implementar 
+* Fazer o select no banco e puxar o dados nos relatórios.
+
+========================
+* Fazer no base Reports

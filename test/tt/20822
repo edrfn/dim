@@ -1,0 +1,12 @@
+[URGENTE] Cadastro de NCM
+*Como:* Analista de negócios
+*Quero:* Que o cadastro de NCM carregue o valor dos impostos de acordo com a tabela de IBPT
+*Para:* Atender a legislação
+
+*Critérios de validação*
+- A tabela é atualizada pelo governo a cada 6 meses
+- Os valores de impostos federais e estaduais devem ser enviados ao PDV
+
+*Como Implementar*
+- baixar a tabela atual
+- carregar no cadastro do ncm

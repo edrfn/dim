@@ -1,0 +1,4 @@
+Criação das permissões de usuário (As mais urgentes)
+Como: Coordenadora de Projetos
+Quero: Que sejam criadas as permissões de usuário mais urgentes para o sistema;
+Para: Que o sistema seja liberado inicialmente com as mais importantes.

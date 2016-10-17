@@ -1,0 +1,18 @@
+Corrigir a rotina de Nota ao Consumidor (F9)
+*Comportamento observado*
+Ao executar a rotina de nota ao consumidor o sistema grava por default pagamento dinheiro, porém não está sendo puxada no registro do paf
+
+*Passos para reproduzir o comportamento*
+Abrir o pdv
+acessar o menu de opções
+rotina F9
+
+*Comportamento esperado*
+Gerar o arquivo de registro do PAF
+
+*Como implementar*
+- Fixar o modelo da nota para 1
+- Corrigir os erros da rotina
+- remover os códigos de homologação
+- gravar as informações em venda e r7
+- não sincronizar com o Servidor de PDV

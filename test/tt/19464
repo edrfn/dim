@@ -1,0 +1,12 @@
+Sistema não possui o a classificação de para liberação de ação 
+*Qual o comportamento observado?*
+
+Existem duas configurações no sistema que dependem de uma validação a qual não existe são elas: *Vende para cliente com título em atraso* e *Tratamento de limite de crédito*. Nesses parâmetros é esperada a possibilidade de configuração no modo L  Não consistir, A  Avisar, S  Liberar com senha, N  Não liberar, mas não é possível que seja configurado dessa forma, pois o sistema não possui tais opções.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar a configuração de venda e verificar as opções permitidas para os parâmetros indicados.
+
+*Qual o comportamento esperado?*
+
+Que o sistema possibilite a configuração dos parâmetros da maneira esperada.

@@ -1,0 +1,14 @@
+Exportar NFe - Acrescentar um radiobutton 'Exportar para:' com as opções Cliente e Fornecedor
+*Como:* Tester
+*Quero:* Alterar a tela de exportar NFe acrescentando um radiobutton 'Exportar para:' com as opções Cliente e Fornecedor.
+*Para:* Acrescentar um radiobutton para selecionar se vai buscar por cliente ou fornecedor.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimento - Exportar NFe;
+* Poder marcar em um radiobutton uma das opções: Cliente ou Fornecedor;
+* No campo seguinte, a busca deverá obedecer a opção selecionada no radiobutton;
+
+*Como implementar* 
+* Incluir um radiobutton na tela de exportar NFe com as opções Cliente e Fornecedor;
+* O sistema deverá trazer como padrão a opção Cliente;
+* O campo 'Destinatário', deverá buscar de acordo com a opção marcada no radiobutton;

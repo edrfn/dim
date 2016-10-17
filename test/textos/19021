@@ -1,0 +1,38 @@
+Ao fazer devolução de várias notas a fornecedor, o sistema está multiplicando errado
+*1) Qual o comportamento observado?***
+
+Quando informamos mais de 1 nota fiscal em Devolução a Fornecedor surge uma Nova tela com algumas informações.
+Porem essa tela possui vários erros.
+
+Ex:
+Nf de Entrada 1 - Foi dado entrada de forma normal, sem conversão de embalagem
+Nf de Entrada 2 - Utilizamos o campo embalagem e quantidade na embalagem em 1 dos produtos.
+Ficando da seguinte forma - 10 CX 50 Unidade - 500Un de Estoque.
+
+Procedimento de devolução:
+Informamos as duas notas na tela de Devolução a Fornecedor 
+Nessa nova versão surge uma nova tela com algumas informações para Devolução.
+Quantidade, Embalagem e Quantidade na Embalagem.
+
+Porem da forma que o sistema traz as informações esta incorreto.
+O item citado acima ficou da seguinte forma:
+EMBALAGEM = 50 - 
+UN. FIS = CX -
+QUANT. DEV = 500 - 
+
+Caso o cliente não perceba o erro e confirme em F10 para continuar a devolução o sistema vai tirar do estoque uma quantidade de 12.500.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Dê entrada de uma nota contendo um item 10 CX com 50 UN;
+Libere a nota para estoque;
+Dê entrada de uma outra nota qualquer;
+Ao fazer a devolução a fornecedor, insira as duas notas;
+Observe na tela que abre a multiplicação feita pelo sistema;
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve realizar a multiplicação na devolução corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

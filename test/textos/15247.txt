@@ -1,0 +1,30 @@
+Data e horario de Registro impressos com data de 30/12/1899 na impressão da CC-e
+Breve descrição do caso:
+
+Ao imprimir a carta de correção eletrônica, no local de Data e horario de Registro ficam com a data 30/12/1899.
+
+Comportamento Observado:
+
+Foi observado que a data errada sai nas bases dos clientes, e também na base de testes.
+Em conversa com Felix, o mesmo informou que essa data é a data vazia do Delphi e foi solicitado a criação do ticket para correção.
+
+Etapas para o Comportamento Observado:
+
+-Emitir Carta de correção eletrônica 
+-Verificar o campo Data e horario de Registro
+
+Comportamento Esperado: 
+
+Deve ser impressa a data normal.
+
+Etapas Comportamento Esperado:
+
+-Emitir Carta de correção eletrônica 
+-Verificar o campo Data e horario de Registro
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+4.5j
+
+Informações adicionais.
+>em anexo exemplo de carta de correção com erro.

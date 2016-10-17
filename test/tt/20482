@@ -1,0 +1,17 @@
+Rejeição em devolução a fornecedor de fora do Estado
+1) Qual o comportamento observado?
+
+Ao fazer uma devolução para fornecedor de fora do Estado, ao exportar o sistema está apresentando uma Rejeicao: Valor total do ICMS Interestadual da UF de destino difere do somat¾rio dos itens.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1. Fazer devolução a um fornecedor de fora do Estado, colocar os dados como exemplo: 10 un de um produto com valor total de 10,00 e ICMS 12%;
+2. Exportar  a NF-e e verificar a rejeição.
+
+3) Qual o comportamento esperado?
+
+Que não ocorra a rejeição.
+
+Dinâmico
+
+Em anexo o xml.

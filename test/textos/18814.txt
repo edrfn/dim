@@ -1,0 +1,23 @@
+Permitir alterar um pedido de devolução a fornecedor
+1) Qual o comportamento observado?
+
+O Sistema não permite que um pedido de devolução a fornecedor seja alterado, após a gravação do mesmo,informando que já houve devolução para aquela nota. 
+O Sistema encara a alteração como um novo lançamento.
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > procedimentos especiais > devolução a fornecedor >
+Digitar um pedido de devolução TOTAL a fornecedor > F10 > Próximo Pedido
+Alterar o pedido em aberto (f11), pela própria rotina de devolução a fornecedor
+
+
+3) Qual o comportamento esperado?
+
+O sistema deveria permitir a alteração de um pedido de devolução TOTAL a fornecedor, sem encarar a alteração como um novo registro,
+permitindo a alteração e conferência dos valores digitados quantas vezes fossem necessárias, antes da exportação.
+
+
+4) Quais as etapas para executar o comportamento esperado?
+
+as mesmas do passo 2

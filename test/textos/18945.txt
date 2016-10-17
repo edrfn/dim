@@ -1,0 +1,11 @@
+Implementar Relatório de Faturamento
+*Como:* Coordenadora do Projetos
+*Quero:* Construir o relatório de faturamento.
+*Para:* Visualizar todas as informações referentes ao faturamento da empresa, de acordo com o periodo estabelecido;
+
+*Critério de validação* 
+* Relatório de Faturamento sendo visualizado em tela, podendo ser impresso ou gerar os arquivos pdf, csv e excel;
+
+
+*Como implementar* 
+* Criar relatório de faturamento e suas variações no sistema.

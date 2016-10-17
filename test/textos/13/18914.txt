@@ -1,0 +1,36 @@
+Implementar o layout do Software MGV5 da Toledo
+*Como:* Product Owner
+*Quero:* Que implemente o Layout do software MGV5
+*Para:* Melhorar conseguir novos contratos e atender a expectativa dos nossos clientes atuais.
+
+*Critério de validação:*
+
+Caminho: Gerenciador--> Utilitários -->Comunicação c/ Equipamentos --> Produtos para Balança --> (implementar a opção "TOLEDO MGV5")
+Segue o documento em anexo com os dados do layout do arquivo.
+
+
+
+
+*Como implementar:*
+
+Utilizar a mesma logica do arquivo que já geramos da TOLEDO , sendo que seja validado os dados segundo o layout estabelecido no documento. (Ou seja uma criação de um novo arquivo.)
+
+
+
+*Observações complementares:*
+
+Forma alternativa de conseguir acessar o Software
+
+Após instalar o MGV5 , precisará efetuar uma configuração:
+
+1º Rodar o instalador
+2º Após instalar ,entrará na pasta da instalação e executará o executável: SetRede.exe
+3º O Usuário é TOLEDO
+4º A forma alternativa de conseguir a senha é liberada através de uma logica.
+
+A senha o dia da instalação que no caso foi hoje e somado com o numero 20 e o mês obterá a soma com o numeral 11, exemplo:
+
+Digamos que hoje seja dia "15", somado com "20" fica: 35 ; Estamos no mês "9" (setembro) com "11" fica "20", assim a senha é: 3520.
+
+
+*Caminho do SOFTWARE MGV5*: "\Teste\Bases Redmine\MGV5"

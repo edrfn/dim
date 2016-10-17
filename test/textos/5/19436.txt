@@ -1,0 +1,6 @@
+[Total NFCE] Ao tentar emitir em contigência OFFLINE o sistema não imprime o DANFE para o cliente
+Retirando o cabo da internet para emitir em contigência offline, o sistema não emite a nota nem oferece um retorno para o usuário de erro.
+
+
+
+

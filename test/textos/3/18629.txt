@@ -1,0 +1,6 @@
+Teste funcional da rotina de devolução de cliente
+Testar a inclusão, pesquisa, alteração e gravação das devoluções;
+Validar os dados iniciais e pesquisa de notas;
+Testar toda a parte de manutenção da nota, onde seleciona os produtos a serem devolvidos;
+Validar valores, impostos e quantidades;
+Validar a persistência dessas informações no banco;

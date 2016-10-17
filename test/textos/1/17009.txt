@@ -1,0 +1,12 @@
+Ao quitar um título no PDV a gaveta não abre
+*Qual o comportamento observado?*
+Ao quitar um título no PDV a gaveta não abre.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Com uma gaveta conectada, realizar uma venda para gerar um título;
+2. Quitar o título; (perceba que a gaveta não abriu)
+
+*Qual o comportamento esperado?*
+Que a gaveta abra ao quitar um título no PDV, pois dependendo da situação é necessário dar troco.
+
+Obs.: Este ticket deve ser resolvido também para NFC-e.

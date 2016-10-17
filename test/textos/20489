@@ -1,0 +1,20 @@
+SPED Fiscal perfil A gerando registro C460 incorreto
+*1) Qual o comportamento observado?*
+
+No cliente MJ Brasil, quando geramos SPED Fiscal perfil A o sistema exporta para o Registro C460 dados de Nfe(Modelo 01).
+Quando na verdade, esse registro só se refere a Modelo 02,2D e 60
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a base da MJ Brasil, disponível em: "\Bases Redmine\MJBRASIL.rar"
+Gere o SPED Fiscal perfil A de Janeiro/2016;
+Importe no validador e verifique os erros;
+
+*3) Qual o comportamento esperado?*
+
+O sistema não deve enviar NF-e para o registro C460.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+Segue Base em Anexo

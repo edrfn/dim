@@ -1,0 +1,18 @@
+Diferença no valor da nota ao colocar desconto
+*1) Qual o comportamento observado?*
+
+Em um cliente que possui vidraçaria (vendendo produtos fracionados), ao emitir uma nota colocando desconto, o valor é arredondado para mais ou para menos. Porém, as vendas são feitas para clientes que não aceitam este valor diferente, o que impede de concluir a venda. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Base disponível em: "\\192.168.0.25\Teste\Bases Redmine\Aut01VIDROCENTER.rar"
+Faça uma venda de produtos fracionado;
+Dê um valor de desconto;
+Observe que ao exportar a nota, é arrendado o valor (0,01) para mais ou menos;
+
+*3) Qual o comportamento esperado?*
+
+Não ter diferenças na exportação.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

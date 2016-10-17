@@ -1,0 +1,11 @@
+Criação do serviço automático da integração do Dinâmico ERP
+*Como:* usuário do Sistema
+*Quero:* Criação do serviço de integração do Dinâmico ERP e inicialização de forma automática
+*Para:* Sincronização de dados entre o Dinâmico ERP e o Dinâmico PDV
+
+*Critério de validação* 
+* Ter acesso à funcionalidade automaticamente ao iniciar o ERP;
+* Execução automática do serviço ao iniciar o windows;
+* Visualização do serviço no gerenciador do windows;
+* Inicialização e parada do serviço pelo gerenciador do windows.
+* Serviço ser instalado junto com o sistema Dinâmico ERP via Instalador já existente.

@@ -1,0 +1,10 @@
+Refatorar a rotina de associar localização ao produto
+*Como: *Analista de negócio
+*Quero: *Associar localização ao produto.
+*Para:* compor a rotina de movimentos do estoque.
+
+*Critérios de validação*
+- Validar localização com produto no grid.
+
+*Como implementar*
+- Verificar o numero de parcelas que o usuário determinar e o intervalo das parcelas.

@@ -1,0 +1,9 @@
+Tela de splash está aparecendo rapidamente na transição de telas
+*Comportamento Observado*
+Ao transitar entre as telas (login, suprimento e inicial) a tela de espécie aparece rapidamente durante o "fechar" e "abrir" das transições.
+
+*Passos para reproduzir o comportamento*
+Abrir o sistema e navegar entre abrir, logar, efetuar suprimento e fechar o caixa.
+
+*Comportamento Esperado*
+Que a transição das telas seja suave e que no processo não seja perceptível nenhuma outra do processo.

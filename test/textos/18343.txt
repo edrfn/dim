@@ -1,0 +1,16 @@
+[Modificar na 2.8i] Erro ao sincronizar o saldo do estoque de produtos do SAP
+*1) Qual o comportamento observado?*
+Ao tentar sincronizar o Saldo de estoque dos produtos sincronizados do SAP o sistema obtém o saldos de estoque e produtos que não foram importados (no caso produtos que não estão cadastrados como item de venda no SAP).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Ter uma base do SAP com itens de venda e com itens que não itens que não são de venda;
+2- Sincronizar os produtos;
+3- Observar que os itens que não são de venda foram importando (não serão importados pois a importação de produtos filtra este tipo de produto);
+4- Sincronizar os saldos de produtos;
+5- Verificar a mensagem de erro apresentada pelo sistema na importação do saldo;
+
+*3) Qual o comportamento esperado?*
+Apenas os itens/produtos de venda são sincronizados do SAP paro o Cashone, assim sendo, o mesmo critério deve ser respeitado na sincronização do saldo do estoque.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do item 2, porém no passo 5 não deve apresentar erro.

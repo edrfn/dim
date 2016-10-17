@@ -1,0 +1,14 @@
+O sistema não faz validação dos clientes com títulos em atraso quando escolhido no fim da venda
+*Observado*
+
+Foi observado que ao escolher cliente no fim da venda(com Alt+C) o sistema não está validando se os clientes possuem títulos em atraso, mesmo que esse esteja configurado no web.
+
+*Passos*
+
+Ter o parâmetro "Pedir dados do cliente na Venda" com No fim da venda.(Realize também o teste com as outras opções)
+Adicionar produtos à venda e seguir para a tela de pagamento
+Aperte Alt+C para escolher o cliente, escolha um com titulo em atraso.
+
+*Esperado* 
+
+Que o sistema realize validação de títulos em atraso quando o cliente for escolhido no fim da venda.

@@ -1,0 +1,13 @@
+Verificação dos logs do sistema.
+Verificar os logs do painel e do PDV verificando a legibilidade e a abrangência das informações para uma possível refatoração no futuro.
+
+*Motivação:*
+
+- Necessidade de um log mais claro para o desenvolvimento, suporte e clientes.
+
+*Critério de validação:*
+
+- Insumos suficientes para iniciar uma refatoração dos logs do sistema.
+
+*Como testar*
+- Analisar logs

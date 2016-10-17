@@ -1,0 +1,10 @@
+Validação da rotina de atualização dos dados por F1
+Foi verificado que ao solicitar a rotina de atualização dos dados (F1), o sistema não está atualizando a tabela de sincRegisty. O fato de não atualizar a tabela indica que os campos também não foram alterados.
+
+Realizei testes com a sincronização de plano de pagamento e mesmo alterando "manualmente" a data da tabela os dados não foram atualizados.
+Deve ser verificado o funcionamento da rotina, visto que não a atualização do sistema só está acontecendo ao abrir e fechar o sistema.
+
+*Como implementar?*
+- Identificar a causa do problema; 
+- Implementar solução;
+- Testes.

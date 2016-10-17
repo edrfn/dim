@@ -1,0 +1,16 @@
+Erro após abrir e fechar a tela de incluir nova embalagem, na busca de embalagem do cadastro de produto 
+*1) Qual o comportamento observado?*
+Ao cadastrar um produto, na tela de inserir embalagem, caso clique no botão de cadastrar novas embalagens (destacado em vermelho na imagem anexo), mesmo se não cadastrar nenhuma embalagem e apenas clicar em cancelar, na continuidade do cadastro é apresentada mensagem de erro, conforme imagem anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastros - Estoque - Produto;
+2- Preencher os dados iniciais e acessar a aba embalagens;
+3- Ao abrir a tela de inserir embalagem, clicar no botão de cadastrar novas embalagens (lupa com sinal +);
+4- Clicar no botão cancelar e buscar uma embalagem já cadastrada, preencher os demais dados e clicar no botão salvar;
+5- Verificar a mensagem apresentada;
+
+*3) Qual o comportamento esperado?*
+É esperado que independente de cadastrar ou não novas embalagens durante o cadastro do produto, o fluxo seja seguido normalmente sem erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

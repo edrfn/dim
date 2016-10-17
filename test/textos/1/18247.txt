@@ -1,0 +1,20 @@
+Cadastro de produto - Sistema não permite que mais de um usuário cadastre(grave) produtos de forma simultânea, apresentando erro ao gravar.
+1) Qual o comportamento observado?**
+Ao realizar o cadastro simultâneo de produtos o sistema gera erro de chave estrangeira impedido a continuação do cadastro
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Estoques, cadastros, produtos
+2- Clicar no botão novo, realizar cadastros em mais de uma maquina ao mesmo tempo
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação
+
+ 
+
+3) Qual o comportamento esperado?
+O sistema deve permitir que a função de cadastro de produto seja feita por mais de um usuário ao mesmo tempo
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Estoques, cadastros, produtos
+2- Clicar no botão novo, realizar cadastros em mais de uma maquina ao mesmo tempo
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação

@@ -1,0 +1,24 @@
+Validar o conteúdo do campo chave de acesso na digitação de nota de entrada
+*1) Qual o comportamento observado?***
+Foi observado que na digitação de nota de entrada não está sendo validado o conteúdo do campo 'Chave de NFe'. De acordo com o requisito, as validações são:
+* O preenchimento deverá ser obrigatório apenas se o modelo informado for 55;
+* Deverá ser um campo numérico;
+* Deverá conter 44 dígitos;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Digitar NF de compra;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Verificar que o campo 'Chave de NFe está aceitando letras e não está com validação de obrigatoriedade ao ser informado o modelo 55;
+
+*3) Qual o comportamento esperado?*
+É esperado que o campo passe pelas seguintes validações:
+* O preenchimento deverá ser obrigatório apenas se o modelo informado for 55;
+* Deverá ser um campo numérico;
+* Deverá conter 44 dígitos;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+1- Acessar a rotina pelo menu: Compras - Digitar NF de compra;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher o campo 'Chave de NFe', sendo possível digitar apenas números e o sistema validar se foram digitados os 44 dígitos correspondentes à chave de NFe;
+4- Preencher o campo 'Modelo' com 55 e verificar se o preenchimento do campo 'Chave de NFe' passou a ser obrigatório;

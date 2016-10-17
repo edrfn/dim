@@ -1,0 +1,30 @@
+Homologação de PAF-ECF
+*O que?*
+Realizar teste do roteiro do PAF-ECF;
+Resolver problemas/mudanças encontrados durante a execução do roteiro PAF-ECF;
+Homologar o PDV;
+
+*Como implementar?*
+1. Executar o roteiro de testes de homologação do PAF-ECF;
+1.1. Requisitos I à IX - Teste;
+1.2. Requisitos X à XXIV - Teste;
+1.3. Requisitos XXV à XXXIII - Teste;
+2. Validação e controle de estoque - Desenvolvimento;
+3. Criar campo no painel de controle para guardar a licença PAF - Desenvolvimento;
+4. Criar tela de pré-venda no PDV - Desenvolvimento;
+5. Importação de pré-venda via ERP (arquivo) - Desenvolvimento;
+6. Criar as tabelas e campos para funcionamento do executável de pré-venda - Desenvolvimento;
+7. Correção da versão do sistemas (setup e arquivos) - Desenvolvimento;
+8. Geração dos arquivos autenticados - Bug;
+9. Erro ao emitir Leitura de Memória Fiscal - Bug;
+10. Erro ao gerar os arquivos Manual de Orientação do Convênio 57/95 e Ato COTEPE/ICMS 09/08 (Menu Fiscal);
+11. Erro ao gerar os registros do PAF-ECF (Menu Fiscal);
+12. Cidade do endereço não sincroniza com o PDV - Bug;
+13. Validação e controle de estoque;
+14. Mostrar na tela de venda os dados referente ao item (código, descrição, unidade de medida, quantidade, valor unitário e valor total do item) contante na tela de registro de venda;(Teste 078)
+15. Sincronizar NF-e do retaguarda para o painel;
+16. Sincronizar NF-e do painel para o PDV;
+17. Criar a opção "Arq. AC" no Menu Fiscal (requisito VII, 5.A do Ato Cotepe em anexo); 
+18. Homologar PAF-ECF; 
+
+Obs.: Em anexo o Ato Cotepe 02.02 e Roteiro para homologação, documento que contém informações necessárias para homologação do PAF-ECF.

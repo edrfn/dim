@@ -1,0 +1,7 @@
+Erro ao emitir sangria e prévia de fechamento
+Em alguns momentos o sistema não está realizando sangria(F12 > F3F3) e/ou prévia de fechamento de caixa(F12 > F12), mesmo após realizar algumas vendas, é mostrada uma mensagem que não há movimentações. Com isto, o sistema não emite sangria e nem visualiza a prévia de fechamento de caixa. Deve ser verificado e corrigido o problema.
+
+*Como implementar*
+1. Identificar o problema.
+2. Corrigir o problema.
+3. Testar.

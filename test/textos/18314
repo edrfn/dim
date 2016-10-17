@@ -1,0 +1,24 @@
+Desabilitar os parametros de Venda que não tem suas devidas rotinas implementadas.
+Quero: Desabilitar os parâmetros de vendas que ainda não tem suas rotinas implementadas.
+Como: Deixar de forma inacessível para o usuário. A forma como se encontra atualmente induz o usuário achar que o parâmetro já é funcional.
+Para: Não criar expectativas para o usuário de que aquele parâmetro funciona, visto que ele está lá e visto que ele pode ser alterado.
+
+Critério de validação:
+
+O usuário não conseguirá fazer nenhuma alteração nos parâmetros citados abaixo.
+
+Como implementar:
+
+- Desabilitar a opção de mudar os parâmetros.
+- Modificar a apresentação na interface
+- Testes.
+
+Parâmetros que não tem uma rotina implementada.
+1. Consistência de Cheque devolvido;
+2. Solicita indicação
+3. Tratar desconto/acréscimo na comissão
+4. Imprimir juros/desconto no recibo;
+5. Imprimir tipo de baixa no recibo;
+6. Imprimir Saldo do cliente no recibo;
+7. Imprimir tipo de baixa no recibo;
+8. Tratar comissão por título;

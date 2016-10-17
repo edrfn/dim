@@ -1,0 +1,9 @@
+Remover solução NFC-e
+*Comportamento Observado*
+O sistema possui códigos referentes a solução de NFC-e
+
+*Passos para reproduzir o comportamento*
+Não se aplica.
+
+*Comportamento Esperado*
+Que ao remover os trechos de código referente a essa solução o sistema permaneça funcionando corretamente.

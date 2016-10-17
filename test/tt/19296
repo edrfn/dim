@@ -1,0 +1,20 @@
+Desdobramento de Espécie - Está sendo gravado o id errado para a espécie cheque
+*1) Qual o comportamento observado?*
+Observou-se que quando insere no pedido de venda a espécie cheque e uma outra, respectivamente, o id gravado na tabela 'dados_cheque' não é o da espécie 'Cheque' e sim o da outra espécie escolhida.
+Isso gera um erro na confirmação do pedido, e consequentemente os títulos não são gerados.
+Obs: o ID das espécies pode ser visto na tabela 'pedido_especies'.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessa a rotina Pedido de Venda pelo caminho: Vendas - Movimentos - Pedido de venda;
+2- Insere os dados obrigatórios, insere produtos e clica em gravar ou aperta a tecla F10;
+3- Escolhe uma forma de pagamento que possua espécies para pagamento a prazo e clica na opção 'Informar espécies';
+4- Escolhe a espécie 'Cheque', atribui um valor menor que o total do pedido e clica em 'Iserir'; 
+5- Escolhe agora uma outra espécie(pode ser 'dinheiro') e atribui o valor restante ou um maior para gerar troco.
+6- Gravar o pedido;
+7- Observar que na tabela 'dados_cheque' consta o id da outra espécie inserida no pedido. (fazer o comparativo abrindo também a tabela 'pedido_especies').
+
+*3) Qual o comportamento esperado?*
+Que o sistema grave o id correto da espécie cheque, para que o financeiro possa ser gerado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas geradas no passo 2.

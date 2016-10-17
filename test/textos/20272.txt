@@ -1,0 +1,21 @@
+Campo unidade de negocio na tabela documento nunca deve ser nulo.
+LOCAL:
+Dincash WEB - Banco de dados - Tabela Documento.
+
+VERSÃO:
+Identificado na última versão (2.8J)
+
+PRÉ-CONDIÇÕES:
+ Carregar uma base que já está sendo usada há algum tempo
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Abra o banco de dados na tabela Documento.
+2) Procure pelo ultimo campo "unidadenegocio_unidade_negocio_id_oid" 
+3) Faça um select para buscar os registros nulos.
+4) Verifique que há situações onde o código fica nulo.
+
+ERRO:
+O sistema não preenche esta informação que acarreta em erros de sincronização com o SAP, geralmente quando a situação acontece o documento se refere a uma devolução de cliente.
+
+SITUAÇÃO DESEJADA:
+O sistema deveria preencher este campo em todas as situações já que se faz necessário identificar a unidade de negocio ao qual pertence o documento.

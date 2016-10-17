@@ -1,0 +1,12 @@
+[License Manager] Licença mostrar que TEF do cliente está ativo
+*Como:* Usuário do sistema
+*Quero:* Verificar se o TEF  esta ativo
+*Para:* que ao receber um licenseRequest para gerar uma nova licença do Dincash ou CashOne, quando o cliente tiver TEF ativo.haja a informação TEF ativo ao inativo na de que o cliente possui ou não TEF ativo.
+
+
+*Critério de validação* 
+* 
+
+*Como implementar* 
+* No controle de licença quanto for carregada uma solicitação de licença de um cliente que já possua uma licença com TEF o checkbox referente ao TEF deve vir marcado.
+* Solicitação de mudança para que quando a licença de um cliente for carregada no license o campo seja marcado, assim como é em relação ao PAF

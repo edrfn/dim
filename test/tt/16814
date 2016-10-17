@@ -1,0 +1,22 @@
+Logs do Sistema
+*Como:* Coordenadora de Projetos
+*Quero:* Ajustar os logs do sistema
+*Para:* Facilitar a leitura do usuário na identificação de problemas e do suporte ao receber uma demanda.
+
+*Critério de validação* 
+* Entregar o log do sistema a outros não envolvidos na construção e verificar feedbacks 
+
+*Como implementar* 
+- Definir como será os logs
+- trocar o jar para o mais novo
+- Alterar os pontos do sistema
+- Teste - comparar os logs antigo e o novo
+
+
+h1. PS: É possível realizar os logs com aspectos?
+
+*Porque*
+Os logs do sistema atualmente são construídos com Log4j. O fator motivador dessa ação é o tempo de interrupção do desenvolvimento dada a impossibilidade da leitura do log por outras partes, como revendas, suporte e/ou testes.
+
+*Como*
+Será verificada a possibilidade de inserir no sistema o AspectJ, onde uma classe apenas eh definida como o mapeamento dos logs do sistema sendo visível em todo ele com apenas o uso de anotações. Sendo verificada essa possibilidade, acontecerá a "limpeza" do código quanto aos logs antigos.

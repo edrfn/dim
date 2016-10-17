@@ -1,0 +1,23 @@
+Problema ao enviar NFC-e com produtos pesados.
+LOCAL:
+PDV  NFCE  XML/INVOICY.
+
+VERSÃO:
+Identificado na última versão (2.8G)
+
+PRÉ-CONDIÇÕES:
+ Utilizar NFC-e Migrate
+ Utilizar produtos pesados.
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema , efetue uma venda.
+2) Nessa venda deve ser incluído produtos pesados. 
+3) Verifique que será apresentado um erro no envio.
+
+ERRO:
+O sistema efetua um calculo para multiplicar as quantidades e gerar o valor de cada produto. Porém, no fim da venda o mesmo faz o mesmo calculo novamente muitas vezes gerando diferença pelo modo de calculo (arredondamento e Truncamento). Isso gera o erro na montagem do XML e insatisfação do cliente por não ter confiança em gerar NFcE com produtos pesados.
+
+SITUAÇÃO DESEJADA:
+Este erro não pode ocorrer, a situação desejada é que o calculo seja sempre feito da mesma forma para evitar as diferenças.
+
+OBS: Em anexo, Logs, incluindo o Auditoria que mostra a ultima nota do cliente que foi somada incorretamente.

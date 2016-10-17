@@ -1,0 +1,12 @@
+Ao fazer fechamento do dia em base com integração triton o Sistema demora muito e não faz o fechamento
+1) Qual o comportamento observado?
+Na base do cliente SM Cunha ao fechar o dia, o sistema demora muito tempo parecendo estar em loop infinito.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+Com a base do cliente (de preferência SM Cunha) realizar o fechamento do dia.  
+
+3) Qual o comportamento esperado?
+É esperado que o fechamento ocorra normalmente sem problemas.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2

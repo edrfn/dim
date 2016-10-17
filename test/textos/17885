@@ -1,0 +1,20 @@
+Erro ao Gravar alteração de um registro no Pedido de Venda
+Descrição:
+
+Ao alterarmos um registro e clicarmos em Gravar, o sistema exibe uma mensagem de erro de Access Violation;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao selecionarmos um registro na pesquisa e o alterarmos, ao clicarmos em Gravar, o sistema exibe uma mensagem de erro de Access Violation;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Pedido de Venda > Pesquisar > Seleciona um registro na pesquisa > Clica em Alterar e altera o registro > Clica em Gravar > Mensagem de erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema grave normalmente a alteração realizada no registro sem exibir nenhuma mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Pedido de Venda > Pesquisar > Seleciona um registro na pesquisa > Clica em Alterar e altera o registro > Clica em Gravar > Mensagem de confirmação de gravamento!

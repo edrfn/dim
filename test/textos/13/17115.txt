@@ -1,0 +1,4 @@
+Gerenciar numero de Estações do ERP de acordo com a licença gerada
+Gerenciar numero de Estações do ERP de acordo com a licença gerada
+
+# Analisar requisitos

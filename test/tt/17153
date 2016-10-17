@@ -1,0 +1,20 @@
+[CHECKLIST] Nota de exportação quando o emitente é Super Simples é emitida uma mensagem de erro.
+Breve descrição do caso:
+ 
+Nota de exportação quando o emitente é Super Simples é emitida uma mensagem de erro.
+
+Comportamento Observado:
+
+Nota de exportação quando o emitente é Super Simples é emitida uma mensagem de erro " Rejeicao: Operacao de Exportacao com informacao de ICMS incompativel."
+ 
+Etapas para o Comportamento Observado:
+
+1.Fazer uma nota de exportação com a empresa Super Simples e produto com alíquota"não incidência" e exportar.
+
+Comportamento Esperado:
+
+Que o sistema exporte a nota fiscal eletrônica de exportação sem apresentar erros.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+6.0g 1098

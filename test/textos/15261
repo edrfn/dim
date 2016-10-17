@@ -1,0 +1,16 @@
+[CHECKLIST] Desconto/Acréscimo está sendo inserido mesmo que o valor retorne ao seu valor original.
+*Problema encontrado:*
+Ao modificar o valor unitário de um item escolhido na pré-venda, acrescendo desconto/acréscimo e sem permissão no usuário balcão para dar o desconto/acréscimo no produto, é apresentado o tela para que seja colocado o login e senha do usuário com permissão. Caso seja recolocado no campo valor unitário o valor original do produto, ao adicionar o item este está indo com o valor previamente com desconto.
+
+*Passos para simular o problema:*
+1. Permissão para não dar desconto.
+2. Escolher um produto na pré-venda.
+3. Alterar no campo de valor unitário e aplicar o desconto/acréscimo ou utilizar o botão de desconto/acréscimo.
+4. Deverá ser exibido uma tela para que seja informado o login e senha da usuário balcao que tem a permissão para dar o desconto/acréscimo.
+5. Clique em cancelar.
+6. Altere o valor unitário do produto ou retire o desconto/acréscimo no botão de desconto/acréscimo, retornando o valor unitário para o valor original do produto.
+7. Clique em adicionar o item.
+8. Verifique que o item adicionando consta com o desconto/acréscimo que tentou dar anteriormente.
+
+*Observação:*
+Isso não só acontece com o desconto/acréscimo, caso o valor anterior colocado no campo valor unitário seja Zero, ao retornar para o valor original do produto e adicioná-lo este aparecerá com o valor zero também.

@@ -1,0 +1,42 @@
+Desabilitação de botões da aba foto no cadastro de usuários
+Descrição:
+
+Os botões da aba Foto ficam desabilitados quando iniciamos a janela de Permissões e depois saímos da mesma;
+
+1) Qual o comportamento observado?
+
+Foi observado na inserção de um novo usuário, ao abrirmos a janela de Grupo de Permissões e dermos ESC, quando selecionamos a aba Foto, podemos perceber que a mesma está com os botões desabilitados;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Cadastros > Estoque > Usuários > Novo > [...] (ao lado de Grupo de Permissões) > ESC (para sair da janela Permissões) > 2 - Foto;
+
+3) Qual o comportamento esperado?
+
+Espera-se que os botões não desabilitem após sairmos da janela de Permissões;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Cadastros > Estoque > Usuários > Novo > [...] (ao lado de Grupo de Permissões) > ESC (para sair da janela Permissões) > 2 - Foto.
+
+------------------------------------------------------------------------------------------------
+
+Descrição:
+
+O campo Status fica desabilitado quando selecionamos um registro na pesquisa e clicamos em Alterar;
+
+1) Qual o comportamento observado?
+
+Na alteração de um registro, o campo Status fica desabilitado. Fazendo com que o usuário não consiga Alterar o Status do registro. E se clicarmos no botão Novo, o campo continua desabilitado;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Cadastros > Estoque > Usuários > Pesquisar > Seleciona um registro > Clica em Alterar > Status;
+
+3) Qual o comportamento esperado?
+
+Espera-se que o campo habilitado na alteração de um registro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Cadastros > Estoque > Usuários > Pesquisar > Seleciona um registro > Clica em Alterar > Status.

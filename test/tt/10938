@@ -1,0 +1,4 @@
+ALterar no Dincashweb para continuar a importação de saldo de estoque quando algum  produto não passar na validação
+Hoje na importação do saldo de estoque, se tiver 1000 produtos com saldo para importar e destes produtos 1 deles esteja com algum campo errado, o sistema não importa nada.
+
+A solicitação do cliente da Am soft é que ocorra como é feito na importação do produto ou seja caso um item esteja errado o sistema deve pular para o próximo e continuar a importação gerando no log a quantidade processada e importada.

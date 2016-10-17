@@ -1,0 +1,33 @@
+Sistema não consegue atualizar data da ultima exportação da Redução Z
+*Situação:*
+
+O sistema não está conseguido atualizar a data da ultima exportação da Redução Z na versão 2.8f, com isso o mesmo gera o arquivo de exportação repetidamente gerando problemas com o integrador. Foram realizados testes com a versão 2.8f e com a 2.8j e nas duas o problema ocorre. O cliente utiliza integração por arquivos CSV.
+
+Ao verificar o log notei que o erro ocorre no momento em que o sistema vai finalizar a exportação, o log não foi anexado devido ao tamanho.
+
+"Exportacao iniciada para: Registro de exportacao = {numero do caixa = 2; numero de serie = BE0508756100000; exportador = REDUCAOZ; ultima sincronizacao = 1441854000000 (10/09/2015 00:00:00)}
+Exportando registros de REDUCAOZ
+Erro na exportação
+java.lang.NullPointerException
+	at dincash.integracao.exportacao.core.ExportadorAbstrato.atualizarRegistroExportacao(ExportadorAbstrato.java:100)
+	at dincash.integracao.exportacao.core.ExportadorAbstrato.exportar(ExportadorAbstrato.java:76)
+	at dincash.integracao.exportacao.core.ExportadorAbstrato.exportar(ExportadorAbstrato.java:49)
+	at dincash.integracao.exportacao.core.ServicoExportacao.exportar(ServicoExportacao.java:106)
+	at dincash.integracao.exportacao.core.ServicoExportacao.exportarTodos(ServicoExportacao.java:71)
+	at dincash.integracao.server.ServicoIntegracao.exportarTodos(ServicoIntegracao.java:33)
+	at dincash.integracao.server.IntegracaoAutomatica$2.run(IntegracaoAutomatica.java:171)
+	at java.util.TimerThread.mainLoop(Unknown Source)
+	at java.util.TimerThread.run(Unknown Source)
+Erro na exportação."
+
+*Passos para a reprodução do erro:* 
+
+1 - Instalar o sistema com os instaladores usados pelo cliente.
+2 - Restaurar base de dados do cliente.
+3 - Configurar no Web um diretório para a exportação dos arquivos. 
+
+*Situação desejada:* 
+
+O sistema deve gravar a data da ultima exportação da Redução Z, com isso deverá exportar o arquivo automaticamente uma unica vez.
+
+Todos os arquivos podem ser encontrados em \\total30\areas\Teste\Bases Redmine\Teste Tecinco

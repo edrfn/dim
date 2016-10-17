@@ -1,0 +1,17 @@
+Orçamento - Ao dar ESC na janela de informar o desconto está fechando a janela de inserção de produtos 
+*1) Qual o comportamento observado?***
+Na inclusão de itens no orçamento, ao clicar no Pagedown estando com foco no campo 'Valor Unitário' para abrir a janela de informar o desconto, se clicar em ESC o sistema está fechando a tela de inserção de itens também. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Orçamento;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Abrir a janela de inclusão de produtos e escolher um produto;
+5- No campo 'Valor Unitário' clicar na tecla 'Pagedwon', ao abrir a janela de desconto, clicar na tecla 'ESC';
+6- Observar que além da janela de desconto, a janela de inserção de produtos também fecha;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao abrir a janela para informar desconto na digitação de produtos do orçamento, ao clicar na tecla 'ESC' seja fechada somente a janela de informar o desconto e o foco volte para o campo 'Valor Unitário';
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

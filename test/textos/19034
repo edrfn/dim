@@ -1,0 +1,16 @@
+Sistema não está permitindo gravar inclusão ou alteração no cadastro de clientes
+*1) Qual o comportamento observado?*
+O sistema não está permitindo gravar inclusão ou alteração no cadastro de clientes, apresenta a mensagem perguntando se deseja gravar o registro e mesmo clicando na opção SIM, não grava. Só é possível sair da tela do cadastro cancelando a inclusão ou alteração.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Clientes;
+2- Clicar em 'Novo' ou ALT+N;
+3- Preencher pelo menos os campos obrigatórios e clicar no botão 'Gravar' ou ALT+G;
+4- Cancelar a inclusão, pesquisar um cliente já cadastrado, clicar em 'Alterar' ou ALT+A;
+5- Fazer alguma alteração e tentar gravar o registro.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao inserir ou alterar um registro no cadastro de clientes, as informações sejam gravadas corretamente no banco de dados.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

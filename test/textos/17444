@@ -1,0 +1,22 @@
+Os arquivos da baixa de título não estão sendo gerados
+*Qual o comportamento observado?*
+Os arquivos da baixa de título não estão sendo gerados. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Importar os arquivos de títulos a receber;
+2. Pressionar F8 para visualizar os títulos a pagar;
+3. Quitar um título; (Verifique que os arquivos não são gerados)
+
+*Qual o comportamento esperado?*
+Ao quitar um título, os arquivos de baixa de título devem ser gerados na pasta de exportação do painel, com as informações que constam no layout de integração.
+
+Obs.: Segue o arquivo de título e o val, para importar e quitar.
+
+*Critérios de validação*
+*Arquivos de baixa de títulos sendo gerados de acordo com o Layout de Integração;
+
+*Como Implementar*
+*Identificar o problema;
+*Implementar solução;
+*Testes
+

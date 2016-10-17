@@ -1,0 +1,2 @@
+[Total NFCE] O Danfe é impresso sem os detalhes do produto, mesmo emitindo em modo completo.
+Versão: 2.8J 5223

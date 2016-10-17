@@ -1,0 +1,33 @@
+Sistema está criando e baixando titulos automaticamente com valores aleatórios.
+Breve descrição do caso:
+
+Sistema está criando e baixando titulos automaticamente com valores aleatórios.
+
+Comportamento Observado:
+
+Observações da base em anexo:
+
+- Foi visto que o usuario que está marcado no autbxr não tem permissão de fazer baixas
+- Foi visto que o momento da criação dos titulos coincide com o horario do fechamento do dia.
+- Foi visto que a numeração dá um salto na criação desses titulos, pulando de 100000 para 300000.
+- Foi visto que a soma das parcelas de titulos com numocc iguais não batem o valor dos titulos criados.
+- Aconteceu em mais dois clientes após a atualização da versão 5.0e
+- Todos os titulos são criados com o tipo de documento recibo e baixados com a espécie dinheiro.
+- Há um titulo com Valor zerado.
+
+Etapas para o Comportamento Observado:
+
+Para encontrar os titulos incorretos basta colar o filtro no DBF no arquivo autbxr "( NUMTIT>=339989&NUMTIT<=340109 )"
+
+Comportamento Esperado: 
+
+O sistema não deve criar titulos indevidamente.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0e
+
+Informações adicionais.
+> BASE NO CAMINHO: "\Teste\Bases Redmine\GRAO DUQUE variedades.rar"
+> BASE INTEGRA CADASTROS.
+> UTILIZAR BASE GERENCIA

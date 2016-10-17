@@ -1,0 +1,20 @@
+Ao importar XML na rotina de digitação da nota de entrada, o sistema não traz todos os itens da nota.
+*1) Qual o comportamento observado?*
+
+Foi identificado um erro na base do cliente PegPag, onde ao utilizar a rotina de importação de XML, o sistema não consegue trazer todos os itens da nota, apresentando diferença e impedindo a liberação para estoque. O exemplo do XML em anexo, a nota possui 37 itens, porém na importação são trazidos apenas 32. Uma observação é que na tabela AUTfpd, os produtos que não são importados são gravados como "*****x" no campo CODprd.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a base do cliente PegPag, disponivel em: "\Teste\Bases Redmine\PegPag _XML.zip";
+Pegue o XML em anexo;
+Realize a importação do XML;
+Siga os passos para associar produtos, embalagem, ICMS, etc;
+Verifique na tela de digitação de produtos que foram importados apenas 32, ao invés dos 37.
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve pegar todos os itens que pertencem ao XML.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

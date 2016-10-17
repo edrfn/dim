@@ -1,0 +1,18 @@
+Erro log na rotina de devolução de várias notas a fornecedor
+*1) Qual o comportamento observado?*
+
+Ao realizar a devolução de várias notas, zerando a quantidade de quase todos os itens trazidos pela mesma, ao gravar a digitação, o sistema apresentou erro log (em anexo).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma devolução de várias notas;
+Deixe apenas 1 item sem zerar;
+Grave a digitação;
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve fazer a devolução sem gerar erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

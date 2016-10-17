@@ -1,0 +1,23 @@
+Registros de Importação
+Realizar a importação de dados oriundos do PDV.
+
+Vendas
+1. Cupom Fiscal
+2. Produtos no Cupom Fiscal
+4. Espécies de Pagamento
+4. Forma de Pagamento
+5. Redução Z
+6. Baixa de Título
+7. Suprimento
+8. Sangria
+
+========== Anotações da Reunião de Planejamento ==========
+
+h3. As tarefas de desenvolvimento podem ser divididas nas seguintes etapas:
+
+* Criação da classe básica (motor) de importação;
+* Importar registros
+
+
+
+

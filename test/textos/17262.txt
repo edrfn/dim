@@ -1,0 +1,12 @@
+Tratamento de campos desnecessários no banco de dados
+Realizei os seguintes testes:
+
+1. Validei os campos da tabela caixa e verifiquei que o campo numeroproximanotanaofiscal não foi tratado; (NÃO PASSOU)
+2. Validei os campos da tabela unidade de negócio e verifiquei que os campos contador_id e tabelapreco_idtabelapreco; (NÃO PASSOU)
+3. Validei configuração do sistema e verifiquei que o campo progconcredito não foi tratado; (NÃO PASSOU) 
+
+Os campos descritos acima devem ser tratados para que não ocorra erros ao utilizar o sistema.
+
+*Como implementar?*
+- Tratar os campos descrito acima;
+- Testar;

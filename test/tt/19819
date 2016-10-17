@@ -1,0 +1,12 @@
+Servidor não escreve arquivo quando realizado cancelamento de ultimo cupom.
+*Qual o comportamento observado?*
+
+Quando é realizado cancelamento de ultimo cupom é a informação é enviada para o servidor porém não é escrito arquivo com informação.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+Realizar o cancelamento de ultimo cupom e observar se é criado um arquivo com as informações do cupom e o status de cancelado.
+
+*Qual o comportamento esperado?*
+
+Que quando realizado o cancelamento de ultimo cupom o sistema gere o arquivo normalmente.

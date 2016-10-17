@@ -1,0 +1,14 @@
+Validações na inserção de produtos e na função F6-Resumo - NF de entrada
+Como: Scrumaster
+Quero: Implementação das validações na inserção de produtos e na função F6-Resumo na digitação de nota de entrada.
+Para: Informar os produtos a serem digitados na nota de compra e conferir os valores informados e processados pelo sistema.
+
+*Critério de validação*
+Ter acesso à funcionalidade através do menu Compras - Movimento - Digitar nota de entrada;
+Poder efetuar a inserção dos produtos e validação dos valores informados e os valores calculados pelo sistema;
+Poder inserir, alterar e excluir notas de entrada;
+
+*Como implementar*
+Na aba de inserção de produtos, efetuar as validações e cálculos necessários;
+Tratar os cálculos do resumo dos valores na função F6 -Resumo;
+Adicionar as funcionalidades de inclusão, pesquisa, alteração e exclusão de registros;

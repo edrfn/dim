@@ -1,0 +1,4 @@
+Implementar no sistema a geração dos novos dados de Partilha de ICMS entre UF's.
+*Como:* P.O
+*Quero:* Implementar no sistema a geração dos novos dados de Partilha de ICMS entre UF's.
+*Para:* Implementação das normas técnicas de NF-e

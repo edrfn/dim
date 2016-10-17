@@ -1,0 +1,72 @@
+Ao emitir Nf-e de uma empresa do ramo de Indústria para um cliente não Contribuinte, o  IPI seja integrado a base de cálculo do imposto.
+*Como:* Product Owner
+
+*Quero:* Que o cliente do ramo de Industria ao emitir uma Nf-e para cliente consumidor Final ou Não Contribuinte, o IPI seja integrado a base de cálculo do imposto.
+
+
+*Para:* 
+Atender as Legislações estaduais e federeais:
+
+
+*Documento estadual: Art. 17 § 1º Inciso II alínea c da Lei nº 7.014/96.*
+
+*Lei Federal, em seu artigo 155, XI.* 
+
+*Critério de validação*
+1- A empresa emitente da Nf-e ser Industria (para gerar IPI)
+2- O cliente consumidor final , terá que ser "Não Contribuinte"
+3- Ao Emitir a NF-e  e o Ipi ser integrado na Base de Calculo do Imposto.
+
+
+
+
+*Como implementar*
+
+1- Ao Emitir NF-e de uma Industria para cliente consumidor final(Não Contribuinte) , permitir integrar o IPI na Base de Calculo do Imposto .
+2- A validação terá que ser feita no parametro de "CONTRIBUINTE" do cadastro do cliente , caso esteja N nas condições acima , permitir a integração do IPI na base.
+
+----
+
+h1. Documentação:
+
+h2. Legislação enviada pela Contabilidade Controller
+(O embasamento legal é o Art. 17 § 1º Inciso II alínea c da Lei nº 7.014/96.
+
+Art. 17. A base de cálculo do imposto é: 
+
+§ 1º Integra a base de cálculo do imposto, inclusive na hipótese do inciso VI do caput deste artigo:
+
+II - o valor correspondente a: 
+
+c) o valor do IPI nas saídas efetuadas por contribuinte do imposto federal com destino a consumidor ou usuário final, a estabelecimento prestador de serviço de qualquer natureza não considerado contribuinte do ICMS, ou para uso, consumo ou ativo imobilizado de estabelecimento de contribuinte.  
+
+
+
+h2. Lei Federal
+
+INCLUSÃO DO IPI
+
+A Constituição Federal, em seu artigo 155, XI, dispõe que não compreenderá, na base de cálculo do ICMS, o montante do imposto sobre produtos industrializados, quando a operação, realizada entre contribuintes e relativa a produto destinado à industrialização ou à comercialização, configure fato gerador dos dois impostos (ICMS e IPI).
+
+Item artigo 13, parágrafo 2º da Lei Complementar 87/1996.
+
+Como regra geral, o imposto sobre produtos industrializados, nos termos do § 2º do art. 13, da LC 87/96, e do inciso XI do § 2º do art. 155 da Carta Magna:
+
+(a) não integra a base de cálculo do ICMS somente quando concorrerem as seguintes condições:
+
+    (1) a operação for realizada entre contribuintes;
+
+    (2) o objeto da operação for produto destinado à industrialização ou à comercialização; e
+
+    (3) a operação configurar fato gerador de ambos os impostos.
+
+(b) integra a base de cálculo do ICMS se ocorrer qualquer das seguintes condições:
+
+    (1) a operação não for realizada entre contribuintes;
+
+    (2) o objeto da operação for produto não destinado à industrialização ou à comercialização; e
+
+    (3) a operação não configurar fato gerador de ambos os impostos.|
+
+
+

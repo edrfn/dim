@@ -1,0 +1,6 @@
+Escrever requisitos de contas de cartão de crédito
+Escrever contas de cartão de crédito
+
+**Validação**
+
+Requisito de cartão de crédito escrito

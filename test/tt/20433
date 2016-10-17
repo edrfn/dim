@@ -1,0 +1,2 @@
+[Total NFCE] Erro acessar opção "Alterar nota rejeitada"
+Foi identificado que ao acessar a rotina "Enviar nota rejeitada" (F12 > Ctrl + R) e em seguida a opção "Alterar" ocorre um erro e o sistema fica trava impossibilitante novas vendas ou outra operação. Vide log em anexo

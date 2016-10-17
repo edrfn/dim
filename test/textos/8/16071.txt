@@ -1,0 +1,28 @@
+Inconsistências em Relatório de Resumo de Compras
+*Qual o comportamento observado?*
+
+Ao emitir um relatório de Resumo de Compras, informando, por exemplo, quatro grupos no filtro de grupos, o sistema exibe uma caixa de diálogo com a mensagem "Grupo inexistente...[OK]" por quatro vezes seguidas. A exibição desta caixa de diálogo se repete tantas vezes quantos grupos forem informados no filtro.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+1. No Dinamico, acesse o menu Estoque -> Relatórios -> Resumo de Compras.
+2. Selecione o período de data entre 01/03/2014 e 31/03/2014.
+3. Tecle enter até o campo Código do Grupo.
+4. Tecle pagedown, e na tela será exibida, informe os grupos 7, 1, 6 e 9.
+5. Tecle F10 e clique "Não" na pergunta se deseja salvar a lista.
+6. Tecle enter para avançar os campos e até confirme a impressão (modo texto ou gráfico).
+7. Observe que o sistema irá exibir repetidas vezes a caixa de diálogo com a mensagem "Grupo inexistente...".
+
+*Qual o comportamento esperado*?
+
+Ao emitir um relatório de Resumo de Compras, informando, por exemplo, quatro grupos no filtro de grupos, o sistema deveria processar o relatório imediatamente após o comando para imprimir, sem exibir as mensagens de "Grupo inexistente...".
+
+*Qual a motivação?*
+
+Qual a versão do produto e sistema operacional utilizados?
+
+Dinamico 5.0n sobre Windows 7 Professional 64 bits.
+
+*Informações adicionais*
+
+Base do cliente para validação em \\total30\areas\Teste\Bases Redmine\TELENEW\DINAMICO

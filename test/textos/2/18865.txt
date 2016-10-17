@@ -1,0 +1,17 @@
+Erro log ao efetuar impressão de CC-e
+*1) Qual o comportamento observado?*
+Ao fazer impressão da CC-e o sistema apresenta erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Modulo de vendas vendas --> Cadastro --> Venda Balcão -->Procedimentos Especiais --> Carta de Correção Eletronica CCE , Após emitir a CC-E é solicitada a tela de impressão , após selecionar SIM para imprimir ( O sistema apresenta erro log )
+
+
+*3) Qual o comportamento esperado?*
+Ao efetuar a impressão da CC-e o sistema não apresentar erro log.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+Versão 6.1c 
+
++O problema pode ser simulado em qualquer base de dados.+

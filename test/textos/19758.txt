@@ -1,0 +1,5 @@
+Criar Tela para inclusão/alteração de Manifesto (MDF-E)
+Eu sendo P.O
+
+Quero que:
+Seja criado uma tela de inclusão e Alteração de Manifesto (MDF-E)

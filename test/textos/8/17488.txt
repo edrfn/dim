@@ -1,0 +1,12 @@
+Criar log para o Painel
+Criar log para o Painel de Controle do PDV.
+
+*Critérios de validação*
+* Arquivo de log de funcionamento do Painel de Controle;
+
+*Como implementar*
+* Analisar a melhor forma de construção do log;
+* Rastreabilidade da solução;
+* Implementação do registro de log;
+* Testes.
+* Modificação da melhoria "modificação das pastas";

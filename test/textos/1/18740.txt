@@ -1,0 +1,14 @@
+Devolução de cliente - Ao gravar uma devolução, o botão de alterar os produtos fica ativo
+*1) Qual o comportamento observado?*
+Na tela de devolução de cliente ao gravar um registro, o botão de alterar produtos fica ativo, clicando nele, toda a tela fica em edição.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Fazer todo o processo de digitação da devolução e gravar o registro;
+3- Verificar que o botão de alterar produtos está ficando habilitado, sendo que ao gravar um registro nada na tela poderia estar em edição.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao gravar uma devolução, todos os campos e botões na tela fiquem desabilitados enquanto não seja acionado o botão 'Alterar'.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

@@ -1,0 +1,13 @@
+Refatoração - Tela de Bancos
+*Como:* Tester
+*Quero:* Refatoração da tela de Bancos conforme novo padrão
+*Para:* Adaptar a tela ao novo padrão
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu de cadastro
+* Testar todas as validações
+* Validação se Banco já foi incluido
+
+*Como implementar* 
+* Criar formulário no novo padrão;
+* Implementar todas as validações de acordo com a tela no padrão anterior. 

@@ -1,0 +1,35 @@
+Desconto Por Item na Venda com Impressora Fiscal
+Ao efetuar uma venda no Automaster e aplicar um percentual de desconto(45,89%) o valor final da venda 
+ficar com quatro casas decimais. Ex: 67,1234.
+O cupom fiscal já sai cancelando.
+
+Obs:. Parametros do sistema: Casas decimais 4 e 3 casas.
+Casas Decimais da Embalagem: 4
+Casas Decimais do Valor Unitario: 3
+
+1) Qual o comportamento observado?
+
+Essa situação só acontece com impressoras fiscais vinculada a venda.
+Ao Digitar um pedido de venda, inserir o produto e aplicar um 
+percentual de desconto(45,89%) no item,  o valor final da venda 
+ficar com quatro casas decimais. Ex: 67,1234.
+O cupom fiscal já sai cancelando.
+
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Digitar Pedido de Venda
+Inserir o Cliente
+Inserir o produto
+Inserir a quantidade
+E no campo valor do produto, pressionar PAGEDOWN e inserir o desconto (45,89%) no
+item ai o valor do produto ira ficar com quatro casas decimais cancelando o 
+cupom fiscal.
+
+3) Qual o comportamento esperado?
+
+Digitar o pedido e em sequencia gravar, saindo o cupom.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

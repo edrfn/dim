@@ -1,0 +1,15 @@
+Totalizador de títulos no relatório de resumo diário.
+*Comportamento Observado:*
+
+- No relatório de Resumo Diário o sistema está imprimindo os valores de títulos de maneira incorreta. Durante os teste a conclusão do possivel problema seria que o sistema está repetindo os valores de acordo com o número de parcelas talvez.
+
+*Comportamento Esperado:* 
+
+- Que na emissão do relatório o sistema apresente a informação correta em relação aos títulos.
+
+(Em anexo encontra-se um relatório emitido e um backup do banco usado durante os testes).
+
+
+Obs:
+
+Em conversa com a analista de negócio, achamos melhor que o nome "Títulos" impresso no relatório deve ser substituído por "Baixa de Título" 

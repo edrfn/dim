@@ -1,0 +1,15 @@
+Pedidos de Venda - Trazer pedidos ordenados por data de lançamento ao pesquisa-los
+1) Qual o comportamento observado?**
+Ao pesquisar pedidos, o sistema os traz de forma aleatória e não ordenados por data de lançamento ( o ultimo lançado fica no topo da lista )
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedidos de Venda
+2- Clicar no botão Pesquisar
+3- Perceber que os pedidos ja digitados são trazidos de forma aleatória.
+
+
+3) Qual o comportamento esperado?
+O sistema deveria trazer os pedidos ordenados por data de lançamento... (trazendo o ultimo lançado no topo da lista)
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

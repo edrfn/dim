@@ -1,0 +1,19 @@
+Tempo de resposta do Painel ao PDV insatisfatório.
+*Comportamento observado*
+Ao abrir o PDV no modo _offline_ o sistema demora de retornar ao controle da rotina, causando uma sensação de travamento ao usuário.
+
+*Passos para reproduzir o comportamento*
+- Cancelar a execução do Painel;
+- Abrir o PDV;
+- Observar o tempo de resposta a sincronização que o PDV tenta executar na inicialização do sistema;
+- Realizar alguma solicitação (ex: PV, título, consulta de estoque) e observar o tempo de resposta do sistema;
+- Comparar os tempos com o PDV em execução com o Painel ativo.
+
+*Comportamento desejado*
+Que o sistema identifique e espere de modo satisfatório uma resposta do Painel independente de sua atividade.
+
+*Como implementar*
+1. Identificar o ponto do sistema que espera ou trava. 
+2. Implementar um timeout para a busca das informações (sugestão: utilizar TimedSocket usado no configurador).
+3. Testar.
+

@@ -1,0 +1,23 @@
+Erro log na reimpressão de pedido com moledo Bobina 1 e 2 linhas.
+*1) Qual o comportamento observado?*
+Foi detectado o erro log ao reimprimir pedido modelo: bobinha 1 e 2 linhas.
+O problema ocorre apenas quando o pedido contém mensagem adicionada, sendo que essa mensagem é prescrita no Autmsg.dat. Ao efetuar a reimpressão do pedido nessa circunstância conseguiremos simular o erro.
+
+
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Modulo de vendas vendas --> Cadastro --> Venda Balcão -->Pedido de venda --> Digitar o pedido de venda e ao final adicionar a mensagem (F11) --> Concluir a movimentação normal.
+
+Após venda concluída, utilizar a rotina: Vendas--> Relatórios --> Relatórios de Movimento --> Pedidos (Colocar os dados da nota no filtro e escolher o modelo Bobina 1 linha ou Bobina 2 linhas.
+
+Ao final desse processo apresentará o erro log.
+
+
+*3) Qual o comportamento esperado?*
+Ao reimprimir pedidos com mensagens adicionais , o sistema permita fazer a impressão e não apresente erro log.
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+*Versão 6.1c*

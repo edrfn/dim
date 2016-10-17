@@ -1,0 +1,10 @@
+Melhorar a integração do Dinâmico
+*Como:* Scrum Master
+*Quero:* Melhorar o processo de integração do Dinâmico.
+*Para:* Evitar falhas na comunicação e interpretação dos dados do sistema.
+
+*Como Implementar*
+- Ajuste da leitura do arquivo xml;
+- Ajuste das classes que fazem o "parse"
+- Ajuste dos retornos da comunicação do sistema.
+- Testes

@@ -1,0 +1,8 @@
+Cadastro do usuário inicial no sistema
+Quero acessar o site do sistema realizar o meu cadastro e depois acessar o sistema automaticamente.
+
+**Critérios de validação**
+
+* A história será validada de acordo com o requisito de produto #17760;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem cadastr.

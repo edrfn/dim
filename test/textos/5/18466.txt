@@ -1,0 +1,22 @@
+Colunas não alimentadas na tabela pedidosaida ao gravar na rotina Devolução ao Fornecedor
+*1) Qual o comportamento observado?*
+Foi observado que ao gravar a devolução foi observado que a rotina não gravou na tabela pedidosaida o valor
+correspondente às colunas 'peds_fkven_id', 'peds_dataemissao', 'peds_fkcob_id', 'peds_fktrp_id',
+'peds_datahorasaida', 'peds_descincideicms', 'peds_codigognre', 'peds_indicpagto', 'peds_fknot_id',
+'peds_fknat_id', 'peds_venda_id', 'peds_condicaopreco', 'peds_fkpgto_id', 'peds_numeronota'
+'peds_otivocancelamento', 'peds_fk_origempedjuntado';
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Devolução ao Fornecedor;
+2- Preencher toda a rotina, selecionar nota previamente cadastrada e liberada para o fornecedor escolhido;
+3- Preencher todos os campos superiores e depois selecionar outra aba da rotina;
+4- Clicar em gravar e observar a tabela *pedidosaida* no banco;
+
+*3) Qual o comportamento esperado?*
+Espera-se que ao clicarmos em Gravar, o sistema alimente o banco com os dados informados corretamente;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Devolução ao Fornecedor;
+2- Preencher toda a rotina, selecionar nota previamente cadastrada e liberada para o fornecedor escolhido;
+3- Preencher todos os campos superiores e depois selecionar outra aba da rotina;
+4- Clicar em gravar e observar a tabela *pedidosaida* no banco;

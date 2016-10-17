@@ -1,0 +1,11 @@
+[Total NFCE] Adicionar mensagens mais próximas do usuário para retorno de erros
+*Breve descrição:*
+
+Atualmente o sistema retorna mensagens de erro que não deixam com que o cliente resolva sozinho o problema, um exemplo: "Sefaz Retorno 343: Foi encontrado um erro verifique o log." Isto faz com que o usuário não consiga resolver sozinho e entre em contato com o suporte gerando um desconforto para o cliente.
+
+*O que se deseja:* 
+
+As mensagens devem ser mais claras para o cliente, já que sabemos como resolver o problema, podemos passar possiveis soluções para o usuário interpretando os erros retornados.
+
+Ex.: "Retorno 343: verifique se um de seus produtos possuem caracteres especiais."
+

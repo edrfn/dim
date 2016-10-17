@@ -1,0 +1,12 @@
+Inutilização de faixa de Nfe - Inserção da Tela de Inutilização de NF-e no sistema
+*Como:* Usuário do sistema
+*Quero:* Inserção da interface visual de Inutilização de NF-e
+*Para:* Obter a opção de inutilização de NF-e do sistema
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu Vendas->Movimentos-> Inutilização de faixa de NF-e.
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

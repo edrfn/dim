@@ -1,0 +1,31 @@
+PAF-ECF
+*Como implementar*
+Durante a homologação verificamos que algumas consultas apresentaram problemas na busca de dados importantes para a construção dos arquivos obrigatórios.
+
+*1. Consulta dos dados:*
+Todas as consultas que incluem caixa, unidade de negocio e vendas devem ser revisadas!
+As classes de datasourcePAF, apresentaram falhas nas consultas quanto junção de tabelas e consultas por datas. Durante a homologação as datas foram retiradas para facilitar o processo, porém é necessário corrigir e manter as condições dos filtros.
+
+*2. Registros do PAF-ECF :*
+*2.1 (DAVs):* tabela de pré-venda no painel está gravando o número de série da ECF no campo de número de ECF. O número de série é alfanumérico e o dado requerido é o correspondente ao número do PDV, utilizado nos registros D2 e D3 de DAVs emitidos 
+*2.2 (Acúmulo de Pagamentos R07):* As notas Emitidas pelo menu F9 devem possuir um registro de pagamento e o mesmo deve ser inserido na tabela R07 para compor o registro de acumulo de pagamento (A).
+
+*3. Pré-venda:*
+*3.1 Dados encriptados:* O executável da pré-venda deve validar os dados gravados preferencialmente com encriptação MD-5 para posterior comparação nos arquivos do PAF. Esses dados são conferidos para validar as solicitações da especificação no que diz respeito a alterações diretas no banco de dados.
+*3.2 Correção da informação armazenada:* Gravação incorreta do número da ECF pelo número de série da impressora;
+
+*4. Vendas do período:*
+Registro C100 - As notas fiscais inseridas a partir da rotina F9, modelo 01 e as notas exportadas do ERP, modelo 55 devem constar no registro
+Registro C170 - Arquivo dependente do arquivo C100
+
+5. *Sincronização de NF-e:* 
+Funcionamento do sistema com relação a sincronização de NF-e. Atualmente essa sincronização está comentada. Verificar a necessidade de habilitar. Em caso negativo, desconsiderar parte do item 4 dessa lista.
+
+*6. Testes.*
+
+*Todas as informações acima devem ser conferidas jundo ao anexo (especificação 02.02)*
+
+*Critério de validação*
+* O sistema deve atender aos requisitos do Roteiro do PAF-ECF 02.02.
+
+

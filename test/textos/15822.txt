@@ -1,0 +1,7 @@
+[CHECKLIST] Erro na rotina de devolução a fornecedor quando a venda tem IPI calculado sobre o liquido.
+Qual o comportamento observado?
+Foi verificado que ao lançar uma nota de devolução a fornecedor que contenha desconto na capa e IPI, se configurado o calculo de IPI sobre o liquido ao emitir a Nfe o sistema calcula o IPI sobre o liquido apenas para a capa mas no item o IPI é calculado sobre o bruto causando rejeição da nota.
+Qual os passos para simular o comportamento observado?
+Faça o lançamento de uma nf de devolução a fornecedor com desconto na capa de 10%, no lançamento dos itens coloque um item de 100,00 e IPI de 10% e no campo IPI sobre o Bruto coloque N. verifique que o valor do desconto, valor do IPI e valor da nota fica correto porem o valor do IPI no item fica errado pois esta sendo calculado sobre o bruto. 
+Qual o comportamento esperado?
+O sistema deve calcular o IPI de acordo com o Parâmetro "IPI sobre Bruto" tanto na capa quanto nos itens.

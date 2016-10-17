@@ -1,0 +1,17 @@
+Reimpressão do DANFE com NF-e denegada
+*1) Qual o comportamento observado?*
+
+O sistema está retornando a mensagem: "Erro ao imprimir o Danfe, verifique se os dados da nota estao Ok." quando se trata de uma NF-e denegada. Observado também que, após utilizar a rotina de reimpressão da nota, o XML fica vazio, não contendo mais as tags referentes a emissão das notas. Observado também que ao utilizar o recurso de reimpressão com o XML do Portal da Nota Fiscal Eletronica, o sistema reimprimiu normalmente, porem não saiu a mensagem de denegação, aparentando ser uma NFe autorizada.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue os XMLs em anexo;
+Utilize a rotina de reimpressão de XML;
+Verifique os erros descritos acima;
+
+*3) Qual o comportamento esperado?*
+
+Ao reimprimir um DANFE denegado, deve ser apresentada a tarja com a mensagem respectiva.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

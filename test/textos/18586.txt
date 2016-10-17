@@ -1,0 +1,14 @@
+Exportação de baixa de títulos para o ERP
+*Quero:* Exportar títulos e suas baixas para o ERP.
+*Para:* Completar o processo de comunicação e enviar todos os dados referentes a pagamentos para serem armazenados no ERP.
+*Como:* Refatorando e implementado o que falta na exportação de baixa de títulos.
+
+*Descrição:*
+
+Devido a modificação que foi feita no ticket #18521 para que o PDV realizasse pagamento de múltiplos títulos tornou-se necessário refazer a exportação das informações já que agora um grupo novo de informações relacionadas, que são os itens de baixa de título devem ser exportadas em conjunto com as informações de baixa de títulos.
+
+*Como implementar:*
+
+- Verificar as alterações no layout.
+- Implementar as modificações no pacote de exportação.
+- Testes.

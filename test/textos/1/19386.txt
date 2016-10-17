@@ -1,0 +1,15 @@
+Lançamento de Títulos a Pagar - Não está sendo possível visualizar títulos baixados
+*1) Qual o comportamento observado?*
+Observou-se que ao pesquisar por títulos baixados, na rotina Lançamento de títulos a Pagar, o sistema exibe uma mensagem de erro e não apresenta os títulos.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Acessar a rotina pelo caminho: Financeiro - Movimentos - Contas a Pagar - Lançamento de Títulos;
+Clicar no botão pesquisar;
+Escolher a opção 'Títulos baixados' e logo após, o fornecedor;
+Observar que nesse momento é exibida a mensagem de erro;
+
+*3) Qual o comportamento esperado?*
+Que o sistema exiba todos os títulos baixados, para determinado fornecedor, sem erro.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

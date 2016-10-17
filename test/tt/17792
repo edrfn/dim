@@ -1,0 +1,9 @@
+Fazer lançamento de contas a pagar
+Realizar o lançamentos de contas a pagar no sistema.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17336
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

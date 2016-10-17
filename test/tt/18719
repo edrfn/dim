@@ -1,0 +1,15 @@
+Implementar a ordenação e colocar os subtotais no relatório de movimento de saída
+*Como:* Desenvolvedor
+*Quero:* Implementar no relatório de movimento de saída a ordenação e o subtotais;
+*Para:* Poder ordenar o relatório por período de digitação ou de emissão;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Venda - Relatórios - Movimento de Saída;
+* Selecionar a ordenação pelo período de digitação ou de emissão;
+* Apertar em imprimir e visualizar o relatório ordenado pelo formato que eu escolhi;
+* Apertar em imprimir e visualizar o subtotais do relatório;
+
+
+*Como implementar* 
+* Implementar os subtotais
+* Implementar a ordenação do relatório;

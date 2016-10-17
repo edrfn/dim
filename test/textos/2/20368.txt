@@ -1,0 +1,12 @@
+Refatorar a tela de tributação por UF
+Como: Analista de negócio
+Quero: Que seja realizado a refatoração do cadastro de tributações por UF.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação*
+
+
+Como implementar:
+
+- Interface para o cadastro.
+- Possibilidade inserir, alterar, pesquisar e excluir.

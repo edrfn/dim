@@ -1,0 +1,15 @@
+Adicionar no relatório de movimento de saída o subrelatório Analítico
+*Como:* Desenvolvedor
+*Quero:* Construir relatório analítico;
+*Para:* Visualizar as notas e os itens em tela conforme requisito relacionado
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Venda - Relatórios - Movimento de Saída;
+* Selecionar a opção analítico em formatos;
+* Apertar em imprimir e visualizar os dados das notas e itens conforme o requisito.
+
+
+*Como implementar* 
+* Criar a query dos itens;
+* Criar o relatório no report builder;
+* Fazer as alterações na tela do relatório para quando seja escolhido a opção analítico aparece o relatório com os itens

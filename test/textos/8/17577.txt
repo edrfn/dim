@@ -1,0 +1,1 @@
+Gostaria também que fosse retornado nas funções enviarXmlNFCe e criarEnviarXML a data/Hora da autorização da nota (REMOVIDO: e o link para geração do QrCode, além das informações que já são retornadas.)

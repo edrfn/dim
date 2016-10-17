@@ -1,0 +1,4 @@
+CFOP de transferência na rotina de Regra de Tributação
+Como: P.O
+Quero: Implementar na rotina de regra de tributação um campo para informar natureza de operação para transferência, para que os produtos alocados à essa regra assumam essa natureza em caso de transferência.
+Para:Atender a necessidade de alteração das CFOPs nas regras de transferência.

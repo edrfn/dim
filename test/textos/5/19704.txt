@@ -1,0 +1,19 @@
+Refatorar o cadastro de clientes
+Como: Analista de negócio
+Quero: Que seja realizado a refatoração do cadastro de clientes.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação:
+
+- Validação CNPJ Válido;
+- Validação Inscrição Estadual;
+- Validação Endereço;
+- Validação Telefone;
+- Validação ao relacionar contato;
+
+Como implementar:
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 
+
+h1. Remover a aba de anotações da tela e o campo "observações" do banco.

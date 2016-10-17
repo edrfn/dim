@@ -1,0 +1,21 @@
+Integrar licença no sistema
+*Como:* Analista de negócio 
+*Quero* Carregar a licença do sistema
+*Para* Bloquear o uso do sistema
+
+*Critérios de validação*
+- Utilizar o sistema apenas por 7 dias sem licença
+- Verificar compatibilidade do sistema com a licença inserida
+
+*Como implementar*
+
+SERVIDOR DE PDV
+- Importar o arquivo de licença vindo do Dinâmico Varejo
+- Alterar configurações do sistema para adicionar o valor na coluna PAF (encriptado MD-5)
+- Guardar as informações do arquivo em banco
+- Sincronizar a data para o PDV (encriptado MD-5)
+- Checar número de usuários PDV na integração de caixa (somente permitir o cadastro de caixas de acordo com a licença)
+
+PDV
+- Checar a data da licença em toda abertura do sistema
+- Bloquear o uso do sistema após 7 dias sem licença

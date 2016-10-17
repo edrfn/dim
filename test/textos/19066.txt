@@ -1,0 +1,7 @@
+Implementar 9 dígitos no campo número da nota fiscal no relatório de movimento de entradas
+*Como:* Product Owner
+*Quero:* Implementação de 9 dígitos no campo número da nota fiscal no relatório de movimento de entradas
+*Para:* Facilitar a conferência de clientes
+
+*Critério de validação* 
+* Ao emitir o relatório, devem ser emitidos os nove dígitos da nota de entrada;

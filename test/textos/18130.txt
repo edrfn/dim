@@ -1,0 +1,5 @@
+SEF II  -  Criação do Registro E060 do LA
+COMO: ScrumMaster
+Quero: Que seja criado o registro E060.
+
+

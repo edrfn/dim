@@ -1,0 +1,20 @@
+Inutilização de faixa de Nfe - Criar tabela no banco de dados para comportar os dados referentes a inutilização
+Como: Analista de Testes
+Quero: Criação de uma tabela no banco de dados
+Para: Armazenar as informações referentes as faixas de nota inutilizadas
+
+Critério de validação:
+Ter as informações referentes a inutilizações armazenadas para geração do Sped Fiscal e Sintegra
+
+Como implementar:
+Criar uma tabela no banco de dados que comporte as seguintes informações nos determinados campos:
+ . Filial
+ . Data da inutlização (data da efetuação da inutilização)
+ . Número de nota inicial
+ . Número de nota final
+ . Ano emissão
+ . Modelo de nota 
+ . Série
+ . Justificativa 
+
+Conferir especificação para os campos no requisito do produto vinculado ao ticket.

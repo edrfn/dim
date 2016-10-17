@@ -1,0 +1,11 @@
+Refatoração da Tela de Opções de Venda
+Refatoração da tela de Opções de Venda, adequando-a ao novo padrão e tornando-a mais responsiva em diferentes resoluções.
+
+*Quero:* Que a tela de Opções de Venda não se distorça em resoluções menores
+*Para:* Cliente
+*Como:* Reconstruindo a tela utilizando gerenciadores de layout diferentes de AnchorPane e setando tamanho fixo da tela.
+
+*Como implementar*
+
+- Criar novo FXML/CSS
+- Criar novo controller

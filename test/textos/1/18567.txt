@@ -1,0 +1,15 @@
+Outras Saídas - Criação da Pesquisa de cadastros da Tela de Outras Saídas
+*Como:* Usuário do sistema
+*Quero:* Criação da pesquisa de cadastros da tela de Outras Saídas
+*Para:* Buscar por um registro previamente cadastrado no banco de dados e trazer suas informações para manipulação de dados de Outras Saídas na interface do sistema.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu Vendas > Outras Saídas.
+* Possuir a opção de Pesquisa na tela;
+* Ao clicar para pesquisar, aparecer uma lista com todos os registos previamente cadastrados no banco;
+* Ao inserir um filtro na Pesquisa, trazer apenas os registros que obedeçam ao filtro informado.
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

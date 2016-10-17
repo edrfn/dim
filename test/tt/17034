@@ -1,0 +1,14 @@
+Filtro de filial para vendedores no PDV.
+Breve descrição do caso:
+
+No Cashone hoje aparecem todos os vendedores, independente da filial, a implementação seria para filtrar o vendedor de cada filial para aparece apenas na filial a qual seu cadastro pertence.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+2.8a
+
+Motivação?
+
+Necessidade pontual do cliente.
+
+Informações adicionais.

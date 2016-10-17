@@ -1,0 +1,16 @@
+Correção da rotina de balanço
+*Como:* Analista de negócio
+*Quero:* Corrigir a rotina de balanço
+*Para:* Evitar erros do sistema
+
+*Comportamento observado*
+Ao realizar a liberação de um balanço não esta sendo gerada as notas de entrada e/ou saída para atualizar o estoque.
+A rotina também esta ignorando situações em que existe reservas proveniente de pedidos abertos.
+
+*comportamento desejado*
+Que ao liberar o balanço as notas de entrada e/ou saída sejam geradas;
+Ao atualizar o estoque, considerar saldo de reserva, solicitando a conclusão dos pedidos abertos.
+
+*Critério de validação*
+- Notas de balanço geradas.
+- Estoque atualizado.

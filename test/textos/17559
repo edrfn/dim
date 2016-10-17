@@ -1,0 +1,15 @@
+Verificar funcionamento da Pré-venda e Orçamento gerados pelo Dinâmico ERP
+Realizar testes para verificar o funcionamento da Pré-venda e Orçamento realizados no ERP. 
+
+Deve ser verificado todas as informações referente a cada pré-venda e orçamento da construção no ERP ao voltar como venda para o ERP, testando os seguintes pontos:
+* Arquivo de pré-venda gerado pelo monitor;
+* Arquivo de orçamento gerado pelo monitor;
+* Pré-venda lido pelo painel;
+* Orçamento lido pelo painel;
+* Pré-venda chamada no PDV;
+* Orçamento chamado no PDV;
+* Impressão de Pré-venda;
+* Impressão de orçamento;
+* Diferenças nas rotinas quando PAF e não PAF;
+
+Em todos os pontos citados acima deve ser verificado número do documento, quantidade de itens, itens cancelados, valor total, desconto (item e venda), acréscimo (item e venda);

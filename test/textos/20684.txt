@@ -1,0 +1,7 @@
+Ficha Kardex
+*Como:* Analista de negócio
+*Quero:* visualizar a movimentação dos produtos através da ficha kardex
+*Para:* Fornecer uma análise e evolutivamente detalhes dessa analise, quanto as entradas e saídas de produtos
+
+*Como implementar*
+Vide requisito

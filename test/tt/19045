@@ -1,0 +1,24 @@
+Problema ao enviar NFC-e em contingência.
+LOCAL:
+PDV  NFCE  Contigência
+
+VERSÃO:
+Identificado na versão (2.8G)
+
+PRÉ-CONDIÇÕES:
+ Utilizar NFC-e Migrate
+ Emitir em contingência 
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema , efetue uma venda.
+2) Essa venda deve ser efetuada em contingência 
+3) Verifique que será apresentado um erro no envio.
+
+ERRO:
+O sistema encontra problemas ao efetuar notas em contigência.
+Se torna necessário validar as situações ocorridas para que o cliente não tenha que parar seu caixa ao cair a internet ou a Sefaz. 
+
+SITUAÇÃO DESEJADA:
+O sistema deve garantir a emissão de nfc-e em modo de contigência, para que não seja interrompida a operação do cliente em meio a uma instabilidade na internet ou sefaz.
+
+OBS.: No caso em anexo, o sistema fecha completamente ao acontecer o erro.

@@ -1,0 +1,10 @@
+Implementar validação de incompatibilidade de versão entre PDV e Painel
+Quando há uma nova versão do painel que é sincronizada com uma versão diferente do PDV, geralmente ocorrem erros na abertura do sistema. O PDV deveria fazer uma verificação de compatibilidade de versões, para evitar erros do sistema.
+
+*Critérios de validação*
+Mensagem mostrada no PDV indicando que a versão do painel é incompatível.
+
+*Como implementar*
+* Requisito;
+* Definir gravação da versão do painel;
+* Alterar as mensagens.

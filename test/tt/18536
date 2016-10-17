@@ -1,0 +1,16 @@
+Carta de Correção eletrônica - Cliente apresenta um código diferente do da pesquisa, após selecionado..
+*1) Qual o comportamento observado?*
+Ao pesquisar um cliente com iduser 1, o campo referente a ele na rotina, apresenta o codigo 3, que é o do ent_id
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - movimentos - carta de correção eletrônica
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- pesquisar um cliente com o pagedown e seleciona-lo com enter;
+4- verificar que o ID apresentado na pesquisa (1), mudou para 3.
+
+
+*3) Qual o comportamento esperado?*
+Espera-se que  sistema mostre o código do cliente corretamente, apos o mesmo ser pesquisado, evitando um possível equivoco do usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

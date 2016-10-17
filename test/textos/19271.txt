@@ -1,0 +1,15 @@
+Pedidos de Vendas - Sistema apresenta erro ao gravar o pedido
+*1) Qual o comportamento observado?***
+Sistema apresenta erro em 1 a cada 3 vezes que tentamos gravar um pedido de venda, independente das informações contidas nele.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedido de Venda
+2- Digitar um pedido de venda, informar a forma de pagamento(informar espécies, ou não) e gravar.
+
+*3) Qual o comportamento esperado?*
+Que o sistema grave o pedido corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

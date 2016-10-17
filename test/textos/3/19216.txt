@@ -1,0 +1,19 @@
+Outras Saídas - Problemas com totalizadores
+*1) Qual o comportamento observado?***
+Ao modificar parâmetros dos produtos inseridos no grid de outras saidas, as totalizações não estãos endo feitas.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina;
+2- Criar um novo registro;
+3 - Inserir produtos no grid;
+4 - Editar o produto e trocar a aliquota deste;
+5 - Perceber que os totalizadores não mudam, ou mudam erroneamente.
+
+*3) Qual o comportamento esperado?*
+É esperado que após alterar os dados do produto, os totalizadores totalizem corretamente
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+
+

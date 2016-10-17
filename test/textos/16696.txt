@@ -1,0 +1,21 @@
+Status de vale compra não é atualizado para disponível, caso a venda seja cancelada ou não concluída
+*Qual o comportamento observado?*
+Ao realizar uma venda e fazer o pagamento com Vale Compra, caso esta venda seja cancelada, ou rejeitada, no caso de NFC-e, o vale compra continua como usado, quando deveria retornar ao status disponível.
+
+*Quais as etapas para obter o comportamento observado?*
+*Com impressora fiscal:*
+1. Realizar uma devolução gerando vale compra;
+2. Realizar outra venda e pagar com vale compra;
+3. Cancelar a última venda, no caso, a venda que foi paga com vale compra;
+4. Verifique que o vale compra fica com o status Usado;
+
+*Com NFC-e:*
+1. Realizar uma devolução gerando vale compra;
+2. Fazer com que a venda seja rejeitada, por exemplo, alterando 1 hora para mais ou para menos;
+3. Realizar outra venda e pagar com vale compra;
+4. Verifique que o vale compra fica com o status Usado, e neste caso a venda não foi concluída;
+
+*Qual o comportamento esperado?*
+Que ao realizar o pagamento de uma venda com vale compra, caso a venda seja cancelada ou não concluída, no caso de NFC-e, o status do vale compra seja atualizado para Disponível.
+
+Obs.: Realizei testes para verificação do problema nas versões 2.7k fiscal, e 2.8b NFC-e;

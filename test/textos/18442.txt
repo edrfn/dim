@@ -1,0 +1,13 @@
+Teste da rotina de geração de Sintegra do ERP
+*Como:* Scrum Master
+*Quero:* Teste da rotina de geração de Sintegra do Dinâmico ERP
+*Para:* Listar os bugs e/ou implementações de novos registros para futura correção/implementação da rotina.
+
+*Critério de validação* 
+* Criação de uma lista com os bugs encontrados nos registros que já estão sendo gerados (geração de registro com numero de campos errados, sem registro pai, campos obrigatórios vazios, etc.)
+* Criação de uma lista contendo os registros que faltam ser gerados (pais e filhos).
+
+*Como implementar* 
+* A lista deve ser escrita diretamente no Ticket, utilizando as formatações de texto do próprio Redmine caso necessário.
+* Não é necessário anexar arquivo texto com a lista.
+* Caso necessário, podem ser anexadas imagens.

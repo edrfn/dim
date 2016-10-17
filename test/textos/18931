@@ -1,0 +1,21 @@
+Importação de XML - Sistema não permite sair da tela de PRODUTOS NÃO ENCONTRADOS NO XML com a tecla esc
+*1) Qual o comportamento observado?*
+Ao importar o XML e o sistema apresentar a tela de Produtos não encontrados no XML, o usuário só consegue sair da tela clicando no Botão sair, no topo da tela
+e não com a tecla ESC.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão "XML";
+3- Importar o Arquivo;
+4- TEntar fechar a tela de produtos não encontrados com a tecla esc
+*3) Qual o comportamento esperado?*
+Espera-se que possa sair da tela de produtos não encontrados pressionando a tecla esc.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Dicas:
+
+* Verificar no _KeyDown_ alguma validação para entender o comportamento;

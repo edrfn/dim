@@ -1,0 +1,22 @@
+Sistema aborta ao apagarmos o campo Emitente e dermos Page Down em Lançamento de Títulos a Pagar
+1) Qual o comportamento observado?**
+Foi observado que ao preenchermos o campo Emitente, o apagarmos e pressionarmos Page Down, o sistema aborta automaticamente e/ou exibe na pesquisa somente o registro apagado anteriormente em Lançamento de Títulos a Pagar;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Financeiro > Movimentos > Contas a Pagar > Lançamento de Títulos;
+2- Selecionar o botão Novo ou ALT + N;
+3- Selecionar o botão de pesquisa do campo Documento ou pressionar Page Down;
+4- Selecionar a opção Cheque na janela de pesquisa do campo;
+5- Preencher o campo Emitente, apagar e pressionar Page Down;
+6- Sistema aborta automaticamente e/ou exibe na pesquisa somente o registro apagado;
+
+3) Qual o comportamento esperado?
+Espera-se que ao preenchermos o campo Emitente, o apagarmos e depois pressionarmos Page Down, o sistema não aborte e não exiba na pesquisa somente o registro apagado;
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Financeiro > Movimentos > Contas a Pagar > Lançamento de Títulos;
+2- Selecionar o botão Novo ou ALT + N;
+3- Selecionar o botão de pesquisa do campo Documento ou pressionar Page Down;
+4- Selecionar a opção Cheque na janela de pesquisa do campo;
+5- Preencher o campo Emitente, apagar e pressionar Page Down;
+6- Sistema exibe na pesquisa todos os registros ativos.

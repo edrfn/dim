@@ -1,0 +1,2 @@
+Implementar chamada da Função de Retorno de Baixas na classe da camada Automaster concernente a Total Boletos
+Deve ser implementada a chamada da função "retorno de baixas" que irá se comunicar com a Dll TotalBoletos, fazendo a leitura do arquivo de retorno e alimentando o resultante das baixas contidas no arquivo em uma string. 

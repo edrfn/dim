@@ -1,0 +1,12 @@
+Criar rotina de exportação e emissão de NFe
+Criar rotina de exportação e emissão de NFe.
+
+Como implementar:
+
+# Selecionar a placa do veículo de acordo com o transportador
+# Não permitir peso líquido maior que peso bruto
+# Validar os pedidos disponíveis para emissão de NFE
+# Validar a visualização do DANFE
+# Verificar se a nota consta nos servidores da SEFAZ
+# Validar atualização de estoque
+# Incluir a rotina no manual

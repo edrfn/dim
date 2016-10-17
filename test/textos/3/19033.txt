@@ -1,0 +1,14 @@
+Importação de cadastro de usuario
+*Comportamento observado:*
+
+No momento em que o servidor está realizando a importação do arquivo de cadastro de usuário é mostrado um erro informando que não foi possível gravar a Permissão de Usuário de Caixa por conta do Usuário com o código de retaguarda, que está sendo cadastrado no momento, não estar cadastrado.
+Porém se verificarmos no banco do servidor, na tabela "usuário", veremos que o usuário foi cadastrado, porém ele não possui nenhum tipo de permissão associada a ele tornando-o um usuário de uso básico, porém não deveria ser o caso, já que o arquivo de permissão foi enviado junto com o arquivo de cadastro.
+
+*Passos para reproduzir o comportamento:*
+
+Realizar o cadastro de usuario atraves da geração de arquivos.
+
+
+*Comportamento esperado:*
+
+Que o usuario seja cadastrado com a permissões referentes a ele contida no arquivo PUS enviado no momento da comunicação.

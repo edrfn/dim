@@ -1,0 +1,17 @@
+Dados do email do cliente cadastrado no PDV não são enviados para o SAP
+LOCAL:
+Dincash PDV  Módulo Vendas  Tela de cadastro de clientes
+
+VERSÃO:
+2.8g
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema pdv, acesse o menu cadastro de cliente;
+2) Cadastre um cliente e coloque as informações de Email;
+3) Verifique se a informação foi gravada no banco ou no WEB;
+
+ERRO:
+Ao cadastrar um cliente no PDV a informação não é gravada em nenhum local.
+
+SITUAÇÃO DESEJADA:
+É necessário que as informações de cliente sejam devidamente gravadas e enviadas para o SAP.

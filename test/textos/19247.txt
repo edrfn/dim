@@ -1,0 +1,13 @@
+[CASE DE SUCESSO] Inserir a visualização dos custos na tela principal do cadastro de produto
+*Como:* Tester 
+*Quero:* Inserir a visualização dos custos na tela principal do cadastro de produto
+*Para:* Ser possível visualizar os custos na tela do cadastro de produtos
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Cadastros - Estoque - Produtos
+* Pesquisar um produto e poder visualizar os custos do mesmo.
+
+*Como implementar* 
+* Incluir campo para visualização dos custos na tela do cadastro de produto.
+
+

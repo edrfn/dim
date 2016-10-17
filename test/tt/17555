@@ -1,0 +1,15 @@
+Habilitar os botões das telas de acordo com o contexto
+Os botões das telas de cadastros e movimentos devem ser habilitados ou não de acordo com o contexto:
+
+1- Ao entrar na tela, habilitar apenas as opções Novo, Pesquisar e Sair;
+2- Ao clicar em Novo, habilitar apenas as opções Gravar, Cancelar e Sair;
+3- Ao pesquisar e abrir um registro, habilitar apenas as opções Novo, Alterar, Pesquisar, Excluir e Sair;
+4- Alterando um registro, habilitar apenas as opções Novo, Gravar, Cancelar e Sair;
+5- Ao gravar um registro , habilitar apenas as opções Novo, Alterar, Pesquisar, Excluir e Sair;
+6- Ao excluir um registro, habilitar apenas as opções Novo, Pesquisar e Sair;
+
+Como implementar:
+
+# -Tornar os botões padrão sensíveis ao contexto.-
+# Tornar os campos das telas sensíveis ao contexto.
+# Testar as telas envolvidas.

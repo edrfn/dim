@@ -1,0 +1,20 @@
+Vendedor não estar sendo gravado na tabela de notas
+*Comportamento observado*
+
+Ao exportar/confirmar de um pedido de venda o vendedor escolhido no pedido não estar sendo gravados no tabela de notas;
+
+
+*Procedimento para simulação*
+
+* Fazer um pedido de venda com um vendedor;
+* Exportar/confirmar o pedido de venda;
+* Verificar na tabela notas no campo *not_fkven_id* se o vendedor foi gravado;
+
+
+*Comportamento esperado*
+
+Ao realizar a exportação/confirmação de um pedido de venda o vendedor seja gravado na tabela notas;
+
+*Como implementar*
+
+As functions *fn_sai_confirmarpedidogeranota* e *fn_sai_pedidogeranota* do banco de dados que pega os dados do pedido de venda e grava na tabela notas não estar implementa para levar o vendedor, a resolução do problema seria alterar as functions para levar os dados do vendedor.

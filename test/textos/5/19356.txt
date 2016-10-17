@@ -1,0 +1,4 @@
+[NFC-e] Implementação do processo de concorrência da comunicação com a dll.
+*Quero:* Realizar envios de notas sem travar o sistema;
+*Como:* Criando um processo de threads concorrentes para realizar a comunicação.
+*Para:* Realizar vendas e comunicar com o projeto total-comm-nfce;

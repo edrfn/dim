@@ -1,0 +1,18 @@
+Está sendo possível excluir uma CCe após ela ter sido enviada e ter sido gravada no banco com status liberado.
+*1) Qual o comportamento observado?*
+Observou-se que está sendo possível excluir uma CCe após ela ter sido enviada e ter sido gravada no banco com status liberado.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir a rotina através do caminho: Vendas- Movimentos- Carta de Correção;
+2- Clicar no botão Novo;
+3- Preencher os campos necessários para a criação de uma carta de correção;
+4- Gravar o registro e apertar F9 para a emissão da Carta de Correção.
+5- Pesquisar a CCe e trazê-la para a tela principal.
+6- Clicar no botão excluir;
+7- Verificar que a exclusão ocorre normalmente, o que não é para ocorrer.
+
+*3) Qual o comportamento esperado?*
+Espera-se que não seja permitido excluir uma CCe com status 'liberada'.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

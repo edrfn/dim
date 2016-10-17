@@ -1,0 +1,10 @@
+[License Manager] Modificar condição que identifica as licenças do Dinâmico ERP e PDV
+*Como:* Usuário do License Manager
+*Quero:* Que a condição para identificação da licença seja modificado de "Dinamico ERP" para "Dinamico"
+*Para:* Gerar licenças para o Dinâmico PDV, assim como gera para o Dinâmico ERP
+
+*Critério de validação* 
+* O nome do sistema contém "Dinamico"
+
+*Como implementar* 
+* Remover a segunda condição do "if's" referente "ERP", para que o sistema valide apenas se o nome do sistema contém "Dinamico".

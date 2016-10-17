@@ -1,0 +1,11 @@
+Alterar título da rotina Gerar Títulos em Massa 
+*Como:* Tester
+*Quero:* Alteração do nome da rotina Gerar Títulos em Massa, retirando os parênteses nas telas de contas a pagar e contas a receber
+*Para:* Ficar condizente com os movimentos
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Financeiro - Movimento - Contas a Pagar/Receber
+* Verificar o nome da rotina no Menu e no título da tela
+
+*Como implementar* 
+* Alterar o menu e os títulos das telas retirando os parenteses, deverá ficar: 'Gerar Títulos em Massa a Pagar' e 'Gerar Títulos em Massa a Receber'

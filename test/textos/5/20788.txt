@@ -1,0 +1,8 @@
+Sistema configurado LOCAL, não abre se não tiver acesso a REDE
+*Comportamento observado*
+- Ao tentar abrir o sistema estando com cabo de rede, a aplicação abre. Ao tirar o cabo de rede e desligar o wifi o sistema acusa erro de licença
+001 e 003.
+- Mesmo com o sistema todo instalado local, o serviço local não responde sem o cabo de rede pq o servidor respondeu primeiro e o nome da máquina foi alterado.
+
+*Comportamento esperado*
+- Se o sistema foi instalado local, que os serviços locais respondam.

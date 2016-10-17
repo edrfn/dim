@@ -1,0 +1,14 @@
+Testes da rotina de exportação e emissão de NFe
+Como: Scrumaster
+Quero: Testes na rotina de exportação e emissão de NFe.
+Para: Elencar os problemas encontrados na emissão de NFe.
+
+*Critério de validação*
+* Ter acesso à funcionalidade através do menu: Vendas - Movimento - Exportação de NFe;
+* Poder pesquisar os pedidos filtrando um cliente específico;
+* Poder pesquisar qualquer pedido sem informar o cliente;
+* Poder emitir nova informando ou não o transportador;
+* Validar o tratamento de exceções;
+* Validar a visualização do danfe gerado; 
+* Verificar se a nota consta nos servidores da SEFAZ
+

@@ -1,0 +1,12 @@
+ERP não gera o arquivo de orçamento para integração
+*Qual o comportamento observado?*
+
+Quando realizado um orçamento o sistema não gera o arquivo para a integração.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Criar um orçamento e observar a criação do arquivo.
+
+*Qual o comportamento esperado?*
+
+Que o sistema consiga cria o arquivo de orçamento.

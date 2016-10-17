@@ -1,0 +1,14 @@
+O arquivo de item venda está sendo gerado incorretamente
+*Qual o comportamento observado?*
+Segundo o Layout de integração (v. 1.8) a ordem do item no Cupom fiscal é a quinta informação do arquivo de item venda (999999.ITE), mas no arquivo gerado pelo painel, a ordem do item no cupom é a terceira informação. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Realizar venda no PDV;
+2. Verificar o arquivo de item venda (999999.ITE);
+
+*Qual o comportamento esperado?*
+Que a ordem do item no cupom fiscal seja a quinta informação no arquivo de item venda (999999.ITE), como indica no Layout de Integração.
+
+*Como implementar?*
+- Corrigir problema;
+- Testes.

@@ -1,0 +1,18 @@
+NF de entrada - Valor do desconto informado não está sendo considerado na coluna 'Valor Calculado' ao pressionar a tecla F6.
+*1) Qual o comportamento observado?***
+Ao inserir valor de desconto no campo de valores destacados na nota, esse valor não está sendo considerado na coluna de 'Valores Calculados' na tela apresentada ao pressionar a tecla F6
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Digitar NF de compra;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Inserir pelo menos um produto;
+5- Alterar o campo 'Desconto', na parte de valores destacados na nota;
+6- Pressionar a tecla F6;
+7- Verificar que o valor do desconto informado não foi apresentado;
+
+*3) Qual o comportamento esperado?*
+É esperado que após preencher ou alterar o campo 'Valor de desconto', essa alteração seja processada pelo sistema e apresentada ao usuário na coluna de valor calculado ao ser pressionada a tecla F6;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

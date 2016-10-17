@@ -1,0 +1,21 @@
+Problema ao desinstalar ou instalar o Total Database monitor.
+LOCAL:
+Total Database monitor - Desinstalação.
+
+VERSÃO:
+Identificado na versão 2.0
+
+PRÉ-CONDIÇÕES:
+  Ter o Total Database Monitor instalado
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez com o Total database instalado, verifique se o serviço está ativo;
+2) Vá na central de desinstalação de programas do Windows.
+3) Procure o Total Database monitor e desinstale.
+4) Verifique que acontecerá um erro ao finalizar a desinstalação.
+ERRO:
+Quando o Total database está com o serviço ativo, o mesmo impossibilita a instalaçao ou desinstalação com sucesso do mesmo.
+
+
+SITUAÇÃO DESEJADA:
+O Desinstalador e o instalador do Total Database Monitor deve Parar o serviço do mesmo para evitar problemas ao efetuar suas funções;

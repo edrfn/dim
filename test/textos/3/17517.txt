@@ -1,0 +1,14 @@
+Correção de campos na tela de baixa de títulos
+*Critérios de validação*
+* Ao escolher a opção "Total", o valor a ser pago deveria ficar inalterável;
+* No campo do valor a ser pago deveria conter máscara;
+* Na coluna número do cupom os valores são apresentados com 3 dígitos, mas o número do cupom contém 6 dígitos. E seria interessante verificar se esta informação será mostrada, levando em consideração que ela vem do retaguarda; 
+* Ao pressionar F8 para chamar a tela de baixa de título com o Servidor inativo é mostrada a mensagem "Sem conexão com o servidor", e ao pressionar "Ok" é mostrada a tela de títulos vazia. Seria interessante que a mensagem seja mais clara, por exemplo: "Não é possível visualizar os títulos, pois o servidor está inativo.", e ao pressionar em "Ok" não deveria chamar a tela vazia.
+
+*Como Implementar*
+
+Alterar os botões que estão trocados.
+Adicionar máscara nos campos devidos.
+Bloquear campos que não podem ser alterados.
+Teste
+

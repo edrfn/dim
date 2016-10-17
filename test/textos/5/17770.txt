@@ -1,0 +1,8 @@
+Editar usuário no sistema
+Eu quero editar as informações de usuário cadastrados no sistema
+
+**Validações**
+
+* Todas as dos requisitos de produto #17766;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

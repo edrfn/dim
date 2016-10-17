@@ -1,0 +1,10 @@
+Configuração e ajuste do agendamento de sincronização no painel de controle
+Verificar a melhor maneira de configuração do tempo de atualização de sincronização no painel de controle.
+
+*Como implementar*
+* Desenvolver sistema de pergunta genérico para o Painel:
+>* Implementar fxml e o view da tela;
+>* Implementar o controller;
+* Solicitar confirmação da mudança de agendamento de sincronização;
+* Bloquear campos de agendamento e botão de atualizar agora quando iniciada uma rotina de atualização;
+* Testes.

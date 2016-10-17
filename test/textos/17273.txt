@@ -1,0 +1,7 @@
+Escrever requisitos de contas bancárias
+Escrita dos requisitos de contas bancárias;
+
+
+**Validação** 
+
+Requisito de contas bancárias escritos

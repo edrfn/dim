@@ -1,0 +1,36 @@
+[URGENTE] Validações na tela de Faturamento 
+*Como:* Analista de negócios
+*Quero:* Corrigir as validações na tela de faturamento
+*Para:* Melhorar as respostas do sistema e evitar erros impeditivos
+
+*Como deve ser as validações*
+
+Em *CADASTRO DE ESPÉCIE...*
+1. Grupo Dinheiro
+> Bloquear:
+>> Consulta TEF (Valor: Não)
+>> Modalidade
+>> Bandeira
+>> Limite de crédito (Valor: Não)
+>> Espécie Pré-datada (Valor: Não)
+
+2 Não permitir cadastrar espécies do Grupo:
+> Dinheiro
+> Cheque
+
+Em *CADASTRO DE PLANO DE PAGAMENTO*
+> Solicita Entrada
+>> O sistema deve validar que tenha uma espécie do grupo Dinheiro
+> Quantidade de parcelas
+>> Quando igual a Zero
+>>> Não deve permitir a entrada de espécies pré-datadas
+> Solicitar desconto?
+>>> Remover o campo, verificando onde está sendo utilizado.
+
+Em *FATURAR...*
+> Numero de parcelas
+>> Permitir o valor zero.
+>> colocar um combobox com as opções com o máximo de parcelas, ao invés de um campo aberto.
+>> Nas opções de cartão, ao ser identificado, débito, bloquear o campo de parcelas
+
+

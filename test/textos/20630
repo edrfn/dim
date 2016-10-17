@@ -1,0 +1,10 @@
+Sped - Bloco 1
+*Como:* Analista de negócios
+*Quero:* Desenvolver o bloco 1 do Sped
+*Para:* Ter essa funcionalidade pronta
+
+
+*Como Implementar*
+Registro 1001 - SELECT '1001' AS reg, '0' AS ind_mov
+Registro 1010 - Anexo.
+Registro 0990 - SELECT '1990' AS reg, '1' AS qtd_lin_1

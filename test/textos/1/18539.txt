@@ -1,0 +1,15 @@
+Carta de Correção eletrônica - Sistema mostra todos os registros da tabela SIT no campo Status.
+*1) Qual o comportamento observado?*
+Rotina mostra no campo "Status" todos os registros contidos na tabela SIT, status estes que não condizem em nada com a rotina de Carta de Correção
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - movimentos - carta de correção eletrônica
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Clicar no campo Status e verificar os registros contidos nele
+
+*3) Qual o comportamento esperado?*
+Que o sistema mostre apenas o status ABERTO ou ENVIADO, de acordo a situação da carta de correção eletrônica,
+e que o mesmo campo fique DESABILITADO, apenas para conferência do usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

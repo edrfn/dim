@@ -1,0 +1,9 @@
+Escrever requisitos de Lançamento Individual de contas a receber
+**Descrição**
+
+Escrita do lançamento Individual de contas a receber
+
+
+*Validação**
+
+Requisito de lançamento Individual de contas a receber escrito

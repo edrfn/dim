@@ -1,0 +1,16 @@
+Os relatórios gerenciais do dincash estão sendo direcionados sempre para o RELATORIO GERAL.
+LOCAL:
+Dincash PDV- Menu Fiscal
+
+VERSÃO:
+Identificado na versão (2.8J)
+
+PRÉ-CONDIÇÕES:
+ Utilizar Concentrador ( posto de Gasolina ) 
+
+ERRO:
+Relatórios de aferição, abastecimentos pendentes, parâmetros de configuração e encerrantes, devem ser relatórios específicos. Portanto, não devem estar dentro de um relatório geral.
+
+SITUAÇÃO DESEJADA:
+
+Cada relatório precisa ter um relatório gerencial especifico assim como é sinalizado na Leitura X. Não podem ser atribuidos ao relatório Geral

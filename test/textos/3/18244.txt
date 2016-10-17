@@ -1,0 +1,23 @@
+Tratar mensagem apresentada ao tentar excluir um cadastro vinculado a uma rotina de movimento
+Descrição
+
+
+*1) Qual o comportamento observado?*
+Ao tentar excluir um cadastro vinculado a uma rotina de movimento
+ é apresentado uma mensagem técnica ao usuário.
+*
+2) Quais as etapas para reproduzir o comportamento observado?*
+1- Concluir um cadastro.
+2- vincular esse cadastro a uma rotina de movimento.
+3- tentar excluir o cadastro vinculado.
+4- a mensagem técnica é apresentada;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao tentar excluir o cadastro que está vinculado a uma rotina de movimento, apresente
+uma mensagem humanizada ou mais clara para o usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Concluir um cadastro.
+2- vincular esse cadastro a uma rotina de movimento.
+3- tentar excluir o cadastro vinculado.
+4- a mensagem melhorada é apresentada;

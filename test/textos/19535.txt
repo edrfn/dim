@@ -1,0 +1,19 @@
+[IMPLEMENTAR NA 2.8J] Sistema está consultando o envio de notas em contingência a todo momento
+LOCAL:
+PDV  Módulo vendas  Tela de pagamento.
+
+VERSÃO:
+Identificado na última versão (2.8H)
+
+PRÉ-CONDIÇÕES:
+ Utilizar NFC-e Migrate
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+O erro ocorre com a sobrecarga da dll WSFramework, ao tentar enviar varias vezes as notas que estão em contigência.
+Geralmente ocorre em horários de pico onde há muita utilização do caixa e tentativas de envios de nota.
+
+ERRO:
+O sistema tenta enviar notas em contigencia a todo momento, sobrecarregando a DLL e ocasionando um APPCRASH e abortando o sistema.
+
+SITUAÇÃO DESEJADA:
+É necessário colocar para que o sistema faça esta consulta automaticamente apenas 1 vez por dia, para evitar este problema.

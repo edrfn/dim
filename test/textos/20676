@@ -1,0 +1,20 @@
+Refatorar o cadastro de grupos de permissões de usuários
+*Como:* Tester
+*Quero:* Refatoração da tela do cadastro de grupos de permissões de usuários
+*Para:* Adequar ao novo banco e o novo framework
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu;
+* Poder cadastrar, pesquisar, alterar e excluir grupos de permissões de usuários;
+
+*Como implementar* 
+* Incluir link de cadastrar grupos de permissões de usuários;
+* Criar formulário com as funcionalidades da rotina;
+
+*Para o Cadastro de Grupo de Permissões, foram definidos que:*
+
+* Deve ser inserido todas as permissões da versão 1.0, com a ressalva que deve-se adequar as mesmas para rotinas e cadastros que foram de alguma forma retiradas do sistema;
+* Problemas com o tamanho do grid de exibição das permissões. Consertar o layout;
+* Adicionar a possibilidade de permitir/negar por módulo ao clicar no nó principal da "arvore" de permissões;
+* Retirar temporariamente o conceito de 'Conceder';
+* Inserir os botões "Permitir Tudo", "Negar Tudo" e verificar usabilidade do "Inverter Seleção";

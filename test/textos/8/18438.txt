@@ -1,0 +1,2 @@
+Teste do conversor do Automaster para Dinâmico ERP
+Teste dos bugs corrigidos no ticket #18352, referente ao conversor de banco de dados do Automaster para Dinâmico ERP

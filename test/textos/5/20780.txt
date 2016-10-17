@@ -1,0 +1,15 @@
+Relatório de Movimento de Entrada
+*Como:* Analista de negócio
+*Quero:* Disponibilizar no sistema uma consulta aos movimentos de entrada
+*Para:* Que seja possível apresentar em relatório o reflexo das movimentações da empresa.
+
+*Critérios de validação*
+- Gerar o relatório
+- Ser possível exportar nos formatos permitidos pelo sistema
+- Imprimir
+
+*Como implementar*
+- Vide versão 1.0
+- Fazer o relatório em modo gráfico.
+
+h2. Não está funcionando na versão 1.0, por isso, não pude desenhar o layout. 

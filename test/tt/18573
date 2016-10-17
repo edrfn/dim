@@ -1,0 +1,14 @@
+Refatoração da tela da espécie Cartão.
+Quero: Refatorar a tela da espécie cartão que aparece durante o pagamento de uma compra.
+Como: Melhorando o código e as rotinas do JavaFX que estão implementadas atualmente.
+Para: melhorar a visualização do cliente e não permitir que a tela sofra alterações em tipos de monitores diferentes.
+
+Critério de validação:
+
+- Tela de espécie dinheiro funcional, de acordo com o layout da Hanck e adaptável a diversos monitores.
+
+Como implementar:
+
+- Criar novo FXML;
+- Criar novo CSS;
+- Ajustar o funcionamento do controller; 

@@ -1,0 +1,10 @@
+Aplicação dos parâmetros
+h1. Checklist
+
+|Parâmetros|Feito?|Passou?|Obs|
+|Cobrador Padrão|Sim|Não|Cadastro do cliente, Pedido de venda, outras saidas|
+|Centro de Custo Padrão (a pagar)|--|--|contas a pagar, pedido de compra, entradas |
+|Centro de Custo Padrão (a receber)|Sim|Não|Contas a receber, titulos a receber, outras entradas|
+|-Juros (%)-|||pedido de vendas, orcamento, outras entradas, outras saidas|
+|-Carência (dias)-|||Pedido de vendas, Orçamento, cadastro de produto|
+|-Mensagem para os boletos-|||Boletos, pedido de venda|

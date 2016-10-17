@@ -1,0 +1,9 @@
+Testar o cancelamento de NFe
+Realizar teste completo na rotina de cancelar nota fiscal eletrônica.
+
+* Principais pontos a validar:
+Validar os filtros;
+Validar a atualização do saldo de estoque;
+Validar o cancelamento dos títulos vinculados à nota;
+Validar estorno do limite de crédito do cliente;
+Verificar o status da NFE no site da SEFAZ (Estadual e Federal);

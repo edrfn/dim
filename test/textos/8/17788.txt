@@ -1,0 +1,8 @@
+Cadastrar fornecedor
+Quero cadastrar fornecedor no sistema.
+
+**Validações**
+
+* Todas as validações do requisito de produto #17282
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem cadastrou.

@@ -1,0 +1,21 @@
+Ao alterar uma devolução a cliente já feita, o sistema está somando os valores da devolução anterior com a nova alteração.
+1) Qual o comportamento observado?
+
+Ao realizar uma devolução a cliente no sistema, e por algum motivo seja preciso alterar apertando F11 na tela de devolução, ao gravar a alteração, o sistema pega o valor que já foi digitado antes e soma com o novo, ao invés de pegar apenas o novo valor. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma devolução a cliente;
+Grave a devolução;
+Verifique o valor de crédito dado ao cliente;
+Abra a tela de devolução e aperte F11;
+Entre na tela de alteração e grave a mesma;
+Verifique que o valor de crédito foi duplicado, porém só foi feita uma alteração no pedido da devolução;
+
+3) Qual o comportamento esperado?
+
+Ao realizar uma alteração no pedido de devolução a cliente, o sistema deve considerar os novos valores digitados, desprezando o saldo gravado anteriormente.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

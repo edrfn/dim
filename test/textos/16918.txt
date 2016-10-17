@@ -1,0 +1,20 @@
+SPED FISCAL- Implementar o campo 11 no registro H010 pois terá validade a partir do dia 01 de Janeiro de 2015
+1) Qual o comportamento observado?
+Foi incluso no guia pratico 2.0.15 no registro H010 que é referente aos totais do inventario o campo de numero 11 que é para informar o valor do item para efeito do imposto, solicito a implementação do mesmo conforme descrito no documento anexado.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+No guia pratico versão 2.0.15 pag.148 fala sobre a implementação de um novo campo no registro de inventario que é o campo 11 do registro H010 
+sendo que legislativamente é valido apartir do dia 1 janeiro deste ano, a especificação do layout da implementação esta no documento anexado. 
+
+3) Qual o comportamento esperado?
+Solicitamos a implementação do respectivo campo que é valido e em essa modificação apresentará erros de estrutura no PVA.
+
+4) Quais as etapas para executar o comportamento esperado?
+Verificar o guia anexado , o registro H010 e implementar o campo 11 (VL_ITEM_IR) que é para trazer o valor do item para efeito do imposto de renda.
+
+
+5) Qual a versão do produto e sistema operacional utilizados?
+6.0d
+
+6) Informações adicionais
+Segue anexo do guia 2.0.15, na pag 148 no campo 11 descreve oque será implementado e acima a tabela do layout

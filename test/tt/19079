@@ -1,0 +1,19 @@
+Importação de XML - O sistema não limpa o grid após escolher um outro XML
+*1) Qual o comportamento observado?
+Quando insere um XML os produtos são listados no grid. Se for escolhido um outro XML, o sistema não apaga os produtos do XML anterior, ficando no grid, os produtos dos dois XML's.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina 'Digitar NF de Compra' pelo caminho Compras - Movimentos - Digitar NF de Compra;
+2- Clicar no botão 'XML' e escolher um;
+3- Após os produtos serem listados no grid, escolher outro XML novamente;
+4- Observar que ficam no grid os produtos dos dois XML escolhido.
+
+*3) Qual o comportamento esperado?*
+Que o sistema limpe os dados do grid quando for escolhido um outro XML, para que não dê diferença nos valores que compõem a nota.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.
+
+*========== Anotações da Reunião de Planejamento [25/09] ==========*
+
+* Limpar o DataSet (Todos os campos), toda vez que clicar para importação de XML;

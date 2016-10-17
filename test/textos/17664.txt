@@ -1,0 +1,13 @@
+Verificar o funcionamento do PDV com outras embalagens, outras referências e outros códigos de barras
+Realizar testes para verificar o funcionamento de outras embalagens, outras referências e outros códigos de barras no PDV, verificando as informações que estão sendo exportadas pelo ERP.
+
+Objetivo do teste:
+- Identificar como funciona o sistema com essas situações de outras embalagens, outros códigos e etc;
+- Identificar a tela que precisa ser corrigida;
+
+Deve ser verificado como é a apresentação destas informações no PDV:
+1. se o produto fica "duplicado" ou "triplicado" na lista de produtos ao pressionar PageDown;
+2. ao pesquisar o produto pelo código de barras;
+3. ao pesquisar o produto pelo código de retaguarda;
+
+PS: Realizar os testes que depender do ERP com arquivos de integração.

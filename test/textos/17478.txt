@@ -1,0 +1,13 @@
+Criação dos registros 0000 a 0100 para implementação do SEFII
+*Como:* Usuário
+*Quero:* Desenvolvimento dos registros 0000 a 0100
+*Para:* Implementação do SEFII para o autoMASTER
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu.
+* Poder gerar o arquivo nos períodos solicitados.
+* Importar o arquivo corretamente no validador
+
+*Como implementar* 
+* Incluir opção de gerar o arquivo no menu de exportação de dados.
+* Criar uma pasta para que os arquivos sejam armazenados.

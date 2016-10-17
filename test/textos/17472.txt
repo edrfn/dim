@@ -1,0 +1,21 @@
+Não é possivel emitir redução Z utilizando a ECF Bematech MP4200.
+LOCAL:
+Dincash PDV  Módulo Vendas  Redução Z
+
+VERSÃO:
+Identificado na última versão (2.8g)
+
+PRÉ-CONDIÇÕES:
+  Utilizar uma ecf bematech MP4200
+  Emitir redução Z
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Configurar a ecf com o sistema.
+2) Abrir o sistema e tentar emitir a redução Z.
+3) Verificar se a redução Z foi emitida corretamente.
+
+ERRO:
+Não é possivel emitir a redução Z na MP 4200 utilizando o Dincash PDV.
+
+SITUAÇÃO DESEJADA:
+É necessário que seja impresso naturalmente a redução Z na ecf MP4200. Também é necessário verificar a emissão quando a mesma está pendente.

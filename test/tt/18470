@@ -1,0 +1,25 @@
+Erro na sincronização de Vendas Canceladas
+LOCAL:
+Dincash Web  Sincronização  Tela de sincronização com o SAP
+
+VERSÃO:
+2.8g
+
+PRÉ-CONDIÇÕES:
+  Restaurar a base do cliente;
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Faça um pedido no SAP.
+2) Deixe passar um dia.
+3) Verifique se o sistema ira cancelar esse pedido.
+4) Verifique se o cancelamento irá subir para o SAP
+
+ERRO:
+O sistema emite o cupom fiscal e cancela automaticamente, porém a venda é grava no SAP porém o cancelamento não é gravado, ou seja, fica sendo uma venda válida no SAP e a integração apresenta erro no pagamento/cancelamento da venda.
+
+SITUAÇÃO DESEJADA:
+A venda deve no final ficar com o status de cancelada.
+
+BASE:
+*No caminho:*
+"\Teste\Bases Redmine\PintoBarbosa.rar"

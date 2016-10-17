@@ -1,0 +1,14 @@
+Refatorar a rotina de Liberar Nota Fiscal de Compras
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da rotina de liberar nf de compras
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validar a alteração da situação do pedido de entrada.
+- Validar se houve a alteração do estoque e contabilizando corretamente
+
+*Como implementar:*
+
+- Interface para a liberação
+- Possibilidade de limpar campos e sair dele.

@@ -1,0 +1,15 @@
+Balanço - Bloquear a visualização de notas de entrada geradas pelo balanço na pesquisa de notas de compra
+*1) Qual o comportamento observado?***
+Ao entrar em modo de alteração em uma nota de compra gerada pela rotina de balanço a mesma mostra diferença ao tentar gravar e apresenta mensagem de erro em caso de tentativa de alteração dos produtos.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Digitar um balanço para gerar nota de entrada;
+2- Acessar a rotina de digitação de NF de Compra;
+3- Pesquisar a nota gerada pela digitação do balanço;
+4- Clicar no botão 'Alterar', tentar alterar algum dos produtos e verificar a mensagem de erro que é exibida;
+5- Clicar no botão 'Gravar' e verificar que é apresentada a mensagem de que existe diferença nos valores da nota;
+
+*3) Qual o comportamento esperado?*
+É esperado que a nota de entrada gerada pela rotina de balanço não seja exibida na pesquisa de notas na rotina de digitar NF de compra.
+
+

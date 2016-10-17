@@ -1,0 +1,22 @@
+[ACAOBACKLOG]Sistema perde o pedido ao dar ESC na tela de senha de Limite de Credito.
+1) Qual o comportamento observado?
+
+Ao fazer um pedido de venda para um cliente que tem R$100,00 de limite e ao terminar a venda o valor do pedido ultrapassar esse limite, apresentando a tela de digitar mensagem para liberar, ao apertar ESC para sair da tela de liberação, o sistema perde todas as informações anteriormente digitadas. Testado na versão 4.0z e problema não acontece.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+PARÂMETROS:
+
+É configurado em parâmetros a opção "Consistência de Limite de Credito = Sem Liberação".
+
+CADASTRO DE CLIENTE:
+Configurar um limite de R$ 100,00
+
+DIGITAR PEDIDO DE VENDA:
+- Ao informar o cliente e colocar produtos que atinga mais de que R$ 100,00. 
+- da F10 e o sistema aparece a tela de senha para Liberação do limite de credito.
+- Ao apertar a tecla de ESC o sistema não volta para tela de pedido com seus respectivos produtos, mas sim ele perde todas as informações digitadas no pedido.
+
+3) Qual o comportamento esperado?
+
+O sistema deve preservar o pedido antes digitado, para que seja dada a possibilidade de colocar o pedido suspenso e após o pagamento de títulos do cliente, ser liberado mais crédito.

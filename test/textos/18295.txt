@@ -1,0 +1,37 @@
+Erros nos filtros da rotina de emissão de NFe
+*1) Qual o comportamento observado?*
+Na rotina de emissão de NFe, alguns filtros apresentam alguns problemas conforme listados abaixo:
+1- Número do Pedido: 
+* Não está sendo possível localizar um pedido digitando o número;
+* Ao clicar em pagedown o sistema retorna o ID da tabela e não o número do pedido;
+* No danfe também está trazendo o ID como número do pedido;
+
+2- Cliente - Está trazendo os cadastros inativos;
+
+3- Transportador:  
+* Está trazendo os cadastros inativos;
+* Está deixando passar digitando um código de transportador inexistente;
+
+4- Placa: 
+* No título da tela de pesquisa está Lbl_TituloDaBusca;
+* mensagem de erro: Invalid input syntax integer:  (ocorre esporadicamente)
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Exportar NFe;
+2- Utilizar os filtros da rotina e verificar as situações listadas acima;
+
+*3) Qual o comportamento esperado?*
+É esperado os filtro dessa rotina funcionem corretamente
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*Situações adicionais - Depois do ticket fechado*
+
+1 - Ao selecionarmos no campo Cliente a opção TODOS e na pesquisa do campo Pedido selecionarmos um registro, ao alterarmos o registro do campo Cliente, o sistema não limpa o campo Pedido e continua exibindo um Pedido de outro Cliente;
+
+2 - Ao tentarmos apagar o registro inserido no campo Transportador, o sistema não permite pois continua exibindo a janela de pesquisa do campo  a mesma situação ocorre com o campo Placa Veículo; 
+
+3 - A janela de pesquisa do campo Placa Veículo traz a coluna de filtros desalinhada e a descrição do campo com o nome Localizar na frente;
+
+4 - Ao clicarmos no botão OK da rotina sem termos preenchido nenhum campo da rotina  a não ser o de Filial  o sistema exporta todas as notas geradas, não seria meio perigoso? SUGESTÃO: exibir uma mensagem de confirmação para exportação de todas as notas geradas

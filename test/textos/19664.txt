@@ -1,0 +1,16 @@
+Refatorar a Busca de Politica de Preço
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração da busca de politica de preço
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação:
+
+- Realizar busca de politica de preço
+
+Como implementar:
+
+- Interface para a busca.
+- Possibilidade de pesquisar por qualquer dos campos.
+
+Requisito:
+Seguir o padrão já existente no sistema.

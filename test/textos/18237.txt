@@ -1,0 +1,10 @@
+Implementação de cache de segundo nível em buscas do DinâmicoPDV
+Quero: Deixas as buscas dos dados mais rápidas durante a busca contida com grandes volumes de dados.
+Como:Implementando uma cache de segundo nível para deixar as informações da busca na memória.
+Para: Melhorar as buscas de entidades no banco de dados no DinâmicoPDV.
+
+*Como Implementar:*
+
+ - Implementar as bibliotecas do Hibernate para cache de segundo nível;
+ - Implementar a cache no código;
+ - Testes;

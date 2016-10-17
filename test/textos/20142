@@ -1,0 +1,2 @@
+[Migrate NFCE] Testar emissão de NFC-e com tag CEST
+Para o atendimento a NT2015.003 foi necessário implementar o preenchimento da tag "cest". Vide #20104. Contudo é necessário que a Daruma envie uma versão da dll que suporte tal alteração.

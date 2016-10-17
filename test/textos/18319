@@ -1,0 +1,12 @@
+Cliente não está sendo impresso no inicio do cupom.
+Quando o sistema está configurado para imprimir o cliente no inicio da venda e o cliente não é o padrão essa informação não está sendo impressa no cupom.
+
+*Critério de validação:*
+
+O cliente ser impresso no inicio do cupom quando o sistema estiver configurado para ter um limite de valores.
+
+*Como implementar:*
+
+- Verificar onde o sistema está quebrando.
+- Implementar solução.
+- Testes.

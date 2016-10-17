@@ -1,0 +1,10 @@
+Desenvolvimento das rotinas de Pedido de Vendas
+Ticket Criado para serem lançadas as horas na análise das rotinas do Módulo de Vendas.
+
+Como implementar:
+
+# Validação de campos
+# Corrigir a inserção de clientes
+# Validar campos e cálculos
+# Principais validações: Permissão de usuário, limite de crédito, cálculos, saldo de estoque, atalhos e valores
+# Atualizar rotina no manual

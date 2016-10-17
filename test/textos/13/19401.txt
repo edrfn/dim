@@ -1,0 +1,19 @@
+Vendas com tributação substituída estão sendo tributadas a 12%
+*1) Qual o comportamento observado?*
+
+Foi observado que ao realizar uma venda no ECF para um cliente fora do Estado, tendo no cadastro do produto como substituído, o sistema está colocando como 12%.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Cadastre um produto com tributação de substituído;
+Cadastre um cliente fora do Estado;
+Faça uma venda no ECF;
+Observe a tributação no cupom;
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve realizar a venda substituída, mesmo que para fora do Estado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

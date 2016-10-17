@@ -1,0 +1,13 @@
+Devolução a fornecedor não reduz base de cálculo no Dinamico
+*Como:* Usuário
+*Quero:* Opção de redução da base de cálculo na devolução a fornecedor no Dinâmico
+*Para:* Devolução de notas de forma correta
+
+*Critério de validação* 
+* Dar ao usuário a possibilidade de redução na tela de devolução a fornecedor.
+* Realizar o cálculo na NF-e emitida.
+* Verificar os valores reduzidos.
+
+*Como implementar* 
+* Incluir opção na tela de devolução a fornecedor.
+* Permitir a exportação de NF-e.

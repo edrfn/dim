@@ -1,0 +1,12 @@
+Alteração do nome da rotina "Efetivar Pedido" para "Efetivar Movimento"
+*Como:* Tester
+*Quero:* Alteração do nome da rotina "Efetivar Pedido" para "Efetivar Movimento"
+*Para:* Ficar condizente com todos os movimentos
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu.
+* Verificar o nome da rotina no Menu e no título da tela
+
+*Como implementar* 
+* Alterar o menu
+* Alterar o título da tela

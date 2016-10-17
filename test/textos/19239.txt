@@ -1,0 +1,16 @@
+Erro na rotina de pedido de vendas no momento em que alteramos um item 
+Descrição
+
+1) Qual o comportamento observado?
+Observou-se que ao realizar uma alteração dos itens em um pedido, na tela editar produto ao confirmar a alteração nessa tela, o sistema exibe uma mensagem de erro. imagem em anexo.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina de digitar pedido de venda;
+2- digitar o pedido com 1 ou mais itens;
+3- Pressionar enter em um dos itens para alterar;
+4- Alterar a quantidade do item e confirmar no ok nesse momento o sistema exibe o erro em anexo.
+3) Qual o comportamento esperado?
+Que o usuário possa fazer alteração no item lançado em um pedido sem ocorrer erro.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2.

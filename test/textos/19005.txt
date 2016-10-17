@@ -1,0 +1,8 @@
+Importação de cadastros e atualização no pdv.
+*Como:* Testador
+*Quero:* Verificar o funcionamento da a sincronização Servidor <-> PDV
+*Para:* Identificar qualquer tipo de problema envolvendo a sincronização com o banco do Servidor
+
+*Critérios de validação:*
+
+As informações sincronizadas no Servidor devem ser sincronizadas com o PDV quando solicitado (F12 -> F1), não sendeo necessario finalizar o PDV e inicializar novamente para que as informações sejam sincronizadas ou que seja feita intervenção direta no banco.

@@ -1,0 +1,15 @@
+Prorrogação de Vencimentos de Títulos (contas a pagar/a receber)
+*Como:* Analista de negócios
+*Quero:* Disponibilizar no sistema a prorrogação de vencimentos
+*Para:* Corrigir no sistema 1.1 essa rotina de acordo com o novo framework e banco
+
+*Critérios de Validação*
+- Alterar a data do título
+
+*Como implementar*
+Vide especificação
+
+*Observação:*
+
+h2. Deve ser verificado com o AD do Banco as necessidade de armazenar o histórico da prorrogação.
+ 

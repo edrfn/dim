@@ -1,0 +1,4 @@
+Atualização da base da REDEFLEX da 2.7c para 2.8f
+Se torna necessário efetuar testes na atualização da base do cliente REDEFLEX para versão 2.8F, pelo motivo que a atualização direta no cliente gerou erros que o impediram de funcionar normalmente.
+
+OBS.: EM processo de coleta de bases

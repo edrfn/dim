@@ -1,0 +1,2 @@
+Teste do formulário de Carta de Correção de NF-e
+Testar a funcionalidade de Carta de Correção eletrônica do sistema ERP e elencar os bugs encontrados.

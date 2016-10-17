@@ -1,0 +1,6 @@
+[Total NFCE] Atualizar situação de notas no monitor Total NFCE
+Como: Analista de suporte
+
+Quero: Que seja possível efetuar atualização de situações das notas fiscais dentro do Monitor total NFC-e.
+
+Para: Validar a situação das notas na SEFAZ e atualizar a situação no dincash proporcionando consistência dos dados no Dincash

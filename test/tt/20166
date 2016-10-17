@@ -1,0 +1,16 @@
+Erro log no fechamento do dia ( 6.1e)
+*1) Qual o comportamento observado?*
+Ao fazer o fechamento do dia o sistema apresentava erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Modulo de vendas --> Cadastro --> vendas Balcão --> Fechamento do dia ( Na base anexada tentar efetuar o fechamento do dia 05-01-2016)
+
+*3) Qual o comportamento esperado?*
+Ao efetuar o fechamento do dia o sistema não apresente erro log.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+*Versão 6.1e
+*
+O problema pode ser simulado anexada abaixo:

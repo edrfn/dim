@@ -1,0 +1,11 @@
+Colocar usuário e senha de acesso ao banco dentro da aplicação do sistema
+Como: Desenvolvedor
+Quero: Que a senha e o usuário do banco seja setado dentro do código fonte
+Para: O usuário não tenha acesso a este dado
+
+Critério de validação
+* Que o usuário e senha setado no banco seja dinâmico_erp;
+* Que o usuário  senha do banco seja setado no código fonte sem acesso ao usuário
+
+Como implementar 
+* Colocar no código fonte o usuário e senha do banco

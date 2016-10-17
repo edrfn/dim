@@ -1,0 +1,10 @@
+[Total NFCE] Adicionar o tempo de execução dos métodos no log dos retornos
+*Como:* Analista de suporte.
+*Quero:* Logar o tempo de execução do tempo dos métodos do Total NFC-e
+*Para:* Facilitar analise do comportamento do sistema
+
+*Critério de validação* 
+* Tempo entre a entrada no método e o retorno no mesmo.
+
+*Como implementar* 
+* Logar junto do o retorno do método o tempo de execução do método.

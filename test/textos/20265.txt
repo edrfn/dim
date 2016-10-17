@@ -1,0 +1,4 @@
+Criação da pré nota analítica
+Como: P.O.
+Quero: Alguns campos não saem na pré nota, para que o usuário possa conferir os valores (substituição por exemplo)
+Para: No pedido de conferência, na pré-nota no caso, quando a NF-e possui substituição, apenas o valor de IPI e de ICMS normal aparecem com a alíquota e o respectivo valor, já com o ICMS de Substituição é diferente, aparece apenas o percentual de MVA, mas os valores e nem alíquota aparecem no produto, com isso o cliente não tem a opção de conferir os valores.

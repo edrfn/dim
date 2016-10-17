@@ -1,0 +1,3 @@
+Implementar no Dinâmico a opção de Reimpressão de NFE
+Cliente esta solicitando que seja implantado no sistema Dinâmico a opção de reimpressão de nota fiscal eletrônica.
+

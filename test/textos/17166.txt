@@ -1,0 +1,2 @@
+[License Manager] Inativar revendas no license
+Uma maneira de inativar do license os contratos de clientes que estão suspensos ou cancelados.

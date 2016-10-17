@@ -1,0 +1,9 @@
+Implementar a comunicação do sistema com balança pesadora
+Realizar testes para verificar se o sistema está funcionando corretamente com a balança pesadora.
+- verificar se o padrão implementado pelo Dincash atende ao mercado. Avaliar os protocolos das marcas toledo e filizola.
+
+*Como implementar?*
+- Analisar os protocolos de toledo e filizola;
+- Corrigir implementação do código EAN13;
+- Testes.
+

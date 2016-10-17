@@ -1,0 +1,18 @@
+Filtro do relatório de fechamento de caixa não traz a informação solicitada
+1) Qual o comportamento observado?
+
+Foi identificado que, ao alterar as opções no filtro de fechamento do dia, colocando a opção: "Pedidos cancel. antes confirm." como 'S', o sistema não traz os pedidos que foram cancelados antes da confirmação no fechamento.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça um pedido, antes de confirmar, cancele;
+Feche o dia;
+Verifique que os pedidos cancelados antes de confirmação não são exibidos no relatório.
+
+3) Qual o comportamento esperado?
+
+Ao ativar o parâmetro no filtro do fechamento do caixa, o sistema deve exibir as opções selecionadas corretamente. 
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

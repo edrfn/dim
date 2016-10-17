@@ -1,0 +1,9 @@
+Botão Adicionar+ não funciona corretamente na rotina de Digitar Cupom Fiscal
+*Qual o comportamento observado?*
+Na tela de digitar cupom fiscal há o botão de *Adicionar* e *Adicionar+*, porém o sistema não está funcionando corretamente ao executar a rotina utilizando o botão Adicionar+, neste caso não salva a lista de pagamento, por que as rotinas estão em classes diferentes e para funcionamento correto das duas rotinas, é necessário que o desenvolvedor revise ambas as classes. 
+
+Para solução deste ticket, foi sugerido pelo desenvolvedor Diêgo, revisar o funcionamento do botão *Adicionar+* em todas as telas do sistema, para que não ocorra erros como o Adicionar+ na tela de digitar cupom fiscal.
+
+
+*Qual o comportamento esperado?*
+Que ao executar a rotina de Digitar Cupom Fiscal pelo botão Adicionar+, o sistema se comporte corretamente.

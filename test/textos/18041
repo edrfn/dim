@@ -1,0 +1,37 @@
+Criação do conversor Efficace
+
+
+*Como:* Product Owner
+*Quero:* Criação de um Conversor
+*Para:* Conseguirmos novos Contratos
+
+Critério de validação
+Criação de um conversor de dados do Sistema Eficcace para o Dinamico/Automaster
+
+*Como implementar*
+Validar os dados do banco SGDB (Firebird) do sistema Efficace e converter:
+
+Cadastros: Cliente , Fornecedor , Produto , Grupo.
+
+Movimentação: Contas a Pagar e Contas a Receber.
+
+*OBS:*
+O cliente Casa dos Fogões trabalham com 4 preços para apenas uma unidade de medida.
+
+ Em conversa com Sr. Marivaldo , para poder utilizar os 4 preços (Varejo // varejo com desconto // Atacado // Atacado com Desconto), será cadastrado no preço de venda o valor da venda varejo, e em outras embalagens os preços de varejo com desconto, atacado e atacado com desconto;
+
+No banco de dados na tabela Produto , tem o campo:
+PRECO1 , PRECO 2 , PRECO 3 , PRECO 4
+
+Analisando a planilha de conversão foi constatado que o campo:
+PRECO1 = Preço de venda verejo (Principal) 
+PRECO2 = Varejo com Desconto   (Outras embalagens)              
+PRECO3 = Atacado               (Outras embalagens)     
+PRECO4 = Atacado com Desconto  (Outras embalagens)     
+
+*Segue abaixo a Planilha de Conversão.*
+Banco FireBird 2.0 
+*Usuário e senha padrão do banco de dados:*
+SYSDBA e MASTERKEY
+
+*Caminho da Base:* "\Teste\Bases Redmine\EFFICACE"

@@ -1,0 +1,13 @@
+Refatorar o cadastro de PDV
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de PDV
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Ser possível cadastrar PDV.
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

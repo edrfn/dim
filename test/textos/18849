@@ -1,0 +1,21 @@
+Sistema não deleta pré-vendas da Lista quando existem mais de uma pré-venda pendente.
+LOCAL:
+PDV  Módulo vendas  Tela de importação de PRé-VeNDA
+
+VERSÃO:
+Identificado na versão (2.8F)
+
+PRÉ-CONDIÇÕES:
+ Utilizar modo de importação de pré-venda Listagem.
+ Ter mais de uma pré-venda pendente (de preferencia, importada de terceiros);
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema , Pressione F10 para importar uma das pré-vendas.
+2) Faça a venda até o final, e retorne para a tela do F10.
+3) Verificar se a pré-venda desaparece da lista.
+
+ERRO:
+O sistema exibe a pré-venda mesmo que a mesma já tenha sido importada, foi visto que este comportamento ocorre quando a mais de uma pré-venda pendente.
+
+SITUAÇÃO DESEJADA:
+Caso a pré-venda não possa ser importada, a mesma não deve aparecer na listagem.

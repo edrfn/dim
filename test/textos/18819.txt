@@ -1,0 +1,17 @@
+Mesmo com "Tem quitação" preenchido com "N" sistema ainda busca arquivo de especies.
+*Qual o comportamento observado?*
+
+o preencher o arquivo para importação de pré-venda com o campo "Tem quitação" preenchido "N" o sistema ainda busca o arquivo de "Espécies de Pagamento" da pré-venda
+
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar importação de pré-venda preenchido como citado e sem o arquivo de especie.
+
+*Qual o comportamento esperado?*
+
+Que caso o campo do arquivo esteja preenchido com "N" o sistema não busque o arquivo de "Espécies de Pagamento".
+
+*Como implementar*
+- Identificar ponto do código onde o arquivo é importado
+- Alterar código para não importar caso o campo seja "N"
+- Testar

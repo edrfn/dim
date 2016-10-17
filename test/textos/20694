@@ -1,0 +1,12 @@
+Troco está aparecendo na prévia de fechamento com valor de "outros" negativo
+*Comportamento Observado*
+Ao fazer uma prévia de fechamento, depois de ter feito vendas com troco, a prévia exibe uma linha de de outros com valor negativo.
+
+*Comportamento Esperado*
+Exibir as espécies com os respectivos valores de vendas, sangria e suprimento
+
+*Passos para reproduzir o comportamento*
+- fazer vendas com valor de troco
+- realizar prévia de fechamento.
+
+Vide imagem anexo

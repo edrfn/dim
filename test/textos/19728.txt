@@ -1,0 +1,14 @@
+Refatoração do Cadastro de Plano de Pagamento
+Como: Analista de negócio
+Quero: Que seja realizado a refatoração do cadastro de plano de pagamento.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação*
+- Validar se já existe forma de pagamento com a mesma.
+
+Como implementar:
+- Interface para o cadastro.
+- Possibilidade inserir, alterar, pesquisar e excluir.
+
+h2. Para a geração das parcelas, um campo de "intervalo da 1ª parcela" foi criado. caso exista uma condição diferente, o usuário irá preenche-lo, se não o sistema deve considerar o intervalo entre parcelas para todas.
+Outra situação é que não há necessidade de processar os valores das tabelas, 30, 60, 90, por exemplo. O sistema deve entender e processar esses valores na geração das parcelas em um pedido de venda por exemplo.

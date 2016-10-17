@@ -1,0 +1,18 @@
+Erro log ao efetuar cancelamento do ultimo cupom na versão 6.1c
+*1) Qual o comportamento observado?*
+Ao fazer o cancelamento do ultimo cupom o sistema apresenta erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+vendas.exe --> vendas --> Funções do ECF --> Cancelar o ultimo cupom ( O sistema apresenta erro log )
+
+O sistema apresenta erro log.
+
+*3) Qual o comportamento esperado?*
+Ao fazer o cancelamento do ultimo cupom o sistema deverá efetuar o cancelamento do mesmo , sem apresentar erro log.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+Versão 6.1c
+
+*Obs:* O problema ocorre apenas na 6.1c , se voltar para a versão 6.1b o mesmo funciona normalmente.

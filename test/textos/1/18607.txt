@@ -1,0 +1,12 @@
+Criação de parâmetro para envio de dados manual ou automático pelo monitor de integração
+*Como:* Tester
+*Quero:* Criação de parâmetro para definir se o envio de dados pelo monitor de integração será manual ou automático.
+*Para:* O usuário poder definir se o envio dos dados será automático ou manual através de um parâmetro [Envio de dados automático]: 
+O usuário escolherá entre Sim [Automático] ou Não [Manual];
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu de configurações de PDV em Vendas.
+* Poder optar pelas opções: Automático ou Manual;
+
+*Como implementar* 
+* Criar o parâmetro para forma de envio de dados com as opções: Automático ou Manual;

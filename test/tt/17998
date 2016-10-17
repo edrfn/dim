@@ -1,0 +1,15 @@
+Auditoria de Caixa (Imprimir relatório na ECF)
+*Como:* Skateholder
+*Quero:* Que quando o sistema permita imprimir por ECF o relatório de auditoria. 
+*Para:* Fornecer ao supervisor/admin do sistema relatórios onde seja possível consultar esses dados.
+
+*Critério de validação* 
+* Apresentar na interface do sistema a opção de impressão;
+* Ter o relatório em mãos equivalente ao apresentado na tela do sistema.
+* Estar de acordo com o requisito.
+
+*Como implementar*
+* Adicionar a funcionalidade das ações do sistema;
+* Comunicar com a ecf;
+* Formatar o relatório.
+* Alterar a interface do sistema.

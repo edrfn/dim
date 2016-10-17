@@ -1,0 +1,8 @@
+O Sistema deve separar os XML's gerados por mês
+Eu: Thiago;
+
+Como: ScrumMaster;
+
+Quero: Que os XML's sejam gerados em pastas de acordo com o mês de sua criação;
+
+Porque: Atualmente os clientes têm que passar mensalmente os XML's para os seus contadores, caso seja preciso passar retroativo o fato de estar todos os xmls na mesma pasta gera um stress no cliente pois o mesmo não tem a facilidade de uso de filtros por data.

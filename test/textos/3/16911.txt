@@ -1,0 +1,19 @@
+[ACAOBACKLOG]Valor de entrada aparecendo duas vezes na reimpressão do Pedido de Conferência
+1) Qual o comportamento observado?
+
+Foi observado que ao ativar o parâmetro para digitar a entrada no pedido, fazer um pedido de venda, utilizar a opção de impressão "Papel ao Meio", após registrar o recebimento, utilizar a opção de reimprimir pedido, o sistema traz o valor de entrada duas vezes na impressão;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Ativar o parâmetro para digitar a entrada no pedido;
+Fazer um pedido de venda;
+Utilizar a opção de impressão "Papel ao Meio"
+Após registrar o recebimento, utilizar a opção de reimprimir pedido;
+
+3) Qual o comportamento esperado?
+
+Ao digitar a entrada da venda ainda no pedido, registrar o recebimento do mesmo e reimprimir o pedido, o sistema deve trazer o valor da entrada apenas uma vez.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

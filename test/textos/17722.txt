@@ -1,0 +1,13 @@
+Performance do sistema com requisitos mínimos
+Será realizado testes no sistema com uma máquina configurada próxima dos requisitos mínimos.
+
+Deverá ser avaliado o tempo de sincronização dos dados:
+1. Do ERP/Painel
+2. DO Painel/PDV
+
+Utilizando uma massa de dados considerada.
+Deverá ser realizado também testes relacionados a busca:
+1. Utilizando leitor de código de barras;
+2. Pesquisas de clientes/emitentes;
+3. Produtos por descrição (total e parcial)
+4. E o que mais for conveniente para validar o tempo de resposta do sistema.

@@ -1,0 +1,14 @@
+[NFC-e] Criação do NFC-e Builder
+*Quero:* As classes de venda do projeto NFC-e;
+*Como:* Implementando a etapa inicial do processo de venda do projeto NFC-e;
+*Para:* Realizar vendas e comunicar com o projeto total-comm-nfce;
+
+*Detalhes:*
+
+Criação e implementação das funcionalidades das classes:
+
+VendaProxy;
+ItemVendaProxy;
+VendaBuilder;
+VendaNFCEBuilder;
+VendaDirector;

@@ -1,0 +1,16 @@
+Criar a rotina de Outras Saídas - Módulo de vendas
+Criar a rotina de Outras Saídas no módulo de vendas, onde serão geradas movimentações de saídas diferentes de vendas, como remessas, por exemplo.
+
+Como implementar:
+# -Criar plano de ação da rotina-
+# Desenhar tela principal
+# Desenhar a pesquisa de clientes
+# Desenhar a pesquisa de vendedores
+# Criar janela de manipulação de itens
+# Criar a pesquisa de itens
+# Criar a emissão de NF-e
+# Criar a pesquisa de pedidos para junção
+# Criar a junção de pedidos
+# Criar a pesquisa de orçamento para importação
+# Criar a importação de orçamento
+# Criar a janela de recebimento

@@ -1,0 +1,10 @@
+Identificar e corrigir  erro durante sincronização do Painel > PDV - Erro 4
+*Como implementar*
+* Identificar causa do erro;
+* Corrigir problema;
+* Testes;
+
+ ERROR JavaFX Application Thread orion.Main - [SYSERR]jun 08, 2015 11:25:24 PM com.sun.javafx.css.StyleManager loadStylesheetUnPrivileged
+ADVERTÊNCIA: Resource "#telaExternaTransparente" not found.
+
+Obs.: Segue log completo em anexo.

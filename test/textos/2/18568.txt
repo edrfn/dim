@@ -1,0 +1,20 @@
+Outras Saídas - Criação das pesquisas de campos de edição da Tela de Outras Saídas
+*Como:* Usuário do sistema
+*Quero:* Criação das pesquisas dos campos de edição da tela de Outras Saídas
+*Para:* Fazer a pesquisa por cadastros previamente inseridos no sistema para preencher os edits da tela de Outras Saidas no sistema.
+
+*Critério de validação* 
+* Na tela de Outras saídas, ao clicar em um TcxDbButtonEdit (campos que acionam pesquisa), apareça a tela de pesquisa com os dados pertinentes vindos do banco de dados do sistema;
+* Ao selecionar um registro na tela de pesquisa, trazer o valor pertinente para o editor;
+* Salvar o dado pesquisado no banco de dados ao salvar o registro que está sendo inserido/editado.
+>As telas de busca necessárias para a tela de "Outras Saídas" são:
+>* Filial (Já está pronto);
+>* Vendedor (Para fazer);
+>* Cliente (Para fazer);
+>* Produto (Para fazer);
+>* Natureza de Operação (Já está pronto);
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

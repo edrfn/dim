@@ -1,0 +1,4 @@
+Implementar na TotalMDFe.dll a funcionalidade de envio/validação e retorno dos manifestos.
+*Como:* P.O
+*Quero:*  Implementar na TotalMDFe.dll a funcionalidade de envio/validação e retorno dos manifestos.
+*Para:* Implementação da rotina de MDF-e no sistema

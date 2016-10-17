@@ -1,0 +1,18 @@
+Não é possível efetuar mais de uma devolução parcial da mesma nota
+1) Qual o comportamento observado?
+
+Foi identificado que não é possível realizar mais de uma devolução parcial da mesma nota de compra, uma vez que o sistema informa que a nota já foi devolvida. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue um número de NF de entrada;
+Faça uma devolução parcial;
+Tente fazer uma devolução nova devolução;
+
+3) Qual o comportamento esperado?
+
+Ao realizar uma devolução parcial da nota, entende-se que ainda existem itens, que poderão ser devolvidos futuramente. Neste caso, o sistema deve permitir mais de uma devolução parcial.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

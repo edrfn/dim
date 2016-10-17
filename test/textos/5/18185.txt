@@ -1,0 +1,12 @@
+Corrigir a rotina de cancelamento de nota de entrada
+Corrigir os bugs abaixo da rotina de cancelamento de nota de entrada.
+
+1- No campo fornecedor, se após preenchê-lo, voltar limpar e apertar page down, a pesquisa só retorna o último dado informado;
+
+2- Se executar esta ação no campo nota fiscal, o sistema entra trava;
+
+3- Na pesquisa do campo nota fiscal, está aparecendo as notas de saída também e ao escolher uma e clicar no botão confirmar aparece uma mensagem de erro;
+
+4- O botão limpar campos não está funcionando nem as teclas de atalho;
+
+5- Verificar a possibilidade de colocar uma mensagem de confirmação ao Cancelar.

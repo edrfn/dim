@@ -1,0 +1,26 @@
+Implementar a 4º casa decimal na rotina de Digitação de Balanço
+*Descrição*
+O cliente Realce contém diversos produtos com 4 casas decimais após a virgula , atualmente nosso sistema atende 
+com o parâmetro em informações sobre produto +(Casas decimais da embalagem)+ permitindo o 4º digito.
+É solicitado a implementação da 4º casa decimal na embalagem na rotina de digitação de balanço, pois o mesmo contém
+só a informação de 2 dígitos após a virgula , sendo assim impossibilita o cliente digitar o balanço , levando em consideração
+que a maior parte dos produtos da empresa são com esses decimais.
+
+*1) Qual o comportamento observado?*
+Foi verificado que não contém parâmetro para modificar o tamanho da quantidade do produto a ser inserido na rotina
+de Digitação de balanço, sendo que o cliente precisa das 4º casas após a virgula.
+Solicitamos a implementação para aumentar a mascara e atender as expectativas do cliente.
+ 
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Estoque --> Periodicos --> Digitação de Balanço
+Quando for inserir uma digitação poderá validar que só contém dois campos decimais após a virgula.
+
+*3) Qual o comportamento esperado?*
+A implementação da 4º casa decimal após a virgula na rotina de Digitação de Balanço
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Seguir o Passo 2.
+
+
+*5) Versão:*
+6.0g

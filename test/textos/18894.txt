@@ -1,0 +1,4 @@
+Implementar a opção de Arredondamento ou Truncamento para item na Bematech MP4000
+*Como:* Product Owner
+*Quero:* Implementar a opção de Arredondamento ou Truncamento para item na Bematech MP4000
+*Para:* Atender a necessidade do cliente Queijos & Cia

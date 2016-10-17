@@ -1,0 +1,16 @@
+Refatoração da tela de Busca (Vendas canceladas e Emitente)
+*Como:* Scrum Master e Time
+*Quero:* Reconstruir a tela de busca referente a vendas canceladas.
+*Para:* Fornecer melhor experiência de uso do sistema.
+
+*Critério de validação* 
+* Ter acesso à tela através do menu.
+* visualizar em diversos tamanhos de resolução.
+* Poder realizar as funções disponíveis da interface.
+
+*Como implementar* 
+* Alteração do FXML;
+* Alteração do CSS;
+* Alteração do controller.
+
+PS: Refere-se a vendas canceladas, reimpressão de cupom, e emitente (tela de cheque).

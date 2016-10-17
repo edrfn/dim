@@ -1,0 +1,11 @@
+Alterar arquivo XML de layout de integração para novo modelo
+Como: Stakeholder
+Quero: Criar um novo arquivo de layout de integração  
+Para: Que ele possa ser utilizado pelo PDV e pelo ERP, mantendo a consistência do layout para ambos.  
+
+*Critérios de validação*
+- Verificar que a importação do Servidor de PDV ainda funciona
+- Verificar que a integração como um todo funciona sem problemas de layout
+
+*Como implementar*
+- Alterar o arquivo integrar_1.0.xml existente

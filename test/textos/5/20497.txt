@@ -1,0 +1,2 @@
+Orçamento emitido em ECF está contabilizando o acréscimo duas vezes.
+Ao emitir orçamento em ECF, caso a forma de pagamento possua acréscimo, este acréscimo é contabilizado duas vezes ao invés de uma só.

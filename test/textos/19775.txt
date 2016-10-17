@@ -1,0 +1,12 @@
+CSON não pode ser grava por conta de digito a mais.
+*Qual o comportamento observado?*
+
+Quando produto possui informação de CSOSN não é possivel sincronizar por conta do tamanho do campo, que só aceita apenas 3 digitos
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+Cadastrar um produto com a informação de CSOSN (Empresa Super Simples)
+
+*Qual o comportamento esperado?*
+
+Que o sistema possa realizar o cadastro sem problemas

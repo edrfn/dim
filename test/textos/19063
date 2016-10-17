@@ -1,0 +1,16 @@
+NF Complementar - O id da Nota Complementar não está sendo gerado
+*1) Qual o comportamento observado?*
+Observou-se que o ao gravar uma nota complementar o id não está sendo gerado. E na tabela pedido_saída, no campo que guarda o id está sendo gravado 0(zero).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+obs.: É necessário que já tenha sido emitida a NF-e de um pedido.
+
+1- Acessar a rotina pelo caminho: Vendas - Movimento - NF Complementar;
+2- Preencher os campos e gravar.
+3- Observar que, neste momento, o id não está é gerado como deveria.
+ 
+*3) Qual o comportamento esperado?*
+Espera-se que ao gravar o registro o ID seja gerado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

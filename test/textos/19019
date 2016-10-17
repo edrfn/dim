@@ -1,0 +1,10 @@
+Opção para informar valor ou percentual de desconto na criação do orçamento
+*Como:* Product Owner
+*Quero:* Opção para informar valor ou percentual de desconto na tela de criação de orçamentos
+*Para:* Facilitar a inclusão do desconto ao importar um orçamento
+
+*Critério de validação* 
+* Deve ser possível informar percentual ou valor de desconto no orçamento;
+
+*Como implementar* 
+* Seguindo o modelo da tela de venda, deve ser dada a opção para o cliente de informar o percentual ou o valor de desconto;

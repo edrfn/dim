@@ -1,0 +1,2 @@
+Configuração do SVN
+Configurar e padronizar o uso do SVN

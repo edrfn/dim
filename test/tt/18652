@@ -1,0 +1,21 @@
+Alteração do layout de NFe para atender à nota técnica 2015/003 - Cobrança do ICMS na Operação Interestadual
+*Como:* Tester
+*Quero:* Alteração do layout de NFe para atender à nota técnica 2015/003 - Cobrança do ICMS na Operação Interestadual
+*Para:* Para que as notas emitidas atendam todas as exigências fiscais. 
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimento - Digitar pedido de venda;
+* Digitar pedido de vendas para clientes de estado diferente do estado da licenciada e emitir NFe;
+* Validar os arquivos XML e PDF gerados de acordo com as especificações na Nota Técnica 2015/003 (Arquivo anexo)
+
+*Como implementar* 
+* Aplicar as alterações necessárias na geração do arquivo XML, de acordo com as especificações na Nota Técnica 2015/003 (Arquivo anexo);
+
+Observações:
+1- Esta Nota Técnica altera o layout da NF-e para receber a informação do ICMS devido para a UF do destinatário, nas operações interestaduais de venda para consumidor final, atendendo as definições da Emenda Constitucional 87/15.
+
+2- Também visa atender à necessidade de identificar o Código Especificador da Substituição Tributária  CEST, para permitir o controle da substituição Tributária conforme condições previstas na Lei Complementar 147 de 2014.
+
+3-O prazo previsto para a implementação das mudanças, em atendimento à Emenda Constitucional nº 87 de 2015, é:
+- Ambiente de Homologação (ambiente de teste das empresas): 01/10/15;
+- Ambiente de Produção: 03/11/15

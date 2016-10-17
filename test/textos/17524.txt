@@ -1,0 +1,8 @@
+Imagem do Produto está sendo sincronizado em toda inicialização do PDV
+Ao executar o PDV, detectou-se que sempre sincroniza ImagemProduto.
+
+*Como implementar*
+1. Verificar registro de sincronização
+2. Corrigir erro*;
+3. Remover log (JSON imagem)
+4. Testes

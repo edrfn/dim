@@ -1,0 +1,10 @@
+Aumentar os campos de telefone para 9 dígitos
+*Como:* Sistemas de terceiros integrador
+*Quero:* Que os campos de telefone tenham 9 dígitos
+*Para:* Sincronizar os telefones corretamente
+
+*Critério de validação* 
+* Integrar clientes com telefone de 9 dígitos.
+
+*Como implementar* 
+* Alterar o layout de integração dos telefones para 9 digitos.

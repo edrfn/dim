@@ -1,0 +1,15 @@
+Impressão de pedido - Quando a descrição do produto é grande está sobrepondo a informação da coluna quantidade
+*1) Qual o comportamento observado?*
+Ao imprimir um pedido de venda com produtos com descrições contendo acima de 40 caracteres, o nome do produto está sobrepondo as demais informações, impossibilitando identificar a quantidade vendida e deixando a impressão desorganizada, conforme arquivo pdf anexo. O campo de descrição do produto aceita até 50 caracteres e a coluna do nome do produto na impressão suporta até 40, nesse caso deveria cortar para que não ocorresse a sobreposição. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
++Pré-condição:+ Ter cadastrados no sistema produtos com a descrição contendo acima de 40 caracteres .
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Digitar Pedidos de Venda;
+2- Digitar pedidos de venda usando os produtos citados na pré-condição para esse teste;
+3- Gravar o pedido e visualizar a impressão do mesmo.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao imprimir pedido de venda, independente da quantidade de caracteres na descrição dos produtos, a impressão seja exibida corretamente, sem sobreposição das informações.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

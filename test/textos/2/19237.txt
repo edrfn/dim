@@ -1,0 +1,14 @@
+[CASE DE SUCESSO] Não está sendo possível inserir um CEP começado com zero no cadastro das entidades(Cliente, Fornecedor, Vendedor, etc.)
+*1) Qual o comportamento observado?*
+Observou-se que ao realizar o cadastro de alguma entidade (Cliente, Fornecedor, Vendedor, etc.), se inserir um CEP começado com zero, o sistema exibe uma mensagem informando que ele é inválido. Mas foi verificado que existe, sim, CEP's começados com zero.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar qualquer rotina de cadastro que possua a aba dados básicos referente ao endereço(Cliente, Fornecedor, Vendedor, etc.);
+2- Clicar no botão Novo e inserir no campo CEP, um qualquer, começado com zero e dar enter.
+3- Verificar que nesse momento o sistema não reconhece o dado inserido como um CEP válido.
+
+*3) Qual o comportamento esperado?*
+Já que existem CEP's começados com zero, espera-se que o sistema aceite como válido quando for inserido um com essa característica. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

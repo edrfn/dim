@@ -1,0 +1,1 @@
+Ajustes de SITREG (NFC-e compatibilizar com cupom)

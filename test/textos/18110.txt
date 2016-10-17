@@ -1,0 +1,15 @@
+Projeto da arquitetura do licenciamento do DinâmicoPDV
+Para: DinâmicoPDV
+Quero: Uma base arquitetural sólida com todos os requisitos bem definidos e planejados para a implementação do projeto de licença do DinâmicoPDV.
+Como: Utilizar ferramentas como a linguagem UML e diagramas de sequência para arquitetar e planejar o funcionamento do sistema.
+
+Critério de validação
+
+Ter uma arquitetura do sistema de licenciamento pronta que não necessite alterar o projeto original do DinâmicoPDV. O licenciamento deve servir como uma evolução e ser modularizado para facilitar a manutenção e a inserção no sistema.
+
+*Como Implementar:*
+
+- Levantar todas as funcionalidades do módulo;
+- Definir a estrutura estática do módulo;
+- Definir a estrutura dinâmica do módulo;
+- Validar junto aos outros desenvolvedores;

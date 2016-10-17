@@ -1,0 +1,20 @@
+NFE de Compra - Sistema permite gravação de nota com diferença nos valores totais, sem ao menos informar a diferença encontrada ao usuário.
+1) Qual o comportamento observado?**
+Ao realizar a digitação da nota de compra o sistema grava informações mesmo a nota estando com diferença, sem informar ao usuário  a diferença existente 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1- Acessar a rotina pelo menu: compras, movimentos, digitar NFe de compra
+2- Clicar no botão novo;
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação
+
+3) Qual o comportamento esperado?
+Ao gravar uma nota fiscal com diferença, o sistema deverá informar ao usuário que existem diferenças nos valores totais, trazendo o resumo(f6) em tela, para verificação dos valores divergentes.
+
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: compras, movimentos, digitar NFe de compra
+2- Clicar no botão novo;
+3- Preencher pelo menos os campos obrigatórios;
+4- gravar a operação

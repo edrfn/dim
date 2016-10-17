@@ -1,0 +1,17 @@
+Permitir Devolução de venda antes do fechamento do dia.
+*Descrição*
+Solicitamos que na rotina de Devolução a cliente faça a validação do autpdc e autnff , para não precisar fechar o dia para fazer a operação.
+
+*Como:* Usuário do sistema
+*Quero:* Que na rotina de Devolução a Cliente, o sistema faça a busca tanto no AUTNFF/AUTITE como também as movimentações que estiverem como Nota no AUTPDC/AUTPDI.
+*Para:* Não precisar utilizar o fechamento do dia para efetuar a devolução.
+
+*Critério de validação*
+
+Ter acesso à funcionalidade através do menu;
+Poder digitar a Nota;
+Devolver na rotina de devolução a cliente e validar as notas que estão no autpdc e autpdi com caracteristicas de Nota emitida.
+
+*Como implementar*
+
+Implementar a condição nas rotinas de Devolução a Cliente para que faça uma varredura no autpdc e autpdi e se o campo NUMNFF e outros campos que caracterizam Nota fiscal estiver preenchido conseguir fazer o cancelamento da NF-e. 

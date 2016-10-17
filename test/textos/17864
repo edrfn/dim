@@ -1,0 +1,17 @@
+Permitir cancelamento de NF-e antes do fechamento do dia.
+*Descrição*
+Solicitamos a permissão de cancelar a NF-e antes do fechamento do dia.
+
+*Como:* Usuário do sistema
+*Quero:* Que na rotina de Cancelamento de "pedido fechado" e "cancelar N.Fiscal", o sistema faça a busca do numero da NF-e  tanto no AUTNFF/AUTITE como também os que tiverem o NUMNFF do AUTPDC/AUTPDI preenchidos.
+*Para:* Não precisar utilizar o fechamento do dia para cancelar a NF-e.
+
+*Critério de validação*
+
+Ter acesso à funcionalidade através do menu;
+Poder digitar a NF-e;
+Cancelar a NF-e por meio da rotina de cancelar pedidos e fechados (O sistema vai fazer uma leitura no autpdc e verificar apenas as notas com o NUMNFF preenchido;
+
+*Como implementar*
+
+Implementar a condição nas rotinas de "Cancelamento de pedido fechado" e "Vendas--> Periódicos --> Cancelar N.Fiscal", para que faça uma varredura no autpdc e autpdi e se o campo NUMNFF e outros campos que caracterizam Nota fiscal estiver preenchido conseguir fazer o cancelamento da NF-e. 

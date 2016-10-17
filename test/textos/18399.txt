@@ -1,0 +1,27 @@
+Pedidos de Venda - Sistema permite realizar alterações em Pedidos de Venda exportados/liberados 
+1) Qual o comportamento observado?**
+Foi observado que o sistema está permitindo alterar Pedidos de Venda exportado/liberado sem exibir nenhuma mensagem de alerta sobre a impossibilidade do procedimento;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Pedidos de Venda;
+2- Selecionar o botão Pesquisar e escolher um registro exportado/liberado;
+3- Pressionar o botão Alterar superior ou ALT + A;
+4- Alterar qualquer campo do registro e dá Enter;
+5- Selecionar o botão Gravar superior ou ALT + G;
+6- Sistema permite gravar a alteração;
+
+3) Qual o comportamento esperado?
+Espera-se que o sistema não permita realizar alterações em pedidos exportados/liberados e que o botão Alterar superior fique desabilitado ao selecionarmos um registro exportado/liberado na Pesquisa;
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Pedidos de Venda;
+2- Selecionar o botão Pesquisar e escolher um registro exportado/liberado;
+3- Sistema desabilita o campo Alterar.
+
+Observação:
+Adicionar uma coluna na pesquisa para mostrar a situação do pedido
+
+*Validação*
+
+1- Deve-se validar se o Pedido de Venda está exportado/liberado para realização do processo;
+2- Deve-se validar se o botão Alterar fica desabilitado após selecionarmos um registro exportado/liberado na Pesquisa.

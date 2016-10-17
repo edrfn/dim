@@ -1,0 +1,13 @@
+Testar Importação de XML - Botão de importação fica ativo mesmo com o modo de inclusão ou alteração desabilitado
+*1) Qual o comportamento observado?*
+Botão de Importação de XML fica habilitado mesmo quando a rotina está com o modo de Inserção inativo
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Sair do modo de inclusão, clicar no botão 'XML';
+
+*3) Qual o comportamento esperado?*
+Que o Botão fique inativo, quando o modo de inclusão estiver desabilitado
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

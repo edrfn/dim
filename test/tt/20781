@@ -1,0 +1,7 @@
+Não deve ser possível alterar qualquer caracteristica dos títulos oriundos de vendas/compras
+*Como:* Analista de negócios
+*Quero:* Não permitir que os títulos de vendas sejam alterados
+*Para:* Manter a coerência entre as vendas geradas e as informações do financeiro
+
+*Critérios de validação*
+- Não disponibilizar edição de títulos ou exclusão dos mesmos oriundos de vendas/compras

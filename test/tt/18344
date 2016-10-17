@@ -1,0 +1,12 @@
+Criação da DLL para o boleto
+*Como:* Product Owner
+*Quero:* Construção da DLL para emissão de boletos através do ACBr
+*Para:* Troca de fornecedor para emissão de boletos
+
+*Critério de validação* 
+* Ter acesso a opção através de um menu;
+* Poder gerar boletos através do Automaster/Dinamico;
+* Poder imprimir os boletos gerados;
+
+*Como implementar* 
+* Incluir na geração dos títulos a opção do boleto;

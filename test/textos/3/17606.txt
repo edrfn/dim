@@ -1,0 +1,5 @@
+Corrigir registros C100 e C190 com a inclusão de notas fiscais 
+Corrigir registros C100 e C190 com a inclusão de notas fiscais na geração do relatório de Vendas por Período, seguindo o Manual de Orientação do Convênio.
+
+Registro C100 - As notas fiscais inseridas a partir da rotina F9, modelo 01 e as notas exportadas do ERP, modelo 55 devem constar no registro
+Registro C170 - Arquivo dependente do arquivo C100

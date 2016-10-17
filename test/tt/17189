@@ -1,0 +1,19 @@
+Pedidos presos no AUTpdc após fechamento do dia
+1) Qual o comportamento observado?
+
+Foi identificado que, após o fechamento do dia, na base em anexo, alguns pedidos ficaram presos no PDC, estes que são de devolução, venda e outras operações. O dia é fechado normalmente, porém não são transferidos para o NFF.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base disponível em: "\Teste\Bases Redmine\baseBazarRio260215.rar"
+Verifique a tabela AUTpdc;
+Faça o fechamento dos dias que constam;
+Verifique novamente que os pedidos não saíram da tabela.
+
+3) Qual o comportamento esperado?
+
+Ao realizar o fechamento do dia, os pedidos que estão na tabela AUTpdc devem ser transferidos para a tabela AUTnff.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

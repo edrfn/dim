@@ -1,0 +1,32 @@
+Erro ao realizar pagamento da venda
+*Qual o comportamento observado?*
+Ao realizar uma venda e pressionar ENTER para quitá-la ocorre erro e o sistema não mostra a tela de pagamento.  Geralmente o erro ocorre após a primeira sincronização, mas não deixa de ocorrer em momentos aleatórios. Segue log em anexo.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Abrir o PDV;
+2. Inserir itens na venda;
+3. Quitar a venda (neste momento o erro ocorre, a tela de pagamento não é mostrada);
+
+*Qual o comportamento esperado?*
+Que não ocorra erro durante a realização da venda.
+
+*Erro mostrado no log:*
+2291229 2015-06-30 14:57:53,323 INFO Thread-8 workflow.MostrarTelaPagamentoAction - ### MostrarTelaPagamentoAction ###
+2291270 2015-06-30 14:57:53,364 ERROR Thread-8 orion.Main - [SYSERR]Exception in thread "Thread-8" 
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]org.hibernate.LazyInitializationException: failed to lazily initialize a collection of role: com.total.orion.model.pagamento.PlanoPagamento.especiesParcelas, could not initialize proxy - no Session
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.collection.internal.AbstractPersistentCollection.throwLazyInitializationException(AbstractPersistentCollection.java:569)
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.collection.internal.AbstractPersistentCollection.withTemporarySessionIfNeeded(AbstractPersistentCollection.java:188)
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.collection.internal.AbstractPersistentCollection.initialize(AbstractPersistentCollection.java:548)
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.collection.internal.AbstractPersistentCollection.read(AbstractPersistentCollection.java:126)
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.collection.internal.PersistentBag.iterator(PersistentBag.java:266)
+2291271 2015-06-30 14:57:53,365 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.business.pagamento.PagamentoItensPorPlano.selecionaEspeciesEParcelamentosPossiveisParaQuitar(PagamentoItensPorPlano.java:201)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.ui.controller.imp.ImplPagamentoController.getTiposEspecies(ImplPagamentoController.java:87)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.ui.controller.imp.ImplPagamentoController.atualizarDadosInterface(ImplPagamentoController.java:78)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.ui.controller.imp.ImplPagamentoController.start(ImplPagamentoController.java:67)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.ui.controller.imp.ImplPagamentoController.start(ImplPagamentoController.java:44)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.ui.core.InterfaceUI.mostrarTelaPagamento(InterfaceUI.java:222)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.MostrarTelaPagamentoAction.execute(MostrarTelaPagamentoAction.java:32)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.fire(Execution.java:103)
+2291272 2015-06-30 14:57:53,366 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.enter(Execution.java:94)
+2291273 2015-06-30 14:57:53,367 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.take(Execution.java:89)
+2291273 2015-06-30 14:57:53,367 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.run(Execution.java:80)

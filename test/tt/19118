@@ -1,0 +1,12 @@
+Emissão de nota de substituição (valor ICMS ST) sem destacar MVA do produto
+*Como:* Product Owner
+*Quero:* Emissão de nota de substituição (valor ICMS ST) sem destacar MVA do produto
+*Para:* Atender a necessidade do cliente Real Implementos. O sistema sempre destaca o mva, pois para calcular o valor da substituição do produto é necessário informar a alíquota de substituição interna ou externa e o percentual da margem de valor agregado. De acordo com regras fiscais passadas pelo contador e por pesquisas, quando o cliente da NF vai utilizar o produto para uso e consumo, na NF deve conter o valor de substituição, mas não deve destacar o MVA. 
+Já foram passados do desenvolvimento os seguintes comandos:
+* Colocar o MVA;
+* Colocar o cliente como contribuinte Não e Super Simples Nâo.
+
+O procedimento foi feito, sem sucesso, pois continuou a destacar o MVA no produto.
+
+*Critério de validação* 
+* Quando o cliente obter o produto para uso e consumo, o valor de substituição ser destacado, mas o percentual de MVA no produto, não.

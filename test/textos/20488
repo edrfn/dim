@@ -1,0 +1,2 @@
+Ao fazer alteração em um orçamento com duas formas de pagamento, ele zera os valores da segunda forma
+Quando é feita a alteração de um orçamento com duas formas de pagamento, se invertemos as formas (a que era a 1ª passa a ser a 2ª e o contrário), a segunda forma de pagamento exibe os campos de valores (exceto acréscimo, se tiver) zerado.

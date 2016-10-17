@@ -1,0 +1,12 @@
+Avisar que o Servidor está inativo ao realizar a sincronização com F12 > F1
+*Como:* Mostrando uma mensagem na tela do sistema 
+*Quero:* Que o sistema avise que está com o Servidor de PDV inativo ao realizar a sincronização com F12 > F1 
+*Para:* Usuário do sistema
+
+*Critério de validação*
+* Ao realizar a sincronização de informações do Servidor de PDV para o PDV (F12 > F1), o PDV deve mostrar uma mensagem indicando que o servidor está inativo;
+* A mensagem deve ser intuitiva, algo bem "explicadinho" para o usuário. Por exemplo: Nenhuma informação foi sincronizada, pois o Servidor de PDV está inativo;
+
+*Como implementar*
+* Desenvolvimento;
+* Testes;

@@ -1,0 +1,19 @@
+Ao cancelar uma devolução, o sistema não permite digitar um novo pedido de devolução para a mesma nota
+*1) Qual o comportamento observado?*
+
+Teste efetuado na 6.1f e anteriores. Ao emitir uma nota de devolução a cliente completa, cancelar esta nota por algum motivo e tentamos efetuar a devolução novamente, o sistema retorna que já houve devolução completa e não poderá efetuar novamente. Porém, a devolução anterior já foi cancelada. É necessário mexer no AUTNFF e AUTITE em PEDLNK e NUMDEV e na tabela AUTIDV.DAT onde ainda consta os itens devolvidos, mesmo após o cancelamento da devolução.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma devolução completa;
+Exporte a NF-e;
+Cancele a nota;
+Tente fazer a mesma devolução de nota;
+Observe a mensagem informando que a nota já foi devolvida completamente;
+
+*3) Qual o comportamento esperado?*
+
+Permitir a devolução novamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

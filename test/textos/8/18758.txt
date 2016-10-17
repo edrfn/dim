@@ -1,0 +1,14 @@
+Alterar a Importação de XML para atender ao layout 3.10
+*Como:* Usuário do sistema
+*Quero:* Alterar a Importação de XML para atender ao layout 3.10
+*Para:* Atender ao novo layout vigente pela SEFAZ.
+
+*Critério de validação* 
+* * Ser possível utilizar a rotina de Importação de XML, importando todas as TAGS pertinentes do novo layout para o sistema.
+* Verificar se os novos dados foram gravados no banco de dados.
+
+
+*Como implementar* 
+* Remover as tags antigas (caso haja);
+* Inserir as novas tags (caso haja e seja pertinente)
+* Gravar as novas informações no banco (caso seja pertinente)

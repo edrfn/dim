@@ -1,0 +1,15 @@
+[NFC-e] Criar processo de finalização de venda com NFC-e.
+*Como:* Scrum Master
+*Quero:* Criar o processo de finalização da venda no PDV.
+*Para:* Iniciar o processo de envio de notas para a SEFAZ.
+
+*Critérios de validação*
+1. Realizar testes de unidade;
+2. Testar no sistema;
+
+*Como Implementar*
+1. Refazer a classe com base na existente do sistema
+2. Implementar FinalizarVendaObserver;
+3. Implementar FinalizarVendaNFCEAction;
+4. Juntar a estrutura nova com a estrutura antiga.
+5. Deixar a estrutura pronta para o envio dos dados para a SEFAZ.

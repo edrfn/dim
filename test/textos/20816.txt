@@ -1,0 +1,8 @@
+Etiquetas (criar e imprimir)
+*Como:* Analista de negócios
+*Quero:* Criar e imprimir etiquetas
+*Para:* Prover ao sistema essa funcionalidade
+
+*Critério de validação*
+- Criar etiquetas de produtos
+- Imprimir etiquetas de acordo com o padrão da especificação.

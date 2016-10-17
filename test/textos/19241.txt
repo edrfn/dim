@@ -1,0 +1,10 @@
+Incluir no sistema a opção para imprimir o pedido de vendas diretamente sem mostrar a tela com os filtros
+Descrição
+
+Como: usuário do Sistema
+Quero: A possibilidade de configurar um modelo padrão de impressão e no pedido não mostrar esses filtros e imprimir direto.
+Para: praticidade e agilidade de conclusão do pedido.
+
+Critério de validação
+Ter um parâmetro de configuração para definição do modelo de impressão, dispositivo de saída e ordem do relatório;
+no pedido de venda, ao concluir o pedido o sistema deve solicitar a impressão do pedido caso seja informado sim, o sistema deve imprimir diretamente ou mostrar em vídeo baseado nas configurações definidas no parâmetro;

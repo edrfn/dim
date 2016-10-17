@@ -1,0 +1,18 @@
+Sistema não limpa o campo Número da Nota quando alteramos o Fornecedor inserido em Relatório de Movimento de Entrada
+1) Qual o comportamento observado?**
+Foi observado que após selecionarmos um Fornecedor no campo e uma nota referente a ele, ao alterarmos o fornecedor por outro, o campo Número da Nota continua trazendo a nota do outro fornecedor, não limpa o campo;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Compras > Relatórios > Relatório de Movimento de Entrada;
+2- Preencher o campo Fornecedor e escolher uma nota dele no campo Número da Nota;
+3- Alterar o Fornecedor do campo;
+4- Sistema não apaga a nota do fornecedor inserido anteriormente no campo Número da Nota;
+
+3) Qual o comportamento esperado?
+Espera-se que o ao alterarmos o Fornecedor, o campo Número da Nota seja apagado também. Não continue exibindo no campo notas de outros fornecedores;
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Compras > Relatórios > Relatório de Movimento de Entrada;
+2- Preencher o campo Fornecedor e escolher uma nota dele no campo Número da Nota;
+3- Alterar o Fornecedor do campo;
+4- Sistema apaga a nota do fornecedor inserido anteriormente e deixa o campo Número da Nota vazio.

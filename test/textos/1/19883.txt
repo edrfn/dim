@@ -1,0 +1,11 @@
+Gerar QrCode da DANFE sem consultar a Migrate
+*Como:* Gerar QrCode do DANFE sem consultar a Migrate
+*Quero:* Consultar DANFE pelo QrCode
+*Para:* Liberação de emissão em produção para o cliente Chalé Catarinense.
+
+*Critério de validação*
+
+Realizar consulta pelo QrCode da impressão.
+
+*Como implementar*
+Montar a String referente ao QR code a partir das informações da venda, sem obter o QR code da Migrate

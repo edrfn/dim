@@ -1,0 +1,7 @@
+[Total NFCE] Quando é selecionado a opção (SEM IMPRESSÃO) para mostrar apenas o QR code na TELA a nota é rejeitada.
+É retonado a seguinte mensagem no log: 
+
+Retorno: 709|Rejeicao: NFC-e com formato de DANFE invalido
+
+
+Acontece quando é solicitada a emissão no tipo (SEM IMPRESSÃO)

@@ -1,0 +1,19 @@
+[URGENTE] Exibição das parcelas
+h2. Comportamento Observado
+
+Ao baixar um parcela o sistema suprime o valor dos juros.
+Some do grid e o valor da baixa fica com um valor que não dá pra identificar sobre o que é.
+
+h2. Comportamento Esperado
+
+Deve ser possível visualizar no grid de parcelas qual o valor do juros na parcela.
+Mesmo uma parcela completamente baixada deve ser os juros apresentados. 
+
+h2. Passos para reproduzir o comportamento
+
+# Criar um título ou editar um existente;
+!titCriado.png!
+# Realizar baixa parcial no titulo e observar as condições do grid de parcelas;
+# Realizar baixa total e verificar o grid de parcelas.
+!TabParcelas.png!
+# É possível observar nas imagens que a informação referente aos juros ficou perdida. O valor da baixa indica que houve juros, mas a parcela não diz qual.

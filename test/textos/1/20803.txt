@@ -1,0 +1,8 @@
+Icones do sistema não se adequam ao tamanho da interface
+*Comportamento observado:*
+
+O ícone do PDV não está se adequando ao tamanho caso a apresentação deles, na área de trabalho, seja alterada de tamanho
+
+*Comportamento esperado:*
+
+Que o ícone siga os tamanhos definidos pelo usuário.

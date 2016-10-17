@@ -1,0 +1,13 @@
+Erro na numeração de páginas da NF-e
+1) Qual o comportamento observado?
+
+Ao gerar uma NF-e com mais de três páginas, sai incorreta no DANFE como exemplo: página 1: 1/2; página 2: 2/2; página 3:3/2.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Gerar uma NF-e com mais de 3 páginas e verificar a numeração.
+
+3) Qual o comportamento esperado?
+
+Que a numeração saia correta.
+

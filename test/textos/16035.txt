@@ -1,0 +1,29 @@
+[xIntegra] Importação incorreta do xIntegra bagunça valores quando há duas formas de pagamento na venda do dincash
+Breve descrição do caso:
+
+O xintegra exporta incorretamente as movimentações a serem vistas no relatório de fechamento de caixa no automaster.
+
+Comportamento Observado:
+
+Foi feito o teste em base local onde foi feita uma venda no dincash com duas especies, uma no cartão e outra em dinhero, foi exportado para o automaster e foi verificado que no fechamento do caixa a venda ficou com os valores alterados. A venda que foi feita era de 100 reais, sendo que foi pago no dincash 50 no cartão e 50 no dinheiro, mas no automaster é mostrado 72,25 no cartão e o restante em dinheiro. Esse problema não Ocorre com a versão 975 do Xintegra.
+
+Etapas para o Comportamento Observado:
+
+Efetuar uma venda com duas especies no dincash e exportar para o automaster, verificar o relatório de prévia de fechamento e observar os valores.
+
+Comportamento Esperado: 
+
+Os valores devem ser iguais a venda no dincash.
+
+Etapas Comportamento Esperado:
+
+Efetuar uma venda com duas especies no dincash e exportar para o automaster, verificar o relatório de prévia de fechamento e observar os valores.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0L
+Xintegra 1040
+Dincash 2.7e
+
+Informações adicionais.
+//procedimento feito em base de testes.

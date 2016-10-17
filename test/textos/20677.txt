@@ -1,0 +1,24 @@
+Aplicação dos parâmetros
+h1. Checklist
+
+|Parâmetros|Feito?|Passou?|Obs|
+|Gerenciamento de créditos do cliente|Não|Não|Pedido de venda, Orçamento, outras Saidas|
+|Gerenciamento de Títulos atrasados|Sim|Não|Contas a receber, liberação de venda, pedido de venda|
+|Digitar preço na venda balcão|Sim|Sim|Pedido de venda, Orcamento, Outras saidas, outras entradas|
+|Controlar Estoque Negativo|Sim|Não|Pedido de venda, balanço, estoque, cadastro do produto|
+|-Tratar comissão por título-||| Cadastro do vendedor, venda balcão, pedido de venda, outras saidas, outras entradas|
+|Mostrar Preço de custo na consulta de produto|Sim|Sim| cadastro do produto, pedido de venda, outras saidas, notas fiscal eletronica|
+|Natureza da operação de vendas|Sim|Sim| Cadastro de natureza de operação, pedido de venda, outras saidas, orcamento|
+|Validado do orçamento|Não|Não|Orçamento, pedido de venda|
+|-Solicitar Indicador-|||pedido de venda|
+|-Tratar desconto/acréscimos na comissão-|||Pedido de venda, orcamento, outras saidas, outradas entradas|
+|-Imprimir juros/descontos no recibo-|||recebimento de titulos, pedido de venda, outras saidas|
+|-Imprimir saldo do cliente no recibo-|||pedido de venda, outras saidas, orcamento|
+|-Imprimir tipo de baixa no recibo-|||Baixa de titulos, contas a receber, outras saidas, pedido de venda|
+|-Consistência de cheque devolvido-|||Pedido de venda, outras saidas, outras entradas, orçamento|
+|Quantidade de casas decimais do valor unitário|Sim|Sim|pedido de venda, orçamento, balanco, outras entradas, outras saidas, cadastro do produto, nota fiscal eletronica|
+|Identificação de Balança|Sim||PDV|
+|Leitura do cód. da balança por valor|Sim||PDV|
+|Tamanho do cód. De barras da balança|Sim||PDV|
+|Desprezar os zeros do cód. Barras de balança|Sim||PDV|
+|Início da leitura do código de barras|Sim||PDV|

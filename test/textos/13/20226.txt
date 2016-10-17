@@ -1,0 +1,4 @@
+Implementar impressão do comprovante do TEF em A4
+Como: Tester;
+Quero: Que seja implementado a opção de imprimir o comprovante TEF em papel A4;
+Para: Que nas transações com NFC-e seja possível a impressão do comprovante TEF em A4.

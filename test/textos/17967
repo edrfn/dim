@@ -1,0 +1,19 @@
+Corrigir e concluir o cadastro de PDV
+*Descrição*
+
+Como: Coordenadora de Projetos
+Quero: Cadastrar um PDV
+Para: Obter informações suficientes a realizar venda ao consumidor final.
+
+*Critério de validação*
+
+    Ter acesso à funcionalidade através do menu.
+    Poder cadastrar, alterar e excluir cadastro de PDV.
+    Poder realizar consultas.
+
+*Como implementar*
+
+    Melhorar a lógica do código existente.
+    Alterar a codificação de acordo com o requisito.
+    Realizar teste visando garantir o requisito estabelecido.
+    Validar o fluxo do sistema, a funcionalidade.

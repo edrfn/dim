@@ -1,0 +1,13 @@
+[URGENTE] Cadastro de Produtos
+*Comportamento encontrado*
+Ao cadastrar um produto novo, em inserir uma embalagem, o sistema apresentou um erro na gravação do preço.
+
+*Comportamento esperado*
+Ao inserir um embalagem nova, o sistema permita a inserir qualquer combinação de preço, desde que dentro do permitido.
+
+*Passos para simular o comportamento*
+1. Iniciar um novo Produto
+2. Inserir uma embalagem
+>> Valor inteiro
+>> Valor fracionado
+

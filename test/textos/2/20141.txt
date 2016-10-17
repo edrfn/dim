@@ -1,0 +1,2 @@
+Simular problema de RedeFlex
+Após atualizar o cliente RedeFlex, ao abrir a configuração do Integração com SAP é gerado o erro "Erro na formacao dos bancos de outras empresas", com a versão 2.8f

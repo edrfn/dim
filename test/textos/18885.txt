@@ -1,0 +1,21 @@
+Implementação do novo relatório que mostre o Resumo Geral de Vendas e um filtro que permita validar o resumo por vendedor e por Espécie movimentada. (Liberar também o relatório no DINAMICO)
+*Como:* Product Owner
+*Quero:* Que o seja implementado um filtro no "Relatório de Resumo Geral das Vendas"
+*Para:* Melhorar o gerenciamento das movimentações dos clientes
+
+*Critério de validação*:
+1.Modulo de vendas --> Relatórios --> Relatórios Gerenciais --> Resumo Geral das Vendas
+2.Informar: Filial , Tipo , Mês e Período do relatório
+3.Houve a necessidade de ao escolher POR VENDEDOR no Filtro "Totalizar Resumo" , habilitar no filtro "SUB TOTAL RESUMO a opção POR ESPÉCIE"
+
+Obs: Segue uma imagem de como seria o Relatório e o Filtro Informado.
+
+*Como implementar:*
+1.Modulo de vendas --> Relatórios --> Relatórios Gerenciais --> Resumo Geral das Vendas
+2.Informar: Filial , Tipo , Mês e Período do relatório
+3.Ao chegar no filtro: "Totalizar Resumo" Informar --> POR VENDEDOR
+4.Após informar o parâmetro acima "POR VENDEDOR" , solicitamos que implemente no filtro "SUB TOTAL RESUMO" a opção de Filtro: "POR ESPÉCIE" 
+5.Sendo assim o relatório informará as espécies movimentadas e os vendedores.
+
+*Informações Adicionais:*
+Segue imagens de como seria a emissão do relatório e o Filtro criado.

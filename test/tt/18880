@@ -1,0 +1,35 @@
+Devolução de Cliente - Sistema apaga os produtos devolvidos ao entrar e sair da tela de alterar produtos
+*1) Qual o comportamento observado?***
+Ao entrar e sair da tela de alterar produtos de uma devolução ao cliente, os itens já adicionados no grid principal somem.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Modo 1:
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Devolução Cliente
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher os campos pertinentes e pesquisar por uma nota para lançar a devolução;
+4- Na tela que abre automaticamente, devolver pelo menos um produto e clicar em "confirmar";
+5- Clicar no botão "alterar" para alterar os itens e quantidades devolvidos;
+6- Na tela de itens para serem devolvidos, clicar em "sair";
+7- Confirmar que deseja cancelar as alterações;
+8- Verificar que na tela principal da Devolução de Cliente não existem mais produtos para devolver.
+
+Modo 2:
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Devolução Cliente
+2- Pesquisar por uma devolução já feita;
+3- Clicar no botão "alterar" para alterar os itens e quantidades devolvidos;
+4- Na tela de itens para serem devolvidos, clicar em "sair";
+5- Confirmar que deseja cancelar as alterações;
+6- Verificar que na tela principal da Devolução de Cliente não existem mais produtos para devolver.
+
+Tela inicial (pesquisa ou nova devolução com itens já adicionados para devolução)
+!tela_1.jpg!
+
+Tela mostrada após clicar em sair:
+!erro.jpg!
+
+*3) Qual o comportamento esperado?*
+É esperado que após pedir para sair da tela de alteração dos itens a devolver, e confirmar a saída da tela, que os itens já adicionados à devolução não sumam do grid principal. O processo já funciona normalmente na tela de Devolução ao Fornecedor.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+

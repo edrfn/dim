@@ -1,0 +1,4 @@
+Modo de impressão "pre-impresso" não exibe valor total na mesma página
+Ao efetuar um orçamento e imprimir no modo "pre-impresso" o valor total do orçamento não é exibido na mesma página, além disso o espaço entre o dia e o mês está muito grande.
+
+ps: Este é o modo de impressão que requer maior atenção, no sentido de layout.

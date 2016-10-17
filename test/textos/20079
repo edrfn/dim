@@ -1,0 +1,10 @@
+Melhorar a exibição das mensagens de retorno da SEFAZ na NFCe Migrate/Daruma
+*Como:* Operador do PDV
+*Quero:* E exibição da descrição do retorno de rejeições da SEFAZ
+*Para:* Que o motivo da rejeição possa ser identificado mais rapidamente
+
+*Critério de validação*
+* Exibir para o usuário o motivo da rejeição da SEFAZ
+
+*Como implementar* 
+* Concatenar a descrição do retorno da SEFAZ

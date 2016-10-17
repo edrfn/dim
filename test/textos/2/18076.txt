@@ -1,0 +1,12 @@
+Desabilitar a aba filial de todos os cadastros
+Como: Scrumaster
+Quero: A desabilitação da aba filial em todos os cadastros para o Dinâmico Varejo;
+Para: Ao adquirir a licença apenas do Dinâmico Varejo, o usuário não ter acesso a essa funcionalidade.
+
+*Critério de validação*
+Acessar os cadastros e verificar se a aba filial foi desabilitada;
+Verificar a ordem de numeração das abas.
+
+*Como implementar*
+Acessar o ancestral e desabilitar a aba filial;
+Acessar todos os cadastros para verificar se o processo está correto

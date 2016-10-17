@@ -1,0 +1,18 @@
+[CASE DE SUCESSO] Refatoração da Tela de Venda
+*Descrição*
+
+Iniciando a série de refatorações necessárias à interface do PDV, essa história visa corrigir a tela de Venda, tornando-a mais responsiva.
+
+*Quero:* Tela de Venda mais responsiva a diferentes tamanhos de tela.
+*Como:* Refatorando todo o código da tela de Venda para substituir o uso de AnchorPane por outros gerenciadores de layout mais adaptáveis e fáceis de manter.
+*Para:* Evitar deformações da interface ao rodar o sistema em diferentes tamanhos de monitor.
+
+*Critério de validação*
+
+Ao visualizar o sistema em monitores de diferentes resoluções, notar que os componentes da interface são ajustados de maneira satisfatória, sem deformações ou efeitos estéticos desagradáveis.
+
+*Como implementar*
+
+Criar um novo arquivo .fxml para a tela de venda, reconstruindo a interface sem o uso de AnchorPane.
+Criar o CSS para esse novo arquivo.
+Linkar os eventos e rotinas da tela antiga à nova tela.

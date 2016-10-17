@@ -1,0 +1,11 @@
+Cadastro de Produto - Alterar o nome do segundo campo que possui o nome 'Origem' para 'Indicador de Produção'.
+*Como:* Tester
+*Quero:* Alteração do nome do segundo campo 'Origem' presente na aba detalhes da rotina de Cadastro de produtos.
+*Para:* Que não haja campos com nome duplicado.
+
+*Critério de validação*
+* Ter acesso à rotina através do caminho: Cadastro  - Estoque - Produto.
+* Verificar que o nome do terceiro e do último campo do lado esquerdo, na aba detalhes possuem o mesmo nome.
+
+*Como implementar*
+* Alterar o nome do segundo campo que possui o nome 'Origem' para 'Indicador de Produção'.

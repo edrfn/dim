@@ -1,0 +1,11 @@
+[License Manager] Ao atualizar a licença, a data é atualizada no SMART mas no License fica incorreto.
+Breve descrição:
+
+Ocorre que ao atualizar a data da licença, o dia do mês da mesma é atualizado no Smart, porém não é atualizado no License, provocando um erro de visualização.
+
+OBs.: O campo no SMART é "dialiberacao".
+
+
+Resultado esperado:
+
+Os dias devem ficar idênticos tanto no License quanto no SMART. 

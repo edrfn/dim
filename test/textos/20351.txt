@@ -1,0 +1,3 @@
+O Consultar preço deve ser possível ser chamado a qualquer momento na tela de venda.
+Sendo: Coordenador de Projetos
+Quero: Que na tela de pedido de venda eu possa consultar o preço de um item em qualquer momento da venda;

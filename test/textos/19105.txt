@@ -1,0 +1,15 @@
+Atualização de dados acontece no banco porém não é exibido em tela
+*Qual o comportamento observado?*
+
+Quando o Servidor importa alguma informação que consiste na atualização dos dados existentes, a atualização acontece normalmente a nível de banco, porém quando realizamos a ressincronização através do F12 -> F1 o sistema continua a mostrar em tela as informações antigas sendo que em banco elas foram atualizadas.
+Apenas quando o sistema é reiniciado que as informações são mostradas corretamente.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar a atualização de dados existentes no banco
+
+*Qual o comportamento esperado?*
+
+Que no momento que é realizada a ressincronização entre Servidor e PDV as informações mostradas sejam as que estão em banco.
+
+-> Em observações iniciais conseguimos supor que pode ser algo relacionado a tela, já que a informação é atualizada no banco e se houver a oportunidade de pesquisa o sistema busca pelo dado atualizado, colocando o antigo ele não encontra.

@@ -1,0 +1,20 @@
+NF-e - Erro ao finalizar exportação de NF-e
+*1) Qual o comportamento observado?***
+Ao terminar a exportação de NF-e o sistema exibe um erro em tela.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1 - Acessar a rotina pelo menu: Vendas - Movimento - Exportação de NF-e
+2 - Pesquisar por um Pedido de Venda;
+3 - Preencher o campos obrigatórios da tela;
+4 - Fazer a exportação da NF-e;
+5 - Caso ache necessário, imprimir a DANFE;
+6 - Ao fechar a Danfe verificar a mensagem de erro que apresenta na tela.
+
+*3) Qual o comportamento esperado?*
+É esperado que após exortar a NF-e o sistema não exiba nenhuma mensagem de erro.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+
+

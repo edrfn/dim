@@ -1,0 +1,16 @@
+Devolução Cliente - Erro ao trazer os ítens da nota em Devolução de Cliente
+1) Qual o comportamento observado?**
+Foi observado que ao pesquisarmos uma nota no campo Número da Nota Fiscal o sistema exibe um erro: 'ItensDev_Cds:
+Cannot perform this operation on a closed dataset' e não traz os ítens da nota;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Vendas> Movimento > Devolução Cliente;
+2- Selecionar o botão Novo;
+3- Pesquisar e selecionar uma nota no campo Número da Nota Fiscal;
+4- Observar o erro mostrado.
+
+3) Qual o comportamento esperado?
+Espera-se que a rotina esteja funcional e traga os ítens da nota selecionada para a rotina;
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do ponto 3.

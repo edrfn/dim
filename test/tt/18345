@@ -1,0 +1,8 @@
+Criação de uma classe na camada Automaster para comunicação com a DLL  do ACBR BOLETO, onde são feitas as chamadas às funções da DLL
+*Como:* Product Owner
+*Quero:* Criação da classe no Automaster
+*Para:* Comunicação com DLL do ACBr
+
+*Critério de validação* 
+
+*Como implementar* 

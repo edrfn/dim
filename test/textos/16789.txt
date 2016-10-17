@@ -1,0 +1,20 @@
+Relatório de Faturamento Diário não mostra as parcelas
+1) Qual o comportamento observado?
+
+Foi identificado que na versão 6.0c do Automaster, ao tirar o relatório de Faturamento Diário no cliente Imperial, o sistema não traz as parcelas respectivas as vendas realizadas. O mesmo relatório na versão 4.5i do sistema traz as parcelas normalmente.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base da Imperial, disponível em:"\Teste\Bases Redmine\Imperial_6.0c.rar";
+Tire o relatório de Faturamento Diário no período de 01/11 a 26/11;
+Verifique a aba Parcelas, que não é mostrada;
+Pegue a outra base na versão 4.5i disponível em:"\Teste\Bases Redmine\Imperial_4.5i.rar"
+Tire o mesmo relatório e verifique a aba Parcelas.
+
+3) Qual o comportamento esperado?
+
+Ao emitir o relatório de Faturamento Diário, as parcelas respectivas as vendas devem ser mostradas.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

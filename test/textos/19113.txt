@@ -1,0 +1,6 @@
+[Total NFCE] Sistema não valida Chave do Servidor do arquivo de caixa com a Chave da licenciada
+*NFC-e:*
+Após teste foi notado que o sistema não valida a chave do servidor presente no arquivo de caixa com a chave informada na Unidade de Negócio. Durante a execução de um caso de teste na base de um cliente, foi inserido um arquivo de caixa com a chave do servidor da Total, e inserido em uma base com as informações do cliente. O sistema permitiu que o mesmo fosse adicionado e permitiu enviar cupom para a Invoicy. As informações no banco de dados são gravadas com a chave do servidor presente no arquivo de caixa. 
+
+*Situação desejada:*
+Ao inserir o arquivo de caixa, o sistema deverá validar se a chave informada no arquivo de caixa é igual a chave do servidor da Unidade de Negócio.

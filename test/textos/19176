@@ -1,0 +1,11 @@
+[NFC-e] Criar protótipo da classe RealizarVendaBusiness
+*Como:* Scrum Master
+*Quero:* Criar a classe RealizarVendaBusiness
+*Para:* Realizar correções no sistema de forma que torne-o mais fácil dar manutenção
+
+*Critérios de validação*
+1. Realizar testes de unidade na classe nova
+2. Testar no sistema
+
+*Como Implementar*
+1. Refazer a classe com base na existente do sistema

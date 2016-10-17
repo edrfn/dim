@@ -1,0 +1,19 @@
+[ACAOBACKLOG]Ao inserir produto com código de barras no orçamento e apertar ESC, o sistema diminui a quantidade de números do campo
+1- Breve descrição do caso:
+
+Ao encontrar  produtos na rotina de Orçamentos através do Código de barras (pressionando f5 e selecionando a Opção código de barras) e logo em seguida pressionar a tecla ESC, antes de inserir a quantidade, o campo de Código de barras é diminuído automaticamente, impedindo assim que o cliente insira um novo (ou o mesmo) código de barras novamente.
+ 
+2- Etapas para o Comportamento Observado:
+
+Pressionar a Tecla F2, clicar em Orçamentos, inserir um novo orçamento e ir até a parte de inserção do produto, pressionar f5 e selecionar a opção "CODIGO DE BARRAS";
+Logo em seguida, utilizar um leitor de codigo de barras ou digita-lo manualmente, trazendo o produto desejado;
+Antes de inserir a quantidade do produto no orçamento, pressionar a tecla ESC para anular a operação;
+Observe que o campo do código de barras será diminuído, obrigando o usuário a pressionar F5 até a opção de código de barras novamente.
+ 
+3- Comportamento Esperado:
+
+Ao buscar um produto através do seu código de barras e pressionar ESC, o campo do código de barras fique do mesmo tamanho, possibilitando o cliente de prosseguir sua operação.
+
+4- Etapas Comportamento Esperado:
+
+Mesmo passo 2.

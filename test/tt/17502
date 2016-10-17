@@ -1,0 +1,6 @@
+O sistema não está validando os campos de quantidade minima e maxima do estoque
+Segundo foi entendido, os campos de quantidade minima e maxima do estoque deveriam estar seguindo tais regras:
+1) não deveria estar permitindo vender menos do que a quantidade minima e também serviria como validação da ação quando o estoque estivesse negativo.
+2) E não permitir fazer entrada de produtos a mais do que o digitado no campo de quantidade maxima do estoque.
+
+Esse dois campos não estão validados.

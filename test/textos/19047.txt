@@ -1,0 +1,19 @@
+Erro log ao importar pedidos do Versátil
+*1) Qual o comportamento observado?*
+
+Foi identificado que na versão 6.1c, ao fazer importação de pedidos do Versátil para o sistema, o mesmo apresenta erro log (em anexo).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a base do cliente BomBom, disponível em: ""\Teste\Bases Redmine\OBOMBOM.rar";
+Pegue um dos pedidos dentro da pasta Versátil;
+Faça a importação;
+Observe o erro log.
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve importar os pedidos sem apresentar erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

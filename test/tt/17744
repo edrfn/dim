@@ -1,0 +1,4 @@
+Refatoração e correção de bugs no cadastro de fornecedor
+Situações a serem corrigidas:
+1- Validações relacionadas à inscrição estadual;
+2- Validações do campo suframa;

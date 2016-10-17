@@ -1,0 +1,13 @@
+Refatorar o cadastro de Natureza de Operação
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de Natureza de Operação
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar o cadastro solicitado 
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

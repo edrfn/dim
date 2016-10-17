@@ -1,0 +1,13 @@
+Geração de versão não traz o numero da versão corretamente.
+*Qual o comportamento observado?*
+
+Foi observado que os documentos emitidos pelo sistema trazem a numeração de versão "1.0" quando deveria ser "1.0a". A mesma situação ocorre quando é gerado o "arquivos_autenticados"
+
+*Quais as etapas para obter o comportamento observado?*
+
+Emitir qualquer documento através de uma ECF e verificar a versão impressa ou verificar o "arquivo_autenticado" gerado pelo sistema.
+
+*Qual o comportamento esperado?*
+
+Que o sistema escreva a versão correta nos arquivos gerados e nos documentos impressos.
+

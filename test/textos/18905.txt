@@ -1,0 +1,18 @@
+Erro ao importar XML "is not a valid integer value"
+Ao impotar o XML em anexo o sistema apresenta a mensagem da imagem em anexo reclamando do código do produto.
+
+*Comportamento Observado*
+
+O XML em anexo não é importado estar dando um erro ao tentar converter o código do produto
+
+*Procedimento para simulação*
+
+# Abrir a rotina e compra;
+# Apertar em importar xml;
+# Escolher o xml em anexo;
+# Realizar a importação;
+# O Erro é apresentado
+
+*Procedimento esperado*
+
+Mesmo do procedimento de simulação

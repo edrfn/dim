@@ -1,0 +1,11 @@
+Refatorar a Importação de XML
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração a Importação de XML
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar se já foi iniciado a digitação manual da nf de compras.
+
+Como implementar:
+
+- Interface para associação de produtos e inclusão.

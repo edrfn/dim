@@ -1,0 +1,14 @@
+[Migrate NFCE] A tag tpIntegra é preenchida com o valor errado ao realizar pagamento por cartão TEF Dedicado
+*Situação:*
+
+Foi identificado que o sistema traz as tags tpIntegra e tBand estão sendo sempre preenchidas com os mesmos valores independente do tipo de cartão.
+
+<card>
+<tpIntegra>*2*</tpIntegra>
+<tBand>*99*</tBand>
+<cAut>80005</cAut>
+</card>
+
+Situação desejada:
+
+O sistema deverá ser capaz de identificar corretamente o tipo do cartão e mandar no XML as informações de forma consistente.

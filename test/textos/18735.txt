@@ -1,0 +1,16 @@
+Não está sendo possível realizar a substituição coletiva de títulos na rotina Substituição Coletiva a Pagar
+*1) Qual o comportamento observado?*
+Observou-se que quando aperta F10 para confirmar a substituição dos títulos selecionados, é exibida uma mensagem de erro, e o processo não é completado.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a Rotina pelo caminho Financeiro->Movimento-> Contas a Pagar-> Substituição Coletiva de Títulos a Pagar;
+2- Informar um fornecedor para o qual haja títulos em aberto no sistema;
+3- Informar uma faixa de vencimento dentro da qual possam estar os títulos. Isso se faz necessário para que os registros sejam listados no grid;
+4- Selecionar os títulos que se deseja substituir e apertar a tecla F10 para confirmar a substituição;
+5- Observar que nesse momento a mensagem de erro é exibida.
+
+*3) Qual o comportamento esperado?*
+Espera-se que após apertar F10 para confirmar a substituição dos títulos selecionados, seja exibida a tela para inserção das informações do novo título.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.

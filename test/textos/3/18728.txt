@@ -1,0 +1,15 @@
+Impressora fiscal indica pouco papel e trava mesmo com a bobina cheia.
+*Comportamento observado:*
+
+O sistema trazia todas as telas normalmente, onde era possível realizar a auditoria e finalizar a movimentação, porém no momento de emitir os relatórios o sistema começava e após poucas linhas era interrompido o processo com a mensagem de "Pouco papel" e o fechamento não era finalizado, porém a impressora tem papel suficiente para realizar o procedimento completo. Mesmo que o status de pouco papel seja enviado pela impressora, o sistema não deveria travar. E deve ser visto o que pode ser feito em relação ao sensor, pois bobina ainda tem uma boa quantidade de papel e o sistema já apresenta a mensagem.
+
+*Passos para reproduzir o comportamento:*
+
+- Utilizar uma bobina que esteja com menos da metade mas com papel suficiente para realizar os procedimentos. 
+- O desenvolvedor irá notar que a impressora começa a realizar os procedimentos (vendas, reduções, baixas de títulos e etc.) mas que não são completados porque o sistema trava com os avisos de pouco papel.
+
+*Como implementar:*
+
+- Verificar o ponto que o sistema está quebrando.
+- Implementar a solução.
+- Testes.

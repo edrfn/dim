@@ -1,0 +1,22 @@
+Erro ao realizar uma devolução a fornecedor de uma entrada com conversão de embalagem
+1) Qual o comportamento observado?
+
+Ao usar a conversão de embalagem na entrada e tentar efetuar a devolução em unidade, o sistema não permite, retornando que a quantidade devolvida é maior do que a Entrada, pois só entraram 10 CXs e está tentando devolver 100 UN(ele toma como base a quantidade informada na entrada que foi 10 e não permite devolver os 100UN itens que tem em estoque).
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Em digitação de NF de entrada para o PRODUTO X que esta cadastrado como UN, informo:
+Quantidade: 10 
+Embalagem CX
+Quantidade na embalagem: 10 UN
+Valor Unitario 10,00
+Faça a devolução como 100UN;
+Observe o erro apresentado;
+
+3) Qual o comportamento esperado?
+
+O sistema deve fazer a conversão de 100 UN em 10 CXs e permitir a devolução.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

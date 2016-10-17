@@ -1,0 +1,24 @@
+Alterar o foco dos botões e solicitar confirmação de rotinas sem volta
+*Obs.:* Nesta história devem ser identificadas todas as telas do sistema que precisam de confirmação. Abaixo seguem as já identificadas.
+
+*Correções identificadas no CrowdTest*
+1. Alterar o foco dos botões de confirmação de "sim" para "não":
+1.1 Confirmação de cancelar item
+1.2 Confirmação de cancelar venda
+
+2. Adicionar confirmação às seguintes ações:
+2.1 Fechar o caixa
+2.2 Entrada de suprimento
+2.3 Redução Z
+
+3. Habilitar o uso da tecla ESC nas telas:
+3.1 Prévia de fechamento.
+3.2 Nota fiscal (F9)
+
+4. Ao adicionar um produto na tela de nota fiscal, mudar o foco para o botão "incluir"
+
+*Como implementar?*
+- Identificar os locais de mudança; 
+- Alterar o foco dos botões;
+- Confirmar ação;
+- Testes;

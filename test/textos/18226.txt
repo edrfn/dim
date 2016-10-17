@@ -1,0 +1,25 @@
+Primeiro item sendo trazido na edição de produto na nota fiscal de entrada independente do item que é selecionado
+*Comportamento Observado*
+
+Ao tentar editar um item em uma nota fiscal de entrada com mais de um item ao selecionarmos o item é sempre trazido o primeiro item independente do item selecionado;
+
+*Procedimentos para simulação*
+
+# Acessar a rotina de nota fiscal de entrada;
+# Ficar em modo de inserção;
+# Preencher os dados da capa da nota;
+# Apertar insert na tela do sistema ou no teclado para inserir o item;
+# Inserir dois itens ou mais itens;
+# Retornar para a tela de digitação dos dados da capa;
+# Tentar alterar os de qualquer item que não seja o primeiro, selecionando ele e apertando enter no teclado ou na tela do sistema;
+# Verificado que os dados trazidos são os do primeiro item;
+
+h2. *P.S.* Este problema não acontece quando estamos em modo de edição;
+
+*Comportamento esperado*
+
+No passo 8 do procedimento para simulação o sistema deveria trazer os dados do produto selecionado;
+
+*Etapas para reproduzir o comportamento esperado*
+
+Realizar todos os passos do procedimento para simulação, sendo que no passo oito o sistema deverá exibir os dados do produto selecionado;

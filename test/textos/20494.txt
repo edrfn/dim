@@ -1,0 +1,2 @@
+Ao emitir orçamento em modo pre-impresso o somatório está calculando incorretamente
+Ao efetuar a inclusão de um orçamento com despesas acessórias e encargos financeiros na forma de pagamento (apenas uma forma de pagamento), o somatório está calculando o valor incorretamente.

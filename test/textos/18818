@@ -1,0 +1,18 @@
+Sistema não importa pré-venda cadastrada
+*Qual o comportamento observado?*
+
+Sistema exibe mensagem "Pré-venda não encontrada" quando inserido o código de pré-venda.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Ter uma pré-venda cadastrada no sistema e tentar importar ela através da tecla F10
+
+*Qual o comportamento esperado?*
+
+Que o sistema importe a pré-venda cadastrada
+
+*Como implementar*
+
+- Identificar problema
+- Corrigir
+- Testar

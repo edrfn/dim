@@ -1,0 +1,16 @@
+[Sintegra] Valor do ICMS incorreto no registro 60A
+*1) Qual o comportamento observado?*
+O valor total do ICMS no registro 60A foi gerado muito acima do valor real. O valor correto para o período gerado seria R$ 75,79, porém foi gerado o valor de R$ 107,31. (Arquivo sintegra anexo)
+O valor Contábil e a base de cálculo estão corretos.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Gerar um arquivo de sintegra no banco com dados de vendas no ECF;
+2- Validar e comparar o valor total do ICMS apresentado com o valor desse imposto nas vendas de ECF do período.
+
+*3) Qual o comportamento esperado?*
+É esperado que o valor do ICMS corresponda ao valor correto de acordo com as vendas do período.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

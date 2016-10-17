@@ -1,0 +1,16 @@
+Problemas encontrados no agendamento do backup automático
+*1) Quais os comportamentos observados?*
+1- Layout - A mensagem inicial está editável, incompleta e com erros. Deixar apenas "Configuração do backup automático".
+2- Configurar local onde o arquivo será salvo - Mesmo o HD sendo particionado, só está permitindo escolher pasta na partição C:
+3- Configurar local do arquivo PG_Dump - O sistema está sugerindo a pasta "C:\Program Files(x86)\PostgreSQL\9.4\bin", que não existe pois o Postgre está instalado em "C:\Program Files\Total Informática\Dinâmico Database\bin";
+4- Salvar a configuração - Erro impeditivo ao salvar, imagem anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Ferramentas - Backup automático e tentar configurar um agendamento.
+
+*3) Qual o comportamento esperado?*
+É esperado que seja possível configurar o agendamento do backup automático e que o processo seja efetuado segundo as configurações estabelecidas.
+
+
+
+

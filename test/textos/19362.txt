@@ -1,0 +1,18 @@
+Problemas na conversão de bases
+*Comportamento observado*
+
+Quando realizada uma conversão de base foi identificado três problemas com os dados, são eles:
+
+- Cadastro de grupo gerado não está sendo escrito da maneira correta, não está sendo levada em consideração a lógica de grupo e subgrupo, transformando todos em grupo e fazendo com que não seja possível a integração do cadastro.
+- No cadastro de grupo quando não existente a informação de código de barra, o conversor deve utilizar a informação de referência para e preencher o campo de código de barra, sem essa informação não é possivel realizar a integração.
+- O primeiro produto na tabela de cadastro de produto está sendo convertido sem o fornecedor principal fazendo com que não seja exibido no ERP e também não seja mandado para a integração.
+
+*Passos para reproduzir o comportamento*
+
+Realizar a conversão de uma base e observar como as informações foram gravadas no banco.
+
+*Comportamento esperado*
+
+Que seja feita a conversão seguindo o que é esperado pelo proprio sistema e pelo layout de integração
+
+

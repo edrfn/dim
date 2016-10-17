@@ -1,0 +1,12 @@
+Juntar Pedidos de venda
+*Como:* Analista de negócios
+*Quero:* Mesclar pedidos de venda
+*Para:* Facilitar o processo de venda com esse recurso caso necessário
+
+*Critérios de validação*
+- Validar clientes na busca de pedidos
+- Atender as condições do requisito
+- Atender as condições do pedido de venda
+
+*Como Implementar*
+Vide anexo

@@ -1,0 +1,6 @@
+Adaptação do atualizador
+*1) Qual o comportamento observado?***
+Necessita ser criado novo instalador com a estrutura da última build gerada no layout anterior.
+
+*3) Qual o comportamento esperado?*
+É esperado que o atualizador seja executado sem erros e que a estrutura de banco de dados e aplicação sejam atualizadas.

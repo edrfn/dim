@@ -1,0 +1,11 @@
+Informar o nome do item na tela de confirmação de cancelamento do item
+Como: acrescentando o nome do item na tela de confirmação de cancelamento.
+Quero: visualizar o nome do item cancelado na tela de confirmação de cancelamento de item.
+Para: Usuário final.
+
+*Critérios de validação*
+Ao cancelar um item, na tela de confirmação deverá ser mostrado o nome do item cancelado;
+
+*Como implementar*
+* Desenvolvimento;
+* Testes.

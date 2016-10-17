@@ -1,0 +1,15 @@
+O relatório de produtos trazendo apenas os cadastros alterados no período informado
+*1) Qual o comportamento observado?*
+O relatório de produtos está trazendo os registros se baseando sempre no filtro 'Alterado em', com isso, mostra somente os cadastros alterados no período informado, desconsiderando os demais filtros.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Estoque - Relatórios - relatórios de Produtos 
+2- Preencher alguns filtros;
+3- Clicar no botão 'Imprimir';
+4- Verificar que o sistema só exibe dados se tiver informado um período no campo 'Alterado em';
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema exiba os dados de acordo com os filtros informados, independente de ter ou não informado período no campo 'Alterado em'.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

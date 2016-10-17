@@ -1,0 +1,12 @@
+[License Manager] Validar inscrição estadual nula no SMART ao gerar arquivo de validação do Automaster.
+*Qual o comportamento observado?*
+
+Está sendo possivel gerar arquivos mesmo que a inscrição estadual não esteja preenchida.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Gerar licença para Automaster.
+
+*Qual o comportamento esperado?*
+
+Voltar a validar o campo de inscrição estadual para que caso o cliente não possua a informação a licença não seja gerada.

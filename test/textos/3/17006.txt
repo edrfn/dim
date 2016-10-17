@@ -1,0 +1,12 @@
+[NFC-e] Implementar comunicação de balança pesadora com sistema configurado para NFC-e
+*Qual o comportamento observado?*
+Quando o sistema está configurado para NFC-e não se comunica com a balança pesadora.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Configurar o sistema para NFC-e;
+2. Configurar a balança pesadora, em configuração do sistema;
+3. Realizar venda utilizando a balança pesadora; (Perceba que o sistema não se comunica com a balança)
+
+*Qual o comportamento esperado?*
+Que o sistema configurado para NFC-e possa utilizar balança pesadora no caixa.
+

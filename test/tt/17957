@@ -1,0 +1,4 @@
+Reativar e concluir o cadastro de espécies de pagamento
+O Dinâmico já possui a implementação dessa rotina, porém a mesma não está habilitada, não está acessível ao usuário. É necessário a ativação no sistema e alterar o nome do cadastro de 'Tipo de Documentos' para *'Espécies de Pagamento'*.
+
+

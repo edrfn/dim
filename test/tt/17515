@@ -1,0 +1,3 @@
+[License Manager] A licensa do Automaster não está sendo gerada para alguns Clientes
+Existe um terceiro tipo de licença "concessão".
+O sistema não está gerando licença para clientes que possuem esse tipo de "contrato".

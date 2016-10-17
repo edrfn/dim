@@ -1,0 +1,16 @@
+Outras Entradas - Criação das validações básicas da Tela de Outras Entradas
+Como: Usuário do sistema
+Quero: Criação das validações básicas dos campos de edição da tela de Outras Entradas
+Para: Fazer com que os dados de Outras Entradas sejam gravados no sistema consistentemente.
+
+*Critério de validação*
+Na tela de Outras Entradas, ao digitar um valor em um campo que deve ser validado, esta validação ocorra normalmente;
+Ao tentar salvar as alterações ou inserções, as validações ocorram;
+Utilizar as validações ja presentes no Dinâmico ERP.
+Seguir as validações da tela presentes no Ticket #18733
+Como implementar
+Utilizar o novo padrão de telas do sistema;
+Criar um projeto separado para a criação da tela;
+Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.
+
+OBS.: As regras fiscais não serão contempladas agora.

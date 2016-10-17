@@ -1,0 +1,13 @@
+[NFC-e] Implementação das classes de desconto e acréscimo da venda.
+*Como:* Scrum Master
+*Quero:* Criar as classes observer e action do processo de desconto e acréscimo da venda.
+*Para:* Realizar correções no sistema de forma que torne-o mais fácil dar manutenção
+
+*Critérios de validação*
+1. Realizar testes de unidade nas classes novas.
+2. Testar no sistema
+
+*Como Implementar*
+1. Refazer a classe com base na existente do sistema
+2. Implementar os observers de inserir desconto e acréscimo;
+3. Implementar os Actions de inserir desconto e acréscimo.

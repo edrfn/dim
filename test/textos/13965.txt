@@ -1,0 +1,9 @@
+[CHECKLIST] No relatório de Movimento de Caixa, está aparecendo o fechamento de todos os caixas existentes na base.
+*Breve descrição:*
+Na rotina de relatórios, o relatório descrito como Movimento de caixa pede para filtrar por unidade de negócio e pelo caixa.
+
+*Problema Encontrado:*
+Com o filtro estabelecido, foi clicado no campo movimento de caixa e notado que foi apresentado todos os fechamento de caixa existente.
+
+*Sugestão:*
+De acordo com o procedimento atual da rotina, não é válido a existência dos campos referentes a unidade de negócio e pelo caixa. Sugiro que seja realmente validado os filtros existentes. 

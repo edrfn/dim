@@ -1,0 +1,16 @@
+Revisar o código do cadastro de produtos - Parte 02
+Como: Scrumaster 
+Quero: Cadastrar um produto no Dinâmico ERP com as informações das abas de tributação interna e externa.
+Para: Realizar operações de compra e venda validando a parte de tributação.
+
+*Critério de validação*
+
+Ter acesso à funcionalidade através do menu.
+Poder cadastrar, alterar e excluir produto.
+Poder realizar consultas.
+
+*Como implementar*
+
+1- Revisar o código do cadastro de produtos, consistindo na revisão dos seguintes tópicos:
+1.1- Aba Tributação interna;
+1.2- Aba Tributação Externa;

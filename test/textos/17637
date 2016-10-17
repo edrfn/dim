@@ -1,0 +1,13 @@
+Tela de Configuração do Painel
+Implementar uma nova janela no Painel.
+Configurações. Essa janela deverá apresentar para o usuário em tês níveis as configurações do frente de caixa disponibilizadas pelo ERP.
+- Configuração de venda
+- Configuração de financeiro
+- Configurações Gerais
+
+*Como implementar*
+
+- Criar tela de configurações gerais;
+- Criar tela de configurações de venda;
+- Criar tela de configurações financeiras;
+- Testes;

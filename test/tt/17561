@@ -1,0 +1,35 @@
+Identificar e corrigir  erro durante sincronização do Painel > PDV - Erro 1
+*Como implementar*
+* Identificar causa do erro;
+* Corrigir problema;
+* Testes;
+
+
+ERROR Thread-8 hibernate.AssertionFailure - HHH000099: an assertion failure occured (this may indicate a bug in Hibernate, but is more likely due to unsafe use of the session): org.hibernate.AssertionFailure: collection was processed twice by flush()
+222656 2015-06-08 18:04:16,556 ERROR Thread-8 orion.Main - [SYSERR]com.total.orion.util.exceptions.DAOException: Não foi possível salvar o objeto...
+222656 2015-06-08 18:04:16,556 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.dao.core.JPADAO.persistir(JPADAO.java:45)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.dao.administrativo.jpa.JPAClienteDAO.insert(JPAClienteDAO.java:19)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.service.administrativo.ClienteServiceImpl.insertUpdate(ClienteServiceImpl.java:216)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.service.administrativo.ClienteServiceImpl.insertAll(ClienteServiceImpl.java:291)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.sync.administrativo.ClienteAtualizaImpl.atualizar(ClienteAtualizaImpl.java:17)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.sync.AbstractAtualizaDados.atualizarDados(AbstractAtualizaDados.java:33)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.sync.Requisicao.requisitarDados(Unknown Source)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.sync.Requisicao.buscarDadosServidor(Unknown Source)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.business.SincronizacaoBusiness.buscar(SincronizacaoBusiness.java:130)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.business.SincronizacaoBusiness.buscar(SincronizacaoBusiness.java:98)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.IniciarRecursosAction.initSincronizacao(IniciarRecursosAction.java:138)
+222657 2015-06-08 18:04:16,557 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.IniciarRecursosAction.access$100(IniciarRecursosAction.java:44)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.IniciarRecursosAction$InitTaskWorker.doInBackground(IniciarRecursosAction.java:272)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.IniciarRecursosAction$InitTaskWorker.doInBackground(IniciarRecursosAction.java:255)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.util.ExecutorRotinaComFeedback.execute(ExecutorRotinaComFeedback.java:9)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.workflow.IniciarRecursosAction.execute(IniciarRecursosAction.java:51)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.fire(Execution.java:103)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.enter(Execution.java:94)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.take(Execution.java:89)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]	at org.jbpm.gop.Execution.run(Execution.java:80)
+222658 2015-06-08 18:04:16,558 ERROR Thread-8 orion.Main - [SYSERR]Caused by: javax.persistence.RollbackException: Error while committing the transaction
+222659 2015-06-08 18:04:16,559 ERROR Thread-8 orion.Main - [SYSERR]	at org.hibernate.ejb.TransactionImpl.commit(TransactionImpl.java:92)
+222659 2015-06-08 18:04:16,559 ERROR Thread-8 orion.Main - [SYSERR]	at com.total.orion.dao.core.JPADAO.persistir(JPADAO.java:43)
+222659 2015-06-08 18:04:16,559 ERROR Thread-8 orion.Main - [SYSERR]	... 19 more
+
+Obs.: Segue log completo em anexo.

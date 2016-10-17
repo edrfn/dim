@@ -1,0 +1,17 @@
+[CASE DE SUCESSO] Contas a Pagar - Erro ao clicar em 'Novo' logo após gravar um título
+*1) Qual o comportamento observado?*
+No lançamento de títulos não está sendo possível digitar mais de um título na sequencia. O primeiro título é gravado normalmente, caso em seguida o usuário clique no botão 'Novo', o sistema exibe mensagem de erro e reinicia o sistema (imagem anexo).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Financeiro - Movimento - Contas a Pagar - Lançamento de títulos;
+2- Digitar um título preenchendo pelo menos os campos obrigatórios e gravar;
+3- Na sequencia, clicar no botão 'Novo' para iniciar o lançamento de um outro título;
+4- Verificar a mensagem de erro que é apresentada.
+
+*3) Qual o comportamento esperado?*
+É esperado que seja possível lançar vários títulos em sequencia, sem a necessidade de fechar a tela de lançamento e abrir novamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+Observação: O mesmo comportamento ocorre no contas a receber, ticket #19298.

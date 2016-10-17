@@ -1,0 +1,11 @@
+[NFC-e] Implementar comunicação de gaveta com impressora não fiscal
+*Qual o comportamento observado?*
+Quando o sistema está configurado para NFC-e não se comunica com a gaveta.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Configurar o sistema para NFC-e;
+2. Conectar uma gaveta na impressora;
+3. Realizar venda utilizando a gaveta; (Perceba que o sistema não se comunica com a gaveta)
+
+*Qual o comportamento esperado?*
+Que o sistema configurado para NFC-e possa utilizar a gaveta.

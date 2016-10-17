@@ -1,0 +1,12 @@
+Visualização duplicada de produto no PDV
+*Observado*
+Foi observado que quando há a criação de um novo banco de dados do PDV que os produtos as vezes aparecem duplicados na visualização de produtos, mas vale ressaltar que na tabela modelo do banco de dados os produtos aparecem corretamente. Segue em anexo imagens do ocorrido (observação: na imagem da tabela modelo aparece 4 produtos, pois 02 deles estam inativos).
+Foi observado também que é possível vender qualquer um dos produtos repetidos que o estoque e outras informações referentes a venda ficam corretos.
+
+*Passos*
+* Criar Banco de Dados novo no PDV;
+* Apertar PageDown (Observe que os produtos aparacem duplicados)
+* Visite a tabela modelo do banco e verifique que os dados lá encontram-se corretos.
+
+*Esperado*
+Que não haja duplicação na visualização dos produtos no PDV.

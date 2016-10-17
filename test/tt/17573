@@ -1,0 +1,9 @@
+Na devolução a Fornecedor, na gravação dos itens esta sendo gravado itens duplicado.
+Situação relatada:
+
+1 - Verificou-se que as notas de devolução organizadas no sped estão duplicando a quantidade dos produtos nao registro C170
+2 -  Quantidade de produtos duplicados do registro C170 gerando diferença  no C100
+3 -  validação do sped fiscal análise dos registros C100 e C170 e das tabelas AUTNFF, AUTITE
+4 -  o valor total dos produtos deve ser inferior ou igual ao total da nota, os produtos existentes no xml deve ser igual ao  gerado pelo sped
+5 - validação do sped fiscal análise dos registros C100 e C170 e das tabelas AUTNFF, AUTITE
+6 - 6.0G 1106

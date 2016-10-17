@@ -1,0 +1,11 @@
+Implementar o 9° dígito para os campos referente a número de celular em todas as rotinas
+*Como:* Product Owner
+*Quero:* 9° dígito para campos de número celular em cadastros
+*Para:* Adequação ao novo padrão de números celulares no Brasil
+
+*Critério de validação* 
+* O campo deverá permitir a digitação de nove dígitos no formato 9xxx-xxxx;
+* A alteração deve ser apenas para o campo de celular;
+
+*Como implementar* 
+* A alteração deve ser feita em todos os cadastros que possuem campo para digitação de número celular.

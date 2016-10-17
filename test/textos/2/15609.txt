@@ -1,0 +1,26 @@
+No vendas.exe do dinamico o nome do titulo esta divergente.
+*Breve descrição do caso:*
+Ao abrir o Dinamico o vendas.exe o titulo aparece o nome :  Vendas- autoMASTER  e depois o numero da versão com letra e build , a solicitação é que apareça o nome TOTAL VENDAS apenas sendo que assim seja no Automaster e no Dinamico , pois conforme verificado não é constatado um erro e sim uma informação contraditória ao do produto...
+
+*Qual o comportamento observado?*
+Ao Abrir o Vendas.exe do dinamico aparece o nome Vendas- automaster, a solicitação da revenda é que apareça no vendas.exe o titulo com o nome que esta na Sefaz TOTAL VENDAS ou VENDAS e o numero da versão e build
+
+*Quais as etapas para reproduzir o comportamento observado?*
+Abrir o Vendas.exe --> Olhar o titulo e verá o nome divergente ao produto
+
+*Qual o comportamento esperado?*
+Que quando abrir o vendas.exe modifique o titulo para Total Vendas ...
+
+*Quais as etapas para reproduzir o comportamento esperado?*
+Abrir o Vendas.exe --> Olhar o titulo e esta descrito corretamente.
+
+
+*Qual a versão do produto e sistema operacional utilizados ?*
+ocorre da versão 4.5c ate a versão 5.0c
+
+
+
+
+
+
+

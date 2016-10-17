@@ -1,0 +1,6 @@
+Mostrar mensagem do cupom que é mandada pelo cliente na pre venda
+O cliente Consagra motos, envia em cada pedido uma mensagem diferente com informações que variam de venda para venda.
+
+Porém o sistema carrega no XML da dll a mensagem padrão, e para alterar é necessário apagar o XML para que seja carregada a nova mensagem, impossibilitando o cliente de continuar enviando esta mensagem.
+
+Será necessário verificar uma forma dessa mensagem atualizar de acordo com o pedido do cliente ou encontrar outra maneira de enviar estes dados para a NFCE.

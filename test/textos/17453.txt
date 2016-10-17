@@ -1,0 +1,24 @@
+O sistema não grava a quantidade de Itens corretamente no autite ao dar erro de "Pedido com total de itens diferente do total Processado"
+1) Qual o comportamento observado? 
+Foi observado que se estiver usando produtos com 3 ou 4 casas decimais, o sistema faz cálculos de arredondamento e ao final o total dos itens difere do valor do pedido.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+É necessário fazer um pedido com diversos itens com 3 ou 4 casas decimais, sendo sugerido:
+|Qtd|Valor|
+|3|	2,9756|
+|2,11|	3,8971|
+|1|	2,4878|
+|3|	2,5989|
+|9|	1,9915|
+|3|	1,5878|
+|1|	2,4841|
+
+Após fechamento do pedido irá acusar na tela o erro de:
+"Pedido com o total de itens diferente do total processado - Efetua a organização dos arquivos e em seguida efetue o cancelamento do pedido xxxx - para depois redigita-lo!!!"
+
+
+3) Qual o comportamento esperado?
+É esperado que os cálculos de arredondamento funcionem corretamente, fazendo com que o total de itens seja igual ao total do pedido.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2 exceto pela mensagem de alerta.

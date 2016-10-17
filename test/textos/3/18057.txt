@@ -1,0 +1,10 @@
+Bloquear abertura do Servidor de PDV para apenas uma instancia
+*Como:* Scrum Master
+*Quero:* bloquear a abertura do Servidor de PDV para uma única instância.
+*Para:* Garantir que a comunicação com as estações de PDV aconteçam, além de reduzir erros por parte do usuário.
+
+*Critério de validação* 
+* Tentar abrir mais de um Servidor de PDV com uma instância já aberta.
+
+*Como implementar* 
+* Utilizar como experiência o bloqueio existente no PDV.

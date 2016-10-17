@@ -1,0 +1,14 @@
+Criar a rotina de Efetivar Pedido
+*Como:* SM
+*Quero:* Construção da rotina de Confirmar Pedido.
+*Para:* Ser possível gerar nota através do pedido de venda, sem a emissão de NFe;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimentos - .
+* Poder filtrar pedidos de venda e informar número de nota e série;
+* Verificar se as informações do pedido foram inseridas na tabela nota com a situação '6-Liberado';
+
+*Como implementar* 
+* Criar a tela para a rotina, tendo como base a tela de exportar NFe;
+* Criar os filtros por cliente e por pedido;
+* Criar a função de confirmar a nota;

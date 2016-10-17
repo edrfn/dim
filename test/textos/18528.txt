@@ -1,0 +1,12 @@
+[EXPERIENCE WEEK] Em impressão de etiquetas ao apertar ESC o sistema volta para a tela inicial.
+1) Qual o comportamento observado? 
+Assim como a maioria dos relatórios do Sistema ao apertar "ESC" o sistema volta para a tela inicial. No caso de Impressão de etiquetas essa ação atrasa o funcionamento dos processos.
+ 
+2) Quais as etapas para reproduzir o comportamento observado?
+Acessar a rotina de impressão de etiquetas.
+
+3) Qual o comportamento esperado?
+É esperado que ao colocar para imprimir e apertar "ESC" o sistema volte para a tela de relatório novamente.
+
+4) Quais as etapas para executar o comportamento esperado?
+Mesma do passo 2

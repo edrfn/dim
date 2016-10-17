@@ -1,0 +1,21 @@
+Cancelamento de Nfe - Sistema está apresentando todas as mensagens de retorno, alem de algumas anotações no codigo fonte
+1) Qual o comportamento observado?**
+Ao realizar o cancelamento de NFe o sistema está retornando todas as mensagens de retorno da SEFAZ incluindo algumas anotações 
+no código fonte.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Vendas, movimentos, Cancelamento de NFe
+2- selecionar a nota que deseja cancelar;
+3- Preencher pelo menos os campos obrigatórios;Motivo
+4- Observar as mensagem de retorno 
+
+3) Qual o comportamento esperado?
+Ao realizar o cancelamento de NFe o sistema deve retornar apenas o protocolo de envio do cancelamento e uma mensagem de confirmação
+
+
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Vendas, movimentos, Cancelamento de NFe
+2- selecionar a nota que deseja cancelar;
+3- Preencher pelo menos os campos obrigatórios;Motivo
+4- Observar as mensagem de retorno 

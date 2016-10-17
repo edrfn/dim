@@ -1,0 +1,4 @@
+Tratar impressão do desconto dos itens na nota de conferência
+Como: P.O
+Quero: Tratar impressão do desconto dos itens na nota de conferência
+Para: Exibição dos descontos dados na nota de conferência.

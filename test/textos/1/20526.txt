@@ -1,0 +1,23 @@
+[URGENTE] Balanço
+*Comportamento observado*
+Na visualização está aparecendo a opção de "salvar"
+
+*Comportamento esperado*
+Na visualização do balanço só aparecer as opções de "liberar" (balanço aberto), "editar" e "novo"
+
+*Passos para simular o comportamento*
+1. Criar um novo balanço
+2. Inserir pelo menos um item
+3. Salvar o balanço
+4. Verificar que no modo visualizar tem uma ação de "Salvar"
+
+
+*Outras considerações encontradas*
+a. Modo Visualização:
+> Não mostrar a opção de salvar
+b. Situação aberto
+> Liberar balanço apenas se o balanço possuir itens
+> Editar
+> Não mostrar Novo
+c. Situação fechado
+> Novo  apenas se não existir nenhum aberto

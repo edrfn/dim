@@ -1,0 +1,14 @@
+Leitura do arquivo gerado pelo license
+Descrição
+
+
+Como: Administrador do sistema xpto
+Quero: Ler arquivo de licença
+Para: Comunicação segura com o License Manager.
+
+Critério de validação
+O ERP deve ler o arquivo de licença encriptado.
+
+Como implementar 
+O ERP deve ler o arquivo de licença encriptado pelo License Manager.
+

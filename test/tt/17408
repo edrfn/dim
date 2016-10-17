@@ -1,0 +1,16 @@
+[IMP] Espécies não são mostradas na tela de pagamento
+*Qual o comportamento observado?*
+Ao realizar uma venda, na tela de pagamento da venda, as espécies não são mostradas, impossibilitando a conclusão da venda. Quando o problema ocorreu o painel estava ativo.
+
+*Quais as etapas para obter o comportamento observado?*
+*Obs.:*Não sei apontar quais os passos necessários, pois não sei por que o erro ocorre. Para ajudar na resolução do problema, segue o log em anexo.
+
+1. Realizar venda; (Observe que na tela de pagamento as espécies não são mostradas)
+
+*Qual o comportamento esperado?*
+Que as espécies não desapareçam da tela de pagamento.
+
+*Como implementar?*
+1. Verificação de mapeamento dos relacionamentos;
+2. Implementação da solução;
+3. Testes;

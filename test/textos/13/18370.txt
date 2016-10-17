@@ -1,0 +1,21 @@
+Perda de comunicação com o Total ECF ao reiniciar o computador
+*1) Qual o comportamento observado?*
+
+Foi identificado que no cliente Central Informática, ao reiniciar o computador, o sistema não consegue comunicar com o Total ECF, mesmo com ele aberto e minimizado. Em uma análise prévia, aparentemente o sistema não consegue realizar a leitura do arquivo "config.pro", uma vez que ao clicar no ícone do Total ECF, depois em Configurar, o sistema não reabre. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Devido ao problema não ser reproduzido internamente, todos os testes estão sendo realizados na base do cliente Central Informática, para reprodução do erro, basta:
+
+1. Configurar o Total ECF para comunicar com a balança Toledo (Porta COM3, velocidade 2.400);
+2. Testar a comunicação com a balança;
+3. Reiniciar o computador;
+4. Tentar abrir o Total ECF ou comunicar com o sistema;
+
+*3) Qual o comportamento esperado?*
+
+A comunicação do Total ECF com o sistema deve continuar independente do PC reiniciar. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

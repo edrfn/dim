@@ -1,0 +1,17 @@
+Refatoração - Tela de Espécies de pagamento
+*Como:* Analista de negócios
+*Quero:* Que seja realizado a refatoração da busca de espécies de pagamento.
+*Para:* Que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar a busca de espécies de pagamento.
+
+*Como implementar:*
+
+- Interface para o cadastro;
+- Interface para a busca;
+- Possibilidade de pesquisar por qualquer dos campos.
+
+*Requisito:*
+Seguir o padrão já existente no sistema.

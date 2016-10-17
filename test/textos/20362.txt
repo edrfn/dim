@@ -1,0 +1,9 @@
+Reajuste de preço do produto.
+*Como: *Analista de negócio
+*Quero: *Reajustar os preços dos produtos.
+*Para:* Facilitar o reajuste dos preços dos produtos.
+
+*Critérios de validação*
+
+*Como implementar*
+- Requisito

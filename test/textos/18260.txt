@@ -1,0 +1,17 @@
+Não permitir duplicidade de nota no lançamento de nota fiscal de entrada 
+*1) Qual o comportamento observado?*
+Foi verificado que o sistema está permitindo gravar notas de compra em duplicidade com número e série repetidos para um mesmo fornecedor.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- repetir o lançamento da nota informando o mesmo fornecedor, mesmo número de nota e mesma série;
+6- Verificar que o sistema não valida se já existe uma nota com os mesmos dados no banco e permite a gravação;
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema valide se já existe no banco de dados uma nota com os mesmos dados informados para o mesmo fornecedor. Essa validação deverá ser feita ao tentar passar pelo campo 'Série'. O sistema poderá aceitar notas com mesmo número para o mesmo fornecedor, desde que a série seja diferente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas dos passos de 1 a 5.

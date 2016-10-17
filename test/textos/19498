@@ -1,0 +1,28 @@
+[CASE DE SUCESSO]Itens sendo gravados com valores zerados quando digitada nota de compra
+*Qual o comportamento observado*
+
+Ao digitar um pedido de compras alguns itens são gravados com valores nos campos abaixo em branco.
+ipe_percreducaobase
+ipe_aliquotaicmssubst
+ipe_aliquotaipi
+ipe_percdesconto
+ipe_perc_margemlucro
+ipe_reducaoincipi
+ipe_ipisomabaseicms
+ipe_ipisobrebruto
+ipe_itemsubstituicao
+
+O que acaba dando erro na liberação da nota de compras;
+
+*Procedimentos para simulação*
+
+* Digitar um pedido de compras com muitos itens;
+* Verificar no banco os itens.
+* Tentar liberar a nota de compra;
+* verifica que não consegue liberar a nota;
+
+*Compotamento esperado*
+
+Após digitar os passos do procedimento de simulação a nota fosse liberada.
+
+h2. Em anexo o banco do cliente para verificação.

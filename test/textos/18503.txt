@@ -1,0 +1,9 @@
+Realizar uma revisão na parte gráfica - interface visual - do Dinamico ERP 
+Testar a visualização do produto durante sua execução.
+Deve ser verificado o alinhamento e se o visual usável
+
+Exemplo:
+Verificar se a tela apresentada está centralizada, se está harmonizada.
+
+Ferramenta para teste:
+Preferência o monitor de Claricia.

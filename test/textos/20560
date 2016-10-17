@@ -1,0 +1,5 @@
+Relatório de Deposito Bancario não dá retorno algum.
+Ao tentar emitir o relatório de Deposito Bancario (Contas a Receber > Relatorios > Relatorios de Movimentos > Deposito Bancario)
+nenhum retorno é dado pelo sistema, nem o relatório é apresentado e nem uma mensagem informando que não existem dados a serem impressos.
+
+O ideal seria que, caso os dados existam, o relatório seja impresso e, caso eles não existam, que uma mensagem informando isto seja mostrada.

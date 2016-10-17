@@ -1,0 +1,19 @@
+Geração de Arquivo de Licença para Automaster
+*Como:* Usuário do License Manager
+*Quero:* Gerar um arquivo de licença criptografado com os dados da licenciada (CNPJ, Inscrição Estadual e Razão Social) vindos do Smart.
+*Para:* Poder utilizar no Automaster como validador na abertura do sistema nos clientes.
+
+*Critério de validação* 
+* Ter opção no menu do LicenseManager para criação do arquivo criptografado para Automaster;
+* Ter um campo para inserção do CNPJ da Empresa para qual será gerado o arquivo;
+* Ter um campo para a inserção do sistema que será utilizado o sistema (Automaster ou Dinâmico);
+* Geração do arquivo criptografado com download.
+
+*Como implementar* 
+* Criar a opção "Automaster" no menu do License manager;
+* Criar o submenu "Gerar licença critpografada";
+* Criar uma tela para inserção do CNPJ e sistema;
+* Buscar no SMART a situação da empresa e caso ativa gerar o arquivo criptografado, caso inativo exibir um alerta na tela.
+
+
+Os requisitos do projeto estão em Anexo.

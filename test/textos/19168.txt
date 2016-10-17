@@ -1,0 +1,4 @@
+Alteração no utilitário CorrigeCodBarras para ter opção de reprocessar o dígito verificador
+*Como:* Product Owner
+*Quero:* Alteração no utilitário CorrigeCodBarras para ter opção de reprocessar o dígito verificador
+*Para:* Dar possibilidade de correção apenas do dígito verificador do código de barras.

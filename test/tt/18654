@@ -1,0 +1,17 @@
+Não está sendo possível fechar um balanço pois, uma mensagem de erro é exibida ao fazê-lo.
+*1) Qual o comportamento observado?*
+Foi observado que não está sendo possível fechar um balanço pois, está sendo exibida uma mensagem de erro ao fazê-lo. A mensagem está em anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Obs.: É necessário que haja um balanço eme aberto no sistema para realizar as etapas a seguir.
+
+1- Acessar a rotina pelo caminho: Estoque- Movimentos- Finalizar digitação de Balanço;
+2- Pesquisar o balanço em aberto e trazê-lo para a tela principal;
+3- Finalizar a digitação clicando no botão Finalizar;
+4- Observar que nesse momento a mensagem é exibida impossibilitando, assim, o fechamento do balanço;
+
+*3) Qual o comportamento esperado?.*
+Espera-se que seja possível finalizar o balanço e nenhuma mensagem de erro seja exibida.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

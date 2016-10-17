@@ -1,0 +1,18 @@
+Diferença entre o relatório de entradas analítico e sintético
+1) Qual o comportamento observado?
+
+Foi identificado no cliente Sport Bolsas que o relatório de entradas no período 01/05 a 31/05, com a CFOP 1.949, estão saindo com valores diferentes. O valor correto é o R$93.646,00. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base da Sport Bolsas, disponível em: "\Teste\Bases Redmine\SportBolsas";
+Tire um relatório de mov. de entradas (01/05 a 31/05);
+Observe o relatório SINTETICO;
+
+3) Qual o comportamento esperado?
+
+Os valores não estão correspondendo, consequentemente gerando o Sintegra do cliente errado, deve-se igualar os valores.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

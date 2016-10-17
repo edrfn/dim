@@ -1,0 +1,16 @@
+Desconto sendo aplicado de forma incorreta no cupom
+*1) Qual o comportamento observado?*
+
+Foi identificado que o desconto está sendo aplicado de forma incorreta na venda com ECF. Ex.: O produto custa R$410 e o cliente vendeu a R$348,50, o certo era mostrar no cupom que o produto era R$410 e o cliente vendeu por R$348,50. O cliente vende e na hora de registrar o recebimento informa os R$348,50, o cupom sai a R$157,85 dando 252,15 de troco.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Utilize o exemplo acima na descrição.
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve aplicar e demonstrar no ECF de forma correta.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

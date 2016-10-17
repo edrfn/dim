@@ -1,0 +1,15 @@
+Sistema esta deixando o .exe preso ao acessar as telas novas
+*Comportamento Observado*
+
+Ao entrar em alguma tela que feitas com o novo framework o sistema apresenta lentidão e ao sair do sistema o .exe fica lento.
+
+*Procedimento para simulação*
+
+# Acessar a tela de outras saídas e outras entradas;
+# Fechar a tela;
+# Sair do sistema;
+# O .exe fica preso;
+
+*========== Anotações da Reunião de Planejamento [25/09] ==========*
+
+* Verificar no Kernel limpeza de recursos ou retenção de recursos nas classes Bases do Crud;

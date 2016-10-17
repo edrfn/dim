@@ -1,0 +1,17 @@
+[Migrate] Duplicidade de numeração de cupons.
+LOCAL:
+Dincash PDV  Venda
+
+VERSÃO:
+Identificado na última versão (2.8k), o problema ocorre em versões anteriores.
+
+PRÉ-CONDIÇÕES:
+ Acessar o ambiente de homologação;
+ Utilizar Migrate.
+
+ERRO:
+O sistema reutiliza as numerações quando a nota é rejeitada, causando uma duplicidade de números de cupom no dincash. O sistema está programado para tratar essa duplicidade, mas houve casos em que a mesma causou problemas.
+Na Amazon Print algumas notas que estavam como canceladas subiram para o SAP, sendo que as autorizadas de fato tentaram subir logo depois, porém como a cancelada tinha a mesma numeração não foi possível subir a nota, gerando um problema ao cliente.
+
+SITUAÇÃO DESEJADA:
+O sistema deve deixar de reutilizar numerações, se comportando como o Total NFCE, Pulando e inutilizando as numerações das notas que foram rejeitadas.

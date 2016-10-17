@@ -1,0 +1,25 @@
+Problema com pagamento de múltiplos títulos no PDV
+*Comportamento observado:*
+
+O problema ocorre quando são selecionados múltiplos títulos para serem pagos ao mesmo tempo. O sistema atualiza todos os pagamentos apenas para o primeiro título que foi pago e os outros títulos são marcados como sincronizado e o sistema não consegue mais puxá-los informando que os títulos ainda não foram sincronizados.
+
+*Passos para reproduzir o comportamento:*
+
+- Pagar vários títulos ao mesmo tempo.
+- Verificar que apenas o primeiro título recebeu todos os pagamentos.
+- Verificar que o sistema atualizou todos os títulos para sincronizados.
+- Verificar que o sistema não consegue puxar o título novamente dizendo que o mesmo ainda não foi sincronizado.
+
+*Comportamento esperado:*
+
+Que os títulos sejam pagos e atualizados de maneira correta.
+
+*Como implementar*
+- Identificar problema
+- Implementar solução
+- Testar
+
+
+Obs: Não é permitido pagar títulos com espécies do tipo "outros"
+
+ 

@@ -1,0 +1,8 @@
+Refatorar a inclusão de tabela de notas (mestre detalhes)
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da inclusão de tabela de notas (mestre detalhes)
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validar se a inclusão foi feita corretamente

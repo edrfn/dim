@@ -1,0 +1,18 @@
+Conversor AutoMaster <-> Dinâmico 1.5
+*Como:* Analista de negócio
+*Quero:* Converter bases do AutoMaster para o Dinâmico 1.1
+*Para:* Migrar clientes de um sistema para outro sem prejuízo de dados
+
+*Critérios de validação*
+- Base convertida e dados validados
+
+*Como implementar*
+1.Conhecer o modelo do banco que será convertido
+> a.Modelo de relacionamento
+> b.Modelo de dados
+2.Criar a correlação para o banco de destino
+> a.Tabelas
+> b.Campos
+> c.Tipos de Dados
+3.Ausência de dados obrigatórios para o banco destino
+> a.Definir um padrão para preencher esses dados de acordo com o Dinâmico.

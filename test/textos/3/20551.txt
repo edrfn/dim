@@ -1,0 +1,8 @@
+Problema quando pressionado ESC no cadastro de vendedor
+*Comportamento Observado*
+
+Se pressionar ESC no cadastro de vendedor, ao invés de emitir a mensagem confirmando a saída, a tela passa a mostra sobre os campos o nome Dados do Vendedor. (Erro só acontece com foco no campo Equipe de Venda).
+
+*Comportamento Esperado*
+
+Quando pressionada a tecla, o perguntar ao usuario se gostaria de sair e voltar para a tela principal.

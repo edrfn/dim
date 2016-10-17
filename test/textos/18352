@@ -1,0 +1,15 @@
+Corrigir problemas encontrados no conversor do Automaster para Dinâmico ERP
+*1) Qual o comportamento observado?*
+Ao executar o conversor está sendo apresentado mensagem de erro. A estrutura deve ser alterada para compatibilizar com a build e o banco de dados atuais
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Ter acesso a uma base Automaster ou Dinâmico;
+2- Ter uma base de Dinâmico ERP;
+3- Executar o conversor;
+4- Observar o erro apresentado;
+
+*3) Qual o comportamento esperado?*
+É esperado que o conversor seja executado corretamente efetuando a conversão de bases do Automaster/Dinâmico para o Dinâmico ERP.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

@@ -1,0 +1,23 @@
+Não é permitido fazer devolução ao fornecedor depois que foi efetuada uma devolução e cancelada a mesma.
+Breve descrição do caso:
+ 
+Após fazer devolução de uma nota completamente e cancelar essa devolução, sistema não permite devolver novamente.
+
+Comportamento Observado:
+
+Depois de cancelada uma devolução ao fornecedor o sistema não permite que devolva novamente a nota, apresentando a seguinte mensagem "Ja foram realizadas devolucoes de 10,000 para este item,so sera permitido devolver a quantidade de 0,000" 
+
+Etapas para o Comportamento Observado:
+
+1.Fazer uma devolução completa ao fornecedor, logo depois que exportar a nota de devolução, cancelara nota.
+2.Depois do cancelamento, tentar fazer a devolução novamente e verificar que ja não é permitido mais a devolução.
+
+OBS.: logo após o cancelamento da devolução, foi observado que os produtos voltaram para o estoque, no autnff o campo NUMDEV fica vazio, mas no autite o campo QTDDEV fica preenchido.
+
+Comportamento Esperado:
+
+Que o sistema permita devolver a nota, depois do cancelamento da devolução.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+6.0h 1116

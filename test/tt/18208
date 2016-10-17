@@ -1,0 +1,7 @@
+Teste funcional do módulo de cadastros
+Realizar teste +funcional+ nas rotinas do módulo de cadastro: Grupos, Produtos, Clientes, Fornecedores, Transportadores, Vendedores, Forma de Pagamento e Cobradores.
+
+*Principais pontos a validar:*
+Operações básicas: Incluir, pesquisar, alterar e excluir;
+Validar a gravação dos dados no banco;
+Validar a exclusão de cadastros que foram utilizados em movimentações de entrada e/ou saída;

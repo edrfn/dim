@@ -1,0 +1,20 @@
+Criar a rotina de Política de Preço
+Criar a rotina de Política de Preço do módulo de Estoque com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/doku.php?id=requisitos:estoque:politica_de_preco).
+
+Como implementar:
+
+# -Criar modelo de dados físico no banco-
+# -Criar a tela e deixa-la funcional-
+# -Criar pesquisas referente aos produtos-
+## -Criar pesquisa de produtos-
+## -Criar pesquisa de produtos por fornecedor-
+## -Criar pesquisa de produtos por Grupo-
+## -Ajustes e correção de bugs encontrados em desenvolvimento-
+# -Alterar a tela de venda para respeitar a política-
+## -Adicionar os campos de desconto e acréscimo na grade de itens-
+## -Adicionar janela de espera nas consultas de cliente-
+# -Alterar a tela de orçamento para respeitar a política-
+## -Adicionar os campos de desconto e acréscimo na grade de itens-
+## -Adicionar janela de espera nas consultas de cliente-
+# Testar funcionamento da rotina
+# Criar documentação da rotina

@@ -1,0 +1,18 @@
+Bug ao trocar de usuário e fechamento de caixa.
+Descrição
+
+*1) Qual o comportamento observado?*
+
+" Cliente relata que realiza operações de vendas, desloga de seu usuário e efetua o fechamento do caixa. Outro usuário ao assumir a posição no sistema e efetuando o mesmo procedimento do usuário anterior, ocorre que as vendas efetuadas não saem da tabela "autpdc" se unindo às operações do usuário anterior mesmo após fechamento do caixa, assim ficando registrado como se fosse todas as operações efetuadas pelo segundo usuário à logar. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+"Logar com um determinado usuário, efetuar algumas vendas com clientes e produtos diferentes para destacar os valores a serem observados na tabela, efetuar o fechamento do caixa e logar com outro usuário para repetir o primeiro processo. Após feito isso deverá consultar a tabela "autpdc" e constatar que as operações realizadas constam na mesma tabela onde deveriam estar na "autnff".
+
+*3) Qual o comportamento esperado?*
+
+" As vendas efetuadas não deveram constar na tabela "autpdc" uma vez que que o caixa foi fechado, deverá ser descriminado as siglas do usuário no campo "SGLUSR" dentro da tabela "autnff"
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

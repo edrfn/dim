@@ -1,0 +1,18 @@
+No cadastro de Produto, o código de barras gerado automaticamente não está sendo gravado no banco nem permanece no registro após sair da rotina
+O código de barras gerado automaticamente só fica visível após a gravação do registro, quando sai da rotina que o pesquisa, o código não é exibido nem consta no banco.
+
+1) Qual o comportamento observado?
+Foi observado que o código de barras gerado automaticamente não fica gravado no banco.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+- Nos parâmetros de estoque, o campo 'Geração automática de códigos de barras' deve estar com o valor 'sim';
+- Acessar a rotina de Cadastro de produtos;
+- Inserir um novo produto, preenchendo todos os campos necessários, mas deixar vazio o campo 'Código de barras' para que ele seja preenchido automaticamente na gravação;
+- Gravar o registro;
+- Observar que o código aparece no campo. mas se sair da rotina, voltar e pesquisar o registro, o código já não está no campo. E se olhar no banco, o dado também não consta lá.
+
+3) Qual o comportamento esperado?
+Espera-se que o código gerado seja gravado no banco e permaneça no registro após sair e entrar na rotina.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas citadas no ponto 2.

@@ -1,0 +1,2 @@
+[Migrate NFCE] Forçar rejeições NFC-e para validar Notas Técnicas 2015/002 no servidor de homologação da Bahia
+Realizar testes forçando as rejeições da Nota Técnica NT2015/002 no servidor de homologação da Bahia, conforme planilha [[https://docs.google.com/spreadsheets/d/1Gv5rW-Elvv29CbO1aiOGRZfl3KsENaa5uQIj9SIAslk/edit#gid=1996196309&vpid=A1]].

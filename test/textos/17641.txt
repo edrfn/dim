@@ -1,0 +1,2 @@
+Testar se o Cashone cria algum campo que referência a venda no comprovente do TEF
+Testar se o Cashone cria algum campo que referência a venda no comprovente do TEF

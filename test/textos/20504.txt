@@ -1,0 +1,14 @@
+Erro na busca de Alíquota de ICMS em todas as rotinas que contem esse campo
+*1) Qual o comportamento observado?*
+Em todas as telas que contem a busca de alíquota de ICMS, caso seja digitado casas decimais (0,00/ 17,0/ 17,00/ 12,50) o sistema informa que não há registros que coincidam com os dados digitados e em seguida apresenta uma mensagem de erro. Quando isso ocorre, só é possível sair da rotina finalizando o sistema pelo gerenciador de tarefas. Imagem do erro anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar qualquer rotina que tenha a busca de alíquota de ICMS, por exemplo o cadastro de produtos ou outras entradas/saídas;
+2- No campo de alíquota de ICMS digitar algum valor com dígito após a vírgula (0,00/ 17,0/ 17,00/ 12,50);
+3- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema verifique se o valor digitado está entre os valores disponíveis, caso não esteja, apenas informe ao usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

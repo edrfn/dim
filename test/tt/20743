@@ -1,0 +1,14 @@
+[NFe] Notas autorizadas sem informação gravada na tabela 'nota_xml'
+*1) Qual o comportamento observado?*
+Ao emitir NFe de pedido de venda com 8 itens ou mais, apesar da NFe ser autorizada normalmente, as informações não são gravadas na tabela nota_xml. Com isso não é possível fazer nenhuma ação com a NFe, como emitir carta de correção ou nota complementar e o cancelamento ocorre como de pedido efetivado, sem comunicação com a sefaz. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Pedido de Venda;
+2- Digitar um pedido de venda com 8 ou mais produtos, faturar e emitir NFe;
+3- Verificar na tabela nota_xml que o registro referente a essa NFe não foi gravado e nas rotinas relacionadas com NFe essa nota não é exibida na tela de pesquisa.;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao emitir uma NFe, independente da quantidade de itens, a informação fique gravada na tabela nota_xml;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

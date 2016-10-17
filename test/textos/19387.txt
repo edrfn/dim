@@ -1,0 +1,14 @@
+[CASE DE SUCESSO] Erro ao informar data no formato DD/MM, o sistema reinicia
+*1) Qual o comportamento observado?*
+Nas telas onde existem campos de data, tanto as antigas quanto as refatoradas, ao digitar uma data no formato DD/MM o sistema apresenta a mensagem de formato inválido e reinicia, imagem do erro anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar qualquer rotina que tem campo tipo data. Exemplo: Digitar nota de entrada e relatórios;
+2- Digitar uma data no formato DD/MM. Exemplo: 19/10;
+3- Verificar a mensagem que é apresentada.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao ser informado uma data no formato DD/MM o sistema complete a data com o ano corrente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

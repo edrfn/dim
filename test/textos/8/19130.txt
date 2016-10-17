@@ -1,0 +1,14 @@
+Pedido de venda - Acrescentar a opção de alterar a Natureza de Operação (CFOP) na digitação do pedido
+*Como:* Tester
+*Quero:* Inclusão da opção de alterar a Natureza de Operação (CFOP) na digitação do pedido de venda
+*Para:* Ser possível digitar pedido de venda com CFOP diferente da definida no parâmetro
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimento - Digitar Pedido de Venda
+* Poder alterar a natureza de operação do pedido em edição acionando um botão e também com uso de teclas de atalho;
+* O sistema tratar a parte de tributação, atualização de estoque e geração de títulos de acordo com a natureza de operação informada no pedido;
+
+*Como implementar* 
+* Incluir botão e teclas de atalho para habilitar a alteração da natureza de operação na tela de digitação do pedido de venda;
+* Tratar a parte de tributação, atualização de estoque e geração de títulos de acordo com a natureza de operação informada no pedido;
+

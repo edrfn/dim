@@ -1,0 +1,17 @@
+Importação de XML - O sistema não está preenchendo a coluna 'Valor Calculado' de acordo com os impostos dos produtos da nota 
+*1) Qual o comportamento observado?*
+Ao importar um arquivo XML no lançamento de nota de compra, o sistema não está calculando os valores dos impostos de acordo com as informações que constam no XML, com isso, no resumo da nota (F6) a coluna 'Valor Calculado' fica zerada nos campos referentes aos impostos (Base e valor de ICMS normal e de substituição, IPI, percentual de redução, outras despesas, valor de seguro e frete). Imagem anexo.  
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo a ser importado e fazer a associação dos produtos;
+4- Verificar que a coluna 'Valor Calculado' fica zerada, sendo necessário selecionar, clicar em alterar e reprocessar cada um dos produtos da nota pra que o sistema processe corretamente o valor calculado.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao importar um arquivo XML no lançamento de nota de compra, o sistema calcule os valores dos impostos sem a necessidade de todos os produtos da nota serem reprocessados. Todos os impostos e valores destacados na nota devem ser calculados corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*Observação:* Arquivo XML anexo.

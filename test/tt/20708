@@ -1,0 +1,17 @@
+Lentidão ao inserir itens na entrada de NF
+*1) Qual o comportamento observado?*
+
+Validado em cliente na rotina de entrada de NF, ao inserir os itens da nota, existe uma demora crescente a cada item inserido. A lentidão é mais perceptível a partir do 5º produto, a partir de então, a demora fica maior. Fiz uma validação: em uma entrada, o tempo de resposta para inserção do próximo item foi de 40 segundos, o próximo item teve tempo igual a 1 minuto e 8 segundos.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+1. Conecte-se ao servidor 192.168.0.26;
+2. Direcione o banco para dinamico_erp_tridimite;
+3. Abra a rotina de Compras para inserir uma nova entrada;
+4. Insira no mínimo 15 itens na nota, quantidade necessária para perceber a demora crescente de resposta;
+
+*3) Qual o comportamento esperado?*
+
+A entrada deve ser feita sem a demora na inserção dos itens.
+
+*Obs.:* S.O utilizado Windows 10.  

@@ -1,0 +1,83 @@
+Desabilitação das opções que não fazem parte do Dinâmico Varejo
+Como: Scrumaster
+Quero: Desabilitação das opções que não fazem parte do Dinâmico Varejo no menu do sistema.
+Para: Deixar visível, porém desabilitado as opções que não compõem o escopo do Dinâmico Varejo.
+
+*Critério de validação*
+Ter acesso ao menu do sistema nos módulos de Cadastros, Estoque, Compra e Venda;
+Ser visualizado apenas as rotinas que fazem parte do escopo do Dinâmico Varejo;
+
+
+*Como implementar*
+Verificar a cada módulo, as funções que devem ser ocultadas;
+Deixar no menu apenas as rotinas de acordo com o escopo do Dinâmico Varejo.
+
+*Escopo do Dinâmico Varejo*
+*Cadastros:*
+Cliente - Ticket 16421   - 29 hrs
+Grupos - Ticket 17247 - 13 hrs
+Fornecedor - Ticket 16444 - 13 hrs
+Forma de pagamento - Ticket 16447 - 12 hrs
+Cadastro de Produtos - Ticket 16469 - 28 hrs
+Cadastro de PDV - 
+Cadastro de CFOP - 
+Cadastro de Espécies - 
+Cadastro de Contador - Ticket 16894 
+Cadastro de Usuários - Ticket 17080
+Cadastro de Serviços - Ticket 17157
+Cadastro de Técnicos - Ticket 17156
+
+
+Movimentos:
+Saída:
+Pedido de venda - Ticket 16611
+Orçamento - Ticket 16623
+Emissão de NFe - Ticket 17244
+Cancelamento de NFe - Ticket 17245
+Inutilização de NFe 
+CCe - Ticket 17140
+Painel de NFe - Ticket 17465
+Devolução de cliente - Ticket 16624
+Registrar recebimento - Ticket 17460
+Outras saídas - Ticket 17350
+
+Entrada:
+Lançamento de NF de entrada - Ticket 17242
+Importação de XML 
+Liberação de NF de entrada - Ticket 16619
+Cancelamento de NF de entrada - Ticket 16706
+Devolução a fornecedor - Ticket 16778
+Outras entradas - Ticket 17258
+
+Contas a Receber:
+Baixa de títulos dos contas a receber - Ticket 16294
+Prorrogação de vencimento dos contas a receber  Ticket 16307
+Substituição coletiva de títulos dos contas a receber  Ticket 16317
+
+Contas a Pagar:
+Lançamento de títulos dos contas a pagar  Ticket 16287
+Cancelamento de Baixas do Contas a Pagar  Ticket 16548
+Gerar parcelas automáticas dos contas a pagar  Ticket 16286
+Substituição coletiva de títulos dos contas a pagar  Ticket 16291
+
+Relatórios:
+
+Produtos
+Clientes
+Fornecedores
+Grupos
+Comissão de vendedores ( verificar com Miranda )
+Faturamento diário
+Movimento de saída (não tem)
+Movimento de entrada (não tem
+Fechamento do Dia (Vendas que vem do PDV)
+Posição de estoque
+Vendedores
+Títulos em aberto - contas a pagar
+Títulos em aberto - contas a receber
+Relatório de baixa de títulos - contas a pagar  Ticket 16289
+Relatório de baixa de títulos - contas a receber  Ticket 16309
+
+
+Fiscal:
+Sintegra  Ticket 16999

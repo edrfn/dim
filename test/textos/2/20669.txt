@@ -1,0 +1,20 @@
+Implementação da estrutura de suporte a Auditoria no Web
+*Como:* Analista de sistema
+*Quero:* Construção da funcionalidade de Auditoria do Sistema
+*Para:* Que seja possível gravar auditoria de rotinas importantes do sistema no banco e não apenas em arquivo de log
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu.
+* Poder cadastrar, alterar e excluir fornecedores.
+* Poder realizar consultas de fornecedores pelo nome dos mesmos.
+
+*Como implementar* 
+* Gravar em uma tabela de auditoria do banco de dados, com os campos
+> * acao
+> * descricao
+> * detalhe
+> * dataAuditoria
+> * codigoUnidadeNegocio
+> * codigoCaixa
+> * codigoUsuario
+> * tipo  'I' - Informação; 'A' - Alteração; 'E' - Erro;

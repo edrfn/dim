@@ -1,0 +1,5 @@
+Geração do Dinamico.exe através do Jenkins 
+Geração do Dinamico.exe através do Jenkins 
+Tarefas:
+1- Instalação e configuração do Jenkins;
+2- Criação do job para geração do dinamico.exe

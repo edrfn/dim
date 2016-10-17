@@ -1,0 +1,11 @@
+TESTAR Importação de XML - O sistema checar se o produto está associado ao fornecedor pela referencia, além de pelo código de barras
+*Como:* Tester
+*Quero:* Que na importação de arquivo XML o sistema faça a checagem se o produtos já foi relacionado a fornecedor tambem pela referência do produto.
+*Para:* Quando no XML não houver tag referente ao código de barras, o sistema usar a referencia para validar a associação do produto ao fornecedor.  
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Compras - Movimentos - Digitar NF de Compras;
+* Poder importar arquivo XML que não contenha tag referente ao código de barras e o sistema validar se o produto já foi associado ao fornecedor verificando a referencia do produto.
+
+*Como implementar* 
+* Na rotina de importação de XML, após checar pelo código de barras se o produto já foi associado ao fornecedor, checar também pela referência do produto

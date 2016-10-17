@@ -1,0 +1,16 @@
+Importação de Movimentações
+*Como:* Analista de negócios
+*Quero:* Importar os movimentos do PDV para o ERP
+*Para:* Permitir a integração do frente de loja com o retaguarda
+
+*Critérios de validação*
+- Verificar os dados enviados do PDV e a chegada no ERP
+- Verificar o tempo de atualização
+
+*Como Implementar*
+- Verificar layout de integração de movimentações
+- Movimentações principais:
+  - Vendas
+  - Redução Z
+  - Sangria 
+  - Suprimento

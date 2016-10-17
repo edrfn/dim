@@ -1,0 +1,12 @@
+[License Manager] Alterar a criptografia do arquivo de validação de licença dos sistemas Windows
+*Como:* Usuário do sistema License Manager
+*Quero:* A melhoria da criptografia utilizada, para criação do arquivo de validação da Licença no License Manage.
+*Para:* Obter maior segurança de que os dados dos fornecedores facilitando contatos
+
+*Critério de validação* 
+* Implementar nova criptografia conforme o que foi solicitado pela equipe Windows, gerar o MD5 do CNPJ do cliente conforme lógica acordada.
+* Manter a criptografia anterior, para que o arquivo de validação possam ser utilizados nas versões 6.1a e 6.1b.
+
+*Como implementar* 
+* Criptografar o conteúdo do arquivo com MD5
+* Nomear o arquivo resultante para FJS.ocx

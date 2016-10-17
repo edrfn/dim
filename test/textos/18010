@@ -1,0 +1,23 @@
+Sistema dando baixa nos títulos quando é aproveitado crédito na venda com o valor da venda maior que o crédito gerado
+1) Qual o comportamento observado?
+
+Foi observado que, ao realizar uma venda, fazer a devolução parcial da venda e em seguida fazer uma venda com valor maior que o crédito gerado (sem gerar nota fiscal), registrando este valor que sobra a vista, o sistema está baixando o valor no título e não faz o acréscimo do novo produto, ficando com os valores incorretos.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma venda no valor de R$260,00 (1 produto de R$124,00 e outro de R$136,00) divido em 4X;
+Observe os títulos;
+Devolva o produto de R$124,00;
+Faça uma venda aproveitando o crédito da devolução, porém com um produto de R$139,00;
+Não exporte a nota fiscal em nenhum momento;
+Registre os R$15,00 restantes a vista;
+Confirme a Nota Fiscal;
+Observe os títulos do cliente.
+
+3) Qual o comportamento esperado?
+
+Se o cliente está levando produtos no lugar da devolução, mesmo que aproveitando o crédito, os títulos não podem ser alterados, uma vez que o cliente levou outro produto no lugar.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

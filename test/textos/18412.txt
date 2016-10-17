@@ -1,0 +1,47 @@
+Situações Encontradas no Parâmetro de Venda 'Consistência de Limite de Crédito'
++Situação encontrada no parâmetro quando está na opção *'Permite Liberar'*+
+
+Quando foi definida a opção Permite Liberar, no parâmetro Consistência de Limite de Crédito, durante a venda o sistema exibiu o aviso sobre o limite de crédito esgotado mas não exibiu a tela para autorização da venda com senha.
+
+*1) Qual o comportamento observado?*
+Foi observado que o sistema não está exibindo a tela para autorização com senha, quando o parâmetro de venda Consistência de limite de crédito está na opção 'Permite Liberar'.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir o sistema e acessar o módulo de Vendas;
+2- Abrir a tela de Parâmetros de Vendas;
+3- Alterar o Parâmetro Consistência de Limite de Crédito para a opção 'Permite Liberar';
+4- Salvar a alteração, sair do sistema e entrar novamente;
+5- Realizar uma venda para um cliente num valor acima do seu limite de crédito;
+6- Observar que o sistema informa que o cliente está com limite de crédito esgotado mas não exibe a tela para inserção de senha permitindo, assim, liberar a venda.
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema exiba a informação sobre o limite do cliente e também a tela para que seja possível autorizar a venda por meio de uma senha.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.
+
+
++Situação encontrada no parâmetro quando está na opção *'Sem Liberação'*+
+
+*Descrição*
+Quando foi definida a opção Sem Liberação, no parâmetro Consistência de Limite de Crédito, durante a venda o sistema exibiu a tela para autorização da venda com senha, o que não deveria acontecer.
+
+*1) Qual o comportamento observado?*
+Foi observado que o sistema está exibindo a tela para autorização com senha, quando o parâmetro de venda Consistência de limite de crédito está na opção 'Sem Liberação'.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir o sistema e acessar o módulo de Vendas;
+2- Abrir a tela de Parâmetros de Vendas;
+3- Alterar o Parâmetro Consistência de Limite de Crédito para a opção 'Sem Liberação';
+4- Salvar a alteração, sair do sistema e entrar novamente;
+5- Realizar uma venda para um cliente num valor acima do seu limite de crédito;
+6- Observar que o sistema exibe a tela para inserção de senha permitindo, assim, liberar a venda quando não deveria.
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema não permita a venda a um cliente com limite de crédito esgotado quando no parâmetro estiver  a opção Sem Liberação.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.
+
+
+*Obs.*: As situações só ocorrem na tela de Pedido de venda, pois no orçamento não valida o limite de crédito

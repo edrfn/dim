@@ -1,0 +1,9 @@
+Excluir lançamentos de contas a pagar
+Excluir o lançamentos de contas a receber no sistema.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17336
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

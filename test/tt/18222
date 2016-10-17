@@ -1,0 +1,10 @@
+Corrigir tarefas referentes a construção do Cashone e Dincash no Jenkins
+*Qual o comportamento observado?*
+No servidor de integração continua Jenkins.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Acessar o servidor de jenkins (192.168.0.122)
+2. Executar construção do job do cashone ou dincash
+
+*Qual o comportamento esperado?*
+Que ao executar a construção dos jobs do sistema, seja gerada uma versão do sistema (conforme)

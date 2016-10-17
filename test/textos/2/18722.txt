@@ -1,0 +1,15 @@
+Implementar os filtros do relatório de movimento de saída
+*Como:* Desenvolvedor
+*Quero:* Poder filtrar o relatório de movimento de saída
+*Para:* Que os relatório e suas variações exibam somente os dados que eu filtrei;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Venda - Relatórios - Movimento de Saída;
+* Selecionar os filtros;
+* Mostrar no relatório apenas os dados selecionados nos filtros;
+
+
+*Como implementar* 
+* Criar a query do resumo das notas;
+* Criar o relatório no report builder;
+* Fazer as alterações na tela do relatório para quando seja escolhido a opção totais aparece o relatório com o resumo das notas.

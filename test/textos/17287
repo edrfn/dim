@@ -1,0 +1,13 @@
+As vendas realizadas no PDV não estão sendo gravadas no banco de dados
+*Qual o comportamento observado?*
+As vendas realizadas pelo PDV não estão sendo gravadas no banco de dados. Acredito que o erro começou a acontecer após ter ocorrido um erro ao cancelar uma venda com item cancelado (imagem em anexo). Segue log em anexo.
+
+*Quais as etapas para obter o comportamento observado?*
+Não sei apontar os passos necessários para simulação do erro. Mas após a ocorrência do erro, é necessário apenas realizar vendas e verificar que elas não foram gravadas no banco de dados. 
+
+*Qual o comportamento esperado?*
+Que as vendas realizadas no PDV sejam armazenadas no banco de dados.
+
+*Como implementar?*
+- Debug e correção do problema;
+- Testes.

@@ -1,0 +1,2 @@
+Mudança da versão do automaster de 6.0 para 6.1
+Necessário a mudança de versão do Automaster de 6.0 para 6.1, por motivo de mudança no licenciamento do sistema.

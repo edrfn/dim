@@ -1,0 +1,17 @@
+Erro ao efetuarmos a baixa de títulos em Baixa de Títulos a Pagar
+1) Qual o comportamento observado?**
+Foi observado que o sistema exibe mensagens de erro ao tentarmos efetuar a baixa de título em Baixa de Títulos a Pagar;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Financeiro > Movimentos > Contas a Pagar > Baixa de Títulos a Pagar;
+2- Selecionar o Fornecedor e o Título e pressionar Confirmar ou ALT + C;
+3- Efetuar a baixa do título pressionando F10;
+4- Sistema exibe a mensagem de erro _null value in column taph_fktap_id violates not-null constraint_. Outrora, _duplicate key value violates unique constraint pk_fin_titap_bx_;
+
+3) Qual o comportamento esperado?
+Espera-se que ao efetuarmos a baixa do título, o sistema não exiba nenhuma mensagem de erro e efetue a baixa normalmente;
+
+4) Quais as etapas para executar o comportamento esperado?
+1- Acessar a rotina pelo menu: Financeiro > Movimentos > Contas a Pagar > Baixa de Títulos a Pagar;
+2- Selecionar o Fornecedor e o Título e pressionar Confirmar ou ALT + C;
+3- Efetuar a baixa do título com sucesso.

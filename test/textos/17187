@@ -1,0 +1,6 @@
+Apresentar a imagem no produto na venda
+*Como Implementar*
+
+1. Salvar o caminho da imagem no banco do painel
+2. Transformar em String para transferir via JSON e salvar no banco do pdv (Sincronização)
+3. Apresentar a imagem do produto na hora da venda;

@@ -1,0 +1,5 @@
+Continuação refatoração e correção de bugs no cadastro de produto
+Corrigir situações listadas no ticket relacionado:
+1- Na inserção de um novo registro ou na alteração de um, quando levamos o foco para outro campo que não seja o de Nome e o preenchermos, podemos perceber que o foco não permanece no campo, mas sim, volta para o campo Nome;
+2- Ao clicarmos no botão Novo e tentarmos preencher outro campo que não seja o campo Nome, podemos perceber que o foco não permanece, volta pro Nome;
+3- Não permitir inserir mais de uma vez  mesmo registro na aba Outros fornecedores;

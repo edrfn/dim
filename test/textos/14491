@@ -1,0 +1,31 @@
+Operação não permitida - Data do Sistema Invalida
+Breve descrição do caso:
+
+Quando é dado uma entrada de NF em que a data do Movimento é FUTURA, na tela de vendas, em todas as operações aparece a mensagem "Operação não permitida - Data do Sistema Invalida".
+
+Qual o comportamento observado?
+
+Quando é dado uma entrada de NF em que a data do Movimento é FUTURA, na tela de vendas, em todas as operações aparece a mensagem "Operação não permitida - Data do Sistema Invalida".
+Já que o sistema não aceita esse tipo de operação, no momento de digitar a NF deveria criticar e não permitir essa entrada.
+
+Quais as etapas para reproduzir o comportamento observado?
+
+digitar uma NF de compras com uma data de emissão futura, depois tentar efetuar uma venda. 
+
+Qual o comportamento esperado?
+
+O sistema não deve permitir que seja cadastrado nota de compra com data furura.
+
+Quais as etapas para reproduzir o comportamento esperado?
+
+Digitar uma NF de compras com uma data de emissão futura, depois tentar efetuar uma venda. 
+
+Motivação?
+
+Já que o sistema não aceita esse tipo de operação, no momento de digitar a NF deveria criticar e não permitir essa entrada.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+4.5G
+
+Informações adicionais.

@@ -1,0 +1,11 @@
+Preparar os inserts padrões
+*Como:* Tester
+*Quero:* Preparação dos inserts padrões para o Dinâmico Varejo
+*Para:* Através do assistente de primeira execução preencher as tabelas padrões do sistema
+
+*Critério de validação* 
+* Fazer a instalação do Dinâmico Varejo e executar o assistente de primeira execução;]
+* validar se todas as tabelas padrões foram populadas corretamente.
+
+*Como implementar* 
+* Através do assistente de primeira execução, executar os scripts necessários para popular as tabelas padrões do sistema.

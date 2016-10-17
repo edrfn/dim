@@ -1,0 +1,19 @@
+xIntegra ativo não permite fechamento nem prévia do dia
+1) Qual o comportamento observado?
+
+Foi identificado que nas versões Automaster 6.0b e xIntegra 1097, enquanto o xIntegra estiver aberto, ao utilizar a rotina de fechamento do dia no Automaster ou tentar tirar uma prévia do fechamento, o sistema emite uma mensagem: "Aguarde, finalizando integração entre os sistemas...", não permitindo fechar ou tirar a prévia. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Utilize as versões 6.0b Automaster e xIntegra 1097;
+Integre uma base DinCash ao sistema;
+Faça vendas no Automaster;
+Feche o dia ou tire prévia do fechamento.
+
+3) Qual o comportamento esperado?
+
+Ao utilizar as versões citadas do sistema, ao usar a rotina de fechamento do dia no Automaster, o mesmo deve concluir o processo.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

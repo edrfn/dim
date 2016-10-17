@@ -1,0 +1,16 @@
+Gerar código MD5 ao gravar PV/DAV no banco do painel
+*Qual o comportamento observado?*
+Ao gravar uma pré-venda/DAV no banco do painel, deve ser gerado um código MD5, para validar as informações necessárias para emissão do Registro do PAF-ECF. Quando não há o MD5 para validação são mostradas interrogações no arquivo gerado.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Emitir uma Pré-venda/DAV pelo ERP;
+2. Importar a PV no PDV/DAV;
+3. Gerar o Registro do PAF-ECF; (verifique as interrogações no arquivo gerado)
+
+
+*Qual o comportamento esperado?*
+Que o código MD5 seja gerado ao gravar a PV/DAV no banco de dados, validando a autenticidade das informações inseridas no Registro do PAF-ECF.
+
+OBS:
+1. Deve ser considerado que a importação da PV ou DAV via ERP não precisa constar o MD-5, desde que o Servidor de pdv avalie e crie o valor do md-5 para a capa e itens da PV/DAV.
+2. Deve ser solicitada uma correção posterior para o Executável de  pré-venda (não contemplado nessa sprint)

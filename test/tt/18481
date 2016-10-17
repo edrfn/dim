@@ -1,0 +1,17 @@
+Natureza de operação não sendo gravada na liberação da nota de entrada
+*Comportamento observado*
+
+Ao realizar a liberação de uma nota fiscal de compras a CFOP(natureza de operação) não esta sendo gravada no banco no campo *not_fknat_id*, porém esta sendo gravada no pedido de venda no campo *pde_fknat_id*.
+
+*Procedimento para reproduzir o problema*
+
+Criar um pedido de compra e libera-lo para o estoque verificar no banco o campo *not_fknat_id* e ver que esta sendo gravado vazio.
+
+*Procedimento esperado*
+
+Após liberar o pedido de compras o campo *not_fknat_id* ser gravado correto.
+
+
+*Como implementar*
+
+No arquivo *UCmp_LiberaNFCad01* na função *Btn_ConfirmarClick* o campo não esta colocado no insert da nota, é só colocar o campo e setar o valor correto.

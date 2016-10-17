@@ -1,0 +1,43 @@
+Títulos Substituídos por cheques são recuperados pelo utilitário TITPED
+Breve descrição do caso:
+
+Ao rodar o TITPED em uma base que tenha sido efetuado substituição de cheques, os títulos substituídos são recuperados mesmo tendo sido substituídos por cheques.
+
+Qual o comportamento observado?
+
+Ao rodar o TITPED em uma base que tenha sido efetuado substituição de cheques, os títulos substituídos são recuperados mesmo tendo sido substituídos por cheques. No cadastro do cliente fica os dois títulos, o que foi substituído e o cheque.
+
+
+Quais as etapas para reproduzir o comportamento observado?
+
+> Crie um cliente novo, e uma forma de pagamento nova com vencimento para 30 dias. (Duplicata)
+> Venda para esse cliente um produto e efetue o pagamento com a forma de pagamento criada (duplicata). 
+> Registre o recebimento e coloque o vencimento para 30 dias, logo em seguida feche o caixa.
+> Efetue a SUBSTITUIÇÃO DE CHEQUES na rotina localizada no Contas a RECEBER, e substitua o titulo por um cheque com mesma data de vencimento.
+> Rode o TITPED.exe na pasta AUT01.
+> Entre no sistema e verifique o cadastro do cliente, na aba dos títulos (F11), verifique que somente o cheque está aparecendo.
+> Efetue a reindexação do sistema.
+> Verifique novamente os titulos do cliente, verifique que o titulo que foi substituído foi recuperado.
+
+Qual o comportamento esperado?
+
+O titulo substituído pelo cheque não deve ser recuperado na utilização do TITPED.
+
+Quais as etapas para reproduzir o comportamento esperado?
+
+> Crie um cliente novo, e uma forma de pagamento nova com vencimento para 30 dias. (Duplicata)
+> Venda para esse cliente um produto e efetue o pagamento com a forma de pagamento criada (duplicata). 
+> Registre o recebimento e coloque o vencimento para 30 dias, logo em seguida feche o caixa.
+> Efetue a SUBSTITUIÇÃO DE CHEQUES na rotina localizada no Contas a RECEBER, e substitua o titulo por um cheque com mesma data de vencimento.
+> Rode o TITPED.exe na pasta AUT01.
+> Entre no sistema e verifique o cadastro do cliente, na aba dos títulos (F11), verifique que somente o cheque está aparecendo.
+> Efetue a reindexação do sistema.
+> Verifique novamente os títulos do cliente.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+Automaster 4.5f 7268
+
+Informações adicionais.
+
+Esse problema não deixa que clientes que utilizam a rotina SUBSTITUIÇÃO DE CHEQUES não podem utilizar o utilitário TITPED.

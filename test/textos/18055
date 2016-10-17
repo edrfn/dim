@@ -1,0 +1,12 @@
+Erro ao quitar título com espécie não cadastrada na impressora
+*Qual o comportamento observado?*
+Ao realizar uma quitação de título com uma espécie não cadastrada na impressora, ocorre erro de comando não executado e a quitação do título é cancelada.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Utilizar impressora fiscal;
+2. Ter a espécie "DINHEIRO" cadastrada no sistema; 
+3. Quitar um título com esta espécie; 
+4. Ocorrerá erro de comando não executado;
+
+*Qual o comportamento esperado?*
+Que o sistema avise que a espécie não está cadastrada na impressora, da mesma forma que acontece no momento da venda.

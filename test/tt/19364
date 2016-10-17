@@ -1,0 +1,19 @@
+Erro log na emissão do SPED FISCAL.
+*1) Qual o comportamento observado?*
+Foi detectado o erro log ao gerar o Sped Fiscal do Mês de Novembro da base na base do cliente COMERCIAL DE ESTIVAS GRANDE RIO LTDA.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Caminho: Gerenciador --> Utilitários --> Exportação de Dados --> Escrita Fiscal Digital (ECF SPED FISCAL)
+Escolher a data 01-09-2015 até 30-09-2015 e apresentará o erro log.
+
+*3) Qual o comportamento esperado?*
+O tentar efetuar a emissão do EFD Fiscal o sistema não apresentar erro log e criar o arquivo TXT dentro do layout estabelecido no Guia Prático.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+Versão 6.1d
+
+Caminho da BASE: "\Teste\Bases Redmine\ERRO LOG NO SPED FISCAL-BASE DA SCREP.rar" --> Segue a aut01
+
+Obs: Se colocar na 6.1c e gerar o Sped não apresenta erro, agora na validação da 6.1d apresenta o erro log anexado no ticket.

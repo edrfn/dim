@@ -1,0 +1,15 @@
+[INTEGRAÇÃO] O Sistema não estar conseguindo exportar grupos que tenha o nome maior que o valor permitido no leiaute
+* *Qual o comportamento observado?*
+
+O Sistema não estar conseguindo exportar grupos que tenha o nome maior que o valor permitido no leiaute(20 caracteres)
+
+* *Quais as etapas para reproduzir o comportamento observado?*
+# Configurar a exportação no sistema;
+# Cadastrar um grupo com mais de 20 caracteres no nome;
+# Verificado que o grupo não foi exportado com sucesso;
+
+3) Qual o comportamento esperado?
+Que o grupo fosse exportado;
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

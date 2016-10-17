@@ -1,0 +1,8 @@
+Não está sendo sincronizado informação com o Servidor vendas feitas com Duplicata
+*Comportamento observado:*
+
+Sistema não consegue sincronizar vendas realizadas com especie do grupo Duplicata.
+
+*Comportamento esperado:*
+
+Que o sistema sincronize e crie os arquivos, de integração, das vendas desse grupo assim como é dos outros.

@@ -1,0 +1,15 @@
+Validações dos dados iniciais e da aba de configuração - NF de entrada
+Como: Scrumaster
+Quero: Implementação das validações dos dados iniciais e da aba de configuração na digitação de nota de entrada
+Para: Iniciar o processo de digitação de nota de entrada
+
+*Critério de validação*
+* Alinhar texto do campo natureza de operações;
+* Colocar cor escura nas abas;
+* Quando abrir o sistema o foco estar na aba de configurações;
+* Campos Valor de ICMS, Base calculo ICMS Substituído,  Valor de ICMS Substituído, Valor total da nota;
+* Validação do Nat. ope com o estado do fornecedor;
+* Validar chave de nf-e como obrigatório se o modelo da nota for 55
+*Como implementar*
+Tratar as validações dos dados iniciais e da aba de configuração;
+

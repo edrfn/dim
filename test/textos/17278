@@ -1,0 +1,14 @@
+Durante a utilização do sistema o usuário perde todas as permissões
+*Qual o comportamento observado?*
+Durante a utilização do sistema, o usuário perde todas as permissões, sendo que o o mesmo estava cadastrado com todas as permissões de ação. Percebi que a tabela usuariocaixa_acaocaixa estava completamente vazia. Quando o erro ocorreu o painel estava ativo. Segue em anexo o log.
+
+*Quais as etapas para obter o comportamento observado?*
+Não sei apontar quais as etapas para que o problema ocorra, mas quando o problema ocorre é possível perceber, pois é solicitado senha para a ação que o usuário não tem permissão.  
+
+*Qual o comportamento esperado?*
+Que o usuário cadastrado com todas as permissões tenha acesso a todas as ações disponíveis pelo sistema.
+
+*Como implementar?*
+1. Localização de conceito;
+2. Implementação da solução;
+3. Testes;

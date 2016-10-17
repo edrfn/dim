@@ -1,0 +1,17 @@
+As tags referentes aos dados do transportador não estão sendo geradas no arquivo XML da NFe
+*1) Qual o comportamento observado?***
+Ao emitir NFe informando um transportador, o sistema não está gerando as tags referentes ao grupo de informações do transporte, conforme manual de layout de NFe anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Digitar um pedido de vanda;
+2- Acessar a rotina pelo menu: Vendas - Movimento - Exportar NFe;
+3- Filtrar o pedido digitado no passo 1;
+4- Informar um transportador e preencher os campos referentes a placa, quantidade de volumes, espécie e marca;
+5- Confirmar a exportação da NFe;
+6- Verificar que as tags referentes ao grupo de informações do transporte não foram gerados no arquivo XML criado.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao emitir uma NFe informando transportador, no arquivo XML gerado contenha as tags referentes aos dados do transportador, conforme layout de NFe 3.10 do manual anexo.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

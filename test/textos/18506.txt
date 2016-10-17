@@ -1,0 +1,23 @@
+Devolução ao Fornecedor - Valores de capa duplicando continuamente ao clicar no botão alterar(produto) e posteriormente no botão confirmar.
+*1) Qual o comportamento observado?*
+Ao lançar um produto na devolução, confirma-lo, logo após isso clicar no botão Alterar (produto) e confirmar novamente, sem ter feito qualquer alteração, o sistema duplica automaticamente os valores da base de calculo ICMS e valor de ICMS, não condizendo com os valores totais da nota de compra. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimentos - Devolução a fornecedor
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Preencher pelo menos os campos obrigatórios;
+4- Lançar um produto na devolução, informar quantidade e logo após confirmar
+5- Observar os valores de base de calculo ICMS e valor do ICMS
+6- Clicar novamente em alterar (produto) e confirmar, sem fazer qualquer modificação
+7- Observar que o valor da base de calculo ICMS e valor do ICMS duplicaram
+
+*3) Qual o comportamento esperado?*
+Que o sistema conserve o valor dos tributos de cada produto, somando apenas o valor de um produto que venha a ser lançado para devolução.
+*Ex: Uma nota possui dois produtos, onde a base de calculo de cada um é R$100,00, que somadas, dão R$200,00
+Se eu inserir apenas um produto na devolução, deverá trazer apenas os valores correspondentes a ele (R$100,00)
+Se eu adicionar o segundo produto, os valores totais devem corresponder aos dois juntos (R$200,00).
+Se eu clicar no botão Alterar (produto) e confirmar logo em seguida, sem fazer qualquer alteração, ele deve conservar os valores.*
+Obs: Importante verificar a validação do botão CONFIRMAR, para os outros campos totais da nota.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

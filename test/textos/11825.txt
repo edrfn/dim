@@ -1,0 +1,6 @@
+Importação do arquivo de Indicador de vendas do Dincash
+No dincash web, não está ocorrendo a importação do arquivo de indicador de vendas. ( IND.CAD), foi configurado corretamente o arquivo e colocado tambem no web o vendedor como indicador de vendas e colocado o codigo de retaguarda também corretamente.
+Foi testado no banco do cliente e em outro banco de dados comigo e o resultado foi o mesmo.
+Conforme o log, sempre aparece a mensagem Indicador não encontrado: null,mesmo tudo estando configurado.
+
+Estou postando também os arquivos de integração.

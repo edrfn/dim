@@ -1,0 +1,8 @@
+Backup automatico para o Dinâmico Varejo
+*Como:* Analista de Negócios
+*Quero:* Fazer cópias de segurança do banco do sistema
+*Para:* Utilizar essas informações para o caso de falhas 
+
+*Critérios de validação*
+- Ser possível configurar o endereço do backup
+- Disparar automaticamente as cópias

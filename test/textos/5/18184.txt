@@ -1,0 +1,2 @@
+Corrigir a rotina de liberação de notas fiscais de entrada
+Corrigir a rotina de liberação de notas fiscais de entrada do módulo de compras com base na especificação de requisitos.

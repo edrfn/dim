@@ -1,0 +1,11 @@
+Criar a rotina de cancelamento de NFe.
+Criar a rotina de cancelamento de nota fiscal eletrônica.
+
+Como implementar:
+
+# Ao pressionar cancelar, a sombra da tela fica visível (Imagem em anexo no ticket)
+# Validar a atualização do estoque
+# Validar o cancelamento dos títulos vinculados à nota
+# Validar estorno do limite de crédito do cliente
+# Verificar o status da NFE no site da SEFAZ (Estadual e Federal)
+# Incluir rotina no manual

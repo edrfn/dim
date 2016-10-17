@@ -1,0 +1,16 @@
+Travamentos na interface do Servidor de PDV
+*Comportamento Observado*
+Ao importar arquivos muito grandes foi verificado que a tela do sistema não responde de acordo.
+É indicado no ponteiro do mouse uma situação de espera que não se finda e leva ao travamento da tela
+
+*Passos para reproduzir o comportamento*
+- Importar arquivos grandes e acessar a tela do Servidor de PDV.
+
+*Comportamento Esperado*
+- Que o usuário possa utilizar o sistema, desde que não seja funções que atropelam a integração.
+(fazer funcionar em threads independentes?)
+
+*Como implementar*
+- Identificar problema
+- Implementar solução
+- Testar

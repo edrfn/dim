@@ -1,0 +1,11 @@
+Renovação da licença do sistema
+*Como:* Analista de negócios
+*Quero:* Renovar a licença do sistema de modo fácil
+*Para:* Continuar fazendo uso do sistema
+
+*Critério de validação*
+- Alterar a licença do sistema.
+- validar os módulos que estão liberados ou não.
+
+*Como implementar*
+- Vide especificação.

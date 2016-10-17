@@ -1,0 +1,13 @@
+Implementar validação entre versão do Servidor de PDV e o PDV
+*Como:* Stakeholder
+*Quero:* Permitir a atualização dos dados para o PDV se o servidor de PDV estiver na mesma versão.
+*Para:* Garantir a consistência dos dados e evidentemente reduzir suporte, apresentando aos clientes falhas na atualização da versão.
+
+*Critério de validação* 
+* Não permitir a sincronização dos dados com versões diferentes;
+* Não permitir o envio dos dados para o servidor de PDV com versões diferentes;
+* Não impedir o funcionamento do PDV em situações que o Servidor estiver off line;
+* Não permitir o funcionamento do PDV após identificado a incompatibilidade de versões.
+
+*Como implementar* 
+* Vide requisito.

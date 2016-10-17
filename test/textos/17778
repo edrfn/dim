@@ -1,0 +1,9 @@
+Editar cliente
+
+Eu quero acessar o sistema realizar meu login e editar os dados de um cliente que foi cadastrados na história #17777.
+
+Validações
+
+* As validações são as que estão escritas nos requisitos de produto #17346;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

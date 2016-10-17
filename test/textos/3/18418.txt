@@ -1,0 +1,84 @@
+Situações encontradas no Parâmetro de Venda Consistência de Títulos Vencidos.
++Obs.: Situação encontrada quando o parâmetro está na opção Permite Liberar+
+Estando o parâmetro na opção Permite Liberar, o sistema apenas exibiu uma mensagem com a informação sobre o título do cliente quando deveria, também, exibir a tela para autorizar a venda por meio de uma senha.
+
+*1)Comportamento Observado*
+Foi observado que o sistema apenas exibiu uma mensagem com a informação sobre o título do cliente quando deveria, também, exibir a tela para autorizar a venda por meio de uma senha.
+
+*2) Passos para reproduzir o comportamento Observado*
+Obs.: Para reproduzir o comportamento é necessário que haja pelo menos um título vencido em nome do cliente para o qual será realizada uma venda.
+1- Abrir o sistema e acessar o módulo de vendas;
+2- Acessar a tela de Parâmetros e alterar o campo Consistência de Títulos para a opção Permite Liberar;
+3- Salvar a alteração, sair do sistema e entrar novamente;
+4- Realizar uma venda para o cliente que esteja com título vencido;
+5- Observar que o sistema exibe apenas a mensagem de alerta, sendo possível prosseguir com a venda após dar ok na mensagem. 
+
+*3) Comportamento Esperado*
+Espera-se que o sistema exiba a mensagem de alerta e também a tela para autorização da venda por meio de uma senha, quando o parâmetro estiver na opção Permite Liberar
+*
+4) Passos para reproduzir o comportamento Esperado*
+As mesmas informada no passo 2.
+
+
+*Descrição*
++Obs.: Situação encontrada quando o parâmetro está na opção Sem Liberação+
+Estando o parâmetro na opção Sem Liberação, o sistema exibiu a tela para autorizar a venda por meio de uma senha, quando não deveria acontecer.
+
+*1)Comportamento Observado*
+Foi observado que o sistema exibiu a tela para autorizar a venda por meio de uma senha, quando não deveria.
+
+*2) Passos para reproduzir o comportamento Observado*
+Obs.: Para reproduzir o comportamento é necessário que haja pelo menos um título vencido em nome do cliente para o qual será realizada uma venda.
+1- Abrir o sistema e acessar o módulo de vendas;
+2- Acessar a tela de Parâmetros e alterar o campo Consistência de Títulos para a opção Sem Liberação;
+3- Salvar a alteração, sair do sistema e entrar novamente;
+4- Realizar uma venda para o cliente que esteja com título vencido;
+5- Observar que o sistema exibe a tela para autorização da venda por meio de senha, mas não deveria pois, o parâmetro diz para não liberar.
+
+*3) Comportamento Esperado*
+Que o sistema não permita vender para cliente com títulos vencidos quando o parâmetro estiver na opção Sem liberação.
+
+*4) Passos para reproduzir o comportamento Esperado*
+As mesmas informada no passo 2.
+
+
+*Descrição*
++Obs.: Situação encontrada quando o parâmetro está na opção Não consistir+
+
+O sistema exibiu mensagem de alerta, mas não deveria;
+
+*1)Comportamento Observado*
+Foi observado que o sistema exibiu uma mensagem avisando sobre a situação do título do cliente, quando não deveria.
+
+*2) Passos para reproduzir o comportamento Observado*
+Obs.: Para reproduzir o comportamento é necessário que haja pelo menos um título vencido em nome do cliente para o qual será realizada uma venda.
+1- Abrir o sistema e acessar o módulo de vendas;
+2- Acessar a tela de Parâmetros e alterar o campo Consistência de Títulos para a opção Não Consistir;
+3- Salvar a alteração, sair do sistema e entrar novamente;
+4- Realizar uma venda para o cliente que esteja com título vencido;
+5- Observar que o sistema exibe uma mensagem de alerta, quando não deveria.
+
+*3) Comportamento Esperado*
+Que o sistema não exiba nenhuma mensagem de alerta durante uma venda para cliente com títulos vencidos quando o parâmetro estiver na opção Não Consistir.
+
+*4) Passos para reproduzir o comportamento Esperado*
+As mesmas informada no passo 2.
+
+
+*Descrição*
++Obs.: Situação encontrada quando o parâmetro está na opção Liberar com Senha+
+Ao sair do campo Consistência de títulos vencidos após ter escolhido a opção Liberar com senha, ela não permanece no campo.
+
+*1)Comportamento Observado*
+Foi observado que a opção Liberar com senha não permanece no campo depois de selecioná-la e sair dele.
+
+*2) Passos para reproduzir o comportamento Observado*
+1- Abrir o sistema e acessar o módulo de vendas;
+2- Acessar a tela de Parâmetros, alterar o campo Consistência de Título Vencido para a opção Liberar com Senha e dar enter para sair do campo;
+3- Observar que a opção selecionada não permanece no campo.
+
+*3) Comportamento Esperado*
+Que a opção Liberar com Senha permaneça no campo após sair dele.
+
+*4) Passos para reproduzir o comportamento Esperado*
+As mesmas informada no passo 2.

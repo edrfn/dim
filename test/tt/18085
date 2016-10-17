@@ -1,0 +1,42 @@
+Situações sobre o foco nos campos da rotina de Orçamento
+Descrição #1:
+
+Ao selecionarmos um vendedor pela pesquisa e dermos Enter, o foco não passa para o próximo campo na rotina de Orçamento;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao selecionarmos um vendedor (no campo Vendedor) pelo botão de pesquisa ou por Page Down, o foco permanece no campo Vendedor, não segue para Condição de Preço;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Pressiona Page Down ou seleciona o botão de pesquisa no campo Vendedor > Seleciona um vendedor na pesquisa e dá Enter > Foco permanece no campo Vendedor;
+
+3) Qual o comportamento esperado?
+
+Espera-se que ao selecionarmos um vendedor registrado na pesquisa e dermos Enter, o sistema leve o foco para o campo Condição de Preço, não permaneça no campo Vendedor;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Pressiona Page Down ou seleciona o botão de pesquisa no campo Vendedor > Seleciona um vendedor na pesquisa e dá Enter > Foco segue para o campo Condição de Preço;
+
+------------------------------------------------------------------------------------------------------------------------------------------------
+
+Descrição #2:
+
+Ao selecionarmos o atalho F11, o sistema não traz o foco para o grid de Observações para Orçamento na rotina de Orçamento;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao selecionarmos o atalho F11, o sistema não traz o foco para à tela quando iniciamos a janela de Observação para Orçamento;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Pressiona F11 ou em Funções e atalhos seleciona F11 - Observações > Sistema não traz o foco para o grid;
+
+3) Qual o comportamento esperado?
+
+Espera-se que ao iniciarmos a janela de Observação para Orçamento, o sistema já traga o foco para a inserção de dados;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Pressiona F11 ou em Funções e atalhos seleciona F11 - Observações > Sistema traz o foco para o grid.

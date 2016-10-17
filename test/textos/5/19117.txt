@@ -1,0 +1,9 @@
+[NFC-e] Sistema não grava venda no banco se for abortado antes da impressão do cupom
+Ao simular situação no sistema com NFC-e Migrate em que o sistema é abortado após obter o retorno da SEFAZ e antes de imprimir o cupom temos como comportamento do sistema a gravação da venda no banco apenas após a emissão do cupom. Dado esse comportamento temos a seguinte situação: 
+
+- Ao emitir um cupom e simular o fechamento do sistema após receber o retorno da SEFAZ/Invoicy, a venda é enviada e autorizada mas, não é salva no banco de dados.
+- O sistema assim como ocorre no PAF, dá a opção de recuperar a venda que estava sendo feita no momento que o sistema foi abortado porém o COO não é recuperado, trazendo o número seguinte ao que foi enviado anteriormente. Caso o sistema seja abortado durante a impressão de um cupom e recuperar a venda em seguida na abertura do sistema o numero de COO não é recuperado me permitindo enviar a nota novamente com outro numero, deixando assim uma venda na Invoicy inexistente no banco do sistema.  
+- Ao tentar cancelar a venda enviada e autorizada pelo sistema abortado durante a impressão do cupom, o sistema informa que "Não há venda para cancelar" pois não existe a numeração no banco sendo que a mesma consta na Invoicy.
+
+*Situação desejada:*
+O sistema deverá tratar a gravação da venda no banco de dados no momento em que receber o retorno da Invoicy/SEFAZ.

@@ -1,0 +1,14 @@
+Refatorar o cadastro de Politica de Preço
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de politica de preço
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar o cadastro solicitado 
+- Validar produto no grid
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

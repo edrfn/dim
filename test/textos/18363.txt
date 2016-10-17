@@ -1,0 +1,4 @@
+Mapear as diferenças de tags que não devem ser levadas para o XML em caso de NFC-e
+*Como:* Product Owner
+*Quero:* Mapeamento das diferenças de tags que não devem ser levadas para o XML em caso de NFC-e (dados de transportador, por exemplo)
+*Para:* Emissão de NFC-e para Automaster/Dinamico

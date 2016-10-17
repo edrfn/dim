@@ -1,0 +1,7 @@
+[URGENTE] Nota Complementar
+*Comportamento percebido*
+Ao tentar fazer uma nota complementar, o filtro de natureza da operação retornou vazio.
+
+*Comportamento esperado*
+Carregar as opções de natureza de operação ao tentar criar uma nota complementar
+permitir sair com apenas uma.

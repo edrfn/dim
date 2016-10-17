@@ -1,0 +1,9 @@
+Definição de modelos de desenvolvimento com testes, CI e CD
+Definir as tecnologias que serão utilizadas no projeto, com base na arquitetura definida no link http://goo.gl/9fK47s
+
+**Critério de validação**
+Documento com as tecnologias para cada item abaixo e explicação para a utilização de cada uma;
+
+* Continuous Integration(CI);
+* Formas de testes;
+* Continuous Delivery(CD);

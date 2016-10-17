@@ -1,0 +1,9 @@
+Exclusão do cadastro de cliente
+Eu quero acessar o sistema realizar meu login e excluir um cliente que foi cadastrados na história #17777.
+
+Validações
+
+* As validações são as que estão escritas nos requisitos de produto #17346.
+* Deverá ser gravado o log de quem excluiu.
+* Os dados excluídos só poderão ser deletados do banco após 2 dias;
+* Passar por todos os testes escritos;

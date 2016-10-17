@@ -1,0 +1,12 @@
+Emissão de NF-e - O DANFE está sendo exibido mesmo quando o arquivo de retorno não foi gerado
+*1) Qual o comportamento observado?*
+O sistema exibe o DANFE mesmo quando o arquivo que contém o retorno da SEFAZ, relacionado à emissão de uma nota fiscal eletrônica, não é gerado.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Emitir a NF-e de um Pedido de venda ou de uma devolução quando não houver um certificado vinculado ou quando não tenha conexão com a internet.
+
+*3) Qual o comportamento esperado?*
+Que o sistema não exiba o Danfe quando o arquivo de retorno não for gerado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+A mesma do passo 2.

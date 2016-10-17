@@ -1,0 +1,8 @@
+Sistema não está conseguindo associar as informações de permissão ao grupo de usuario.
+*Comportamento observado:*
+
+- Ao criar um novo grupo de permissão o sistema não está realizando as associações com as permissões de sistema, fazendo com que o grupo não seja gravado.
+
+*Comportamento esperado:*
+
+- Que ao criar um novo grupo de usuários e realizar a associação com as permissões existentes o sistema grave corretamente as associações e consequentemente o grupo criado.

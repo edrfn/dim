@@ -1,0 +1,15 @@
+[CHECKLIST] A consulta de nota fiscal não está processando e não mostra os dados da nota.
+1) Qual o comportamento observado?
+Na rotina de 'Consultar N. Fiscal' ao passar do campo tipo da nota o cursor volta para o campo número da nota, não chega a processar e não mostra os dados da nota informada.
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1- Vendas - Periódicos - Consultar nota fiscal;
+2- Informar os dados da nota a ser pesquisada: número, data de emissão, filial e tipo de operação. 
+
+3) Qual o comportamento esperado?
+O sistema mostrar todas as informações da nota informada. 
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

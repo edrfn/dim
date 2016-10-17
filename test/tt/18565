@@ -1,0 +1,15 @@
+Outras Saídas - Criação da Interface Visual da Tela de Outras Saídas
+*Como:* Usuário do sistema
+*Quero:* Criação da Interface Visual da tela de Outras Saídas
+*Para:* Possuir uma interface de entrada para manipulação de dados de Outras Saídas no sistema.
+
+*Critério de validação*
+
+-Ter acesso à funcionalidade através do menu Vendas > Outras Saídas-
+Possuir os campos pertinentes como descritos no requisito #17350
+-Respeitar o padrão visual encontrado no protótipo do requisito #17350-
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

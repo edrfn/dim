@@ -1,0 +1,15 @@
+Quantidade de itens gravadas no AUTite difere da quantidade informada na nota
+1) Qual o comportamento observado?
+
+Foi identificado que em alguns clientes, com notas de vendas e transferências, ao exportar uma NF-e que contenha como exemplo 20 itens, apenas 2 ficaram gravados na tabela AUTite, causando erros de estoque, erros no SPED Fiscal e divergência nos relatórios. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base disponível em: "\Teste\Bases Redmine\AUTOMASTER_AP_04052015.rar"
+Gere o SPED Fiscal no mê de Abril/2015;
+Verifique as advertências;
+Verifique as notas, comparando tabela AUTite e AUTnff;
+
+3) Qual o comportamento esperado?
+
+As notas emitidas devem gravar as quantidades de itens correspondentes na tabela AUTite;

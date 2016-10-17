@@ -1,0 +1,24 @@
+Devolução de Clientes - Desconto lançado no produto desaparece ao altera-lo
+*1) Qual o comportamento observado?***
+Ao realizar uma devolução de uma nota que tenha um produto com desconto, confirmar o produto e a quantidade, para que ele apareça no GRID e depois altera-lo, o desconto desaparece do produto
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pré-condição: Ter uma nota de venda com produtos com desconto para ser efetuado a devolução.
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Informar o cliente e pesquisar a nota com produtos com desconto;
+4- Selecionar o produto para devolução, informar a quantidade e confirma-lo
+5- Clicar no botão de alteração do grid
+6- verificar que o desconto sumiu do produto
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema conserve os valores.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Dicas:
+
+* O campo pode apresentar valor zerado devido à limpeza de campo (_empty_ ou _clear_);

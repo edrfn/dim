@@ -1,0 +1,2 @@
+Verificar contas em atraso ou limite estourado
+Se cliente cadastrado e o mesmo possuir contas em atraso ou limite de crédito (consolidado) estiver estourado enviar mensagem enviar mensagem e marcar venda para cair em tela de aprovação (Gerente/SubGerente)

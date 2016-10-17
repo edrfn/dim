@@ -1,0 +1,11 @@
+Alteração das mensagens de retorno das ECFs Bematech
+Algumas funções relacionadas a impressoras retornam mensagens não expressivas ao usuário.
+As impressoras tem informações que podem ajudar a melhorar essas mensagens de acordo com o tipo de retorno (utilizando a opção de retornos estendidos).
+
+*Critérios de Validação*
+* Apresentar mensagens específicas ao usuário quando ocorrer erros de comunicação com a impressora.
+
+*Como Implementar* 
+* Avaliar a estrutura do código em relação as chamadas das impressoras;
+* Inserir as mensagens de erro de acordo com a documentação da impressora (Bematech);
+* Testes.

@@ -1,0 +1,14 @@
+Ao sincronizar com uma base multifilial do SAP permitir selecionar um depósito que não é o padrão
+*1) Qual o comportamento observado?***
+Ao tentar sincronizar os produtos de um depósito que não é o depósito padrão da filia (usando uma base multi filial do SAP), o sistema verifica se o depósito é o depósito padrão da filial e não permite sincroniza os produtos
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Configurar a sincronização com uma base multi filial do SAP, selecionando uma filial e um depósito (preenchendo o campo "Depósito padrão") que não seja o padrão da filial selecionado
+2- Ativar a sincronização dos produtos;
+5- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado o cliente possa sincronizar os produtos mesmo que o depósito não seja o depósito padrão da filial, o sistema deve verificar apenas se o depósito pertence a filial e não se é o padrão da mesma, contudo para manter o funcionamento para os demais clientes deve-se criar um flag para habilitar e desabilitar a verificação do depósito padrão da filial.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

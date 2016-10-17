@@ -1,0 +1,16 @@
+Refatorar o Relatório Pré-Nota (Impressão de pré-nota)
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do relatório.
+*Para:* que seja adequado ao framework e a novo banco.
+
+*Critérios de validação:*
+
+- Geração do relatório pré-nota com os filtros sugeridos no requisito.
+
+*Como implementar:*
+
+- Interface para a geração do relatório.
+- Possibilidade de exportar em pdv, excel e visualização em tela.
+
+*Requisito:*
+Seguir o padrão estabelecido no sistema.

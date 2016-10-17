@@ -1,0 +1,15 @@
+Testar tela de confirmação do sistema.
+Verificar se o funcionamento da tela de confirmação do sistema está correto.
+
+*Motivação:*
+
+- Esta tela foi refatorada fora da sprint.
+
+*Critério de validação:*
+
+- A tela de confirmação deve estar funcional e não deve ficar desconfigurada em qualquer tipo de monitor.
+
+*Como testar:*
+
+- Verificar o funcionamento da tela de confirmação.
+- Testar em monitores quadrados. 

@@ -1,0 +1,8 @@
+Criar o controle de acesso aos parâmetros do sistema
+Descrição
+
+Como: Tester
+Quero: A Implementação de rotina que permita o acesso aos parâmetros apenas através do servidor. E que não seja permitido o acesso quando houverem outros usuários logados. 
+
+Critério de validação
+Tentar acessar os parâmetros de uma máquina estação, e do lado do servidor, acessar os parâmetros com outros usuários logados.

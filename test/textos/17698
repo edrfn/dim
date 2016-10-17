@@ -1,0 +1,7 @@
+Refatoração e correção de bugs no cadastro de fornecedor
+Situações a serem corrigidas:
+1- Está sendo possível salvar um registro sem o campo Registrado em  estar preenchido quando há dados no campo Registro da Junta Comercial;
+Observação: É exibida uma mensagem informando que ele precisa ser preenchido. Porém, o foco não vai para o campo indicado.// 
+Outra situação: Quando preenche o campo Registrado em e clica em salvar é exibida uma mensagem informando que o campo precisa ser preenchido. Se limpar o campo Registro da Junta Comercial, o campo Registrado em  é desabilitado e se pedir para gravar, ele grava , mas após a confirmação foi observado que a data permaneceu no campo.
+2- Quando cadastra um contato a partir do botão cadastrar do grid de contatos ou o altera ou ainda, se simplesmente abrir a rotina , pelo mesmo caminho, quando clica no botão cadastrar novamente é exibida uma janela com a seguinte mensagem de erro: cannot focus a disabled or invisible window (Imagem em anexo: erro ao clicar no botão cadastrar no grid de contatos _ fornecedores).
+3- No mesmo campo, quando inserimos uma data fora da máscara padrão, o sistema exibe uma mensagem de alerta sobre a invalidez do formato, entretanto o foco vai para o botão Ajuda, e não para Ok;

@@ -1,0 +1,20 @@
+Ao apagarmos o Cliente do campo, os dados trazido por ele não são apagados em Pedido de Venda
+Descrição:
+
+Ao apagarmos o Cliente do campo, os dados trazido por ele não são apagados;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao apagarmos o Cliente do campo, os campos CPF/CNPJ, Inscrição Estadual, Apelido, Endereço, Cidade, UF e Telefone não são apagados;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos Filial, Vendedor, Condição de Preço e Cliente > Apaga o Cliente do campo > Sistema permanece com os campos CPF/CNPJ, Inscrição Estadual, Apelido, Endereço, Cidade, UF e Telefone preenchidos;
+
+3) Qual o comportamento esperado?
+
+Espera-se que ao apagarmos o campo Cliente, os outros campos por ele preenchidos sejam apagados também;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos Filial, Vendedor, Condição de Preço e Cliente > Apaga o Cliente do campo > Sistema apaga os dados dos campos CPF/CNPJ, Inscrição Estadual, Apelido, Endereço, Cidade, UF, Telefone e foca no campo para um novo preenchimento.

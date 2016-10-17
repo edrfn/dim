@@ -1,0 +1,15 @@
+DARUMA - Retirar do relatório gerenciais "identificacao do aplicativo"o nome que aparece logo abaixo da Abertura.
+1. O que você quer reportar? (bug, melhoria, recurso, sugestão, etc.)
+Solicitação de Mudança
+2. Breve descrição do caso.
+Foi orientado pela SEFAZ AL que fosse retirado o nome que aparece logo abaixo do nome Relatório Gerencial. Em cada um modelo de ECF aparece um nome. Ex. Bematech (Relatório Geral), Daruma (Configurações X)...
+3. Qual o comportamento observado?
+Foi observado que a cada emissão de um relatório gerencial, essa informação é impressa. 
+4. Quais as etapas para reproduzir o comportamento observado?
+Emitir um relatório de Identificação PAF ECF e observar que entre o nome Relatório Gerencial e Identificação PAF ECF há um outro nome característico (em anexo há um exemplo). 
+5. Qual o comportamento esperado?
+Que a impressão desse relatório não seja impresso esse nome. 
+6. Quais as etapas para executar o comportamento esperado?
+Emitir um relatório de identificação do PAF ECF e verificar que não existe mais esse nome. 
+7. Informações adicionais.
+Não se aplica. Essa alteração Foi realizada na Impressora Bematech agora solicita-se o mesmo para Impressora Daruma para atendimento à uma exigência da SEFAZ AL. 

@@ -1,0 +1,17 @@
+Instalador do Servidor de PDV do Dinâmico PDV
+*Como:* Scrum Master
+*Quero:* Que o Servidor de PDV seja instalado a partir de um instalador.
+*Para:* Proteger o sistema e garantir o processo de atualização do mesmo.
+
+*Critério de validação* 
+* Ter disponível um arquivo .exe que irá instalar o sistema;
+* Ao terminar de instalar deixar o sistema funcionando como serviço do sistema operacional;
+* Garantir que não tem como o usuário finalizar o Servidor, e que quando o hardware for reiniciado o serviço será iniciado junto.
+
+*Como implementar* 
+* Utilizar uma aplicação que cria instaladores - Ex: PDV;
+* Criar o arquivo de configurações;
+* Criar uma tag do Ant.
+* Testar;
+* Atualizar o build "versao.xml" do Jenkins;
+* Testar;

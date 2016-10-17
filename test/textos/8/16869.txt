@@ -1,0 +1,20 @@
+Inclusão de validação para vendas acima de R$400 exigir CPF
+*Como:* Usuário
+*Quero:* Exigir o CPF para compras feitas acima de R$400,00
+*Para:* Atender a determinação da Sefaz
+
+*Critério de validação* 
+* A tela deverá ser exibida caso a compra tenha valor igual ou maior ao estipulado.
+* Imprimir este CPF no cupom fiscal.
+
+*Como implementar* 
+* Criar parâmetro "Consistir doc. obrigatório?", para ativar a validação do valor.
+* Criar parâmetro "Valor mínimo p/ consistir doc. obrigatório", para definir o valor a ser solicitado o CPF.
+* Exibir tela para inserção do CPF caso a compra seja acima de R$400,00.
+
+
+*Obs.:* Segue texto da Sefaz-BA.
+
+"15/01/2015 - Sefaz BA institui exigência de CPF em compras acima de R$ 400
+
+A partir de 1º de março, os consumidores baianos que fizerem compras em redes de supermercados com sistema de venda para atacado e varejo, em valor acima de R$ 400, precisarão fornecer o número do CPF no ato do pagamento. A medida, instituída pela Secretaria da Fazenda da Bahia (Sefaz-Ba) em acordo com associações e sindicatos do setor, visa evitar a concorrência desleal e aumentar o combate à sonegação. Algumas empresas, por iniciativa própria e como forma de teste, já começaram a solicitar o número do CPF dos clientes que efetuarem compras acima do valor determinado."

@@ -1,0 +1,15 @@
+Implementar obrigatoriedade de CPF/CNPJ em  compras acima de um determinado valor
+*Porque?*
+
+Alteração legislativa vigente que se refere ao controle de sonegação de impostos.
+
+*Como?*
+
+O sistema deve validar junto as configurações do sistema a partir de qual valor deve ser verificada a presença do CPF no cupom fiscal e nos registros de venda.
+
+*Como implementar?*
+- Alteração do layout;
+- Sincronização dos dados;
+- Ajuste da tela;
+- Validação do valor da compra;
+- Testes;

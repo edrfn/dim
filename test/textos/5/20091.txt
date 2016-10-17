@@ -1,0 +1,16 @@
+Não é possivel adicionar produto com a quantidade superior a 1
+Qual o comportamento observado?
+
+Não é possivel alterar a quantidade do produto a ser inserido, porém isso só é visto quando o produto não está configurado para pesar no caixa. Sendo ele configurado para pesar em caixa é possivel realizar tal procedimento
+
+Quais as etapas para reproduzir o comportamento observado?
+
+Inserir no PDV, através do campo de código de barra, um produto com uma quantidade superior a 1 (Ex: 2*(código do produto))
+
+Qual o comportamento esperado?
+
+Que seja possivel inserir um produto com qualquer quantidade, sendo ele pesado ou não.
+
+
+
+Obs: Em conversa com integrantes do time, chegamos a uma possivel solução que seria inverter o comportamento encontrado para o produto que está como "Pesado". Sendo assim, produtos como "Pesado" não deveriam obedecer o camando de X*código do produto na inserção, isso deveria ser para produtos que não possuem essa caracterisca

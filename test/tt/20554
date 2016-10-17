@@ -1,0 +1,12 @@
+Envio de orçamento para PDV
+*Como:* Testado
+*Quero:* Reajustar os preços dos produtos.
+*Para:* Facilitar o reajuste dos preços dos produtos.
+
+*Critérios de validação:*
+
+Sistema deve ser capaz de criar o arquivo de integração referente a orçamento dentro do layout previsto.
+
+*Como implementar:*
+
+Fazer com que o sistema gere o arquivo de integração do tipo orçamento.

@@ -1,0 +1,2 @@
+Testar os cadastros de cliente e grupos
+Testar detalhadamente os cadastros de cliente e grupos

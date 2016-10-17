@@ -1,0 +1,19 @@
+Erro na sincronização de espécie no Painel
+*Qual o comportamento observado?*
+Ao realizar uma segunda sincronização de espécie do ERP para o Painel ocorreu erro de duplicação de chave no banco do painel, ocasionando erro de sincronização de espécie no PDV. Segue em anexo o log do PDV.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Alterar uma espécie no banco do ERP (a alteração no banco é por que não é possível editar espécie no ERP);
+2. Executar o Painel, para sincronizar a espécie alterada;
+3. Executar o PDV para sincronizar as informações; 
+
+*Qual o comportamento esperado?*
+Que não ocorra erros de sincronização de espécies.
+
+*Critérios de Validação*
+* Sincronizar espécies do ERP para o painel, e respectivamente para o PDV.
+
+*Como Implementar*
+* Identificar o problema;
+* Implementar solução;
+* Testes;

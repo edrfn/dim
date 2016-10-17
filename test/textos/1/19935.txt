@@ -1,0 +1,98 @@
+Reestruturação dos Módulos do sistema
+*Como:* Analista de negócio
+*Quero:* Reestruturar o menu de movimentações do sistema
+*Para:* Deixar o sistema mais _clean_
+
+*Mudanças*
++1. Geral+
+- Alterar o nome para "Configuração"
+
+Cadastros
+- Licenciada
+- Filial (Ficará como não visível)
+- Licença do sistema
+- ...Outros cadastros que não pertencem aos Outros Módulos
+
+Compras
+- Configuração de compras
+
+Vendas
+- Configuração de vendas
+
+Financeiro
+- Configuração de Financeiro
+
+Estoque
+- Configuração de estoque
+
++_*Menu de Movimentação*_+
++2. Compra+
+Nota de Compra
+> Digitar Nota
+> Importar XML
+> Editar
+> Pesquisar
+Devolução ao Fornecedor
+> Nova
+> Editar
+> Pesquisar
+Outras Entradas
+> Nova
+> Editar
+> Pesquisar
+
+Para o caso de janelas que tenham mais opções do que "novo", "editar", "pesquisar", o sistema deve se comportar da seguinte forma:
+> Entrada de dados cor laranja.
+> pesquisas e edições em preto. 
+!http://192.168.0.4/redmine/attachments/8763/Nota%20Fiscal%20de%20Entrada.png!
+
++3. Venda+
+Orçamento
+> Novo
+> Editar
+> Pesquisar
+
+Pedido de Venda
+> Novo
+> Editar
+> Pesquisar
+NF-e
+> Pesquisar
+> CC-e
+> > Nova
+> > Pesquisar
+> Inutilizar Faixa
+> Status de Serviço
+
+Devolução ao Cliente
+> Nova
+> Editar
+> Pesquisar
+
+Outras Saídas
+> Nova
+> Editar
+> Pesquisar
+
+No caso das opções que tem outras opções, as opções devem ser apresentadas como no exemplo.
+!http://192.168.0.4/redmine/attachments/8764/Nota%20Fiscal%20Eletr%C3%B4nica.png!
+
++4. Estoque+
+Balanço
+> Nova
+> Editar
+> Pesquisar
+Reajuste de Preço
+> Nova
+> Editar
+> Pesquisar
+Ficha Kardex
+> Nova
+Localização de produtos
+> Nova
+> Editar
+> Pesquisar
+> Associar localização
+
+Para os casos em que a opção saiu do menu, deve ser apresentado na barra de ações que acompanha a cor do modulo.
+!http://192.168.0.4/redmine/attachments/8766/Edi%C3%A7%C3%A3o%20de%20registros%20de%20movimento.png!

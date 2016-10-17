@@ -1,0 +1,20 @@
+Pedido de Venda - Criação da seleção das espécies no pedido de vendas
+Quero: Criação da seleção das espécies no pedido de vendas
+Para: Ao gerar uma nota no ERP (Exportação de NF-e ou Efetivar Pedido) seja gerado títulos quando a forma de pagamento for a prazo;
+
+Critério de validação
+
+* Ter acesso à funcionalidade.
+* Digitar Pedido de Venda com forma de pagamento a prazo;
+* Escolher as espécies do plano de pagamento, bem como os valores de cada uma;
+* Verificar se no banco de dados se o pedido possui as espécies e os valores de cada uma;
+
+h3. Anotações da Reunião de planejamento:
+
+* O que foi definido para ser feito no ticket:
+> Criação da tabela no banco;
+> Escolha da forma de pagamento;
+> Trazer as espécies;
+
+
+

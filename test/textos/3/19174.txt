@@ -1,0 +1,13 @@
+Adicionar no relatório de posição de estoque o subrelatório Totais
+Como: Coordenadora
+Quero: Construir relatório de Totais;
+Para: Visualizar o resumo das notas;
+
+*Critério de validação*
+Ter acesso à funcionalidade através do menu: Venda - Relatórios - Posição de Estoque;
+Selecionar a opção Totais em formatos;
+Apertar em imprimir e visualizar os os resumos das notas.
+*Como implementar*
+Criar a query do resumo das notas;
+Criar o relatório no report builder;
+Fazer as alterações na tela do relatório;

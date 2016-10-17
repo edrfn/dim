@@ -1,0 +1,45 @@
+Retorno de Industrialização - Erro do valor calculado da nota e erro de visualização no Danfe
+*1) Qual o comportamento observado?*
+
+Ao fazer uma remessa de retorno de industrialização , ocorrem duas situações :
+*1º bug-* Ao fazer uma Remessa de Industrialização no foi informado o mesmo produto duas vezes, o primeiro lançamento do produto 
+
+foi movimentado 9300 itens e no lançamento abaixo foi vinculado 88 itens , totalizando na nota 9380 itens.
+( no pedido de conferencia aparece a quantidade conforme descrito acima ) -> ( No DANFE sempre o segundo item fica com 
+
+diferença na quantidade , ou seja apresentou 87,7978 no lugar que era para sair quantidade de 88 unidades)
+
+*2º bug-* Ao fazer a nota e validar o calculo de valor unitário vezes a quantidade de movimentação , constatamos que os valores não 
+
+batem conforme sai no pedido e na nota .
+
+*3º bug-* O segundo lançamento de produto no cadastro de Val. Unitário também é informado valor incorreto segue a imagem com 
+
+analise. O item no pedido esta como 1,826 e o segundo item da nota esta saindo como 1,830.
+
+
+Obs: Nas imagens que postarei a respeito dos erros acima , vou classificar os dados incorretos por cores no print:
+erro 1 = Vermelho , erro 2 = Azul e erro 3 = Verde
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Rotina de retorno de industrialização ---> fazer um retorno com o cliente 5  , e o produto 50573 e fazer o lançamento de 9300 itens e após , informar o código novamente como se fosse outro produto e lançar 88 itens , após fazer a exportação da nota e validar o DANFE e o pedido de Conferencia
+
+
+*Obs:* Para o pleno teste citado acima , vou postar a base que fiz o procedimento de teste , antes de fazer o pedido para simular 
+
+conforme ocorreu o erro.
+
+*3) Qual o comportamento esperado?*
+
+1-Solicitamos que os valores descritos no Danfe saiam com os campos de quantidade e valor unitário do segundo item como no pedido de conferencia .
+2- O valor seja calculado corretamente ( Quantidade Movimentada multiplicada por Valor Unitário)
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Fazer o retorno de industrialização como no passo 2.
+
+
+5) Adicional: 
+A base encontra-se para *analisar o ticket* : \Teste\Bases Redmine\Base da Realce-Desenvolvimento.zip
+Base para *reproduzir a mesma nota* : \Teste\Bases Redmine\Base da Realce-Teste.zip
+As imagens estão no anexo

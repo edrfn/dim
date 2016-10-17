@@ -1,0 +1,13 @@
+Refatorar a rotina de localização
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da rotina de localização
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validar se já existe localização cadastrada com o mesmo nome
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

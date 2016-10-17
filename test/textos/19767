@@ -1,0 +1,7 @@
+Refatorar a regra "CFOP da tela para os itens"
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração a regra "CFOP da tela para os itens".
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar se a regra está sendo aplicada corretamente.

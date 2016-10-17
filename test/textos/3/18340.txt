@@ -1,0 +1,9 @@
+Verificar o funcionamento do sistema com os retornos da ECF Bematech
+Verificar o funcionamento do sistema com a tela antiga de alerta nas situações em que o ECF devolve uma resposta ao sistema.
+
+*Comportamentos já observados*
+- O sistema travou com ECF em pouco papel;
+- O sistema continuou emitindo os itens (no ECF) com a tela travada;
+- O ECF perdeu comunicação mesmo indicando estar "em linha".
+
+PS: Anexar o log de 07/08/2015 - máquina de Maíra.

@@ -1,0 +1,14 @@
+Validador do banco de dados do Dincash Web e Dincash PDV
+*Como:* Supervisor do sistema Dincash/Cashone
+*Quero:* Implementação do validador de banco de dados
+*Para:* Obter os dados inconsistentes presentes no bando de dados de determinado cliente
+
+*Critério de validação* 
+* Validar o banco de dados do WEB
+* Validar o banco de dados do PDV
+* Possuir senha para acesso
+* #17580
+
+*Como implementar*
+
+!Prototipo!

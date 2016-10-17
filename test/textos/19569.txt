@@ -1,0 +1,17 @@
+[Outras Saidas] Ao escolher Fornecedor, não preenche o nome do Fornecedor, mas preenche o de Cliente
+Descrição
+
+1) Qual o comportamento observado?
+Observou-se que ao clicar na busca de Fornecedor na rotina de Outras Saidas, não preenche o nome respectivo, mas preenche o de cliente com o id relativo; E não esta sendo possível gravar o registro;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina de Outras Saidas;
+2- Escolher Fornecedor;
+3- Buscar Fornecedor;
+4- Verificar que não preenche o nome.
+
+3) Qual o comportamento esperado?
+Que ao buscar cliente ou fornecedor, os dados referentes sejam preenchidos;
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2.

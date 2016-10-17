@@ -1,0 +1,6 @@
+Refatorar o cadastro de cliente
+Refatorar o cadastro de cliente, envolvendo as rotinas abaixo:
+1.1 Inserção do Cliente
+1.2 Alteração do Cliente
+1.3 Exclusão do Cliente
+1.4 Pesquisa de Cliente

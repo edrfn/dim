@@ -1,0 +1,18 @@
+Devolução a fornecedor de regime normal sendo o cliente emissor SuperSimples não destaca valor de ICMS e BC nos campos próprios.
+1) Qual o comportamento observado?
+
+Ao realizar uma devolução a fornecedor, um cliente que seja participante do regime Super Simples e emitente de NF-e, de acordo com Resolução Comitê Gestor do Simples Nacional nº 94, de 29 de novembro de 2011, deverá destacar os valores de ICMS, BC e etc em seus respectivos campos e não mais no campo de Informações Adicionais, este campo só deverá ser usado no caso de notas do tipo D1. Segue resolução em anexo. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Tenha uma base em regime Super Simples;
+Realize uma devolução que precisa gerar BC e valor de ICMS;
+Verifique os campos próprios de BC e valor ICMS;
+
+3) Qual o comportamento esperado?
+
+De acordo com a resolução, ao realizar a devolução para um cliente de regime normal, sendo Super Simples, o sistema deve destacar os valores de ICMS e Base de Cálculo nos campos própros, caso este seja emitente de NF-e.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2

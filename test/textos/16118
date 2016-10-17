@@ -1,0 +1,24 @@
+[CT] O valor de capatazia não está sendo somado para geração do IPI
+[CT] O valor de capatazia não está sendo somado para geração do IPI
+
+1) Qual o comportamento observado?
+Ao efetuar uma nota de exportação, informo os valores da DI, valor de Frete maritmo, Seguro, Armazenagem, Pis, Cofins, Afrmm, Imposto de importação, Taxa Siscomex e Capatazia. Ao lança o produto insiro um item com 15% de IPI, Ao salvar a nota
+e exportar a NFE vejo que o valor do IPI esta errado pois não foi somado a capatazia para geração do IPI.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Cadastro, vendas Balcão, Procedimentos especiais, Outras operações;
+2- Inserir o cliente e a CFOP de exportação (a mesma tem que estar setada nos dados complementares como CFOP de importação no cadastro de natureza);
+3- Informar os valores dos impostos;
+4- Informar todos os valores solicitado; 
+5- Inserir os dados de cobrador, vendedor e forma de pagamento;
+6- Inserir o produto com valor de IPI de 15% (ou qualquer outro valor);
+7- Exportar a nota fiscal;
+8- Após exportar a nota verificar que o valor do IPI não estará correto pois os valores para serem gerado serão os somatórios de:
+Valor do produto + Valor de importação + Frete maritmo + seguro+Capatazia x 15% = Valor dos imposto"	
+
+3) Qual o comportamento esperado?
+"Ao efetuar uma nota de exportação o sistema calcular conforme a regra de calculo do IPI.
+Valor do produto + Valor de importação + Frete maritmo + seguro + Capatazia x 15% de IPI = Valor do IPI"
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2.

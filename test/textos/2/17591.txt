@@ -1,0 +1,16 @@
+Melhorar mensagem de confirmação
+*Login*
+Ao confirmar a tela de login sem dados o sistema avisa que a senha está errada, quando deveria avisar nada digitado;
+Ao digitar novos dados após ver a mensagem de erro de validação de usuário e senha, apagar a mensagem ao identificar que o usuário iniciou a digitação novamente.
+
+*Suprimento*
+Ao realizar um suprimento é mostrada uma mensagem de confirmação. Quando o valor do suprimento é zero, a mensagem não fica correta. Seria interessante corrigir a frase da mensagem de confirmação quando o valor for zero e colocar o R$ quando inserir algum valor diferente de zero.
+
+*Critério de validação*
+Mensagem de erro de login de acordo com o erro - maior interação com o usuário.
+Mensagem de suprimento mais clara para o usuário.
+
+*Como implementar*
+* Implementar Login;
+* Implementar Suprimento;
+* Testes.

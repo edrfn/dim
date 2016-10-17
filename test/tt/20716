@@ -1,0 +1,11 @@
+[License Manager] Adicionar campo versão no arquivo de licença gerado para "Dinamico"
+*Como:* Usuário do License Manager
+*Quero:* Que a versão da licença gerada para os produtos "Dinamico" seja enviada no arquivo de licença
+*Para:* Que os sistemas "Dinâmico" posso realizar a validação da licença também pela versão
+
+*Critério de validação* 
+* Não há
+
+*Como implementar* 
+* Preencher o campo "NomeSistema" e "VersaoSistema"
+			

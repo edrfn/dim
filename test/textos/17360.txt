@@ -1,0 +1,2 @@
+Mudança da geração de senha no Automaster
+Esta história destina-se a reformulação do Licenciamento do Automaster, para que este não seja burlável  para isso será utilizado novas validações na geração das senhas de liberação ao cliente.

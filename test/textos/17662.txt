@@ -1,0 +1,29 @@
+Layout de Kardex com Linha de informações da coluna em branco.
+Breve descrição do caso:
+
+A versão 5.0e possui um erro na estrutura do Kardex onde uma linha não é exibida.
+
+Comportamento Observado:
+
+Foi observado que o cabeçalho do Kardex está sendo mostrado em branco (vide imagem em Anexo) onde antes estavam exibidas informações sobre as colunas do relatório.
+
+Testado na versão 4.5i  e na 5.0e
+
+Etapas para o Comportamento Observado:
+
+Retirar o Kardex de um produto e verificar o layout.
+
+Comportamento Esperado: 
+
+O Layout deve ser o mesmo demonstrado na imagem da versão 4.5i.
+
+Etapas Comportamento Esperado:
+
+Retirar o Kardex de um produto e verificar o layout.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0e	
+
+Informações adicionais.
+Imagem em anexo.

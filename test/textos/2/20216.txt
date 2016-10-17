@@ -1,0 +1,4 @@
+Utilitário numeroNFCE
+Como: Tester;
+Quero: Um utilitário numeroNFCE;
+Para: fazer correções de duplicidade de notas quando for NFC-e.

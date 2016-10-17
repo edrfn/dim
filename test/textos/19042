@@ -1,0 +1,18 @@
+Pedido de Venda - Não está indo a quantidade correta de produtos para o campo 'Reserva' da tabela 'Produto_estoque'.
+*1) Qual o comportamento observado?*
+Quando faz um pedido de venda com um produto que possua outras embalagens, no campo Reserva da tabela produto_estoque vai a quantidade indicada no pedido e não o resultado da multiplicação da quantidade de produto na embalagem vezes a quantidade indicada no pedido de venda.
+
+Obs.: Quando emite a NF-e do pedido, sai, do campo 'reserva', a quantidade correta.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo caminho: Vendas - Movimento - Pedido de Venda;
+2- Preencher os campos necessários;
+3- Na tela de inserção de produtos, escolher um que possua mais de uma unidade em uma embalagem secundária.
+4- Finalizar o pedido de venda;
+5- Observar que o campo 'Reserva' da tabela 'Produto_estoque' recebeu apenas a quantidade indicada no pedido de venda.
+
+*3) Qual o comportamento esperado?*
+Espera-se que vá para o campo da tabela mencionada a quantidade correta de produtos.
+
+*4) Quais as etapas para executar o comportamento esperado?
+As mesmas do passo 2.

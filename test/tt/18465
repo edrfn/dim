@@ -1,0 +1,16 @@
+Erro ao gravar sem filial na rotina Devolução ao Fornecedor
+*1) Qual o comportamento observado?*
+Foi observado que ao preencher os campos da rotina excluindo a filial e clicando em gravar o sistema 
+exibe a mensagem: 'null value in column ""peds_fkloja_id' violates not-null constraint;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Devolução ao Fornecedor;
+2- Apagar a filial e clicar em Gravar;
+3- Observar o erro;
+
+*3) Qual o comportamento esperado?*
+Espera-se que não seja possível apagar a filial, visto que por enquanto haverá apenas a filial padrão no sistema;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Acessar a rotina pelo menu: Vendas > Movimentos > Devolução ao Fornecedor;
+2- Verificar se é possível apagar a filial.

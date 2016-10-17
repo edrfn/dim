@@ -1,0 +1,8 @@
+Aplicação dos parâmetros
+h1. Checklist
+
+|Parâmetro|Feito?|Passou?|Obs|
+|Gerar códigos de barra automaticamente|Sim|Não|cadastro do produto|
+|Formato do código de barras|Sim|Não| Cadastro do produto, nota fiscal eletrônica|
+|Permitir duplicidade de CPF/CNPJ|Sim|Sim|Verificar as entidades cliente, fornecedor e transportador|
+

@@ -1,0 +1,15 @@
+Erro de access violation ao tentar gerar o arquivo de sintegra
+*1) Qual o comportamento observado?*
+Ao tentar gerar o arquivo sintegra o sistema está apresentando mensagem de erro, conforme imagem anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastros - Arquivos Fiscais - Exportação para o Sintegra;
+2- Preencher os campos de data inicial e final, caminho de gravação e finalidade;
+3- Clicar no botão 'Ok' ou pressionar ALT+O;
+4- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema gere o arquivo de sintegra com os registros necessários sem apresentar erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas nos passos de 1 a 3.

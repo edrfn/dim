@@ -1,0 +1,12 @@
+Persistir os dados, criptografados, na tabela DBVER 
+Descrição
+
+Como: Administrador do sistema 
+Quero: Que os dados na tabela DBVER sejam criptografados
+Para: Comunicação segura com o License Manager.
+
+Critério de validação
+Os dados na tabela DBVER devem ser criptografados.
+
+Como implementar 
+O ERP deve criptografar os dados antes de inserir em DBVER.

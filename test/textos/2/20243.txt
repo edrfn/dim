@@ -1,0 +1,4 @@
+Opção para escolher a impressora na tela de visualização da NF-e
+Como: P.O.
+Quero: Opção para escolher a impressora na tela de visualização da NF-e
+Para: Facilitar a impressão da nota

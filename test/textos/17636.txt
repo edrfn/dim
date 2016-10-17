@@ -1,0 +1,13 @@
+Correção da tela e funcionamento da rotina de dados da venda
+Na tela de dados da venda, ao inserir um valor o sistema grava as informações. Porém se o usuário apagar o sistema considera as informações anteriormente validades e permite salvar com os campos da tela vazios.
+Isso ocorre em qualquer dos campos dessa tema (cliente, plano e vendedor)
+Além disse não está usual a necessidade de alterar dados do cliente padrão. Necessário retornar o uso do F2 nessa janela.
+
+*Critério de validação*
+* Mostrar tela para inserir CPF/CNPJ do cliente de acordo com a definição escolhida;
+
+*Como implementar*
+* Verificar o funcionamento das teclas ENTER e F2;
+* Implementar nova chamada para tela de de consumidor;
+* Testes;
+* Corrigir bugs.

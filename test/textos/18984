@@ -1,0 +1,20 @@
+Em pedido de venda, o atalho ALT-O está habilitado erroneamente para notas Liberadas
+*1) Qual o comportamento observado?***
+Em pedido de venda, o atalho ALT-O está habilitado erroneamente para notas Liberadas.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedido de venda
+2- Pesquisar por uma Nota com o status LIBERADO;
+3- Verificar que o atalho ALT-O no menu de atalhos não se encontra desabilitado;
+
+*3) Qual o comportamento esperado?*
+É esperado que o atalho ALT-O esteja desabilitado no menu.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Dicas:
+
+* Desabilitar o botão no método _AfterLocalizar_;

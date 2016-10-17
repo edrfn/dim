@@ -1,0 +1,24 @@
+Produtos dos pedidos online estão sendo duplicados quando utilizado um determinado código de imposto
+*1) Qual o comportamento observado?*
+
+Foi visto que ao utilizar um determinado código de imposto no produto na venda este produto fica duplicado no pedido online importado no PDV. Analisando esse código de imposto que gera a duplicidade foi visto que ao alterar o "Período Válido" o  mesmo estava com o campo "Efetivo desde" estava com data 01/01/2012 e ao alterar essa data para 01/01/2013 os produtos com esse código de imposto não duplicavam mais.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Cria-se um pedido no SAP utilizando o código de imposto 5102-006 e ao importar esse pedido no Dincash PDV o produto com o código de imposto informado irá ser duplicado na venda.
+
+*3) Qual o comportamento esperado?*
+
+Que seja analisado o porque dessa data está interferindo no processo e duplicando o produto na venda, já que a data aparentemente não deveria gerar o problema relatado.
+
+*4) Quais as etapas para reproduzir o comportamento esperado?*
+
+Cria-se um pedido no SAP utilizando o código de imposto 5102-006 e ao importar esse pedido no Dincash PDV o produto com o código de imposto informado.
+
+*5) Qual a versão do produto e sistema operacional utilizados ?*
+
+Cashone 2.7f 
+
+*6) Informações adicionais.*
+
+Base do SAP do cliente se encontra restaurada na máquina TESTE05.

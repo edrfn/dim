@@ -1,0 +1,12 @@
+Geração do Financeiro na Rotina de Efetivar Pedido e Exportar NF-e
+Quero: Geração do financeiro na rotina de efetivar pedido e Exportar NF-e
+Para: Ao confirmar pedido seja gerado títulos quando a forma de pagamento for a prazo;
+
+Critério de validação
+
+* Ter acesso às funcionalidades.
+* Digitar Pedido de Venda com forma de pagamento a prazo e selecionar as espécies utilizadas na venda, bem como os valores de cada espécie;
+* Efetuar a efetivação do pedido ou a exportaçao da NF-e;
+* Verificar os títulos gerados no financeiro para ambos os casos;
+
+

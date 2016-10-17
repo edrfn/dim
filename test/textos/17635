@@ -1,0 +1,2 @@
+Criação do Utilitário para corrigir produtos duplicados criados no cadastro de grades.
+Foi encontrada a necessidade de implementar um utilitário para refazer os códigos de produtos em todos os arquivos relacionados como produtos , fornecedor do produto e grade de produtos, este utilitário deverá corrigir os cadastros que foram gravados incorretamente gerando códigos de produtos duplicados para produtos diferentes

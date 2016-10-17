@@ -1,0 +1,12 @@
+Criar query para geração do relatório de nota de entrada
+*Como*: Desenvolvedor
+*Quero*: Criar a query de consulta dos dados para a geração do relatórios de movimento de entrada analítico
+*Para*: Ser utilizada na geração do relatório de movimento de entrada;
+
+*Critérios de Validações*
+
+Query para geração do relatório criada;
+
+*Como implementar*
+
+Criar a query com as notas de entradas e os itens para a geração do relatório

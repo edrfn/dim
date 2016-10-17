@@ -1,0 +1,29 @@
+Relatório de cadastro de produtos não exibe referências
+*Breve descrição do caso:*
+
+Ao emitir uma relatório de produto, na rotina de Cadastro de produtos, e ao informar no campo "Coluna a exibir" = a REFERENCIA o relatório não exibe os códigos de referência dos produtos.
+
+*Qual o comportamento observado?*
+
+O relatório de Cadastro de produtos possui a opção de exibir os produtos por referencia ou ao menos é o que leva a entender que possua a opção de exibir as Referencias levando em consideração o campo "Coluna a exibir" = a REFERENCIA.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+
+F2 -> Produtos -> ALT+R
+
+*Qual o comportamento esperado?*
+
+Que sejam apresentados os produtos com suas respectivas referências no relatório de cadastro de produtos.
+
+*Quais as etapas para reproduzir o comportamento esperado?*
+
+F2 -> Produtos -> ALT+R
+
+*Qual a versão do produto e sistema operacional utilizados ?*
+
+Dinamico 4.5g 7386
+
+
+
+
+

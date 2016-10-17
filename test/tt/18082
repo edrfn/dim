@@ -1,0 +1,12 @@
+Correções na rotina de Parâmetros de Vendas
+Como: Scrumaster
+Quero: Correção da alteração e visualização dos parâmeros de venda
+Para: Ser possível visualizar os parâmetros setados e também efetuar alterações
+
+*Critério de validação*
+Ter acesso à funcionalidade através do menu Vendas - Botão de Configuração - Vendas.
+Poder visualizar e alterar os valores dos parâmetros.
+
+*Como implementar*
+Habilitar a visualização dos parâmetros setados;
+Possibilitar alterações nas configurações.

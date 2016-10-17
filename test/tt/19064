@@ -1,0 +1,19 @@
+Sistema bloqueia o acesso ao abrir duas estações no mesmo computador no dia de vencimento da senha
+*1) Qual o comportamento observado?*
+
+Foi observado que, ao chegar no último dia da senha de registro do sistema, e tentar abrir duas estações em um mesmo computador, ao abrir o segundo executável o sistema pede a senha de registro e bloqueia o sistema, exibindo a mensagem: "ERRO AO INICIAR O SISTEMA, FAVOR CONTATAR O SUPORTE!!!!". Porém, antes de abrir o segundo executável, é possível abrir o sistema sem nenhum bloqueio.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+1. Pegue uma base que esteja vencendo no dia do teste (essencial que o sistema tenha 0 dias de uso);
+2. Abra o executável Automaster.exe;
+3. Abra o Vendas.exe;
+4. Observe que é possível abrir o Automaster.exe normalmente, porém ao abrir o Vendas.exe é exibida a tela de registro, solicitando senha de acesso e a mensagem de bloqueio;
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve considerar todos os dias de uso do sistema, inclusive o dia "0", sem bloqueios.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

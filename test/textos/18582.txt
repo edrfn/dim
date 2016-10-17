@@ -1,0 +1,30 @@
+Criação do Conversor FPQ SYSTEM ( SISCOM )
+*Como:* Product Owner
+*Quero:* Criação de um Conversor
+*Para:* Conseguirmos novos Contratos
+
+*Critério de validação*
+Criação de um conversor de dados do Sistema FPQSYSTEM para o Dinamico/Automaster
+
+*Como implementar*
+Validar os dados do banco DBF do sistema FPQSYSTEM e converter:
+
+*Cadastros:* Cliente ,Produto e Estoque.
+
+
+*OBS:*
+*Cadastro de Produto:*
+Não tem grupo vinculado ao produto.(Criar um grupo padrão para vincular os produtos)
+Não contém Unidade de medida(Informar em todos os cadastros a unidade de medida UN)
+Não tem alíquota cadastrada no cadastro (Preencher todos os produtos com Alq de 17%)
+ 
+O cliente trabalha com 3 preços para apenas uma unidade de medida.
+Os preços (Avista// Prazo // Atacado //), será cadastrado no preço de venda o valor da venda Avista, e em outras embalagens os preços de a prazoe atacado;
+
+Segue um documento com relação de tabelas de ambos sistemas
+
+
+Segue abaixo a Planilha de Conversão.
+DBF Viewer
+
+*Caminho da Base:* "\Teste\Bases Redmine\SISCOM\DADOS"

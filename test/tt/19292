@@ -1,0 +1,19 @@
+[CASE DE SUCESSO] Preencher os dados obrigatórios do cadastro do cliente "Consumidor final", não está sendo possível gravar pedido de venda por falta desses dados.
+*1) Qual o comportamento observado?*
+O cadastro do cliente "Consumidor final" está com os campos obrigatórios de endereço vazios, impossibilitando gravar pedido de venda informando esse cliente. Esse cadastro não pode ser alterado, os dados são gerados pelo assistente de primeira execução.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastro - Vendas - Cliente;
+2- Pesquisar o cadastro com nome "Consumidor final" e verificar que vários campos obrigatórios estão vazios;
+3- Digitar um pedido de venda com esse cliente e tentar gravar.
+
+*3) Qual o comportamento esperado?*
+É esperado que o cadastro do "Consumidor final" tenha todos os campos obrigatórios para efetuar um pedido de venda devidamente preenchidos pelo assistente de primeira execução.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+=======================================================
+*Sugestão:*
+* Ao encontrar o 'insert' padrão relativo ao "Consumidor final", replicar as informações da filial informada no assistente de primeira execução para que os dados obrigatórios não fiquem vazios;
+* Verificar a unit *uSis_dlgAssPrimExec01* na _linha 285_;

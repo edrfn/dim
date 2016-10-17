@@ -1,0 +1,19 @@
+Reajuste de Preço - Sistema apresenta erro ao gravar o reajuste
+*1) Qual o comportamento observado?***
+Ao tentar gravar um reajuste geral, após buscar todos os produtos, o sistema apresenta um erro.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Estoque - Movimentos - Reajuste de Preço
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Clicar no botão Buscar, sem preencher nenhum filtro;
+4- Lançar um percentual de reajuste
+4- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema grave o reajuste, validando suas respectivas informações.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

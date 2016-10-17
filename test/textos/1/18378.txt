@@ -1,0 +1,13 @@
+Esconder o agendamento de sincronização
+*Como:* Scrum Master
+*Quero:* Esconder o agendamento de sincronização
+*Para:* Manter o sistema funcionando em tempo real, configuração padrão de 5 em 5 segundos
+
+*Critério de validação* 
+* Não ser possível acessar a funcionalidade via interface;
+* Observar o tempo que o sistema demora para iniciar ao ser inserido dados nas pastas de integração;
+
+*Como implementar* 
+* Iniciar o valor do banco com 5 segundos por padrão;
+* Esconder a interface de agendamento;
+* Realizar testes;

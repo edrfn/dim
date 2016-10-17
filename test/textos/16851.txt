@@ -1,0 +1,10 @@
+O configurador não está realizando teste com a impressora fiscal Epson 
+*Qual o comportamento observado?*
+Ao utilizar a impressora fiscal Epson no configurador, ao pressionar o botão "Realizar teste" nada acontece. E desta forma, fica difícil de saber as informações como grande total, modo de trabalho da impressora e CRO para geração de arquivo de caixa.  
+
+*Quais as etapas para obter o comportamento observado?*
+1. Utilizar uma impressora fiscal;
+2. Abrir o configurador, informar a impressora, a porta e a velocidade e pressionar o botão "Realizar teste"; (Verifique que nada acontece.)
+
+*Qual o comportamento esperado?*
+Realizar teste no configurador com a impressora fiscal Epson, para visualização das informações que são necessárias para criação do arquivo de caixa. 

@@ -1,0 +1,16 @@
+Refatoração da tela de alerta do DinâmicoPDV
+Para: DinâmicoPDV
+Quero: Uma tela de alerta adaptável e responsiva para ser utilizada em todas as mensagens de aviso do sistema.
+Como: Baseando-se no comportamento da tela atual e no modelo disponibilizado pela Hanck para melhorar a tela já existente.
+
+*Critério de Validação:*
+
+Uma nova tela de alerta que respeite o comportamento atual, seja responsiva, adaptável às mensagens e respeite o layout proposto pela Hanck.
+
+*Como implementar:*
+
+ -Refatortar o FXML;
+ -Refatorar o CSS;
+ -Adicionar as funcionalidades;
+ -Testes; 
+ -Corrigir bug encontrado; 

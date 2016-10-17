@@ -1,0 +1,28 @@
+[Total NFCE] Sistema aborta em momentos Esporádicos ao Testar conexão com servidor da Sefaz. 
+LOCAL:
+Dincash PDV  Envio de NFC-e
+
+VERSÃO:
+Identificado na última versão (2.8k), o problema não ocorre em versões anteriores.
+
+PRÉ-CONDIÇÕES:
+  Acessar o ambiente de homologação;
+  Utilizar Total NFC-e
+
+ERRO:
+O sistema aborta ao testar conexão com o servidor da Sefaz, esse problema acontece de forma Esporádica, porém é frequente.
+
+SITUAÇÃO DESEJADA:
+O sistema precisa apresentar uma estrutura estável e não fechar completamente, se houver algum erro o sistema não pode fechar sem apresentar nenhuma mensagem para o usuário.
+
+
+
+EXTRA:
+Segue momento do fechamento descrito no log. O log completo está em anexo.
+
+106197 2016-02-02 09:18:37,727 INFO Thread-8 com.total.dincash.workflow.GerarNFCeAction - 
+ ### GerarNFCeAction ###
+106197 2016-02-02 09:18:37,727 INFO Thread-8 com.total.dincash.workflow.nfce.acbr.GerarNfceTotal - 
+ ### GerarNFCeActionTotalNFCe ###
+106198 2016-02-02 09:18:37,728 INFO Thread-8 total.dincash.nfce.core.acbr.NotaFiscalConsumidorEletronicaTotal - Testando servidor NFC-e...
+0    2016-02-02 09:19:04,071 INFO main com.total.dincash.Main - ======================== Versão do Frente de Caixa: 2.8k 5261 ========================

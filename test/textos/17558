@@ -1,0 +1,9 @@
+Corrigir nome das telas de menus F11 e F12
+Deve ser corrigido o nome das telas de menus, F11 é referente a Opções da venda e F12 é referente a Atalhos. No sistema o título das telas estão incorretos (invertidos);
+
+*Critérios de validação:*
+Nome das telas referentes ao funcionamento da mesma; 
+
+*Como implementar:*
+* Desenvolvimento; 
+* Teste.

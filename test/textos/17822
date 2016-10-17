@@ -1,0 +1,22 @@
+Corrigir a rotina de exportação e emissão de NFe
+Como: Scrumaster
+Quero: A correção de problemas na rotina de exportação e emissão de NFe.
+Para: Ser possível emitir NFe corretamente.
+
+*Critério de validação*
+* Ter acesso à funcionalidade através do menu: Vendas - Movimento - Exportação de NFe;
+* Poder pesquisar os pedidos filtrando um cliente específico;
+* Poder pesquisar qualquer pedido sem informar o cliente;
+* Poder emitir nova informando ou não o transportador;
+* Validar o tratamento de exceções;
+* Validar a visualização do danfe gerado; 
+* Verificar se a nota consta nos servidores da SEFAZ
+
+*Como implementar:*
+
+* Selecionar a placa do veículo de acordo com o transportador;
+* Não permitir peso líquido maior que peso bruto;
+* Validar os pedidos disponíveis para emissão de NFE;
+* Validar a visualização do DANFE;
+* Validar atualização de estoque;
+* Tratar as exceções;

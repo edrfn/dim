@@ -1,0 +1,25 @@
+Títulos incorretos no Contas a Receber após realizar uma devolução gerando crédito
+1) Qual o comportamento observado?
+
+Foi identificado que ao realizar uma devolução, que gere um valor de crédito para o cliente, logo em seguida fazer uma venda no mesmo valor do crédito gerado, o sistema faz com que os valores dos títulos fiquem incorretos. Ex.: Se é feita uma venda de R$50, devolve um dos produtos no valor de R$25, gera um crédito para o cliente no mesmo valor da devolução, o produto que o cliente compra novamente tem R$25, após a confirmação da nota de devolução, os títulos do cliente ficam como R$25 e não R$50.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Como exemplo: Faça uma venda de R$50,00 com mais de um produto;
+Utilize uma forma de pagamento para 2 vezes;
+Feche o dia;
+Observe os títulos gerados no cadastro do cliente;
+Devolva  um produto da nota;
+Faça uma venda com o mesmo valor de crédito gerado para o cliente;
+Registre o recebimento aproveitando o valor de crédito;
+Confirme a nota fiscal de devolução;
+Observe os títulos do cliente;
+
+
+3) Qual o comportamento esperado?
+
+Se for feita uma devolução de R$25 para uma venda que custou R$50, e dessa devolução aproveitar o crédito para um produto também de R$25, o sistema deve manter o saldo devedor de títulos em R$50 e não R$25.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

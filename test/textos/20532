@@ -1,0 +1,11 @@
+Refatorar o Assistente de Primeira Execução
+*Como:* Tester
+*Quero:* Construção do novo Assistente de Primeira Execução
+*Para:* Obter os dados dos fornecedores facilitando contatos
+
+*Critério de validação* 
+* Após a instalação do sistema, ser possível executar as configurações iniciais, como informar os dados da empresa licenciada;
+* Executar os scripts com os inserts padrões do sistema.
+
+*Como implementar* 
+* Criar o assistente que será utilizado na primeira execução do sistema e que irá popular o banco de dados com as informações padrões.

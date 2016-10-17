@@ -1,0 +1,21 @@
+Erro nos dados gravados pela rotina de devolução a fornecedor
+Descrição
+
+
+1) Qual o comportamento observado?
+> 1- No pedido de devolução estamos guardando o número da nota a ser devolvida, quando deveríamos guardar o id referente a mesma    (campo: fknot_id); 
+> 2- A devolução não está guardando a quantidade referente a embalagem (qtdemb) no item do pedido. isso traz prejuízos a persistência do estoque.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Acessar a rotina pelo menu: Compras - Movimentos - Devolução a Fornecedor;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Importa a nota a ser devolvida;
+4- Grava a devolução;
+5- Exporta a NFe de devolução;
+6- Verificar que ocorre um erro e a quantidade devolvida não é abatida do estoque.
+
+3) Qual o comportamento esperado?
+Que a nota devolvida tenha sua quantidade abatida do estoque.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

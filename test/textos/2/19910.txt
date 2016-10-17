@@ -1,0 +1,15 @@
+Atualização da licença por data criptografada não esta funcionando
+*Qual o comportamento observado?***
+Ao tentar atualizar a licença do Dincash ou Cashone pela data criptografada, o sistema emite o um erro e atualiza a licença
+
+*Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir a rotina Sobre do sistema;
+2- Clicar no botão 'Atualizar data da licença'
+3- Preencher o campo data criptografada e confirmar
+
+*Qual o comportamento esperado?*
+É esperado que a data de expiração da licença seja atualizada.
+
+*Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+4- O sistema deve emitir um alerta informando o que a atualização foi realizada com sucesso

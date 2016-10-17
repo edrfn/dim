@@ -1,0 +1,16 @@
+Auditoria de sistema
+*Como:* PO
+*Quero:* Que o sistema mantenha no banco informações relativas a ações dependentes de permissão e/ou autorização dos usuários.
+*Para:* Que seja possível identificar por meio de permissão de administrador e supervisor quem e quando uma ação foi realizada.
+
+*Critério de validação* 
+* Ter permissão para visualizar as ações dos operadores.
+* Verificar que toda ação executada pelo usuário seja armazenada.
+
+*Como implementar* 
+* Definir uma tabela no banco de dados
+- Exemplo de dados: ação realizada, data/hora, login do operador, autorizado (permissão ou outro usuário - qual);
+* Inserir os pontos de auditoria nas classes novas do projeto de NFC-e a medida que são construidos;
+* Gravar as informações.
+
+h1. Cada nova Sprint deve ser copiado esse história até que a auditoria seja completada.

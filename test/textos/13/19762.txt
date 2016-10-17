@@ -1,0 +1,14 @@
+Refatorar a rotina de Digitar NF de Compras
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da rotina de digitar nf de compras
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validar os campos obrigatórios antes de inserir produtos.
+- Validar se já existe nota com o mesmo número, série, modelo e fornecedor.
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir

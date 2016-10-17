@@ -1,0 +1,21 @@
+Problemas com exportação de arquivos.
+*1 - Qual o comportamento observado?*
+
+Arquivos estão sendo gerados de maneira incorreta, os arquivos e os problemas são:
+
+Arquivo de Pré-venda: Durante a primeira carga o ERP gera um arquivo único com todas as pré-vendas que estão cadastradas no sistema, por conta disso o arquivo não é importado, pois o servidor espera que o arquivo contenha somente um registro.
+
+Arquivo de Entadas de Estoque: O problema é o mesmo que ocorre com o arquivo de pré-venda.
+
+Arquivo de cadastro de caixa: O arquivo está sendo gerado com o campo de situação preenchido com "S" ou "N", esse campo deve ser preenchido com "A" ou "I".
+
+*2 - Quais as etapas para obter o comportamento observado?*
+
+Solicitar a carga inicial através do PDV.
+
+*3 - Qual o comportamento esperado?*
+
+Arquivo de Pré-venda e Entradas de Estoque: Que seja gerado um arquivo diferente para cada pré-venda existente no ERP.
+
+Arquivo de cadastro de Caixa: O campo deve ser preenchido com "A" ou "I".
+

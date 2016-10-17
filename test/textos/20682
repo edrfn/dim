@@ -1,0 +1,16 @@
+Relatório de Movimento de Saída
+*Como:* Analista de negócio
+*Quero:* Criar relatório de movimento de saída
+*Para:* Prover dessa funcionalidade ao sistema
+
+*Critérios de validação*
+- Ser possível imprimir o relatório.
+- Exportar para os formatos permitidos no sistema.
+
+*Como implementar*
+- Vide documento anexo.
+- No link da tela de "Visualizar", "Gerar Relatório"
+
+h1. Implementar
+> Resumido - ordem de Emissão
+> Detalhado - ordem de Emissão 

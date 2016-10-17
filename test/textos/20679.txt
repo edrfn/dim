@@ -1,0 +1,3 @@
+[URGENTE] Cálculo de desconto na inserção do item
+O sistema calculou errado o desconto do item
+- verificar todas as telas de inserção de itens.

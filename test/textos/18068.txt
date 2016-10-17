@@ -1,0 +1,13 @@
+Setar filial padrão nas rotinas de movimento e relatórios
+Como: Scrumaster
+Quero: Alteração do campo filial nas rotinas de cadastros e movimentos setando a licenciada como padrão.
+Para: Eliminar erros na busca de filiais, sendo que o Dinâmico Varejo não tratará filial;
+
+*Critério de validação*
+Verificar em todas as rotinas de movimento e cadastros se o campo filial está com a empresa licenciada como padrão e desabilitado para edição.
+Poder executar as rotinas sem erros devido ao campo filial;
+
+*Como implementar*
+Rastrear em quais rotinas possuem o campo filial;
+Setar a empresa licenciada como padrão;
+Desabilitar a edição do campo filial;

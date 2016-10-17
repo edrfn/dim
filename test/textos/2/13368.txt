@@ -1,0 +1,2 @@
+Arquivo de caixa do Dincash sendo corrompido frequentimente
+Esta ocorrendo com frequencia em muitos clientes dos arquivos de caixa esta sendo corrompido do nada! solicito que coloque algum tipo de "bloqueio" para que outros softwares exceto o Dincash não interfiram. Ex. antivírus, vírus, pemissões etc.. 

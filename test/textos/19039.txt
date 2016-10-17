@@ -1,0 +1,10 @@
+Emissão de NF-e - Fazer com que a rotina reconheça os pedidos gerados pela Rotina Outras Saídas
+*Como:* Usuário do sistema
+*Quero:* Que a Rotina Emissão de NF-e reconheça os pedidos gerados pela Rotina de Outras Saídas.
+*Para:* Que seja possível emitir uma NF-e referente à movimentação de outras saídas geradas pelas empresas licenciadas.
+
+*Critério de validação*
+* Criar um registro de Outras Saídas;
+* Acessar a rotina de Emissão de NF-e;
+* No Campo Pedido, buscar pelo registro feito;
+* Observar que ele não aparece.

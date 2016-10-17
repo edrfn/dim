@@ -1,0 +1,8 @@
+Inutilização de Faixa NF-e [NF-e]
+*Como:* Analista de negócio
+*Quero:* Que o sistema inutilize as faixas de NF-e
+*Para:* Cumprir a uma determinação legislativa.
+
+*Critério de validação*
+- Não permitir o uso das faixas inutilizadas na emissão de notas
+

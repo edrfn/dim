@@ -1,0 +1,34 @@
+Refatorar Devolução a Cliente
+*Como:* Analista de negócio.
+*Quero:* Refatorar a rotina de Devolução a cliente.
+*Para:* Que fique de acordo com o novo framework e o novo banco.
+
+*Critério de validação*
+
+*Como Implementar*
+- Criar novo registro na tabela Notas(mestre detalhes);
+- Alterar Estoque;
+- Cancelar Títulos;
+- Implementar regra de imposto;
+
+*Para as opções abaixo, deve ser possível chamar as seguintes rotinas:*
++Opção "NOVO"+
+- Cancelar
+- Salvar e concluir
+- Salvar
+
++Opção "EDITAR"+
+_(Somente listar pedidos com situação aberto)_
+- Cancelar edição
+- Salvar
+- Salvar e concluir
+
++Opção "PESQUISAR"+
+_(Situação aberto)_
+- Editar
+- Excluir
+- Sair
+
+_(Situação liberado)_
+- Cancelar Devolução
+- Sair

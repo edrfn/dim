@@ -1,0 +1,19 @@
+Total ECF abortando ao comunicar com o sistema.
+*1) Qual o comportamento observado?*
+
+Foi identificado que, na versão 5220 do Total ECF, o sistema ao realizar a comunicação com a ECF, aborta dando erro do Java.
+
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a versão 6.1d do sistema;
+Utilize a versão 5220 do Total ECF;
+Comunique com o sistema e realize teste;
+
+*3) Qual o comportamento esperado?*
+
+A impressora deve comunicar normalmente com o sistema.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

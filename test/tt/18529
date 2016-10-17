@@ -1,0 +1,14 @@
+Corrigir sequencia dos itens na tabela itenspedidosaida
+*1) Qual o comportamento observado?*
+Foi observado que a coluna IPS_ORDEM na tabela itenspedidosaida está sendo preenchida sempre com zeros, o que ocasiona erros na geração do registro 54 do sintegra.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina de digitar pedido de vanda pelo menu: Vendas - Movimento - Digitar pedido de venda;
+2- Digitar um pedido de venda com pelo menos 2 produtos;
+3- Acessar o banco de dados, abrir a tabela itenspedidosaida e verificar que na coluna IPS_ORDEM todas as linhas referentes ao pedido digitado estão preenchidas com zero (0);
+
+*3) Qual o comportamento esperado?*
+É esperado que a coluna IPS_ORDEM da tabela itenspedidosaida seja preenchida de forma sequencial de acordo com os produtos digitados no pedido de venda;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

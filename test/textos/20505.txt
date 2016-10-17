@@ -1,0 +1,12 @@
+Visualizador de relatório do Dinâmico
+*Como:* Analista de negócio
+*Quero:* Alterar a interface do visualizador de relatório
+*Para:* Que fique de acordo com o Dinâmico
+
+*Critério de validação*
+- Tem um visual próximo a interface do Dinâmico
+
+*Como implementar*
+- Criar o visual como proposto pela hanck
+- Exibir o relatório em largura da página
+- Alterar o título de acordo com o relatório

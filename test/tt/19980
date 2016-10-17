@@ -1,0 +1,19 @@
+Desconto no item utilizando segunda embalagem, considera apenas a primeira embalagem.
+*1) Qual o comportamento observado?*
+
+No momento da digitação do orçamento, ao escolher o item e utilizar sua segunda embalagem caso seja aplicado desconto nesse item, o sistema considera o valor do produto sendo o da primeira embalagem.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça um orçamento;
+Digite um produto com duas embalagens;
+Dê desconto na segunda embalagem;
+Observe o valor do produto que foi aplicado o desconto.
+
+
+*3) Qual o comportamento esperado?*
+
+Pegar o valor da segunda embalagem.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

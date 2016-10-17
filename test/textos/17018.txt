@@ -1,0 +1,21 @@
+Desenvolvimento das Telas do Painel de Controle
+*Porque?*
+
+Conclusão do projeto de Interface com o usuário.
+
+*Como?*
+
+Desenvolvimento das telas de acordo com a proposta da Hanck.
+
+*Como implementar?*
+- Criar a estrutura de pacotes;
+- Criar o controller (interface e implementação)
+  + Tela de transferência
+  + Tela de Estações
+- Criar o view (interface e implementação)
+  + Tela de transferência
+  + Tela de Estações
+- Criar a estrutura principal que servirá para chamar qualquer tela e atualização das telas a seguir:
+  + Tela Transferência
+  + Tela de Estações
+- Testes.

@@ -1,0 +1,1 @@
+As notas rejeitadas pelas funções EnviarNFCE e CriarEnviarNFCE estão abortando o Java.

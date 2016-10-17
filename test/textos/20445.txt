@@ -1,0 +1,17 @@
+[URGENTE] Busca de Produtos nas rotinas de movimento
+*Como:* Analista de negócio
+*Quero:* Alterar o modo de pesquisar os produtos em movimento
+*Para:* Evitar erros na seleção de produtos que contém mais de uma embalagem
+
+*Critérios de validação*
+- Exibir o produto na pesquisa com a embalagem principal
+- Exibir um pop-up caso o produto tenha mais de uma embalagem
+
+*Como implementar*
+- Criar uma nova janela de visualização das embalagens
+- Caso o produto possua mais de uma, exibir essa janela com:
+> Nome do produto no título
+> Nome e sigla da embalagem
+> Quantidade no estoque
+> Preço de venda
+- Não permitir que as embalagens com valor de venda zerados, sejam vendidos

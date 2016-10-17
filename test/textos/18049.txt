@@ -1,0 +1,14 @@
+Verificação da incompatibilidade de versão Servidor de PDV e PDVs
+*Situações a considerar:*
+
+   * Servidor de PDV off;
+   * Quando o sistema é iniciado com o Servidor off não mostrar a mensagem de incompatibilidade de versão.
+
+   * Servidor de PDV iniciado com o PDV rodando;
+   * Quando o Servidor de PDV for ativado com o PDV aberto as rotinas de sincronização devem checar a versão:
+    - Está permitindo sincronizar com F12/F1;
+    - Está sincronizando vendas;
+
+   * Servidor de PDV diferente do PDV;
+
+   * Versões ok.

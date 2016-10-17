@@ -1,0 +1,15 @@
+Criação do Instalador
+Quero: A criação do novo instalador
+Para: Que tenhamos um facilitador durante a implantação do case.
+
+Critério de validação
+
+* Gerar instalador referente a:
+# Dinamico (no momento não utilizaremos o instalador construido por Michel devido a necessidade de realizar um spyke (presente na sprint corrente). Dessa forma será utilizado nossa estrutura de instalador antiga e chamado a instalação do banco de dados presente no instalador de Michel. 
+# Dinamico Server
+# Dinamico PDV - Server
+# Dinamico PDV
+* Verificar se as informações presentes no instalador, estão sendo gerados corretamente.
+
+* A estrutura atual deverá modificar (para o instalador criado por Michel), porém precisamos gerar um instalador (com direito a testes) durante as sprints.
+

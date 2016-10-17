@@ -1,0 +1,20 @@
+Mensagem de erro ao dar ESC na janela de Desconto/Acréscimo de Pedido de Venda
+Descrição:
+
+É exibida uma mensagem de erro ao apagarmos o valor inserido no campo % de Desconto (na janela de Desconto/Acréscimo em Condição de Venda) e depois darmos ESC em Pedido de Venda;
+
+1) Qual o comportamento observado?
+
+Foi observado que na janela de Desconto/Acréscimo (em Condição de Venda), após preenchermos os campos % de Desconto e Valor do Desconto, ao apagarmos o valor inserido no campo % de Desconto e dermos ESC, o sistema exibe a mensagem de erro Cannot focus a disabled or invisible window;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche todos os campos da rotina e adiciona itens no grid de Itens do Pedido > Clica em Gravar > na janela de Condição de Venda seleciona Desconto/Acréscimo > Preenche os campos % de Desconto e Valor do Desconto > Apaga o campo % de Desconto > Dá ESC > Erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que ao apagarmos o valor inserido no campo % de Desconto e dermos ESC, o sistema não exiba a mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche todos os campos da rotina e adiciona itens no grid de Itens do Pedido > Clica em Gravar > na janela de Condição de Venda seleciona Desconto/Acréscimo > Preenche os campos % de Desconto e Valor do Desconto > Apaga o campo % de Desconto > Dá ESC > Sistema foca no botão Concluir Pedido.

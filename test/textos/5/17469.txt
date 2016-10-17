@@ -1,0 +1,17 @@
+Agendamento de sincronização com o sistema de retaguarda 
+Será concedido ao cliente final escolher de quanto em quanto tempo o Painel de controle deverá buscar por atualizações.
+A medida objetiva aproximar o cliente as suas necessidades. Já foi verificado em clientes do Dincash que o processo de atualização do retaguarda só acontece em um momento especifico do dia, devido ao tamanho das cargas de dados e o tempo necessário para atualizar as estações.
+Já em outras situações, as cargas são pequenas e continuas podendo esse período de atualização ser menor e maior durante o dia de trabalho.
+
+*Critérios de Validação*
+* Possibilidade de configuração de tempo de sincronização de informações do ERP para o Painel (Importação) e do Painel para o ERP (Exportação).
+
+*Como implementar*
+* Habilitar na interface de transferência de dados o campo de agendamento da sincronização, dando ao usuário de escolher um período, podendo este ser:
+dias, horas, minutos e etc.
+* Armazenar o valor em banco e sempre que chamar a tela apresentar ao usuário.
+* Na abertura do sistema e no momento da verificação, ler do banco o valor configurado para disparar as buscas de atualização.
+* Registrar no arquivo de log o detalhamento da funcionalidade; 
+* Testes
+
+Obs.: Esse processo deverá ser avaliado, inicialmente, se servirá tanto para importação, quanto para a exportação. Caso avaliada a necessidade de configurações distintas, necessário alterar a interface.

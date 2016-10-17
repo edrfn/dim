@@ -1,0 +1,13 @@
+Sistema permite que produto seja cadastro sem que código de barras seja informado.
+*1 - Qual o comportamento observado?*
+
+Sistema permite que seja realizado o cadastro de produto sem que a informação de codigo de barra seja inserida, informação essa que é obrigatoria para que o produto seja sincronizado.
+
+*2 - Quais as etapas para obter o comportamento observado?*
+
+Realizar o cadastro de um produto sem inserir codigo de barra.
+
+*3 - Qual o comportamento esperado?*
+
+Visto que a informação é necessaria para a integração o ERP deveria impedir que o arquivo fosse gerado de maneira incorreta.
+

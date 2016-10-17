@@ -1,0 +1,13 @@
+Outras Saídas - Inclusão totalizadores na Tela de Outras Saídas
+*Como:* Usuário do sistema
+*Quero:* Fazer a inclusão de totalizadores da tela de Outras Saídas
+*Para:* Poder fazer o cadastro de Outras Saídas com itens no sistema e mostrando seus toalizadores.
+
+*Critério de validação* 
+* * No rodapé da tela de outras saídas criar os campos de totalizadores e fazer os cálculos corretamente, inserindo e excluindo itens.
+
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela.

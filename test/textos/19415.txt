@@ -1,0 +1,4 @@
+Criar atualizadores com versão 6.1d liberada
+*Como:* P.O
+*Quero:* Criar atualizadores Dinamico, Automaster e Atacado com o executável da versão 6.1d liberada e homologada na Sefaz
+*Para:* Correção do problema de não substituir as DLLs mais novas, deixando as antigas na pasta.

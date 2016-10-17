@@ -1,0 +1,2 @@
+CheckList versão 2.8J PAF e NFC-e
+Será realizado testes referente a rotina de vendas em sistemas PAF e NFC-e visto que as alterações realizadas são pontuais nessas rotinas não havendo necessidade de realizar checklist completo. 

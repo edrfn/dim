@@ -1,0 +1,17 @@
+Cadastro de Grupos - Erro de access violation ao pesquisar o NCM
+*1) Qual o comportamento observado?*
+Observou-se que ao pesquisar um NCM pela tecla Page Down o sistema exibe uma mensagem de erro de access violation e se clicar com o mouse, nada acontece.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo caminho: Cadastro - Estoque - Grupos;
+2- Clicar no botão 'Novo';
+3- Preencher os campos iniciais até chegar no campo NCM;
+4- No campo NCM tentar fazer uma pesquisa pela tecla Page down;
+5- Verificar que nesse momento é exibida a mensagem de erro;
+6- Verificar que se clicar com o mouse para fazer a pesquisa, nada acontece;
+
+*3) Qual o comportamento esperado?*
+Que seja possível fazer a busca do NCM tanto pelo mouse quanto pela tecla Page Down.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

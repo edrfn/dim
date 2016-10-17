@@ -1,0 +1,16 @@
+Ao gravar um pedido de venda o campo de quantidade na embalagem não está sendo gravado
+*1) Qual o comportamento observado?*
+A rotina de digitar pedido de venda não está gravando o valor referente a quantidade na embalagem 'ips_qtdembalagem' na tabela itenspedidosaida. Com isso a atualização do saldo de estoque não ocorre da maneira correta.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Digitar Pedido de Venda;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Digitar um pedido de venda;
+4- verificar que o campo 'ips_qtdembalagem' na tabela itenspedidosaida não foi populado;
+
+
+*3) Qual o comportamento esperado?*
+Que ao digitar pedido de venda, o campo 'ips_qtdembalagem' na tabela itenspedidosaida seja populado com a quantidade na embalagem informada no produto vendido.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

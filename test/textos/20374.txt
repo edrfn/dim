@@ -1,0 +1,13 @@
+Exportação de Pedido de venda
+*Como:* Analista de negócios
+*Quero:* Exportar os pedidos de venda do ERP para o PDV
+*Para:* Permitir a integração do retaguarda com o frente de loja
+
+*Critérios de validação*
+- Verificar os dados enviados do ERP e a chegada no PDV
+- Verificar o tempo de atualização
+
+*Como Implementar*
+- Verificar layout de integração de cadastros
+- Ao *salvar* ou *alterar* pedidos de venda (passiveis de integração)enviar.
+- Checar as *configurações* e *licença* para integração

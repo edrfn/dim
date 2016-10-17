@@ -1,0 +1,14 @@
+Cadastro de cliente sem endereço cria endereço vazio no banco de dados
+*Qual o comportamento observado?*
+Ao realizar um cadastro de cliente sem informações de endereço, o sistema cria um endereço "vazio" (com apenas id e data) no banco de dados e referencia no cadastro de cliente. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Realizar um novo cadastro de cliente com todas as informações de endereço vazia; (arquivo em anexo)
+2. Verificar na tabela endereço que há um endereço vazio;
+
+*Qual o comportamento esperado?*
+Que o sistema não crie um endereço vazio, e que também seja verificado as consequências do id do endereço na tabela de clientes, para que não ocorra erros de ponteiro nulo em consultas relacionas a estas tabelas.
+
+*Como implementar?*
+1. Implementar solução;
+2. Testes;

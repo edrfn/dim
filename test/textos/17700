@@ -1,0 +1,8 @@
+Refatoração e correção de bugs no cadastro de Grupos
+Situações relatadas no ticket relacionado:
+1- Ao selecionarmos um Grupo/Subgrupo registrado e colarmos algo em um dos campos com o botão do mouse, ao dermos Enter o sistema exibe uma mensagem de erro: "Invalid input value. Use escape key to abandon changes" - sendo que não é permitido a inserção de nenhum dado sem clicarmos em Alterar primeiro;
+2- Ao selecionarmos um grupo registrado que possua uma Foto inserida, clicarmos em Alterar (alterarmos algo) e depois em Cancelar, o sistema excluí a foto.
+3- Em um registro gravado que contenha uma Foto inserida, ao realizarmos qualquer alteração e clicarmos em Gravar, o sistema apaga a Foto do registro. Entretanto, se saírmos da rotina e entrarmos novamente, podemos perceber que a Foto não foi excluída;
+4- Ao selecionarmos um Grupo principal na pesquisa que possua o campo Status em Inativo, ao alterarmos para Ativo e clicarmos em Gravar, o sistema exibe uma mensagem de alerta informando que um SUBGRUPO que já foi excluído não pode ser Ativo;
+5- Ao selecionarmos um Grupo principal na pesquisa que esteja com o Status em Inativo, ao alterarmos para Ativo e clicarmos em Gravar, o sistema exibe uma mensagem de alerta informando que o SUBGRUPO não pode ser Ativo porque seu GRUPO está Inativo. Ao sair da rotina e entrar novamente, a mensagem não aparece mais, a janela fica em branco. Outrora, quando selecionamos uma das opções do campo Status e abrirmos outra janela na frente, o sistema aborta automaticamente;
+6- Na inserção de um novo registro, ao inserirmos no campo Grupo a numeração de um Grupo principal já cadastrado, o sistema exibe uma mensagem de alerta incorreta.

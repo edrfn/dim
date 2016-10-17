@@ -1,0 +1,20 @@
+Alterar orçamento, adicionar novo item pega o valor do último produto adicionado
+*1) Qual o comportamento observado?*
+
+Ao alterar um orçamento e adicionar um novo produto, se for dar desconto nesse produto adicionado o sistema apresenta o valor do último produto adicionado no orçamento. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça um orçamento;
+Salve o orçamento;
+Altere o orçamento gerado;
+Adicione um novo produto;
+Dê desconto no novo produto;
+Observe o preço que o sistema trouxe;
+
+*3) Qual o comportamento esperado?*
+
+Pegar o preço real do produto.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

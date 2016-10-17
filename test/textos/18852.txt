@@ -1,0 +1,16 @@
+Implementar a validação no Xintegra para NFC-e
+*Como:* Product Owner
+*Quero:* Que o xintegra efetue a busca no banco de exportação na tabela venda.dto os campos SER_NOTA e MOD_NOTA e grave no Automaster conforme estive preenchido no Banco de Dados.
+*Para:* Permitir o envio das NFC-e's emitidas no DinCash para o Automaster
+
+*Critério de validação*
+Foi criado o ambiente de integração entre os dois sistemas e configurado no Dincash a emissão de NFC-e.
+
+Ao integrar o xintegra não validava no banco de EXPORTACAO na tabela venda.dto os campos SER_NOTA e MOD_NOTA a quais ficam gravados as informações da NFC-e.( Sendo assim os dados iam para o automaster como 2D.)
+O SER_NOTA estava gravado com "1" e o MOD_NOTA estava com "65"
+
+
+
+*Como implementar*
+
+Ao efetuar a NFC-e no Dincash e exportar para o banco de "Exportação" criar a validação para o xintegra ler na tabela venda.dto os campos SER_NOTA e MOD_NOTA e gravar a informação para o Autnff campos (SERNFF e MODNFF) e autite campo (SERNFF).

@@ -1,0 +1,15 @@
+Inserção da ferramenta SONAR para medição de qualidade no Jenkins.
+
+Como: Deve ser inserido no Jenkins um plugin para a utilização do SonarQube rodando com o ANT.
+Quero: Fazer uso de estatísticas de código e de qualidade de programação com o SonarQube
+Para: Diminuir a quantidade de bugs que são gerados durante a manutenção do sistema e durante a implantação de novas funcionalidades.
+
+*Critério de validação*
+
+Ser possível gerar estatísticas do código com o Jenkins e o SonarQube.
+
+*Como Implementar*
+
+- Instalar o SONAR no Jenkins;
+- Configurar o SONAR para o PDV e para o Painel;
+- Testes;

@@ -1,0 +1,2 @@
+Gerar a versão 2.8i com base na versão 2.8g para que o cliente possa gerar o relatório gerencial
+O Cliente Vei Peças utiliza o ECF Bematech MP2100 e foi atualizado para a versão 2.8h, porém em alguns clientes que utilizam este ECF com esta versão o sistema não é aberto. O cliente precisa enviar um relatório gerencial para a SEFAZ emitindo-o da ultima versão cadastrada. O cliente esta utilizando a versão 2.8g mas é necessário gera uma versão com a correção da abertura do sistema com este ECF e cadastra-la na SEFAZ

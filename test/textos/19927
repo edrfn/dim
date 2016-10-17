@@ -1,0 +1,27 @@
+Problema com vendas onde existe valor de Desconto no Paraná.
+LOCAL:
+DincashPDV  Módulo NFc-e  Envio de XML
+
+VERSÃO:
+Identificado na última versão (2.8j)
+
+PRÉ-CONDIÇÕES:
+  Usar ambiente do Paraná.
+  Utilizar base com integração Nfc-e com a migrate.
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Efetue uma venda normal.
+2) Na tela de pagamento Aperte F1 para inserir o desconto.
+3) Tente concluir a emissão da NFc-e
+4) Nesse momento será apresentado o retorno da Sefaz que indica que o Total do Valor Aproximado dos Tributos difere do somatorio dos itens.
+
+ERRO:
+Ao efetuar uma venda com desconto no ambiente do Paraná utilizando o invoicy e retornado um erro para o usuário e a nota não é enviada.
+Percebeu-se que há uma má formação do XML que causa o problema.
+
+SITUAÇÃO DESEJADA:
+A venda deve ser concluida com ou sem informações de Desconto e acrescimo.
+
+OBS:
+
+Em anexo, XML com o problema relatado.

@@ -1,0 +1,14 @@
+O sistema não encontra o arquivo IBPTax.xxx  no caminho indicado na primeira configuração 
+*Qual o comportamento observado?*
+Ao configurar o sistema para utilizar IBPT pela primeira vez, indicando o caminho e versão do arquivo, o sistema procura o arquivo que contém a carga tributária com o nome IBPTax.15.1.BUsado.csv, sendo que o arquivo (IBPTax.15.1.B.csv) só terá o nome "Usado" depois que o sistema processá-lo, sendo assim, o sistema não encontra o arquivo, logo, não carrega a carga tributária dos produtos. 
+
+No log é mostrado que o sistema procura o arquivo na pasta "processado", dentro do caminho configurado. 
+
+*Quais as etapas para obter o comportamento observado?*
+Primeiramente, colocar o arquivo de nome IBPTax.15.1.B.csv na pasta desejada, e caso o seu sistema já tenha carregado alguma vez a tabela IBPT apague a pasta processado e o arquivo que contém nela. O ideal é que seja simulado uma configuração inicial.
+1. Preencher o campo NCM no cadastro de produto, com NCM válido;
+2. Configurar o sistema para utilizar IBPT, em Ferramentas > Configuração do sistema> aba Frente de Caixa > Impostos;
+3. Verifique se o sistema encontrou a tabela IBPT; (no log ou o preenchimento dos campos de carga tributária em produtos) 
+
+*Qual o comportamento esperado?*
+Que o sistema encontre a tabela IBPT na pasta indicada, e não procure o arquivo na pasta "processado" quando a configuração for realizada pela primeira vez, ou que seja feita uma varredura em ambas as pastas.

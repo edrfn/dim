@@ -1,0 +1,9 @@
+Fazer lançamento períodicos de contas a pagar no sistema
+Realizar o lançamentos de contas a receber no sistema e visualizar as receitas geradas por ele.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17337
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem criou.

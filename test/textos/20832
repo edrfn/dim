@@ -1,0 +1,8 @@
+Cliente sem informação de CPF ou CPNJ está sendo gravado incorretamente
+*Comportamento observado:*
+
+Quando gravado em banco o campo de CPF/CNPJ está gravando '', quando deveria gravar vazio. Isso faz com que o sistema entenda isso como dado e a validação para valor para cliente sem CPF/CNPJ não está sendo feita.
+
+*Comportamento esperado:*
+
+Que seja gravado corretamente para que o sistema faça a verificação correta das informações e a validação aconteça

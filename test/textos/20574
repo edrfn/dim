@@ -1,0 +1,17 @@
+O sistema estar gerando títulos com valores de entradas, quando os mesmos são maiores que o valor da venda
+*Comportamento Observado*
+
+O sistema estar gerando titulos com valores maior que a venda, ou seja, o pagamento estar sendo dado maior que a venda sem gerar troco.
+
+
+*Procedimento para simulação*
+
+# Fazer um pedido de venda no valor de R$10,00;
+# Escolher um plano de pagamento que exija entrada;
+# Não digitar a entrada a principio;
+# Pagar os 10 reais em cartão;
+# Tentar emitir nf-e ou efetivar o pedido;
+# O sistema irá avisar que é preciso digitar o valor de entrada;
+# Digitar R$30 no campo de entrada;
+# Efetivar ou emitir nf-e;
+# Verificar que o sistema permitiu finalizar o pedido de venda e gerou um titulo no valor de R$10,00 com a espécie cartão e outro no valor de 30 reais para a espécie dinheiro.

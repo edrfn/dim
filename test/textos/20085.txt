@@ -1,0 +1,17 @@
+Ao emitir relatório Livro Fiscal de Saídas, o sistema apresenta erro log
+*1) Qual o comportamento observado?*
+
+Ao emitir relatório Livro Fiscal de Saídas, o sistema apresenta erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a base disponível em: "\Teste\Bases Redmine\Brasil.rar"
+Emita o relatório Livro Fiscal de Saídas em um período superior a um mês;
+Observe o erro log.
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve emitir o relatório
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

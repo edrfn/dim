@@ -1,0 +1,17 @@
+Notas de substituição de cupom estão destacando imposto no SPED
+*1) Qual o comportamento observado?*
+
+Foi verificado que, ao realizar uma substituição de cupom por NFe no sistema e gerar o SPED, o sistema destaca o imposto na nota, fazendo com que o mesmo seja destacado duas vezes, no cupom e na nota fiscal eletrônica.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma venda cupom;
+Faça uma substituição do mesmo;
+Exporte a NF-e eletrônica;
+Feche o dia;
+Gere o SPED Fiscal no dia específico da nota;
+Observe no validador do PVA, em: Escrituração, Documentos fiscais de saída, "NF, NF Avulsa, etc", no campo Nota Fiscal Eletrônica, selecione a nota, observe abaixo a aba "Analítico", em seguida o campo de valor do ICMS.
+
+*3) Qual o comportamento esperado?*
+
+Notas de substituição de cupom não devem ser destacadas o imposto duas vezes, visto que o valor de ICMS é pago duplicado.

@@ -1,0 +1,16 @@
+Cancelar transação TEF se nao autorizar a NFC-e
+1) Qual o comportamento observado?
+
+Se após fazer uma venda com NFC-e e com forma de pagamento cartão com TEF, autoriza o cartao e depois não autoriza a NFC-e, o sistema não permite que exporte novamente a NFC-e, pois para usar a forma de pagamento com cartão e TEF tem que ser pela rotina de registrar recebimento, dessa forma seria necessário passar o cartão novamente.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma venda com forma de pagamento cartão com TEF;
+Registrar o recebimento;
+Se não autorizar a NFC-e, verificar que não é permitido exportar de outra forma.
+
+OBS: Seria interessante que, se não autorizar a NFC-e que toda a transação TEF fosse cancelada para fazer novamente.
+
+3) Qual o comportamento esperado?
+
+Se não autorizar a NFC-e que seja cancelada a transação TEF.

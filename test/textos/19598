@@ -1,0 +1,4 @@
+Versionamento do Total ECF
+*Como:* Product Owner
+*Quero:* Alteração no Jenkins para versionamento do Total ECF
+*Para:* Corrigir o problema apresentado nas novas versões geradas que não aparece a build correta, apenas a mensagem 1.0 r$ (svn.red)

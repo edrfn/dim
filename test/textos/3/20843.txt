@@ -1,0 +1,10 @@
+Não é possivel fechar a tela de licença do sistema
+*Comportamento observado*
+# Se o serviço de licença estiver parado ou a licença expirada não é possível fechar o sistema, tem que ser pelo gerenciador de tarefas.
+# Ao clicar em gerar ou carregar a licença dá um erro de memória.
+
+*Comportamento esperado*
+# Ser possível fechar a tela da licença quando ela for chamada externamente.
+# Gerar o arquivo de solicitação de licença ou carregar a licença.
+
+*Obs: O sistema foi instalado e não alterado o exe*

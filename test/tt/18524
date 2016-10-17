@@ -1,0 +1,15 @@
+Refatoração do Framework - Unidade de Medida
+Como: Coordenadora de Projetos
+Quero: Refatoração do cadastro Unidade de Medida.
+Para: A rotina ser adaptada ao novo formado proposto.
+
+*Critério de validação*
+
+    Ter acesso à funcionalidade através do menu: Estoque -> Cadastro -> Unidade de medida;
+    Inserir, alterar, excluir, pesquisar.
+    Poder gravar os dados, novos ou alterados, da unidade de medida;
+
+*Como implementar*
+
+    Adaptar a rotina ao novo formato;
+

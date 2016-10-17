@@ -1,0 +1,22 @@
+[Urgente] Pedidos de Vendas - Sistema apresenta erro ao gravar dois pedidos seguidos
+*1) Qual o comportamento observado?***
+Após abrir o sistema e realizar um primeiro pedido de venda,
+no segundo pedido, ao tentar gravar, sistema apresenta um erro
+sendo necessário reiniciar o sistema para efetuar outro pedido.
+E ainda gerando uma reserva nos produtos contidos no mesmo.
+
+ERRO: Myfiltroscds: Cannot perform this operation on an open dataset."
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedidos de venda
+2- Realizar um pedido de venda e grava-lo
+3- realizar um segundo pedido de venda e grava-lo.
+4- usuário irá verificar o erro
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema realize o procedimento de venda da forma correta.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

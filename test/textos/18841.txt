@@ -1,0 +1,21 @@
+O Relatório de Movimento de Entrada do tipo sintético e analítico estão com valores diferentes dos que constam no relatório do tipo Totais
+*1) Qual o comportamento observado?*
+O Relatório de Movimento de Entrada do tipo sintético e analítico estão com valores diferentes dos que constam no relatório do tipo Totais
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo caminho Compras - Relatórios - Relatório de Movimento de Entrada;
+2- Informar um período no qual possua notas;
+3- Escolher um tipo: Analítico ou Sintético e clicar em imprimir;
+4- Observar que o valor total do período informado está diferente do que o total por CFOP.
+
+*3) Qual o comportamento esperado?*
+Espera-se que os valores totais, tanto por CFOP quanto do período informado, sejam iguais.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.
+
+==========================================
+
+h3. Anotações da Reunião de Planejamento:
+
+>Dica: Verificar com Pereira possíveis alinhamentos para resolução do problema.

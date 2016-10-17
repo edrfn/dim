@@ -1,0 +1,9 @@
+Geração de versão pelo Jenkins
+*Como:* Scrum Master
+*Quero:* Que seja possivel gerar as versões do Dinâmico PDV com o Jenkins
+*Para:* Melhor controle de versão do sistema
+
+*Critérios de validação:*
+
+Deve ser possível realizar a geração de versão do sistema através da ferramenta Jenkins. Também deve ser possível realizar o controle de build, hoje não sabemos qual a build gerada no momento por conta do Jenkins não está fornecendo essa informação.
+

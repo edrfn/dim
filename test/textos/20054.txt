@@ -1,0 +1,12 @@
+Adicionar nome do sistema nos arquivos de Requisição e Licença
+*Como:* Scrum Master
+*Quero:* Adicionar informação do nome do sistema nos arquivos de licença
+*Para:* Diferenciar a licença pelo sistema (Dinamico Varejo ou Dinamico PDV)
+
+*Critério de validação*
+Verificar que o nome do sistema é fornecido nos arquivos de requisição e licença.
+
+*Como implementar*
+- Adicionar nome do sistema no arquivo de requisição gerado pelo servidor de PDV
+- Adicionar nome do sistema no arquivo de licença gerado pelo License Manager
+- Testar

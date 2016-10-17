@@ -1,0 +1,2 @@
+Ativar validador na função criarXmlNFCe da dll TotalNFC-e
+Hoje a função "criarXmlNFCe" da DLL TotalNFC-e não efetua validações de campos do XML. A solicitação consiste em fazer a validação do XML

@@ -1,0 +1,17 @@
+Serviço DinamicoService abrindo várias conexões no banco
+*1) Qual o comportamento observado?***
+Ao iniciar o serviço DinamicoService várias conexões ao banco são abertas indevidamente. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Reiniciar o computador e antes de executar o Dinâmico, verificar se o serviço DinamicoService está iniciado, se estiver, ele deve ser interrompido;
+2- Abrir o PGadmin e rodar a seguinte consulta: select * from pg_stat_activity
+3- Verificar quantas conexões estão abertas;
+4- Iniciar o serviço DinamicoService e rodar novamente a consulta no PGadmin;
+5- Verificar o número de conexões abertas.
+
+*3) Qual o comportamento esperado?*
+É esperado que o serviço DinamicoService não abra um número grande de conexões.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+

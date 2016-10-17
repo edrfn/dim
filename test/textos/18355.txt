@@ -1,0 +1,4 @@
+ Criação do tipo de cobrador "Total Boletos", e criação de novos campos a serem alimentados no cobrador
+*Como:* Product Owner
+*Quero:*  Criação do tipo de cobrador "Total Boletos" e criação de novos campos a serem alimentados no cobrador
+*Para:* Emissão de boletos com o ACBr

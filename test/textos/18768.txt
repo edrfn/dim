@@ -1,0 +1,16 @@
+O pedido de saída gerado pela finalização do balanço não está sendo reconhecido pelas rotinas Efetivar pedido
+*1) Qual o comportamento observado?*
+Observou-se que a rotina Efetivar Pedido não reconhece o pedido gerado pela nota de compra.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir um balanço inserindo produtos e quantidades nele. Estoque- Movimento- Abertura de balanço;
+2- Fechar o balanço. Estoque- Movimento- Finalizar Digitação de balanço;
+3- Abrir a rotina  Efetivar Pedido e no campo Pedido pesquisar por aquele gerado pela finalização do balanço.
+4- Observar que o pedido não aparece na pesquisa.
+
+*3) Qual o comportamento esperado?*
+que a rotina mencionada reconheça os pedidos gerados pela finalização do balanço.
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.

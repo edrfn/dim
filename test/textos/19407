@@ -1,0 +1,10 @@
+Criar o gerenciamento de acesso a NFe por meio da licença
+Como: Administrador do sistema
+Quero: Que o acesso à emissão de NFe seja determinado pela licença
+Para: Comunicação segura com o License Manager.
+
+Critério de validação
+O ERP deve limitar o acesso a emissão de NFe por meio da licença.
+
+Como implementar 
+O ERP deve ler o arquivo de licença encriptado pelo License Manager.

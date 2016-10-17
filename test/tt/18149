@@ -1,0 +1,13 @@
+[License Manager] Controlar a versão dos sistema Dincash/Cashone
+*Como:* Usuário do sistema License Manager
+*Quero:* Realizar o controle de versão utilizada por cada cliente dos sistema Cashone/Dincash
+*Para:* Consultar e controlar as versões utilizadas e permitir ações para evitar que clientes utilizem versões não permitidas;
+
+*Critério de validação* 
+* No arquivo .request deve constar a versão do sistema que o cliente esta utilizando.
+* Ao carregar o .request o registro da licença do cliente no banco do License Manager deve ser atualizado.
+* O arquivo de licença gerado pelo License Manager deve constar a versão para qual o arquivo foi gerado.
+* Ao renovar as Licenças e gravar a data criptografada no banco de dados do Smart, deve ser criada conforme a versão corrente na licença do cliente.
+
+*Como implementar* 
+* Atualmente o controle de versão está inativo no Dincash/Cashone, o campo referente a versão é passado um valor fixo para todas as versões, este controle deve ser habilitado passado o valor referente a versão com por exemplo. "2.8h". Na rotina 

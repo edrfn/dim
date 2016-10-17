@@ -1,0 +1,29 @@
+Correções no instalador
+*Como:* Analista de negócio
+*Quero:* Corrigir o instalador do sistema
+*Para:* Facilitar o processo de instalação
+
+*O que implementar*
+h1. Correções necessárias
+
+Mensagem: 
+1. "Por favor, espere enquanto o Wizard de instalação remove o Instalador Dinâmico Varejo. Poderá demorar vários minutos"
+   "Por favor, aguarde. Removendo os componentes do Dinâmico Varejo."
+
+2. "You must agree to the Licenses terms and conditions before you can install Dinamico Server"
+   "Você concorda com os termos e condições de licença do Sistema Dinâmico Varejo?"
+
+3. "I agree to the License terms and contitions."
+   "Sim, eu concordo."
+
+4. (botão) "Installar"
+           "Iniciar instalação"
+
+Servidor de PDV:
+5. Não gerou o arquivo de carga inicial, pois a pasta estava sem permissão.
+
+Geral:
+6. Erro de violação de acesso ao fechar a aplicação.
+7. O Skin do sistema estava diferente. (Menu de módulos em preto com destaque branco, barra de título branca)
+
+Vide imagens anexas #20534

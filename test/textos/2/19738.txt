@@ -1,0 +1,12 @@
+Refatorar a rotina de abertura de balanço
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da rotina de abertura de balanço
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar a rotina solicitada.
+
+*Como implementar:*
+
+- Interface para a rotina

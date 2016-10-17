@@ -1,0 +1,20 @@
+Alerta de fechar o sistema, permite abrir o sistema com a licença vencida.
+*Comportamento observado*
+- Com a licença de uso do sistema, sem permitir o uso do mesmo é possível cancelar a mensagem de alerta "sair do sistema" e abrir.
+
+*Comportamento esperado*
+- Verificar a condição da licença nos casos em que o sistema está sendo encerrado porque não tem licença
+
+*Passos para reproduzir o comportamento*
+- Modo 1
+> Desligar o Dinâmico Server
+> Abrir o sistema
+> Confirmar os erros 003 e 001
+> Fechar a tela de licença do sistema
+> Cancelar a janela de alerta "sair do sistema"
+
+- Modo 2
+> Alterar a data do computador para uma maior que a licença
+> Confirmar a mensagem de validade da licença
+> Fechar a tela de licença do sistema
+> Cancelar a janela de alerta "sair do sistema"

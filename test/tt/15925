@@ -1,0 +1,45 @@
+Problema com Liberação de Desconto na Venda
+Breve descrição do caso:
+
+Há um problema na liberação do Desconto na venda.
+
+Comportamento Observado:
+
+O cliente tem um problema na liberação do desconto no Automaster. Testei em algumas versões e na ultima versão homologada, 5.0H e também verificado na 5.0J. Alguns valores especificos o sistema esta consistindo e não deixa passar mesmo colocando o percentual configurado para liberar.
+ 
+Verifiquei as casas decimais de valor unitario e não é isso.
+Quando efetuamos a venda que vamos tentar colocar os 4% o sistema não permite.
+
+Quando informo 4% num produto de 6,90 ele considera o Valor do Desconto: 0,276 e valor final 6,62 e não permite a venda.
+
+Percebi que quando deixo percentual e valor do desconto em branco e coloco direto o valor final(6,62) o sistema considera como se fossem 4,06 de desconto e 0,280 de valor de desconto. Por isso não esta passando. (imagem1)
+
+Na calculadora do windows 4% de desconto num produto de 6,90 é igual um valor de 6,624.
+
+Etapas para o Comportamento Observado:
+
+Cadastro do usuario - Libera ate 1ª Faixa
+Parametros de Venda - 1ª Faixa = 4%
+Preço de venda do Produto - 6,90
+
+Tentar vender o produto com 4% de desconto.
+
+Comportamento Esperado: 
+
+O sistema deveria aceitar a faixa de desconto fornecida pela configuração.
+
+Etapas Comportamento Esperado:
+
+Cadastro do usuario - Libera ate 1ª Faixa
+Parametros de Venda - 1ª Faixa = 4%
+Preço de venda do Produto - 6,90
+
+Tentar vender o produto com 4% de desconto.
+
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+5.0J	
+
+Informações adicionais.
+>>segue imagem que ilustra a situação (imagem1)

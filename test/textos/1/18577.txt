@@ -1,0 +1,17 @@
+Não está sendo Possível Liberar Nota Fiscal de Compra 
+*1) Qual o comportamento observado?*
+Foi Observado que não está sendo possível liberar uma nota de compra pois, toda vez que tenta fazê-lo, é exibida a seguinte mensagem de erro: "Operator does not exist: integer = character varying";
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Obs.:É necessário ter uma Nota de Compra no sistema sem diferença
+1- Acessar a rotina através do caminho: Compras-Movimentos_ Liberar NF de Compra;
+2- Preencher o campo fornecedor;
+3- No campo Nota Fiscal, escolher a nota que se pretende liberar;
+4- Clicar no botão Confirmar;
+5- Verificar que a mensagem citada acima é exibida.
+ 
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema permita a liberação de uma Nota Fiscal de Compra pois, esse procedimento é necessário para se fazer vários outros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.

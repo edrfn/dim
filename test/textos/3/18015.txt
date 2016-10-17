@@ -1,0 +1,14 @@
+Melhorias no Painel Inicial - Parte 1
+*Como:* Stakeholder
+*Quero:* Suprimir as opções da interface não disponíveis a interação com o usuário e corrigir outros detalhes da interface.
+*Para:* Fornecer um conjunto mínimo viável e funcional do sistema.
+
+*Critério de validação* 
+* Tudo que estiver visível ao usuário deve estar funcional
+
+*Como implementar* 
+1- Desabilitar os campos e opções de menu.
+1.1- Campo de busca;
+1.2- Caixa de mensagens;
+2- Mudar o ícone que direciona o sistema ao site da Total Informática;
+3- Colocar o atalho de parâmetros gerais e retira-lo do módulo de cadastro.

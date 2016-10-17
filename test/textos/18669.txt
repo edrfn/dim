@@ -1,0 +1,11 @@
+Treinamento e CheckList PAF versão 2.8i
+*TREINAMENTO DE TESTE:*
+
+- _Será realizado um treinamento de teste de software seguindo o roteiro da planilha de checklist._
+
+- _Ao final desse ticket o tester deverá ter o conhecimento necessário para executar os testes do roteiro de checklist PAF descrito na planilha 2.8i_2_
+
+*SISTEMA:* Cashone 2.8i
+*CHECKLIST:*  2.8i_2
+*LINK:* https://docs.google.com/spreadsheets/d/17P7oA2G-0eSTfYfslxohV7Vkmi7bLKzIrBS1KlLUpdY/edit#gid=177026400
+*MÓDULO:* PAF

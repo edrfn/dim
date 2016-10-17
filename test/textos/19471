@@ -1,0 +1,8 @@
+Testar a Compatibilização de pastas do sistema para dar suporte a estrutura ao novo instalador
+Testar as alterações das pastas do sistema para compatibilizar ele com o novo instalador.
+
+*Critério de validação*
+Sistema funcionando com o novo instalador;
+
+*Como implementar*
+Verificar tarefa relacionada;

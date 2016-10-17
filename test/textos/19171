@@ -1,0 +1,11 @@
+Criar a interface e os filtros no relatório de posição de estoque
+Quero: Construção da tela inicial e dos filtros do relatório de posição de estoque.
+Para: Concluir a parte inicial da geração do relatório citado;
+
+Critério de validação
+Ter acesso à funcionalidade através do menu: Venda - Relatórios - Posição de Estoque;
+Os filtros estarem funcionando corretamente;
+Como implementar
+Criar a interface do relatório;
+Criar os selects dos filtros necessários;
+Criar as telas de busca dos filtros;

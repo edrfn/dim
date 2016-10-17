@@ -1,0 +1,9 @@
+Compatibilização de pastas sistema para dar suporte a estrutura ao novo instalador
+*Quero:* ALterar as pastas do sistema para compatibilizar ele com o novo instalador.
+*Para:* Utilizar o novo instalador;
+
+*Critério de validação*
+Sistema funcionando com o novo instalador.
+
+*Como implementar*
+Verificar arquivo em anexo

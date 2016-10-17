@@ -1,0 +1,1 @@
+[Migrate] Correção na impressão por Spooler com a bematech 4200 TH

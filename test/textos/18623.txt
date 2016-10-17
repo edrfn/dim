@@ -1,0 +1,17 @@
+A chave da Carta de Correção não está sendo gravada no banco de dados
+1) Qual o comportamento observado?
+observou-se que no banco não está sendo gravada a chave da Carta de correção; 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+Obs.: É necessário ter uma Nota fiscal de algum pedido de venda.
+1- Abrir a rotina através do caminho: Vendas- Movimentos- Carta de Correção;
+2- Clicar no botão Novo;
+3- Preencher os campos necessários para a criação de uma carta de correção;
+4- Gravar o registro e apertar F9 para a emissão da Carta de Correção.
+5- Observar no banco de dados, na tabela 'cartacorrecao' que o registro consta, mas o campo referente à chave da CCe.
+
+3) Qual o comportamento esperado?
+Espera-se que seja gravado no banco o dado referente à chave de CCe também.
+
+4) Quais as etapas para executar o comportamento esperado?
+Os mesmos do passo 2.

@@ -1,0 +1,26 @@
+Calculo de Substituição
+1) Qual o comportamento observado?
+
+-Em uma nota de saída o valor de icms de substituição não é calculado da maneira correta, a base de calculo de substituição é calculada da maneira correta, mas o valor do icms de substituição não, trata-se de uma venda para fora do estado, e os produtos tem alíquota substituída de 12%.- 
+
+Ao emitir uma nota para fora do estado, onde a alíquota de substituição seja 18% e alíquota de ICMS 12%, o sistema faz o cálculo do ICMS em cima dos 18% ao invés do 12%, fazendo com a nota fique com o valor de ICMS incorreto. Estamos com uma única alíquota trabalhando em 2 esferas, a de ICMS normal e a de ICMS substituído, por conta disso o problema é causado. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+-Informar o MVA no cadastro do produto em dados complementares e a alíquota externa. Em seguida Digitar um pedido de venda >> concluir >> exportar nfe.-
+
+Utilize o produto 12520-7, com alíquota externa 18%;
+Coloque o percentual de MVA 10%;
+Emita uma nota com cliente fora do estado;
+Verifique que o valor da substituição estará correto, porém o sistema calcula 18% para ICMS normal, ao invés da alíquota 12% que é a alíquota externa da Bahia;
+
+3) Qual o comportamento esperado?
+
+Ao emitir a nota com ICMS de substituição 18%, o sistema deve fazer o cálculo da substituição em cima desta alíquota. Porém, ao calcular o ICMS normal, a alíquota correta é 12%, uma vez que é a alíquota externa da Bahia.
+
+4) Quais os passos para reproduzir o comportamento esperado?
+
+Mesmo passo 2.
+
+*Obs.:* Base disponível em: "\Teste\Bases Redmine\Real - Teste.rar"
+Observar que a base possui rotas.

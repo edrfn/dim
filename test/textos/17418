@@ -1,0 +1,14 @@
+Erro ao emitir NFe: Total da BC ICMS difere do somatorio dos itens.
+1) Qual o comportamento observado?
+
+Foi observado que no cliente Hiper Servillar, ao realizar uma devolução a fornecedor, o sistema emite uma mensagem: "Total da BC ICMS difere do somatorio dos itens". Ao analisar o XML criado, foi identificado que o último produto está sendo calculado com valor da BC errado. Segue XML em anexo.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Pegue a base do HiperServillar, disponível em: "\Teste\Bases Redmine\Hiper SPED.rar";
+Faça uma devolução a fornedor, conforme o XML em anexo;
+Tente realizar a exportação da mesma;
+
+3) Qual o comportamento esperado?
+
+Os valores de BC e ICMS devem ser calculados de acordo com o informado na nota.

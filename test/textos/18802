@@ -1,0 +1,18 @@
+Busca de estoque (F5) quando não disponivel não apresenta nenhuma mensagem.
+*Qual o comportamento observado?*
+
+Quando o Servidor de PDV está offline, não é possível consultar o estoque porém quando solicitada a consulta no PDV nenhuma mensagem é mostrada e o PDV trava momentaneamente. 
+
+*Quais as etapas para obter o comportamento observado?*
+
+Abrir o PDV com o Servidor de PDV offline -> Pressionar "Page down" para mostrar a lista de produto -> Pressionar F5.
+
+*Qual o comportamento esperado?*
+
+Que no momento em que seja feita esse tipo de requisição com o Servidor de PDV offline o sistema emita uma mensagem dizendo que não é possivel realizar o procedimento.
+
+*Como implementar?*
+
+- Identificar o ponto onde a requisição ocorre
+- Adicionar mensagem
+- Testes

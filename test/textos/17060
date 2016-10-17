@@ -1,0 +1,16 @@
+PDV trava ao tentar cancelar o último cupom (F12 > F6)
+*Qual o comportamento observado?*
+Ao cancelar o último cupom utilizando os atalhos F12 > F6, o PDV trava. O erro ocorreu utilizando as impressoras fiscais Bematech MP 2100 e 3000.
+
+*Quais as etapas para obter o comportamento observado?*
+Utilizando impressora fiscal:
+1. Realizar uma venda;
+2. Em seguida cancelar a última venda, F12 > F6; Veja que o PDV travou, as teclas de atalho não funcionam;
+
+*Qual o comportamento observado?*
+Ao utilizar os atalhos F12 > F6 o último cupom deverá ser cancelado, imprimindo o cupom de cancelamento, sem travar o PDV.
+
+*Como implementar?*
+-Localização de conceito;
+- Testes;
+

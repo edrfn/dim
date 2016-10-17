@@ -1,0 +1,14 @@
+Validação de informações necessárias para primeira integração dos dados de integração
+Existem alguns dados no sistema que são obrigatórios para o seu funcionamento.
+Deve ser inserido no PDV mensagens que notifiquem claramente ao usuário o que está ocorrendo.
+
+Exemplos de inconsistências:
+- O sistema não abre se não tiver sincronizado configuração do sistema;
+- O sistema exige o cadastro da espécie dinheiro;
+- Licenciada;
+- Caixa;
+
+*Como implementar?*
+1. Identificar quais dados são necessários para primeira integração;
+2. Implementar checagem e mensagem de aviso caso dados necessários não estejam cadastrados;
+3. Teste de validação;

@@ -1,0 +1,11 @@
+Problemas com o Banco de Dados
+*Os seguintes problemas são encontrados no banco de dados atualmente.*
+
+* A concorrência de transações precisa de alguns ajustes, certos momentos, principalmente no cadastro de produto, está ocorrendo o erro de transação. Quando isso acontece o registro que estava sendo inserido acaba sendo gravado de forma incompleta e no caso deveria acontecer um rollback para tirar o que já foi gravado. É possível simular o erro cadastrando um produto e para a embalagem dele realizar um cadastro de uma nova embalagem, o erro ocorrerá assim que confirmar as informações de embalagem, de unidade de medida e for tentado salvar.
+
+* Sistema em alguns momentos emite uma mensagem dizendo que o banco tem muitas conexões, porém só existe uma única estação acessando. Essa situação só é resolvida quando o sistema é encerrado.
+
+=========================================
+Observações que foram coletadas durante a votação:
+
+_Deve ser aplicado no sistema o LazyInitiation para que o segundo ponto seja analisado, mas de qualquer forma faz parte do escopo do ticket a análise do problema_

@@ -1,0 +1,13 @@
+Erro nos relatórios do modulo de produção onde as informações do relatório sai somente em meia página
+1. Qual o comportamento observado?
+
+Foi verificado que, ao emitir qualquer relatório do módulo de produção que não seja de cadastro, as informações do relatório saem quebradas em meia página, mesmo tendo  varias páginas.
+
+2. Etapas para reproduzir o comportamento.
+
+Emita um relatório que não seja de cadastro no módulo produção;
+Verifique as páginas.
+
+3. Qual o comportamento esperado?
+
+A solicitação é que a emissão do relatório saia corretamente sem salto  de pagina que o conteúdo seja impresso usando toda pagina.

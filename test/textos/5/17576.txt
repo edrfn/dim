@@ -1,0 +1,1 @@
+CFOP inválido está dando problema nas funções CriarXMLNFCE e CriarEnviarNFCE . 

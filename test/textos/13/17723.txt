@@ -1,0 +1,35 @@
+Criar Registro C020 do SEF-II
+Deve ser criado o registro C020 do SEF-II, pertencente ao bloco C, e possui a estrutura abaixo:
+
+LINHA C020: DOCUMENTO - NOTA FISCAL (CÓDIGO 01), NOTA FISCAL DE PRODUTOR (CÓDIGO 04) E NOTA FISCAL ELETRÔNICA (CÓDIGO 55)
+nº campo    descrição                                                 Tipo tam dec max obgchv 
+01 LIN      Texto fixo contendo "C020"                                  C    4   -        O  
+02 IND_OPER Indicador de operação: 0- Entrada/1- Saída                  N    1   -        O C 
+03 IND_EMIT Indicador do emit do doc fiscal: 0-Própria/1-Terceiros      N    1   -        O C
+04 COD_PART Cód do participante (campo 02 da Linha 0150)                C    -   - 28     O C
+05 COD_MOD  Cód do modelo do doc fiscal                                 C    2   -        O C 
+06 COD_SIT  Cód situação do doc fiscal, conf. a tabela no item 4.1.3    N    2   -        O C 
+07 SER Série do documento fiscal                                        C    -   - 3      C 
+08 NUM_DOC Número do documento fiscal                                   N    -   - 9      O C 
+09 CHV_NFE Chave de acesso da Nota Fiscal Eletrônica (NF-e, modelo      C   45   -
+10 DT_EMIS Data da emis do doc fiscal, na operação de entrada ou aquis  N    8   - 
+11 DT_DOC  Data da entrada ou do desembaraço aduaneiro; na saída
+   ou prestação: data da emissão do documento fiscal                    N    8   -        O C
+12 COD_NAT Cód da nat da operação ou prestação (campo 02 da Linha 0400) C    -   - 6
+13 IND_PGTO Ind do pagamento: 0- à vista/1- a prazo/2- não onerosa      N    1   -
+14 VL_DOC  Valor do documento fiscal                                    N    -   2 
+15 VL_DESC Valor do desconto na operação                                N    -   2
+16 VL_ACMO Valor do acréscimo na operação                               N    -   2
+17 VL_MERC Valor das mercadorias (valor dos itens)                      N    -   2
+18 VL_FRT Valor do frete                                                N    -   2 
+19 VL_SEG Valor do seguro                                               N    -   2
+20 VL_OUT_DA Valor das outras despesas acessórias                       N    -   2
+21 VL_OP_ISS Valor da operação tributado pelo ISS                       N    -   2
+22 VL_BC_ICMS Valor da base de cálculo do ICMS                          N    -   2 
+23 VL_ICMS Valor do ICMS                                                N    -   2 
+24 VL_BC_ST Valor da base de cálculo do ICMS da substituição tributária N    -   2
+25 VL_ICMS_ST Valor do ICMS da substituição tributária                  N    -   2 
+26 VL_AT Valor do ICMS da antecipação tributária, nas entradas          N    -   2
+27 VL_IPI Valor do IPI                                                  N    -   2 
+28 COD_INF_OBS Cód de referência a inf complementar (campo 02 da Linha 0450)
+                                                                        C    -   - 9 

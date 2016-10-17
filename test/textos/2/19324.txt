@@ -1,0 +1,1 @@
+[License Manager] Implementar criptografia e descriptografia conforme o padrão estabelecido

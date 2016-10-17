@@ -1,0 +1,14 @@
+Correção da apresentação das formas de pagamento
+O sistema está perdendo o foco da lista de grupos de espécies e espécies.
+Necessário avaliar a apresentação da lista de forma que seja intuitivo ao usuário e independente da forma como ele "manuseia o sistema" seja possível dar sequência ao processo.
+
+Sugestões:
+1. Verificar a perda de foco das listas de espécies;
+2. Alterar exibição da lista de espécie para botões;
+3. Verificar a possibilidade de colocar ícones nos grupos de espécies;
+4. Alterar nome do Grupo Vale para Vale Compra.
+
+*Como implementar?*
+- Identificar a causa da perda de foco;
+- Implementar a correção;
+- Testes.

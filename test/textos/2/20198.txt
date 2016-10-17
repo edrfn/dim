@@ -1,0 +1,16 @@
+Erro.log ao executar cancelamento do ultimo cupom
+1) Qual o comportamento observado?
+
+Ao utilizar a rotina de cancelamento do ultimo cupom, erro.log é apresentado.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça uma venda;
+Tente cancelar o ultimo cupom.
+
+3) Qual o comportamento esperado?
+
+O sistema deve emitir o cupom de cancelamento.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

@@ -1,0 +1,4 @@
+Criar opção de exportar NFC-e no menu das rotinas
+*Como:* Product Owner
+*Quero:* Criar opção de exportar NFC-e no menu das rotinas de vendas/outras operações/transferência/devolução/etc, e nessa opção parametrizar a função de geração do XML para carregar como modelo 65
+*Para:* Emissão de NFC-e para Automaster/Dinamico

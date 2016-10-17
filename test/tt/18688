@@ -1,0 +1,15 @@
+Emissão de NFe - Testar geração títulos na emissão de NFe de vendas a prazo
+*1) Qual o comportamento observado?***
+Ao emitir NFe de vendas a prazo o sistema não está gerando títulos no contas a receber.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Digitar Pedido de Venda;
+2- Digitar um pedido de venda a prazo;
+3- Emitir a NFe;
+4- Verificar que não foram gerados títulos no contas a receber referente a NFe gerada com venda a prazo;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao emitir a NFe de pedido de venda a prazo, sejam gerados os títulos referentes a essa venda no contas a receber.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

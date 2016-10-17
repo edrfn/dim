@@ -1,0 +1,12 @@
+Desabilitar rotinas de F11 que não podem ser feitas durante a venda
+O menu de atalhos F11 permite ao usuário do sistema realizar algumas operações relacionadas à venda (cancelar cupom, repetir item, cancelar item e etc). Porém algumas funções apresentadas não podem ser realizadas enquanto o cupom está aberto.
+ Importante bloquear essas funções de forma que o usuário apenas visualize que não será possível fazer uso naquele momento ao invés de permiti-lo entrar na função e posteriormente ser notificado que a venda está ativa e por essa razão o comando não será executado.
+
+*Critérios de validação*
+* No menu de opções não deve permitir utilizar os botões de funções que não podem ser utilizadas durante a venda;
+
+*Como implementar*
+* Rastrear as funcionalidades que não devem ser implementadas;
+* Desabilitar as chamadas;
+* Desabilitar os botões;
+* Testes.

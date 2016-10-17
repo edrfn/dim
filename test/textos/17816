@@ -1,0 +1,12 @@
+Imagem padrão de "caixa livre"
+*Como:* PO.
+*Quero:* Apresentar uma imagem padrão da empresa desenvolvedora do software quando o caixa estiver livre.
+*Para:* Indicar ao consumidor final a disponibilidade do caixa.
+
+*Critério de validação* 
+* Apresentar uma imagem padrão e amigável indicando ao consumidor final que o caixa está livre.
+
+*Como implementar* 
+* Solicitar a Empresa designer, Hanck, um protótipo da tela indicando que está livre. 
+* Criar a funcionalidade no sistema;
+* Testar

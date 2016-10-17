@@ -1,0 +1,12 @@
+Refatoração - Tela de Contato
+*Como:* Tester
+*Quero:* Refatoração da tela de Contato conforme novo padrão
+*Para:* Adaptar a tela ao novo padrão
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu de cadastro
+* Testar todas as validações
+
+*Como implementar* 
+* Criar formulário no novo padrão;
+* Implementar de acordo com a nova configuração do banco (tupla: descricao, tipo, valor);

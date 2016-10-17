@@ -1,0 +1,13 @@
+Click e ENTER na tela de aviso com efeitos diferentes.
+*Qual o comportamento observado?*
+
+Quando pressionado F5 para realizar a consulta de estoque na tela de busca de itens e o servidor está inativo o sistema exibe uma mensagem informando que não foi possivel realizar a consulta de estoque, caso o usuario clique no "Ok" para confirmar o sistema volta para tela de busca de item, mas caso o usuario pressione ENTER o sistema confirma o item que foi consultado o estoque e o insere na venda.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Pressionar F5 para consulta de estoque com o servidor inativo na tela de inserção de item na venda.
+
+*Qual o comportamento esperado?*
+
+Que quando o usuario pressione ENTER o sistema se comporte da mesma maneira que do clique, levando o usuario para a tela de busca de item novamente.
+

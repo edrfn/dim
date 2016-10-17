@@ -1,0 +1,16 @@
+O Dinâmico Server está sendo iniciado MANUALMENTE
+*Comportamento Observado*
+- Ao instalar o sistema, o sistema guarda corretamente as informações de _path_ de integração, mas não inicia o serviço.
+- Ao reiniciar a máquina o serviço, também não retorna, uma vez iniciado.
+
+* Consideração importante:
+- Tive que dar permissão nas pastas para que o Servidor de PDV respondesse criando as pastas de log e o arquivo de carga inicial.
+
+*Comportamento Esperado*
+- Que ao instalar o sistema o Dinâmico Server seja iniciado automaticamente.
+- Que o sistema tenha as permissões necessárias tanto para o Dinâmico Server quanto para o Servidor de PDV.
+
+*Passos para reproduzir o comportamento*
+- Instalar o sistema do zero
+- Abrir o gerenciador de serviços
+- Conferir o path de integração

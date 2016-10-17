@@ -1,0 +1,13 @@
+Refatorar o Relatório Resumo Diário (Fechamento do Dia)
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do relatório.
+*Para:* que seja adequado ao framework e a novo banco.
+
+*Critérios de validação:*
+
+- Geração do relatório resumo diário com os filtros sugeridos no requisito.
+
+*Como implementar:*
+
+- Interface para a geração do relatório.
+- Possibilidade de exportar em pdv, excel e visualização em tela.

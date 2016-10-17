@@ -1,0 +1,14 @@
+Integrar licença no sistema (Parte 2)
+*Como:* Scrum Master
+*Quero:* Que o Servidor de PDV possa realizar o carregamento de licença sem existir dependência de integração e também possua o controle do próprio período de avaliação.
+*Para:* O PDV seja independente quanto ao carregamento da licença para que seja possivel integrar com terceiros.
+
+*Critérios de validação:*
+
+- Possibilidade de controle da licença através do Servidor de PDV, gerando o proprio arquivo de requisição e lendo o arquivo gerado pelo License Manager como também a ativação do periodo de avaliação (7 dias).
+
+*Como implementar:*
+
+- Interface para carregamento da licença no Servidor de PDV.
+- Geração de licença com periodo de 7 dias quando o PDV instalado pela primeira vez.
+- Restrições para que o PDV não faça a atualização de data da licença de avaliação caso reinstalado na mesma estação.

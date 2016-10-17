@@ -1,0 +1,18 @@
+Ao alterar um orçamento, o sistema apresenta erro.log
+*1) Qual o comportamento observado?*
+
+Na alteração de um orçamento digitado, ao tentar inserir um item que não pertence ao mesmo, o sistema apresentou erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça um orçamento;
+Salve;
+Realize alterações no orçamento, inserindo um item que não pertença a ele.
+
+*3) Qual o comportamento esperado?*
+
+Não dar erro log.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

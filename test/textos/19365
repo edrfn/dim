@@ -1,0 +1,9 @@
+Criar interface da rotina [Ficha Kardex]
+*Quero:* Construção da tela inicial da Ficha Kardex.
+*Para:* Concluir a parte inicial da geração do relatório citado;
+
+*Critério de validação*
+Ter acesso a rotina através do Menu Estoque > Movimento > Ficha Kardex
+
+*Como implementar*
+Criar a interface do relatório;

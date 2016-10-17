@@ -1,0 +1,16 @@
+Incluir os pedidos referentes as devoluções na rotina de exportação de NFe
+*Como:* Analista de requisitos 
+*Quero:* Inclusão dos pedidos de devolução de cliente e a fornecedor na rotina de emissão de NFe.
+*Para:* Ser possível emitir NFe de notas de devolução.
+
+*Critério de validação* 
+* Digitar devoluções a cliente e a fornecedor;
+* Ter acesso à funcionalidade através do menu: Vendas - Movimentos - Exportação de NFe;
+* Na pesquisa de pedidos disponíveis para emissão de NFe constar também os pedidos de devolução de cliente e a fornecedor;
+* Poder emitir NFe das devoluções digitadas;
+
+*Como implementar* 
+* Incluir os pedidos gerados através das rotinas de devolução de cliente a fornecedor na busca de pedidos para emissão de NFe; 
+* Criar as tags necessárias para notas de devolução no arquivo XML gerado por cada nota, conforme manual com layout de NFe anexo;
+* Efetuar a atualização do estoque dos produtos de acordo com o tipo de movimento (entrada ou saída);
+

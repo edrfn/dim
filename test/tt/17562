@@ -1,0 +1,35 @@
+Identificar e corrigir  erro durante sincronização do Painel > PDV - Erro 2
+*Como implementar*
+* Debug;
+* Corrigir problema;
+* Testes;
+
+
+ERROR Timer-0 orion.Main - [SYSERR]javax.persistence.PersistenceException: org.hibernate.HibernateException: Found shared references to a collection: com.total.orion.model.administrativo.Cliente.contatos
+262654 2015-06-08 18:04:56,554 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1387)
+262654 2015-06-08 18:04:56,554 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.ejb.AbstractEntityManagerImpl.convert(AbstractEntityManagerImpl.java:1310)
+262654 2015-06-08 18:04:56,554 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.ejb.QueryImpl.getResultList(QueryImpl.java:277)
+262654 2015-06-08 18:04:56,554 ERROR Timer-0 orion.Main - [SYSERR]	at com.total.orion.dao.venda.jpa.JPAVendaDAO.getVendaNaoSincronizada(JPAVendaDAO.java:135)
+262654 2015-06-08 18:04:56,554 ERROR Timer-0 orion.Main - [SYSERR]	at com.total.orion.service.venda.VendaServiceImpl.getVendaNaoSincronizada(VendaServiceImpl.java:88)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at com.total.orion.sync.assync.venda.EnviaVenda.temDados(EnviaVenda.java:101)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at com.total.orion.sync.Envio.enviar(Unknown Source)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at com.total.orion.sync.assync.TaskEnvio.run(TaskEnvio.java:30)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at java.util.TimerThread.mainLoop(Unknown Source)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at java.util.TimerThread.run(Unknown Source)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]Caused by: org.hibernate.HibernateException: Found shared references to a collection: com.total.orion.model.administrativo.Cliente.contatos
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.engine.internal.Collections.processReachableCollection(Collections.java:177)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.FlushVisitor.processCollection(FlushVisitor.java:59)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.AbstractVisitor.processValue(AbstractVisitor.java:121)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.AbstractVisitor.processValue(AbstractVisitor.java:82)
+262655 2015-06-08 18:04:56,555 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.AbstractVisitor.processEntityPropertyValues(AbstractVisitor.java:76)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.DefaultFlushEntityEventListener.onFlushEntity(DefaultFlushEntityEventListener.java:175)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEntities(AbstractFlushingEventListener.java:230)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.AbstractFlushingEventListener.flushEverythingToExecutions(AbstractFlushingEventListener.java:100)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.event.internal.DefaultAutoFlushEventListener.onAutoFlush(DefaultAutoFlushEventListener.java:61)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.internal.SessionImpl.autoFlushIfRequired(SessionImpl.java:1130)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.internal.SessionImpl.list(SessionImpl.java:1187)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.internal.QueryImpl.list(QueryImpl.java:101)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	at org.hibernate.ejb.QueryImpl.getResultList(QueryImpl.java:268)
+262656 2015-06-08 18:04:56,556 ERROR Timer-0 orion.Main - [SYSERR]	... 7 more
+
+Obs.: Segue log completo em anexo.

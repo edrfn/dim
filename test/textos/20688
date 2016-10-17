@@ -1,0 +1,6 @@
+[URGENTE] Baixa de título
+1- "Filtros - não está dinâmico
+2- Comunicação com usuário - ao realizar uma baixa o sistema não está solicitando confirmação ou indicando qualquer informação ao usuário."
+3- Validações com baixa total com valor menor que o total acumulado.
+*4- A busca está mostrando parcelas ZERO. Essa condição não existe tendo em vista que todo título tem pelo menos uma parcela*
+

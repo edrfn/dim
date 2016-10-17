@@ -1,0 +1,12 @@
+Teste da funcionalidade - Incluir os pedidos referentes as devoluções na rotina de exportação de NFe
+*Como:* Analista de requisitos 
+*Quero:* Teste da Inclusão dos pedidos de devolução de cliente e a fornecedor na rotina de emissão de NFe.
+*Para:* Ser possível emitir NFe de notas de devolução.
+
+*Critério de validação* 
+* Digitar devoluções a cliente e a fornecedor;
+* Ter acesso à funcionalidade através do menu: Vendas - Movimentos - Exportação de NFe;
+* Na pesquisa de pedidos disponíveis para emissão de NFe constar também os pedidos de devolução de cliente e a fornecedor;
+* Poder emitir NFe das devoluções digitadas;
+
+

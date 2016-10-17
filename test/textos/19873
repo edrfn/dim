@@ -1,0 +1,28 @@
+Parâmetro LIMITE DE CREDITO, quando selecionado SEM LIBERACAO, pode ser burlado pressionando a tecla ESC 2x.
+*1) Qual o comportamento observado?*
+
+O parâmetro de LIMITE DE CREDITO, quando selecionado SEM LIBERAÇÃO, pode ser burlado pressionando a tecla ESC 2x.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Procedimento
+ - Parâmetro LIMITE DE CREDITO - SEM LIBERAÇÃO
+ - Pegar um cliente com LIMITE DE CREDITO estourado
+ - Digitar um Pedido
+ - Pressionar F10
+ - O sistema retorna a mensagem: "Liberar com SENHA ou VENDER COM DOCUMENTOS PERMITIDOS"
+ - Ao pressionar ESC o sistema solicita a SENHA para liberação
+ - Ao pressionar ESC novamente o sistema solicita FORMA DE PAGAMENTO e VENDEDOR e permite concluir a Venda .
+
+
+*3) Qual o comportamento esperado?*
+
+Não permitir a venda.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.
+
+
+O parametro de LIMITE DE CREDITO, quando selecionado SEM LIBERACAO, pode ser burlado pressionando a tecla ESC 2x.
+

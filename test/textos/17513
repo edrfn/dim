@@ -1,0 +1,20 @@
+Erro log ao reprocessar pedido de devolução a cliente
+1) Qual o comportamento observado?
+
+Ao fazer uma devolução a cliente e reprocessar o mesmo, o sistema apresenta erro log.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Faça um pedido de devolução a cliente;
+Saia da tela de devolução;
+Abra a tela novamente e pressione F11;
+Abra o pedido de devolução já feito;
+Observe o erro log;
+
+3) Qual o comportamento esperado?
+
+Reprocessar o pedido sem problema
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

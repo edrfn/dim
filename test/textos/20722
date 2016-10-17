@@ -1,0 +1,8 @@
+Troca de usuário
+*Como:* Analista de negócio
+*Quero:* Possibilitar a troca de usuário no sistema
+*Para:* Facilitar a troca de usuário em situações de troca de turno, acesso a rotinas e etc.
+
+*Critério de validação*
+- Não precisar sair do sistema para trocar de usuário
+- Validar os dados que estão sendo salvos internamente com relação a auditoria, logs e validações de usuário

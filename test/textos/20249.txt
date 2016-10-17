@@ -1,0 +1,4 @@
+No cliente Meridiano ao emitir nota com CST 60 - só sai CST 10.
+No cliente Meridiano ao emitir uma nota em que deveria sair o CST 60 só está saindo a CST 10, impedindo o cliente de emitir notas corretamente.
+
+

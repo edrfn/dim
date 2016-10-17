@@ -1,0 +1,4 @@
+Criação do utilitário para recadastrar produtos de uma base para outra em códigos na ordem sequencial.
+*Como:* P.O
+*Quero:* Criação do utilitário para recadastrar produtos de uma base para outra em códigos na ordem sequencial.
+*Para:* Resolução do problema #18559, onde a base do cliente alcançou o limite máximo do código de produtos.

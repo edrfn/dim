@@ -1,0 +1,10 @@
+Checklist de integração - Dinamico ERP
+*Comportamento observado*
+
+- Verificar se o sistema atende ao layout do dinâmico PDV.
+
+*Testes pra Realizar*
+
+- Todo o checklist referente a integração do Dinâmico, avaliando apenas a parte do ERP até a criação dos arquivos.
+
+PS: Não é necessário verificar o comportamento do sistema recebendo arquivos (venda, redução z, sangria e etc.)

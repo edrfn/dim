@@ -1,0 +1,35 @@
+Erro de estrutura no campo 5  "NUM_DOC" dos registros  M110 e M510 do Sped Contribuições
+*1) Qual o comportamento observado?*
+Ao fazer a geração do Sped Contrinuições foi verificado que os registros M110 e M510 estavam com falha na estrutura , ocorreu que as devoluções feitas fora do mês de escrituração , são preenchidas nesses respectivos campos  o problema é que triplicou todas as numerações de notas devolvidas.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+1- Verificar uma base com mais de uma devolução fora do mês de escrituração para gerar o M110 e M510
+2- Gerar o arquivo e verificar os dados;
+3- Verifica que o campo 5-NUM_DOC e verificará varias notas.
+
+Ex: O cliente devolveu as notas:002418 002449 002463 e 002467.
+
+*Olha como os registros foram gerados abaixo:*
+*O M110:*
+M110|0|2,52|09|002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002463   002463   002464   002464   002466   002467|NOTAS FISCAIS DE DEVOLUCAO AO FORNECEDOR|30062015|
+
+*M510:*
+M510|0|2,52|09|002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002418   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002449   002463   002463   002464   002464   002466   002467|NOTAS FISCAIS DE DEVOLUCAO AO FORNECEDOR|30062015|
+
+
+*3) Qual o comportamento esperado?*
+Reestruturar a validação para pegar apenas a numeração de nota correta.
+Segue exemplo baixo de como seria o arquivo:
+
+*M110:*
+M110|0|2,52|09|002418   002449   002463   002464   002466   002467|NOTAS FISCAIS DE DEVOLUCAO AO FORNECEDOR|30062015|
+
+*M510:*
+M510|0|2,52|09|002418   002449   002463   002464   002466   002467|NOTAS FISCAIS DE DEVOLUCAO AO FORNECEDOR|30062015|
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+Obs: O ticket foi alinhado com o desenvolvimento

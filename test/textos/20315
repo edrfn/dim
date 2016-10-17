@@ -1,0 +1,23 @@
+[Total NFCE] Implementar Visualização de nfc-e's no PDV
+Como: Analista de suporte
+
+Quero: Que seja implementado uma rotina onde possam ser visualizadas as NFC-e's emitidas pelos clientes dentro do sistema.
+
+Deve ser exibido:
+* numero da nota
+* Serie
+* Chave de acesso
+* Situação da nota
+* Valor da nota
+* Data de Emissão
+* Cliente
+
+Esta tela deverá ser acessada pelo atalho F9, e as rotinas que atualmente são acessadas por meio de outros atalhos devem ser centralizadas nesta tela:
+* Consultar situação
+* Cancelar
+* Mostrar DANFE
+* Reenviar pendentes
+* Enviar nota em contingência
+* Reimprimir DANFE
+
+Para: Facilitar o gerenciamento das nfc-e's para o cliente, e servir como diferencial para o dincash.

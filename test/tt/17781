@@ -1,0 +1,9 @@
+Realizar um lançamento de contas a receber
+Realizar o lançamentos de contas a receber no sistema.
+
+
+**Validação**
+
+* Todas as validações do requisito de produto #17369
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

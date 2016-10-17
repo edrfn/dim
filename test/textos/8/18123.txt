@@ -1,0 +1,21 @@
+Erro no relatório de análise físico financeiro onde mostra produtos com movimentação e valor zerado
+1) Qual o comportamento observado?
+
+Foi verificado no cliente Ferreira Passos que, ao emitir o relatório de analise físico financeiro no mês de Julho, alguns produtos mesmo com movimentação são mostrados no relatório com o campo valor unitário sempre zerado.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Módulo Estoque -> Relatórios -> Análise Físico/Financeiro;
+Verifique que alguns produtos estão com valores zerados;
+
+3) Qual o comportamento esperado?
+
+Que o sistema mostre no relatório todos os produtos com o valor de custo unitário corretamente. 
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.
+
+Obs.: Após análise de Thiago, o sistema deve pegar esse valor do arquivo AUTite do referente produto e do campo PCOPRD, o qual não está ocorrendo.
+
+

@@ -1,0 +1,13 @@
+Refatorar o cadastro de Tributação Interna no Cadastro de Produtos
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de tributação interna
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validação se empresa simples nacional não habilitar campos;
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir

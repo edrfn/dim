@@ -1,0 +1,4 @@
+Alteração da data do pedido de venda
+Como: P.O.
+Quero: Ao importar um pedido do dia 19, por exemplo, abrir a tela de vendas no dia 20 (informando naquele calendário que abre a data 20), apertar F11 e selecionar esse pedido, nesse momento o sistema identificar que se trata de um pedido com data anterior, trazer uma mensagem do tipo: "Identificamos que o pedido selecionado pertence ao dia 19/03, deseja alterar a data para o dia 20/03?"
+Para: Necessidade dos clientes que utilizam alteração de data do pedido e emissão de boletos.

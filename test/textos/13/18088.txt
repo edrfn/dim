@@ -1,0 +1,16 @@
+Rejeição ao realizar substituição de cupom, onde o produto possui unidade fracionada
+1) Qual o comportamento observado?
+
+Foi identificado que, ao realizar a substituição de cupom, onde neste caso existam produtos que são vendidos com 4 casas decimas no valor unitário, o sistema apresenta uma rejeição da Sefaz, onde não é possível realizar a substituição.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Para reproduzir o comportamento observado, basta refazer a venda com os mesmos valores e quantidades do XML em anexo;
+
+3) Qual o comportamento esperado?
+
+A substituição deve ser feita sem apresentar maiores rejeições.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

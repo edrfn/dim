@@ -1,0 +1,19 @@
+Quando é apresentada a mensagem 'Lote em processamento'  na emissão de NF-e , a nota não é autorizada na sefaz e fica com status fechado no sistema.
+*1) Qual o comportamento observado?*
+Ao emitir NFe no Automaster e conseguir simular amensagem 'Lote em Processamento', ao clicar em OK o sistema informa a nota como autorizada no sistema, e na sefaz como não autorizada.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+1- Vendas - Digitar pedido de venda;
+2- Informar os dados da nota e confirmar a digitação;
+3- Vendas - Procedimentos especiais - Exportar nota fiscal eletrônica;
+4- Localizar o pedido e confirmar a exportação;
+5- Conseguir simular a mensagem informada e validar a NFE na sefaz e no sistema, se estão com o mesmo status.
+
+*3) Qual o comportamento esperado?*
+Ao apresentar a mensagem "Lote em processamento" e não autorizar a nota na sefaz , deixa o pedido como aberto para tentar exportar novamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+Obs: O ticket foi alinhado antes de cadastrado com o setor de Qualidade/Teste.

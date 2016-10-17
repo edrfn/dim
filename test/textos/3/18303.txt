@@ -1,0 +1,19 @@
+O sistema está abrindo a visualização de NFe rejeitada e alterando a situação do pedido para 6- Liberado
+*1) Qual o comportamento observado?*
+Na exportação de NFe, o sistema está abrindo a visualização do danfe de notas que foram rejeitadas e está alterando a situação do pedido na tabela pedidosaida para 6-LIBERADO, impossibilitando que o usuário possa corrigir o erro e exportar a nota novamente.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Digitar um pedido de venda com algum dado fora do padrão do layout de NFe (um produto com NCM com menos de 8 dígitos, por exemplo);
+2- Acessar a rotina pelo menu: Vendas - Movimento - Exportar NFe;
+3- Filtrar o pedido digitado no passo 1 e tentar emitir a NFe;
+4- Verificar que o sistema apresenta a mensagem informando que ocorreu uma rejeição e em seguida abre a visualização do danfe;
+5- Verificar também que na tabela pedidosaida, a situação foi alterada para 6, impossibilitando a alteração do pedido e reexportação da nota;
+
+*3) Qual o comportamento esperado?*
+É esperado que caso ocorra rejeição da nota, o sistema apresente a mensagem com o motivo da rejeição, não abra a visualização do danfe e a situação do pedido na tabela pedidosaida permaneça 4-ABERTO. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Digitar um pedido de venda com algum dado fora do padrão do layout de NFe (um produto com NCM com menos de 8 dígitos, por exemplo);
+2- Acessar a rotina pelo menu: Vendas - Movimento - Exportar NFe;
+3- Filtrar o pedido digitado no passo 1 e tentar emitir a NFe;
+

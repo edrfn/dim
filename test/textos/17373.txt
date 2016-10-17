@@ -1,0 +1,11 @@
+[CASE DE SUCESSO] A mesma pré-venda pode ser puxada por mais de uma caixa
+*Qual o comportamento observado?*
+O sistema permite que vários caixas puxem a mesma pré-venda de uma vez, causando inconsistências caso a mesma seja concluída por vários caixas.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Utilizar mais de um caixa utilizando o mesmo painel;
+2. Emitir uma pré-venda;
+3. Puxar a pré-venda nos caixas conectados ao mesmo painel; (perceba que a pré-venda pode ser puxada por todos os caixas)
+
+*Qual o comportamento esperado?* 
+Que a mesma pré-venda não possa ser puxada por mais de um caixa.

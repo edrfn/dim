@@ -1,0 +1,15 @@
+Outras Entradas - Criação do CRUD da Tela de Outras Entradas
+*Como:* Usuário do sistema
+*Quero:* Criação do CRUD da tela de Outras Entradas (inserção, consulta, edição e remoção de dados)
+*Para:* Fazer a manipulação de dados de Outras Entradas no banco de dados sistema.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu Vendas > Outras Entradas.
+* Fazer a inserção dos dados inseridos na interface no banco de dados;
+* Fazer a Edição dos dados inseridos na interface no banco de dados;
+* Fazer a remoção dos dados inseridos na interface no banco de dados;
+
+*Como implementar* 
+* Utilizar o novo padrão de telas do sistema;
+* Criar um projeto separado para a criação da tela;
+* Utilizar-se de telas já feitas no novo padrão como base para a criação da nova tela;

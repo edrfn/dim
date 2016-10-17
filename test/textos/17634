@@ -1,0 +1,6 @@
+O atalho do sistema (desktop) não está sendo sobrescrito
+Ao instalar o sistema e for solicitado pelo usuário criar o atalho na área de trabalho, deve ser sobrescrito o caminho do atalho para o sistema reconhecer a nova instalação.
+
+O atalho indica o caminho de "system32" como o endereço do Java. Quando deveria apontar para:
+*C:\Program Files (x86)\Java\jdk1.8.0_45\bin\javaw.exe* -Xss1024k -XX:-UseSplitVerifier -Xmx512m -jar
+C:\Program Files (x86)\DinamicoPDV\dinamicoPDV.jar

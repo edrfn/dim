@@ -1,0 +1,17 @@
+Erro ao realizar retorno de baixas com arquivo do Bradesco
+*1) Qual o comportamento observado?*
+
+Foi verificado  no cliente Ivandré que, ao importar o arquivo de retorno do banco, o sistema não consegue identificar os valores decimais do título. Ex: Ao invés do sistema pegar o valor de R$229,79, ele consegue pegar apenas R$229,00; Segue em anexo os PDF's.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue a base disponível em: "\Bases Redmine\IVANDRÉ.rar"
+Faça a importação do arquivo de remessa disponível na pasta;
+Observe a lista de inconsistências;
+Abra o arquivo de retorno;
+Verifique os valores no arquivo de acordo com o layout CNAB400 (identificar as posições correspondentes aos valores);
+Observe os títulos no sistema;
+
+*3) Qual o comportamento esperado?*
+
+O sistema não deve ignorar os centavos do valor do título.

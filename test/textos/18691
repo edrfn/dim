@@ -1,0 +1,17 @@
+Devolução de cliente - Erro ao gravar alterações na nota de devolução
+*1) Qual o comportamento observado?***
+Ao pesquisar uma nota de devolução e alterar a quantidade devolvida de um dos itens, no momento da gravação o sistema está apresentando erro (imagem anexo).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Clicar no botão 'Pesquisar' ou pressionar ALT+P;
+3- Localizar uma nota e clicar em 'Alterar' ou pressionar ALT+A;
+4- Alterar a quantidade de um dos produtos devolvidos;
+5- Clicar no botão 'Gravar' ou pressionar ALT+G;
+5- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado que após realizar alguma alteração, o sistema faça a validação dos campos de preenchimento obrigatório e grave o registro no banco de dados sem apresentar erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

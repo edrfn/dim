@@ -1,0 +1,2 @@
+Ao criar orçamento em rede e conjunto com outros usuários o sistema não permite, afirmando que já existe alguém utilizando aquele registro.
+Ao criar orçamento com base em rede, ao tentar inserir 2 orçamentos ao mesmo tempo o sistema alerta que o registro já está em uso por outro usuário

@@ -1,0 +1,17 @@
+Ao reprocessar (F10) pedido com desconto importando do Versátil, desconto é zerado
+*Comportamento observado*
+
+Ao reprocessar (F10) pedido com desconto importando do Versátil, desconto é zerado no Automaster, trazendo preços de tabela dos produtos (sem desconto).
+
+*Comportamento esperado*
+
+Ao reprocessar um pedido com desconto importado do Versátil, o sistema deveria simplesmente regravar o pedido sem alterar os valores do desconto, exceto se estes forem explicitamente removidos pelo operador.
+
+*Passos para reproduzir*
+
+1. Gere um pedido com desconto no Versátil.
+2. Importe este pedido no Automaster.
+3. Edite este pedido com F11 e altere a quantidade de ou remova algum produto.
+4. Regrave o pedido com F10.
+5. Observe que os preços voltarão ao valor normal de tabela.
+

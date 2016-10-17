@@ -1,0 +1,9 @@
+Identificar e corrigir causa do aumento de tempo de sincronização de dados do Painel para PDV
+Durante a sincronização de informações do painel para o PDV, quando o volume de informações é muito grande, o tempo de sincronização aumenta exponencialmente. Este problema foi identificado utilizando uma base de dados com 12.365 clientes e 23.775 produtos. Segue em anexo o backup da base de dados do painel que possui este volume de dados. Para resolver esta tarefa deve ser identificado a causa do problema.
+
+
+*Como implementar*
+* Identificar a causa do problema;
+* Corrigir problema;
+* Verificar funcionamento de desempenho de periféricos.
+* Testes.

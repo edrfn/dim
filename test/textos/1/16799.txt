@@ -1,0 +1,6 @@
+Revisão dos modelos do banco de dados
+*PORQUE*
+O modelo atual do DinCash possue tipagem que não facilita o processo de suporte. as datas, por exemplo, são mapeadas no banco de dados pelo tipo LONG, e estas dificultam o processo de pesquisa no banco quando são necessárias.
+
+*COMO*
+Avaliação dos campos referentes a vencimento, validade, emissão, alteração mapeadas como LONG e alterar para o tipo de dado DATE. Durante esse processo, rastrear as chamadas aos "_gets_" e "_sets_" da classe e ajustar a classe com a chamada correspondente.

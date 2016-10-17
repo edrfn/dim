@@ -1,0 +1,18 @@
+Falta o Registro 0206 no ATO COTEPE 09/08
+*Observado*
+O Registro 0206 é considerado obrigatório se existir produto combustível e segundo o "Guia Pratico da escrituração fiscal digital" esse registro deve ser apresentado "apenas pelos contribuintes produtores, importadores, distribuidores e postos de
+combustíveis" e nele é informado o código do produto combustível segundo tabela publicada pela ANP. 
+No site http://www1.fazenda.gov.br/confaz/ o registro 0206 aparece como OC, ou seja, o registro é obrigatório se houver informações para serem prestadas.
+
+Atualmente o registro 0206 não está sendo mostrado no arquivo gerado. 
+
+*Passos para o comportamento*
+* F4 - MENU FISCAL
+* Vendas do periodo>Ato COTEPE/ICMS 09/08
+
+*Esperado*
+Que quando houver combustível o registro 0206 apareça no arquivo gerado especificando produto combustível. Verificar a importação do código ANP.
+
+
+
+http://www.nucleutecnologia.com.br/downloads/TABELA_ANP.pdf

@@ -1,0 +1,2 @@
+Validar o acesso e alteração de parâmetros do sistema
+Validar o acesso e alteração de parâmetros do sistema usando base local e tambem na rede.

@@ -1,0 +1,4 @@
+Erro.log ao tentar incluir orçamento com 2 formas de pagamento
+Ao incluir orçamento com duas formas de pagamento, a primeira sem nenhum acréscimo e a segunda com encargos financeiros e despesas acessórias, após a inserção dos produtos, quando é apresentada a tela que nos permite inserir/alterar descontos e acréscimos e apertar Enter, o erro.log é apresentado.
+
+ps: o erro ocorre apenas na forma de impressão 'impressão normal'.

@@ -1,0 +1,17 @@
+Emissão de NFe - Erro ao emitir NFe de devolução a fornecedor quando informado modelo 01 na nota de entrada vinculada a devolução
+*1) Qual o comportamento observado?*
+Erro na emissão de NFe de devolução a fornecedor quando vinculada nota de entrada modelo 01 (imagem anexo).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Pré-condição: Digitar uma nota de entrada com modelo 01 e sem chave de acesso.
+1- Acessar a rotina pelo menu: Compras - Movimento - Devolução a fornecedor;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Informar o fornecedor e a nota de entrada com modelo 01 e sem chave de acesso;
+4- Concluir a digitação da devolução a fornecedor;
+5- Tentar emitir a NFe dessa devolução a fornecedor;
+
+*3) Qual o comportamento esperado?*
+É esperado que as notas de devolução a fornecedor, independente do modelo informado na digitação da compra, sejam emitidas corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

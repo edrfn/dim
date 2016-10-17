@@ -1,0 +1,16 @@
+Sistema permite gerar nfce de um pedido antes de registrar o recebimento dele.
+*1) Qual o comportamento observado?*
+
+Foi verificado que, ao efetuar um pedido e tentar exportar a nfce +antes+ de registrar o recebimento dele, o sistema autoriza a nota normalmente.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma venda ;
++Não+ registre o recebimento dela;
+Exporte a nfce. (Cadastro > Vendas Balcao > Procedimentos Especiais > Operacoes de NFC-e > Exportar Nota Fiscal de Consumidor Eletronica)
+
+ps: O campo SITREG assume FCH quando a nfce é exportada antes do recebimento ser registrado.
+
+*3) Qual o comportamento esperado?*
+
+É esperado que o sistema bloqueie a emissão da nfce e exiba uma mensagem informando que deve ser efetuado o recebimento antes de exportar a nfce.

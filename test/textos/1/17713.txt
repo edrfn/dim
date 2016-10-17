@@ -1,0 +1,12 @@
+Apresentação dos itens para cancelar
+*Como:* PO
+*Quero:* Apresentar a listagens de itens para cancelar do último inserido ao primeiro
+*Para:* Facilitar a operação já que geralmente ao solicitar cancelar um item, o mesmo acabou de ser inserido.
+
+*Critério de validação* 
+* Apresentar a listagem de itens do último ao primeiro.
+* Ao confirmar cancelamento, visualizar marcação de cancelado no item correspondente na tela de venda.
+
+*Como implementar* 
+* Inverter a lista
+* testar

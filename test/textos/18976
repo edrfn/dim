@@ -1,0 +1,19 @@
+Checklist relacionado ao Módulo de Vendas
+*Como:* Coordenadora de Projetos
+*Quero:* Testes em algumas rotinas do módulo de vendas;
+*Para:* Verificar se a funcionalidade da rotina está sendo executada corretamente;
+
+*Critério de validação*
+Realizar o seguinte processo: Pedido de Venda - Emissão NFe - Geração de Estoque;
+Validar todos os pontos descritos no processo acima.
+Validar todos as funcionalidade do pedido de venda. 
+1. Realizar o pedido
+2. Inserir quantidade de produto
+3. Inserir desconto/acrescimo na forma de pagamento, no item, no total
+4. Verificar a reserva de estoque
+Validar a exportação de NFe
+1. Emissão da Nota
+2. Cancelamento
+3. Inutilização
+4. Carta de Correção
+Validar a movimentação do estoque.
