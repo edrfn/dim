@@ -39,7 +39,8 @@ for filename in glob.glob(os.path.join(path, '*')):
 
     id = str(filename[4:])
     textos.append(id + '\t' + textwords)
-    for palavra in
+    #textos.append(textwords)
+
 
 texto = ''
 for x in textos:

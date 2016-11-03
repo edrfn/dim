@@ -65,3 +65,9 @@ for i in filtrado:
     filt_stem.append(stemmer.stem(i))
 
 print(filt_stem)
+
+#frequencia
+fdist = nltk.FreqDist(filt_stem)
+
+for i in fdist:
+    print(i + ': ' + str(fdist[i]))
