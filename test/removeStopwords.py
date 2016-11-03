@@ -1,14 +1,26 @@
+# coding=utf-8
+
 import os
 import glob
 import time
 import nltk
+import re
+import pprint
+from nltk import word_tokenize
+from unicodedata import normalize
 from nltk.corpus import stopwords
 path = 'tt/'
+
+def remover_acentos(txt):
+    return normalize('NFKD', txt).encode('ASCII','ignore').decode('ASCII')
 
 start = time.time()
 
 stopwords = open('stop2.txt', 'r').read().split()
 stopwords.append(['.', ',', '"', "'", '?', '!', ':', ';', '(', ')', '[', ']', '{', '}','-','#','*',])
+
+# tokens = word_tokenize(stopwords,language='portuguese')
+# print(tokens)
 
 for filename in glob.glob(os.path.join(path, '*')):
     textwords = open(filename, 'r', encoding='utf8').read().split()
@@ -42,6 +54,9 @@ for filename in glob.glob(os.path.join(path, '*')):
     texto = texto.replace('/', " ")
     texto = texto.replace(">", " ")
     texto = texto.replace("|", " ")
+
+    texto = remover_acentos(texto)
+
     t2.write(texto)
 
     # fim = time.time()

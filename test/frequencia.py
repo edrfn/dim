@@ -1,11 +1,16 @@
+
+# coding=utf-8
 import os
 import time
 import glob
 import nltk
+from unicodedata import normalize
 from nltk.corpus import stopwords
 path = 'ntt/'
 
 start = time.time()
+
+
 
 stopwords = open('stop2.txt', 'r').read().split()
 
@@ -13,15 +18,12 @@ textos = []
 for filename in glob.glob(os.path.join(path, '*')):
     textwords = open(filename, 'r', encoding='utf8').read().split()
     freq_dist = nltk.FreqDist(w.lower() for w in textwords)
-    #print('-------------\n', filename)
-    #print(freq_dist)
-    #print(freq_dist.most_common())
     textos.append(textwords)
-
 
 texto = ''
 for x in textos:
     texto = '%s %s ' % (texto, x)
+
 
 t = open('todos', 'w')
 t.write(texto)
