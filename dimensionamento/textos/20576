@@ -1,0 +1,15 @@
+XML já importado não informa ao usuário com antecedência
+*Comportamento Observado*
+- Ao fazer uma importação de XML o sistema carrega os dados e segue para as validações de itens da nota como associação e cadastro dos produtos.
+Também foi observado na versão 194 que quando o sistema indica que já existe mesmo escolhendo "não salvar" a nota é gravada em duplicidade.
+
+*Comportamento Esperado*
+Validar as informações que tornam a nota única no sistema.
+> Chave, número, série e modelo
+
+*Passos para reproduzir o comportamento*
+- Importar uma nota
+- Concluir a importação da nota
+- Importar a mesma nota
+
+Observe que, o sistema não verificou a chave, número, série e modelo antes de prosseguir.

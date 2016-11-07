@@ -1,0 +1,9 @@
+Reconhecimento do Dincash para o estoque enviado pelo Automaster
+*Como a exportação do estoque funciona?*
+Através da rotina *Saldo Inicial para o dincash* podemos enviar todo o estoque cadastrado no Automaster, juntamente com suas respectivas quantidades, para o banco MySQL. Após os dados enviados pelo automaster, eles ficam disponíveis no banco de importação, nas tabelas itemestoquedto; movimentacaoestoquedto; produtodto e validacaodto. 
+Nessas tabelas estão localizado os documentos necessários para que o estoque seja dado entrada, com a informação de ID, CODREATG dos produtos e a quantidade a ser enviada para o dincash.
+Após todo o procedimento, o Dincash importa esses dados e faz a atualização do seu estoque utilizando a tabela validacaodto para progredir em seu incremento.
+
+*Observação:*
+Foi notado que foram criados 5 dos 6 documentos na tabela de Entrada de Produtos e, o 7° documento, que seria uma saída de produtos, também não foi criado. Portanto, dos 7 documentos (6 de entrada e 1 de sáida), foram criados 5 documentos, todos de entrada.
+Com esta situação, consequentemente, produtos localizados no documento 6 e na saída 7 não possuíram integridade de seu estoque, causando divergencia com o estoque apresentado pelo Automaster. Talvez seja por isso que produtos com estoque negativo não estão sendo atualizados no Dincash Web quando sua entrada decorre do estoque do Automaster.

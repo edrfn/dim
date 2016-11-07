@@ -1,0 +1,6 @@
+Inicialização e visualização do Painel de Controle
+O painel de controle deve funcionar da seguinte forma:
+
+1. O usuário não pode finalizar o processo. O sistema deve aparecer recolhido na barra de de inicialização rápida;
+2. A inicialização do Painel deve ser com o ícone na barra de tarefas;
+3. A visualização das janelas do painel deve estar condicionada a interação com o usuário;

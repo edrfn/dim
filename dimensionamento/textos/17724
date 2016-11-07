@@ -1,0 +1,35 @@
+Criar Registro C300 do SEF-II
+Deve ser criado o Registro C300 do SEF-II, pertencente ao bloco C, na estrutura abaixo:
+
+LINHA C300: ITENS DO DOCUMENTO
+nº campo descrição tipo tam dec max obgchv SEF
+01 LIN Texto fixo contendo "C300" C 4 - O REG 54
+02 NUM_ITEM Número seqüencial do item no documento fiscal N - - O C Número do Item
+03 COD_ITEM Código do item (campo 02 da Linha 0200) C - - 28 O Código da Mercadoria/ Serviço
+04 UNID Unidade do item C - - 10 O
+05 VL_UNIT Valor unitário N - 6 O
+06 QTD Quantidade do item N - 6 O Quantidade
+07 VL_DESC_I Valor do desconto no item N - 2
+08 VL_ACMO_I Valor do acréscimo no item N - 2
+09 VL_ITEM Valor líquido do item N - 2 O Valor da Mercadoria/ Serviço
+10 COD_NCM Código da Nomenclatura Comum do Mercosul, conforme a
+tabela externa indicada no item 3.3.1
+N 8 -
+11 CST Código da Situação Tributária do ICMS, conforme a tabela
+externa indicada no item 3.3.1
+N 4 - CST
+12 CFOP Código Fiscal de Operações e Prestações, conforme a tabela
+externa indicada no item 3.3.1
+N 4 - O CFOP
+13 VL_BC_ICMS_I Valor da base de cálculo do ICMS N - 2 Base de Cálculo do ICMS
+14 ALIQ_ICMS Alíquota do ICMS N - 2 Alíquota do ICMS
+15 VL_ICMS_I Valor do ICMS N - 2
+16 VL_BC_ST_I Valor da base de cálculo referente à substituição tributária N - 2 Base de Cálculo do ICMS -
+Substituição Tributária
+17 ALIQ_ST Alíquota do ICMS da substituição tributária na unidade da
+Federação de destino
+N - 2
+18 VL_ICMS_ST_I Valor do ICMS da substituição tributária N - 2
+19 VL_BC_IPI Valor da base de cálculo do IPI N - 2
+20 ALIQ_IPI Alíquota do IPI N - 2
+21 VL_IPI_I Valor do IPI N - 2 Valor do IPI

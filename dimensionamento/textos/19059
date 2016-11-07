@@ -1,0 +1,21 @@
+Cancelamento de NF-e - Os dados não somem da tela após dá OK na mensagem de confirmação do cancelamento sendo possível, dessa forma, "cancelar" a nota várias vezes
+*1) Qual o comportamento observado?*
+Os dados não some da tela após dá OK na mensagem de confirmação do cancelamento, sendo possível "cancelar" a nota que está na tela várias vezes.
+*Obs.1:* Dá rejeição quando tenta cancelar a nota novamente. 
+*Obs.2:* Após sair da rotina, a nota não aparece mais na pesquisa do campo "Nota Fiscal".
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+*Obs.3:* É necessário que já tenha sido emitida a NF-e de um pedido.
+
+1- Acessar a rotina pelo caminho: Vendas - Movimento - Cancelamento de NF-e.;
+2- Preencher os campos "Cliente", "Nota Fiscal" e "Motivo".  
+3- Clicar no botão 'OK';
+4- Será exibido o número do protocolo vindo do site da sefaz, e logo após, o sistema exibirá uma mensagem que o cancelamento foi feito. 
+5- Após dar ok na mensagem, deve clicar no botão 'ok' da rotina.
+6- Observar que é exibido um protocolo novamente, só que esse indica rejeição.
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema limpe os dados da tela após a finalização do cancelamento pois, o cancelamento de uma nota só pode ser feito uma vez.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.

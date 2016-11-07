@@ -1,0 +1,50 @@
+Erros relacionados ao campo Valor Unitário na rotina de Pedido de Venda
+h3. Descrição #1:
+
+O sistema exibe duas mensagens de erro ao preenchermos o campo Valor Unitário com a própria máscara do campo e/ou com uma máscara diferente;
+
+1) Qual o comportamento observado?
+
+No campo Valor Unitário (na janela Inserir Produto), ao inserirmos uma máscara diferente do padrão, o sistema exibe a mensagem de erro: Number is out of range. Outrora, quando inserirmos a própria máscara, o sistema exibe a mensagem de erro: Floating point division by zero;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos obrigatórios > Novo (aba Itens do Pedido) > Inserir Produto > No campo Valor Unitário inserir uma numeração com a máscara padrão e/ou fora do padrão > Dar Enter > Erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema exibe uma mensagem de alerta sobre o ocorrido. Ou seja, informando que o valor está fora do padrão do sistema, e não exiba uma mensagem de erro para o usuário;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos obrigatórios > Novo (aba Itens do Pedido) > Inserir Produto > No campo Valor Unitário inserir uma numeração com a máscara padrão e/ou fora do padrão > Dar Enter > Não exibir mensagem de erro e/ou exibir mensagem de alerta sobre o valor está fora do padrão do sistema;
+
+h3. Observação e continuação do ponto #1:
+
+Seguindo o mesmo processo citado posteriormente sobre a máscara do campo, ao inserirmos um valor no campo Valor Unitário que esteja fora do acréscimo superior de 99,99%, ao dermos Enter, depois OK na mensagem de alerta e SIM na mensagem de confirmação de valores, o sistema calcula e exibe na janela Desconto (exiba ao darmos Page Down no campo Valor Unitário) valores negativos nos campos % de Desconto e Valor do Desconto;
+
+-----------------------------------------------------------------------------------------------------
+
+h3. Descrição #2:
+
+O sistema não permite alterarmos o valor do Desconto dado em um item do grid de Itens do Pedido na rotina de Pedido de Venda;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao inserirmos um item (no grid de Itens do Pedido) com um Desconto (inserido pelo campo Valor Unitário na janela Desconto) inserido nele, ao tentarmos alterá-lo, o sistema não permite;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos Filial, Vendedor, Condição de Preço e Cliente > Clica no botão Novo (do grid de Itens do Pedido) > Insere um Produto (na janela de Inserir Produto) > Pressiona Page Down no campo Valor Unitário > Insere um valor no campo % de Desconto (na janela de Desconto) e dá OK > Seleciona SIM na mensagem de confirmação de valores > Dá OK na janela de Inserir Produto > Seleciona o item e clica no botão Alterar do grid de Itens do Pedido > Na janela de Editar Produto pressiona Page Down no campo Valor Unitário > Sistema não permite alteração;
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema permita realizar alteração em um item com Desconto inserido no grid de Itens do Pedido;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Pedido de Venda > Novo (botão superior para inserção) > Preenche os campos Filial, Vendedor, Condição de Preço e Cliente > Clica no botão Novo (do grid de Itens do Pedido) > Insere um Produto (na janela de Inserir Produto) > Pressiona Page Down no campo Valor Unitário > Insere um valor no campo % de Desconto (na janela de Desconto) e dá OK > Seleciona SIM na mensagem de confirmação de valores > Dá OK na janela de Inserir Produto > Seleciona o item e clica no botão Alterar do grid de Itens do Pedido > Na janela de Editar Produto pressiona Page Down no campo Valor Unitário > Sistema permite alteração.
+
+h3. Observação e continuação do ponto #2: 
+
+Seguindo o mesmo processo citado posteriormente, se selecionarmos esse mesmo item, clicarmos em Alterar (grid de Itens do Pedido) e inserirmos um valor ainda menor no campo Valor Unitário, ao darmos Enter, o sistema exibe uma mensagem de alerta informando que o produto não poderá receber desconto, e logo após, o valor padrão (sem o Desconto dado) do produto é trazido e apresentado no campo Valor Unitário. Ou seja, após a exibição da mensagem de alerta, o sistema não traz de volta o valor do produto com o desconto dado anteriormente.

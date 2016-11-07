@@ -1,0 +1,11 @@
+Rotina de Nota Fiscal (F9)
+Foram identificados algumas inconsistências na rotina de nota fiscal, menu F9
+1. O sistema não permite sair da rotina ao pressionar a tela ESC;
+2. Notifica ao usuário os campos obrigatórios;
+3. Indicar com um ícone de pesquisa, os campos que permitem o uso do pagedown;
+4. Remover o foco do total da nota e manter na inserção do item ou confirmação da nota;
+5. Verificar a checagem de exclusão do item na tabela de itens inseridos na nota - não aparecer a mensagem se um item não foi selecionado;
+
+Como implementar?
+- Implementar correções;
+- Testes.

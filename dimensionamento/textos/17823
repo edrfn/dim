@@ -1,0 +1,9 @@
+Cadastrar usuário no sistema com permissão
+Eu quero cadastrar usuário no sistema, para que o mesmo possa realizar login.
+
+
+**Validações**
+
+* Todas as dos requisitos de produto #17766, com as validações de permissão de usuário;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem excluiu.

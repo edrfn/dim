@@ -1,0 +1,17 @@
+Refatoração de busca de tributação por UF
+*Como:* Analista de negócios
+*Quero:* Que seja realizado a refatorar da busca de tributação por UF.
+*Para:* Que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar a busca das tributações.
+- poder selecionar para edição, uma tributação.
+
+*Como implementar:*
+
+- Interface para listagem das tributações.
+- Alteração dos campos de tributação.
+
+*Requisito:*
+Seguir o padrão já existente no sistema.

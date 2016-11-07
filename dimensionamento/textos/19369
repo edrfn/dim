@@ -1,0 +1,9 @@
+Adicionar os filtros da rotina [Ficha Kardex]
+*Quero:* Adição dos filtros do relatório de faturamento.
+*Para:* Concluir a geração do relatório citado;
+
+*Critério de validação*
+Os filtros estarem funcionando corretamente;
+
+*Como implementar*
+Associar os filtros à query e gerar o resultado da rotina como esperado;

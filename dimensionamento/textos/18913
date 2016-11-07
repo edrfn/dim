@@ -1,0 +1,21 @@
+Importação de XML - Erro na importação de arquivo XML sem valor de ICMS normal e com valor de ICMS de substituição 
+*1) Qual o comportamento observado?*
+No lançamento de nota de compra, ao importar um arquivo XML sem valor de ICMS normal destacado, com valor de ICMS de substituição e com CSOSN 202, os valores calculados não fecham com os valores da nota, impossibilitando o lançamento desse tipo de nota pela rotina de importação de XML.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo a ser importado e fazer a associação dos produtos;
+4- Verificar as diferenças apresentadas na tela de resumo (F6), mesmo reprocessando todos os produtos da nota, o valor da base e do ICMS de substituição não são calculados.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao importar um arquivo XML no lançamento de nota de compra, o sistema calcule corretamente todos os impostos destacados na nota.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+
+*Observações:*
+1- Seguem danfe, arquivo XML e imagem da tela de resumo dos valores da nota, ;
+2- No XML em questão, devido a empresa que emitiu a nota ter o regime simples nacional, não é destacado ICMS normal, apenas a base e ICMS de substituição;
+3- O erro pode estar relacionado ao fato de no arquivo XML conter CSOSN e o sistema estar calculando com base em CST ou por não estar lendo o conteúdo da tag <pMVAST> que traz um dos valores usados no cálculo do ICMS de substituição. 

@@ -1,0 +1,14 @@
+Imprimir no comprovante NÂO-FISCAL o nome do Cliente , ao baixar títulos coletivos.
+*1) Qual o comportamento observado?*
+Ao fazer uma baixa coletiva de titulos de um cliente na rotina de registrar recebimento para gerar o comprovante não fiscal, não é informado o nome do cliente na impressão.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Rotina de Registrar Recebimento --> F12 --> Escolher dois titulos do mesmo cliente para ser baixado e gerado o COMPROVANTE NÃO-FISCAL.
+
+*3) Qual o comportamento esperado?*
+Ao fazer a baixa coletiva de titulos sendo do mesmo cliente o sistema imprima o comprovante com o nome do cliente correspondente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+mesmo passo do ponto 2.
+
+Versão 6.1a

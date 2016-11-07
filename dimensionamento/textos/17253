@@ -1,0 +1,4 @@
+Análise do código de licença do Dincash
+1. Verificar como o sistema recebe o código de licenciamento no PDV;
+2. Identificar qual a chave de encriptação utilizada no sistema;
+3. Reunião com a equipe do ERP sobre o "valor da licença".

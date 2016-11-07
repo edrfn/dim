@@ -1,0 +1,13 @@
+Refatorar a tela de Devolução ao fornecedor
+*Como:* Analista de negócio
+*Quero:* Refatorar a tela de devolução ao fornecedor
+*Para:* Que fique de acordo com o novo banco e o novo framework
+
+*Critério de validação*
+
+
+*Como Implementar*
+- Criar novo registro na tabela Notas(mestre detalhes);
+- Alterar Estoque;
+- Cancelar Títulos;
+- Regras de imposto;

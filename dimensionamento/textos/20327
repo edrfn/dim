@@ -1,0 +1,17 @@
+Mensagem de aniversário ao inserir cada item no pedido de venda
+*1) Qual o comportamento observado?*
+
+Ao digitar um pedido de venda para um cliente que esteja fazendo aniversário, o aviso é exibido a cada inserção de produto no pedido de venda.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Parametrize o cadastro de clientes com a data de aniversário atual (conseguir simular o aniversário);
+Faça um pedido para este cliente;
+Observe que a mensagem é apresentada a cada produto inserido;
+
+*3) Qual o comportamento esperado?*
+
+Aparecer a mensagem apenas ao escolher o cliente do pedido.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

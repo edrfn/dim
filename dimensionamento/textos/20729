@@ -1,0 +1,18 @@
+Problema ao sair da rotina de Outras Saídas
+*Comportamento Observado:*
+
+- Ao sair de um pedido preenchido cancelando e tentarmos mudar de modulo o sistema está novamente perguntando se gostaria, caso cliquemos em "Sim" o sistema emite a seguinte mensagem de erro:
+
+---------------------------
+Dinâmico varejo
+---------------------------
+Assertion failure (D:\Work\Sollaris\Kernel\Total.Kernel.BaseCrud.pas, line 1748)
+---------------------------
+OK
+---------------------------
+
+Sendo necessário que o sistema seja finalizado através do gerenciador de tarefas, após a finalização o pedido que tinha sido cancelado é mostrado como "Aberto".
+
+*Comportamento esperado:*
+
+Que ao sair da rotina o sistema não tente mais salvar as informações inseridas, pois ou já foram salvas ou já foram canceladas

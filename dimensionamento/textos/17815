@@ -1,0 +1,18 @@
+Baixas de título não estão gravando no banco
+*Qual o comportamento observado?*
+Ao realizar uma baixa de título, a baixa não é gravada no banco de dados. Não ocorre erro durante o pagamento e o comprovante é impresso corretamente. Segue log em anexo.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Importar o arquivo de título (arquivos em anexo);
+2. Puxar o título para quitação (F8);
+3. Quitar o título total ou parcialmente;
+4. Verifique na tabela baixatitulo e baixatitulo_pagamento que a quitação não foi gravada no banco;
+
+*Qual o comportamento esperado?*
+Que as baixas de título sejam gravadas corretamente no banco de dados.
+
+*Como implementar*
+1. Identificar o problema.
+2. Corrigir o problema.
+3. Testar.
+4. Corrigir problema encontrado; (BUG)

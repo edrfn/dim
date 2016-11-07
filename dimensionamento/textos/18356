@@ -1,0 +1,4 @@
+Alteração das funções de boletos (vendas e ctas a receber) para carregar os novos campos do cobrador
+*Como:* Product Owner
+*Quero:* Alteração das funções de boletos (vendas e ctas a receber) para carregar os novos campos do cobrador e, em caso deste ser "Total Boletos", chamar as funções da nova classe
+*Para:* Emissão de boletos pelo ACBr

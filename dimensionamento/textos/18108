@@ -1,0 +1,20 @@
+Total ECF não consegue pegar o peso da balança
+1) Qual o comportamento observado?
+
+Foi identificado que na balança Toledo, modelo GranPrix, o Total ECF consegue realizar a comunicação com a mesma, porém ao retornar o peso do produto na balança, o mesmo vem zerado.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Configure o produto para consultar o peso na balança;
+Tenha uma Toledo GranPrix;
+Comunique com a mesma;
+Realize o teste de comunicação;
+Observe que a balança traz o peso apenas zerado;
+
+3) Qual o comportamento esperado?
+
+A balança deve conseguir pegar o peso;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

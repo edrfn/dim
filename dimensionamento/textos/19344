@@ -1,0 +1,10 @@
+[CASE DE SUCESSO] Melhora a mensagem de cancelamento de venda quanto não tem um COO de venda
+*Comportamento observado*
+Ao tentar cancelar uma venda, cujo último COO emitido não seja de cupom fiscal, o sistema avisa "Não há venda para ser cancelada."
+
+*Passos para reproduzir o comportamento*
+- Realizar uma venda
+- Emitir qualquer comprovante não fiscal (no caso, a espécie estava imprimindo espelho do cupom)
+
+*Comportamento esperado*
+Exibir uma mensagem mais clara indicando que o último COO emitido não corresponde a um cupom fiscal.

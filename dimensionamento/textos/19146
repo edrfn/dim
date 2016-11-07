@@ -1,0 +1,8 @@
+Mau funcionamento com impressoras fiscais na versão 2.8h
+*Descrição:*
+
+Após a instalação da versão 2.8h do Dincash/Cashone alguns clientes reportaram mau funcionamento do sistema com ECF. 
+Dentre os problemas estão:
+- problema em um cliente com ECF Bematech MP 2100, erro impeditivo. Log em anexo.
+- Problema com a ECF Bematech 4200, erro ao rodar o configurador do sistema, o sistema não imprime redução Z com a ECF em questão.
+- Erro com ECF Elgin.

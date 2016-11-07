@@ -1,0 +1,12 @@
+Alerta de campos obrigatórios na tela do sistema é mostrado com o nome do campo no banco de dados
+*Qual o comportamento observado?*
+Os campos obrigatórios, em todas as telas do sistema, são mostrados com o nome do campo no banco de dados, e nem sempre este é nome do campo na tela.
+
+*Quais as etapas para obter o comportamento observado?*
+Tentar salvar um cadastro qualquer sem preencher os campos obrigatórios.
+
+*Qual o comportamento esperado?*
+Que o sistema indique o não preenchimento do campo obrigatório se referindo ao nome do campo na tela do sistema, não pelo nome do campo n bando de dados.
+
+
+

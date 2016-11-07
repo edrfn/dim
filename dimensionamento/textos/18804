@@ -1,0 +1,13 @@
+Sistema não emite mensagem para tentativa de abrir gaveta mesmo que não tenha uma ativa.
+*Qual o comportamento observado?*
+
+Sistema não emite nenhum tipo de mensagem para quando é feita uma tentativa de abrir gaveta e o mesmo não possui uma configurada.
+
+*Quais as etapas para obter o comportamento observado?*
+
+F11 -> F6
+
+*Qual o comportamento esperado?*
+
+Caso o sistema não possua nenhuma gaveta ativa, deve ser mostrado uma mensagem informando ao usuário.
+

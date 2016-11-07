@@ -1,0 +1,14 @@
+NT 2015/002 - Atualização de Códigos de Município
+*Descrição:*
+
+Como: Tester de Software.
+Quero: Atualização dos Códigos de Município.
+Para: Atender a atualização da NT2015/002 versão 1.20.
+
+*Critério de validação*
+
+A tabela atual presente no sistema contem 5565 registros com a atualização passará a conter 5571 registros.
+
+*Como implementar*
+
+Realizar atualização dos códigos de Município de acordo com tabela em anexo.

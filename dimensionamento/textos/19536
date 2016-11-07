@@ -1,0 +1,15 @@
+Sistema não está enviando para o SPED CONTRIBUIÇÕES a chave de documento fiscal no C100 para NFC-e
+1) Qual o comportamento observado?
+
+Ao gerar o SPED CONTRIBUIÇÕES, o sistema não está enviando para o C100 a chave de documento fiscal referente a NFC-e.
+
+O campo chave é obrigatório para modelo de documento igual a 65 - NF Eletrônica para o Consumidor Final.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1- Gerenciador - Utilitários - Exportação de dados - SPED CONTRIBUIÇÕES;
+2- Gerar o SPED e validar.
+
+3) Qual o comportamento esperado?
+
+Que a chave de documento fiscal eletrônico referente a NFC-e seja enviado para o C100.

@@ -1,0 +1,13 @@
+[NFC-e] Implementação do processo de cancelar itens na venda.
+*Como:* Scrum Master
+*Quero:* Criar o processo de cancelamento de itens na venda.
+*Para:* Realizar correções no sistema de forma que torne-o mais fácil dar manutenção
+
+*Critérios de validação*
+1. Realizar testes de unidade nas classes novas
+2. Testar no sistema
+
+*Como Implementar*
+1. Refazer a classe com base na existente do sistema
+2. Implementar o processo de cancelamento com base na nova estrutura;
+3. Implementar CancelarItemObserver e CancelarItemNFCEAction;

@@ -1,0 +1,16 @@
+Total Ecf não cadastra o Relatório (Identificação do PAF ECF).
+*Qual o comportamento observado?*
+
+Na Rotina de emissão do "relatório de identificação PAFecf "  foi verificado que o sistema  precisa do relatório Gerencial  (Ident. PAF ECF )cadastrado na impressora,  porem foi retirada a opção de verificação se o ECF  já possui o (Ident. PAF) e não cadastra esse relatório para a emissão.
+Solicitamos que volte a cadastrar quando não houver a informação na impressora:
+Bematech,Daruma,Epson e Elgin.
+
+*Quais as etapas para reproduzir o comportamento observado?*
+Vendas.exe --> F1 --> Ident Paf , Cadastrar o relatorio (Ident PAF) quando não houver na impressora.
+
+*Qual o comportamento esperado?*
+
+Na emissao do relatório de indentificacao paf ecf, o sistema deve verificar se o ecf ja possui o relatório cadastrado e caso não tenha efetuar o cadastro do mesmo e em seguida emitir o Relatório.
+
+
+*Versão:*Total ECF 4972

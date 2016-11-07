@@ -1,0 +1,15 @@
+Problema para inserir produto na pré-venda
+*Qual o comportamento observado?*
+Existem alguns produtos que não é possível inserir na pré-venda, por que o botão de "inserir item" fica inativo, e o campo quantidade é preenchido automaticamente com 0. Verifiquei várias configurações de produto, grupo de produtos, configuração do sistema e não encontrei a causa do problema. 
+
+Obs.: O problema ocorreu apenas com o Cashone. Segue em anexo o log do Web.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Fazer um novo pedido de venda;
+2. Inserir um vendedor;
+3. Inserir um cliente;
+4. Inserir um plano de pagamento;
+5. Inserir um produto (na base carro ocorre com o produto Air bag); (Perceba que o problema ocorre)
+
+*Qual o comportamento esperado?*
+Que não ocorra problemas ao inserir item no pedido de venda.

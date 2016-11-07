@@ -1,0 +1,23 @@
+Diferenças constantes entre relatórios de venda e Redução Z
+1) Qual o comportamento observado?
+Há constantemente clientes que reclamam de problemas com diferenças entre relatórios de Redução Z e movimentação. Esta diferenças são causadas por cupons que estão concluídos no ECF e cancelados no sistema. 
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Restaure a base do cliente SERVILAR em anexo.
+2- Verifique o relatório de vendas por período do Dia 21/07 - Caixa 18 compare o mesmo com o valor líquido das vendas presente na redução deste mesmo dia e mesmo caixa.
+
+
+3) Qual o comportamento esperado?
+Esses valores devem bater corretamente.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do item 2, porém no passo 2 não deve apresentar diferença
+
+5) Observações:
+-> Para corrigir a diferença é necessário: 
+94845 é para estar cancelado.
+94914 não era pra estar cancelado.
+Usar o Importa MFD para restaurar duas vendas não gravadas.
+
+6) Caminho das Bases
+"\Teste\Bases Redmine\SeRvilar.rar"

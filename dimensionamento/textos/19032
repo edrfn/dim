@@ -1,0 +1,15 @@
+Pedido de Venda - Sistema não está considerando o preço de promoção dos produtos na digitação de pedidos
+*1) Qual o comportamento observado?*
+Ao digitar um pedido de venda de um produtos com preço de promoção informado no cadastro, tanto na embalagem principal quando em outras embalagens, o sistema não está considerando esse valor e sempre traz o preço original do produto.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
++Pré-condição:+ Ter produtos com preço de promoção cadastrado e dentro do prazo da validade da promoção, na embalagem principal e em outras embalagens.
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Digitar Pedidos de Venda;
+2- Digitar pedidos de venda usando os produtos citados na pré-condição para esse teste. Nessa etapa, deve-se testar informando a embalagem principal e também as secundárias;
+3- Verificar que mesmo o produto tendo um preço de promoção e estando dentro do prazo de validade da promoção, o sistema nunca traz esse valor. Está mostrando sempre o valor original dos produtos.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao digitar pedido de venda usando produtos com preço de promoção no cadastro, o sistema traga esses produtos com o preço promocional, até que vença o prazo de validade da promoção.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

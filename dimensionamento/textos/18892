@@ -1,0 +1,8 @@
+Revisão do LAYOUT 1.51 para criação do 1.52 corrigido
+Foi encontrado diversos erros no layout 1.51, campos que divergem do informado no layout.
+
+Como por Exemplo o Campo RETIFICACAO no Exportador de VENDA, ao qual não aparece no layout.
+
+Solicito a verificação e correção do Layout levando em conta os novos campos criados para NFC-e.
+
+*Sugestão:* Gerar o layout 1.52 com a atualização das diferenças entre layout e o documento. 

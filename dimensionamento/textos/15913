@@ -1,0 +1,2 @@
+PDV não funciona, quando solicita o cliente no início da venda e não tem cliente padrão parametrizado.
+Quando atribui renda ao cliente que estava parametrizado  como cliente padrão, o PDV não funcionava. Os menu's F12 e PageDown não funcionava, apenas o F11. Após uma análise do log foi verificado que não estava com o cliente padrão parametrizado através da linha de código "DincashDadosVendaController.java:55". O parâmetro do cliente padrão ficou em branco de forma automática após alterar sua renda. 

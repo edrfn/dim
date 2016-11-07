@@ -1,0 +1,13 @@
+Refatoração da interface do Servidor de PDV
+*Como:* Desenvolvedor
+*Quero:* Estrutura a interface de acordo com o novo modelo
+*Para:* Facilitar manutenção e adição de novas seções, corrigir problemas e detalhes da interface atual
+
+*Critério de validação:*
+- Função de "clicar e arrastar" na interface do servidor deve mover todas as abas/janelas.
+- Mudanças no alinhamento dos componentes devem ser feitas sem muito esforço
+- Adição de novas janela deve ser relativamente fácil
+
+
+*Como Implementar:*
+- Refazer hierarquia de classes das views de forma análoga à nova estrutura do PDV

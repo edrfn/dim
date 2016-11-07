@@ -1,0 +1,18 @@
+Rotina de transferência está destacando PIS/Cofins nas notas
+
+*1) Qual o comportamento observado?*
+
+Ao utilizar a rotina de Transferência e exportar a NF-e, está sendo destacado PIS e Cofins nas notas.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça uma nota de transferência;
+Exporte a NF-e;
+Verifique o XML da nota e o DANFE;
+
+*3) Qual o comportamento esperado?*
+
+O sistema não deve destacar PIS e Cofins para notas de transferência.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

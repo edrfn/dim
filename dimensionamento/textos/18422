@@ -1,0 +1,29 @@
+Melhorar o funcionamento da tela de digitar preço de venda "Valor produto"
+*Como:* Analisar a melhor forma de comportamento do sistema, ao inserir o valor do produto na tela de digitar preço de venda
+*Quero:* Melhorar o funcionamento da tela de digitar preço de venda "Valor produto"
+*Para:* Usuário do sistema
+
+*Mais informações:* este é um ticket de melhoria, que foi motivado ao utilizar a tela de digitar preço de venda. Ao digitar um valor para o produto na venda, o sistema faz um cálculo automático do valor digitado pelo preço unitário do produto, resultando em uma quantidade proporcional. Mas existe uma solicitação de cliente do projeto Web (#17033), que nos faz repensar qual deve ser o comportamento do sistema ao digitar o preço do produto na venda. 
+
+Passos para reprodução do comportamento observado:
+1. Em grupo de produto, habilitar o campo "digitarprecovenda";
+2. Vender um produto associado a este grupo;
+3. Digitar um preço de venda maior que o preço do produto;]
+4. Verifique que o sistema recalculou a quantidade vendida, proporcional ao preço digitado.
+
+*Critérios de validação*
+- Quando habilitada a digitação do preço de venda com produto pesado:
+ + Recalcular a quantidade
+- Se *não* for produto pesado:
+ + Considerar acréscimo ou desconto, verificando as configurações permitidas da configuração do sistema, permissões de operador, descontos de grupos e do próprio produto.
+
+- Quando habilitada a digitação da quantidade com produto pesado:
+ + Permitir valor com decimal
+- Se *não* for produto pesado:
+ + Somente permitir quantidades inteiras
+
+*Como implementar*
+* bloquear funcionamento atual para produto pesado
+* Alterar funcionamento para produto normal
+* teste com produto pesado
+* teste sem produto pesado

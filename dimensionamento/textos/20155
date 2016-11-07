@@ -1,0 +1,20 @@
+Erro ao exportar NFE devolução a cliente
+1) Qual o comportamento observado?
+
+Ao exportar Nota Fiscal Eletrônica de devolução a cliente, é apresentada mensagem "The element NFref" in namespace has incomplete content. Foi verificado no XML que a TAG <NFref></NFref> está sem informação, conforme validado por Jadson.
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+GERENCIADOR - COMERCIAL - VENDAS - CADASTROS - VENDAS BALCAO - PROCEDIMENTOS ESPECIAIS - OPERAÇÕES DE NFE - EXPORTAR NOTA FISCAL ELETRONICA/SERVICE (DEVOLUÇÃO DE CLIENTE);
+
+3) Qual o comportamento esperado?
+
+Exportar a NFE de Devolução a cliente corretamente;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+As mesmas do passo 2
+
+Observação:  XML da NFE de devolução em anexo;
+Base do cliente: Se encontra em : X:\Victor Magalhães\Bases - Cliente Canal Direto

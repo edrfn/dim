@@ -1,0 +1,21 @@
+Ao selecionar uma grade na rotina digitar pedido de vendas o sistema exibe a mensagem "produto não cadastrado"
+*1) Qual o comportamento observado?*
+
+- Durante a execução do caso de teste {{testcase(AM-197)}} foi observado que na rotina digitar pedido de vendas utilizando a opção grade com apenas uma variação de grade o sistema apresenta a mensagem "produto não cadastrado", não permitindo a efetivação do pedido.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+ -> Crie dois tipos de grade. No modulo de Estoque.
+ -> Crie uma variação de grade para cada tipo de grade do passo anterior.
+ -> Em Grade de Produtos, Crie uma grade tendo a 1º grade e 2º grade com apenas uma variação selecionada.
+ -> Crie um pedido de venda na rotina Digitar pedido de venda.
+ -> Com F5 selecione a opção Grade e escolha a grade de produtos criada. 
+ -> Ao selecionar o grade a seguinte mensagem será apresentada "Produto não Cadastrado"
+
+*3) Qual o comportamento esperado?*
+
+ -> Ao selecionar a grade de produtos na rotina pedido de vendas, o sistema deveria montar uma tela de grade e permitir o cliente selecionar as variações do produto por quantidade.    
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+ -> Os mesmos realizados no passo 2.

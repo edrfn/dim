@@ -1,0 +1,10 @@
+Arquivo "Instalador_web.exe" que é instalado no PDV não esta sendo atualizado
+*Qual o comportamento observado?*
+Ao gerar uma versão os instaladores do sistema pela rotina "Gerar INSTALADOR UNICO" ou "Gerar INSTALADOR UNICO PAF", o arquivo "Instaldor_Web.exe" o qual deve constar na pasta do Dincash PDV após a instalação do mesmo, não está sendo atualizado.
+
+*Quais as etapas para obter o comportamento observado?*
+1. No ANT do Eclipse gerar uma versão utilizando a rotina "Gerar INSTALADOR UNICO PAF" ou "Gerar INSTALADOR UNICO"
+2. Instalar o PDV e comparar verificar se o arquivo que está na pasta do PDV é o mesmo que esta na pasta "dincash_web2\install\instalador_unico\output" 
+
+*Qual o comportamento esperado?*
+Sempre que for gerada uma versão pelas rotinas "Gerar INSTALADOR UNICO" ou "Gerar INSTALADOR UNICO PAF" o arquivo "Instalador_Web.exe" que é compilado para o instalador do PDV e pastas de distribuição seja sempre o atual gerado no processo

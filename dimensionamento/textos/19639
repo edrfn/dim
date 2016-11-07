@@ -1,0 +1,23 @@
+Relatório de Produtos
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do relatório.
+*Para:* que seja adequado ao framework e a novo banco.
+
+*Critérios de validação:*
+
+- Geração do relatório de produtos com os filtros sugeridos no requisito.
+
+*Como implementar:*
+
+- Interface para a geração do relatório.
+- Possibilidade de exportar em pdv, excel e visualização em tela.
+
+*Requisito:*
+Seguir o padrão já existente no sistema.
+
+h1. Implementar:
+> Resumido - ordem Alfabética
+> Detalhado - Ordem Alfabética
+
+h1. Observações
+- Onde na especificação está "Visualizar", usar o ícone anexo.

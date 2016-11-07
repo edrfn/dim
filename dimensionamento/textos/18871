@@ -1,0 +1,36 @@
+Realizar a exportação de registros
+*Cadastros:*
+* Embalagem
+* Produto
+* Embalagem Secundária
+* Referencia Secundária
+* Código de Barras Secundária
+* Cliente
+* Emitente
+* Usuário 
+* Permissão de Usuário
+* Caixa
+* Vendedor
+* Espécies
+* Plano de Pagamento
+* Parcelas de Plano de Pagamento
+
+*Configurações:*
+* Venda
+* Financeiro
+* Gerais
+
+*Estoque:*
+* Entrada
+* Itens de Entrada
+* Saida
+* Itens de Saida
+
+*Vendas*
+* Cabeçalho da Pré-Venda
+* Itens
+* Espécies
+* Mensagens
+
+*Outros*
+* Titulos a Receber

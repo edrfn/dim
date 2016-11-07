@@ -1,0 +1,14 @@
+[NFC-e] Implementação do processo de venda de itens.
+*Como:* Scrum Master
+*Quero:* Criar o processo de venda de itens no projeto NFCe.
+*Para:* Realizar correções no sistema de forma que torne-o mais fácil dar manutenção
+
+*Critérios de validação*
+1. Realizar testes de unidade;
+2. Testar no sistema;
+
+*Como Implementar*
+1. Refazer a classe com base na existente do sistema
+2. Implementar VenderItemObserver;
+3. Implementar VenderItemNFCEAction;
+4. Juntar a estrutura nova com a estrutura antiga.

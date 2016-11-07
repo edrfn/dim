@@ -1,0 +1,19 @@
+Sistema no campo CST no Registro C170 esta inserindo o valor "049"
+
+1) Qual o comportamento observado?
+
+O cliente MJ Brasil começou a utilizar importação de XML, porem o sistema no campo CST no Registro C170 esta colocando a informação "049", porem esse codigo não existe na tabela do SPED.
+
+Problema gerado na nota de ex: (CHAVE = 29160103705630000311550010013642431111013010)
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1- Pegue a chave "29160103705630000311550010013642431111013010" efetue a importação do XML.
+2- Libera  nota para o estoque.
+3- Verifique no campo CODCST o valor inserido.  
+
+3) Qual o comportamento esperado?
+
+Após a importação do XML o sistema coverter a CST correspondente a nota.
+
+4) Quais as etapas para executar o comportamento esperado?

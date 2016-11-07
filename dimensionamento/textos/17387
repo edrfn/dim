@@ -1,0 +1,16 @@
+As informações de banco não estão sendo sincronizadas para o PDV
+*Qual o comportamento observado?*
+As informações de banco que estão no banco de dados do painel não estão sendo sincronizadas para o PDV. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Importar o arquivo referente a banco para o painel;
+2. Abrir o PDV ou sincronizar com F12 > F1, para as informações de banco sincronizar para o PDV;
+3. Verifique que a tabela banco no banco de dados do PDV está vazia.
+
+*Qual o comportamento esperado?*
+Que as informações de banco seja sincronizada para o PDV, pois é necessário para vender com a espécie cheque.
+
+*Como implementar?*
+- Identificar a causa do problema;
+- Implementar solução;
+- Testes.

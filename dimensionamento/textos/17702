@@ -1,0 +1,5 @@
+Refatoração e correção de bugs no cadastro de Transportador
+Situações listadas no ticket relacionado:
+1- Durante a inserção, quando preenche um campo na aba dados de entrega ou de cobrança e depois apaga, quando vai gravar o registro é exibida uma mensagem informando que determinado campo precisa ser preenchido;
+2- No campo Cidade, ao abrirmos a pesquisa e clicarmos em UF, a seta fica em cima da sigla, não deverá;
+3- Ao clicarmos em Gravar sem o campo CPF/CNPJ preenchido, o sistema exibe uma mensagem informando que o número do documento é inválido, e não que o campo precisa ser preenchido.

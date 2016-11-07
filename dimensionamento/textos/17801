@@ -1,0 +1,17 @@
+Garantir permissões de leitura/gravação de arquivos ao instalar e executar o sistema.
+
+*Como:* PO
+*Quero:* Instalação e execução do PDV sem problemas de permissão para gravação e leitura de arquivos.
+*Para:* Não gerar problemas de permissão ao utilizar o Configurador e o PDV.
+
+*Critério de validação*
+ - Ao utilizar o Configurador, conseguir gravar as configurações sem gerar mensagens de erro relacionadas à  falta de permissões.
+ - Instalador deve habilitar todas as permissões (leitura e gravação de arquivos) para instalação e execução do sistema.
+ - Ao utilizar o PDV, a pasta e os arquivos de log são criados normalmente.
+ - Arquivos do PAF são gerados normalmente. 
+
+*Como implementar*
+- Analisar instalador
+- Modificar para garantir permissões
+- Testes
+

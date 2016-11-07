@@ -1,0 +1,38 @@
+[ACAOBACKLOG]O Sistema esta validando incorretamente as casas decimais na operação de venda.
+
+1) Qual o comportamento observado?
+
+Segue como esta parametrizado:
+
+ (Casas decimais na embalagem = 3) e (Casas decimais do valor unitário = 2) 
+
+Oque foi verificado:
+
+Foi verificado no cliente Queijos e Cia que ao efetuar a venda de um produto pesado, sendo que a quantidade do item contem  3 casas decimais, ao emitir o cupom  o sistema valida o campo incorreto, informa somente duas casas decimais.
+
+Oque o Sistema validaria:
+
+O tratamento no sistema é validar o valor unitário informado e multiplicar pela quantidade informada , sendo que deverá atribuir oque esta configurado em informações de produtos.
+
+Problema encontrado:
+
+O problema  é que o sistema ao invés de pegar o dado informado no campo de quantidade do produtos em decimais esta enviando o valor do produto neste campo.
+
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Gerenciador --> Parametros --> Informações sobre Produtos -->
+Contém os parametros (Casas decimais na embalagem = 3) e (Casas decimais do valor unitario = 2) 
+ 
+
+3) Qual o comportamento esperado?
+
+Solicitação é que o cupom seja impresso com a mesma quantidade do sistema e com o mesmo valor sem  gerar troco de centavos. 
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesma validação da pergunta 2.
+
+5) Adicionais.
+Obs: Solução de contorno , parametrizar  (Casas decimais na embalagem = 3) e (Casas decimais do valor unitário = 3) 
+Foi simulado em base de dados do Setor de Teste.

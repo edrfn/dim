@@ -1,0 +1,9 @@
+Sincronização de produtos na versão 9.1 do SAP.
+Comportamento observado:
+
+O campo 'U_SalUnitMsrPrice' não é criado gerando um erro de sincronização de produtos.
+Ocorre com frequência em bases com o SAP 9.1. Geralmente após um reset de produtos.
+
+Comportamento esperado:
+
+O campo deve ser criado pelo sistema, e não gerar o problema na sincronização de produtos.

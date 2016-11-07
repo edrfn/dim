@@ -1,0 +1,18 @@
+Erro log ao importar arquivo de retorno utlizando Total Boletos
+*1) Qual o comportamento observado?*
+
+Foi identificado que ao utilizar a rotina de retorno de boletos no Total Boletos, o sistema apresenta erro log.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Tenha um arquivo de retorno;
+Faça a importação através da rotina: "Gerenciador/Utilitários/Importação de Dados/Baixa Bancos/Total Boletos;
+Importe o arquivo;
+Observe o erro log;
+
+*3) Qual o comportamento esperado?*
+
+Importar o arquivo corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

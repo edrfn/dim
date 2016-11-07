@@ -1,0 +1,8 @@
+Validação de parametros relacionados com as funções de Pedido de Venda e Orçamento
+Realizar uma verificação referente aos parâmetros e suas utilizações nas funções de Pedido de venda e orçamento.
+
+Principais pontos a validar:
+Operações básicas: Incluir, pesquisar, alterar e excluir registros;
+Parâmetros: Consistência de Limite de Crédito; Digitar Preço de venda; Consistência de Título Vencido; Natureza de Operação na venda; Alerta estoque negativo; Ordem dos itens na venda/orçamento; Filtrar Produtos inativos; Mostrar Preço de Custo ao consultar produto; Validade do Orçamento.
+
+

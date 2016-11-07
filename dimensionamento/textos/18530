@@ -1,0 +1,14 @@
+Sintegra - No registro 75 o campo NCM está ficando em branco
+*1) Qual o comportamento observado?***
+Ao gerar e validar o arquivo de sintegra, foi verificado que o campo NCM está ficando em branco no registro 75 (Listagem dos produtos movimentados)
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastros - Arquivos Fiscais - exportação para o sintegra;
+2- Gerar um arquivo e validar;
+3- Verificar nas linhas referentes ao registro 75 que o campo NCM está ficando em branco;
+
+*3) Qual o comportamento esperado?*
+É esperado que seja devidamente informado o NCM dos produtos no registro 75. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

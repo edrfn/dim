@@ -1,0 +1,18 @@
+Utilitário para filtrar os Itens movimentados no mês por alíquota e totalizar o valor de movimentação do produto/por alíquota
+Como: Product Owner
+
+Quero: Que seja feito um utilitário para filtrar os Itens movimentados no mês por alíquota e totalizar o valor de movimentação do produto/por alíquota, após isto fazer um update na tabela de redução Z para reprocessar os valores com as informações encontradas no banco de dados.
+
+Para: Resolver o problema dos dados da redução Z divergente da movimentação do itens na impressora.
+
+Solicitação
+Implementação de um utilitário para filtrar os Itens movimentados no mês por alíquota e totalizar o valor de movimentação do produto/alíquota, após obter esse totalizador por (dia , redução e caixa)fazer um update na tabela de redução Z para reprocessar os valores das posições das Aliq com as informações encontradas no banco de dados.
+
+Exemplo do Problema:
+A redução Z do dia 19/05/2015, Caixa 1, alíquota de 12% foi gravada com valor de movimentação R$1,98.
+
+Houve movimentação dos cupons 25766 e 25777 
+Itens: 19173,19732,19171 e 18853.( Esses itens destes dois cupons são de 12% aliq)
+A soma dos itens movimentados com esta aliq "12%" era para constar R$10,20 e gravou a redução com R$ 1,98 , sendo que o item esta autorizado e na MFD consta a movimentação.
+
+Sendo assim ocorre erro de estrutura no Sped , pois é verificado a redução juntamente com os dados dos itens.

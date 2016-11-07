@@ -1,0 +1,9 @@
+Parâmetros de PDV
+*Comportamento Observado:*
+
+- Os campos estão permitindo valores nulos e isso está causando um problema na exportação. Quando o campo está nulo o sistema não consegue criar o arquivo normalmente.
+
+*Qual o comportamento esperado:*
+
+- O sistema não deve permitir que valores nulos sejam preenchidos nos campos de parâmetros.
+

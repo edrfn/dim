@@ -1,0 +1,19 @@
+O Dincash não está exportando o "código de loja" da tabela validacaodto do banco de exportação
+*1) Qual o comportamento observado?*
+Para funcionamento da integração do dincash com terceiros utilziando banco de dados é criada uma tabela de Exportacao e Importacao, no caso da exportação que é o que pretendo relatar um bug, quando exportamos do dincahs uma movimentação (venda) ele preenche os campos vendadto, itemvenda.dto e validacao.dto sendo que nas 3 tabelas tem o codigo a coluna codigo da loja. O problema ocorre quando a venda é exportada e é preenchido o código da loja no vendadto e itemvenda, só que no validaçãodto fica em com o codigo 0.
+
+Foi feito o teste em diversos Layout's e nas versões atuais e ainda ocorre.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Exportar uma venda verificar que o codigo da loja é informado no itemvendadto e no vendadto, quando validar o validacaodto não constará a mesma numeração de loja sempre informando o numeral 0
+
+
+*3) Qual o comportamento esperado?*
+Quando exportar a movimentação para tabela de exportacao informar o codigo da loja correto na tabela validacaodto
+
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+2.8J
+
+Pode ser simulado em qualque base e qualquer versão do sismtema ou layout

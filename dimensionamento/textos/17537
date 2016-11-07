@@ -1,0 +1,15 @@
+Solicitação para valide o cupom antes de fechar o dia na rotina de Substituição de CUPOM.
+*Como:* Operador de CAIXA 
+*Quero*: Que seja implementada a validação na rotina de SUBSTITUIÇÃO DE CUPOM ,para que consiga fazer a operação antes de fechar o dia.
+*Para:* Atender a solicitação de diversos Clientes do Projeto Kepler.
+
+*Critério de validação*
+
+Fazer uma venda cupom fiscal
+Após ir na rotina de substituição de cupom: Vendas>>Procedimentos Especias>>Outras Operações>> ALT + J >>Informa o número do cupom e data de emissão
+O sistema informar em tela validando o cupom que ainda consta na tabela de pedidos antes de fechar o dia.
+
+
+*Como implementar*
+Criar a validação no autpdc e autpdi da mesma forma que é feita no autnff e autite.
+Sendo assim o cliente não precisará fechar o dia para substituir o CUPOM.

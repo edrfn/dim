@@ -1,0 +1,13 @@
+Arquivos de troca de dados (Solicitação de carga completa inicial)
+*Como:* Scrum Master
+*Quero:* Que o servidor envie uma mensagem, via arquivo,
+*Para:* Facilitar a comunicação entre o Servidor de PDV e o ERP de forma que reduza o nível de intervenção do usuário para obter fluência no funcionamento. 
+
+*Critério de validação* 
+* Verificar o formato e o arquivo de acordo com o layout estabelecido.
+* Verificar que o Servidor sabe identificar o momento de solicitar essa carga.
+
+*Como implementar* 
+* Definir um layout de troca de mensagens. Estabelecendo palavras-chaves que identifique o conteúdo solicitado;
+* Identificar no sistema o momento de realizar essa carga e as necessidades de ser solicitado com o sistema em funcionamento;
+* Testes;

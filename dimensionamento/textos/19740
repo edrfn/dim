@@ -1,0 +1,12 @@
+Refatorar a rotina de Finalizar de Digitação de Balanço
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração da rotina de finalizar a digitação de balanço
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar a rotina solicitada.
+
+*Como implementar:*
+
+- Interface para a rotina

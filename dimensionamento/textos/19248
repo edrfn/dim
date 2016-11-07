@@ -1,0 +1,15 @@
+Testes na nova DLL da DARUMA utilizando a BASE do cliente Varejão Ponta Negra.
+Situação:
+
+Cliente relatou que o sistema está fechando com frequência após a emissão de NFC-e forçando-o a redigitar a nota.
+A daruma repassou novas dlls (em anexo ) para que pudessemos verificar se o problema persiste.
+
+O cliente nos disponibilizou as bases do SAP e do CASHONE para que possamos efetuar os devidos testes.
+
+Observações:
+
+- Para restaurar a base SAP, seguir passo a passo presente no arquivo .rar
+- A Base SAP está na versão 9.1, mesma versão da Maquina virtual passada por Júlio no inicio do ano.
+- Caso haja dúvidas na restauração do SAP, enviar e-mail para (jcesar@tribussolucoes.com)
+- Base no Caminho : "\Teste\Bases Redmine\Bases Varejao.rar"
+

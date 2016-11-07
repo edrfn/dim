@@ -1,0 +1,9 @@
+Redefinir senha
+Eu como usuário quero redefinir minha senha;
+
+
+**Validações**
+
+* Todas as validações constantes no requisito de produto #17765;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem redefiniu a senha.

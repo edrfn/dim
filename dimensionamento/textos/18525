@@ -1,0 +1,15 @@
+Refatoração do Framework - Natureza da Receita CST, PIS e COFINS
+Como: Coordenadora de Projetos
+Quero: Refatoração do cadastro Natureza de Receita.
+Para: A rotina ser adaptada ao novo formado proposto.
+
+*Critério de validação*
+
+    Ter acesso à funcionalidade através do menu: Estoque -> Cadastro -> Natureza da Receita CST, PIS e COFINS;
+    Inserir, alterar, excluir, pesquisar.
+    Poder gravar os dados, novos ou alterados, da natureza da receita;
+
+*Como implementar*
+
+    Adaptar a rotina ao novo formato;
+

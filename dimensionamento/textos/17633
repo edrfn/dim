@@ -1,0 +1,72 @@
+Correções de acento e padronização de flexão gramatical e alinhamento
+É necessário corrigir a acentuação de algumas palavras, definir um padrão de flexão gramatical de número (singular e plural) e alinhar os título de algumas telas, são elas:
+
+*Acentuação:*
+1. Colocar acento agudo na palavra "Alíquota" na coluna da tabela da tela de nota fiscal (F9);
+2. Colocar acento agudo na palavra "Cód. Barras" na coluna da tabela de Consultar produtos (PageDown);
+3. Colocar acento agudo na palavra "Núm. da parcela" na coluna da tabela em Pagamento Parcelas (pagar com espécie outras com parcela);
+4. Colocar acento agudo na palavra "possível" na mensagem de alerta mostrada ao pressionar "ENTER" na tela de venda;
+
+*Flexão gramatical de número (Singular ou Plural):*
+1. Vendas Canceladas (F3) - plural;
+2. Menu Fiscal (F4) - singular;
+3. Título (F8) - singular;
+4. Nota fiscal (F9) - singular;
+5. Atalhos (F11) - plural;
+6. Opções da venda (F12) - plural;  
+7. Consultar produtos (PageDown);
+8. Listagem itens na venda;
+9. Comprador - singular;
+10. Vendedor - singular;
+11. Plano de pagamento - singular;
+12. Cliente - singular;
+13. Baixa de título - singular;
+
+*Alinhar:*
+1. Vendas Canceladas (F3) - centralizado;
+2. Menu fiscal (F4) - centralizado;
+3. Título (F8) - à direita;
+4. Nota fiscal (F9) - centralizado;
+5. Atalhos (F11) - à direita;
+6. Opções da venda (F12) - à direita;
+7. Consultar produtos (PageDown)- à direita;
+8. Checkout (tela de pagamento) - à direita;
+9. Dinheiro - à direita;
+10. Desconto no item e na venda - centralizado;
+11. Acréscimo no item e na venda - centralizado;
+12. Listagem itens na venda - à direita; 
+13. Comprador - À direita;
+14. Vendedor - centralizado;
+15. Plano de pagamento - centralizado;
+16. Cliente - centralizado;
+17. Confirmação - centralizado;
+18. Alerta - à esquerda;
+19. Digitar quantidade - 
+20. Digitar valor - 
+21. Baixa de título - à direita;
+22. Sangria de caixa - à direita; 
+23. Menu LMF - centralizado;
+24. Prévia de fechamento - À direita;
+25. Número do DAV - à direita;
+26. Reimpressão de cupom - à direita;
+27. Mensagem da venda - À direita;
+28. Pagamento parcelas - centralizado;
+
+*Título dos campos e botões*
+Título dos campos:
+1. Tela de comprador
+2. Consulta de produto
+3. Auditoria de caixa
+
+Botões:
+1. Ou utiliza a imagem ou o texto no campo
+
+*Padronização*
+1. "Forma de Pagamento" ou "Plano de Pagamento";
+2. Na mensagem de licença expirada, a empresa deve aparecer "Total Informática";
+
+*Como implementar*
+1. Identificar no código os pontos citados.
+2. Corrigir os pontos.
+3. Testar.
+4. Corrigir problemas encontrados (BUG);

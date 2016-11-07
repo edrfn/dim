@@ -1,0 +1,20 @@
+xIntegra 1097 não grava os valores dos totalizadores fiscais
+1) Qual o comportamento observado?
+
+Foi observado que com o xIntegra 1097, ao enviar as reduções Z do DinCash para o Automaster, o mesmo não faz a gravação dos totalizadores fiscais das reduções. Verificada a tabela autFIS, onde constam os valores zerados.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Tenha uma base do DinCash com movimentações;
+Realize a exportação das Reduções Z;
+Verifique no AutoMaster em: Compras, Cadastros, Operações Fiscais, Lançamento da Redução Z;
+
+3) Qual o comportamento esperado?
+
+Ao integrar uma base do DinCash ao Automaster e realizar a exportação das Reduções Z, o mesmo deve realizar a gravação dos valores respectivos aos totalizadores fiscais;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.
+
+*Obs.:* Base DinCash disponível em: "\Teste\Bases Redmine\HIPER SERVILLAR\DinCash_Servillar.zip"

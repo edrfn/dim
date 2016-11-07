@@ -1,0 +1,18 @@
+Sintegra - Criação do registro 53 (Substituição tributária)
+*Como:* Analista de requisitos
+*Quero:* Criação da estrutura para geração do registro 53 do sintegra. 
+*Para:* Cliente contribuinte substituto tributário gerar o registro 53 com os dados necessários.
+
+*Critério de validação* 
+* Configurar a empresa licenciada como contribuinte substituto SIM;
+* Gerar movimentações com substituição tributária;
+* Ter acesso à rotina através do menu: Cadastros - Arquivos Fiscais - exportação para o sintegra;
+* Gerar o arquivo de sintegra e validar;
+* Verificar os campos referentes ao registro 53, substituição tributária;
+
+*Como implementar* 
+* Ler as informações referentes às movimentações co substituição tributária;
+* Gerar os campos do registro 53 de acordo com o layout do sintegra, manual anexo;
+
+*Observação:*
+Registro só é obrigatório para o contribuinte substituto tributário.

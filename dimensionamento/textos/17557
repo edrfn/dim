@@ -1,0 +1,14 @@
+Desabilitar rotinas de F11 que não podem ser feitas fora da venda
+Existem duas telas de menu no sistema, referente a opções que podem ser executadas durante a venda ou não. No menu de opções F11 existem funções que podem ser executadas durante a venda ou não. Os botões que não podem ser executados fora da venda devem ficar inativos, da mesma maneira que os botões que não podem ser executados durante a venda. 
+
+Segue abaixo os botões que devem ficar inativos:
+F11 - repetir item, cancelar item do cupom, cancelar cupom, mensagem do cupom;
+
+*Critérios de validação*
+No menu de opções o sistema não deve permitir utilizar os botões de funções que não podem ser utilizadas fora da venda;
+
+*Como implementar*
+* Rastrear as funcionalidades que não devem ser implementadas;
+* Desabilitar as chamadas;
+* Desabilitar os botões;
+* Testes.

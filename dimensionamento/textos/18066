@@ -1,0 +1,16 @@
+[ACAOBACKLOG]Impressora fiscal está acrescentando centavos ou dando troco para que o valor total do cupom fiscal fique igual ao da base.
+Estava fazendo alguns testes relacionados a casas decimais quando notei que alguns cupons estavam saindo com valores diferentes dos registrados na base, e para corrigir isso a impressora fiscal está acrescentando centavos ou dando troco para que o valor total do cupom fiscal fique igual ao da base.
+
+*Com os parâmetros "Casas decimais do valor unitário = 2" e "Casa decimais da embalagem = 3"*
+* A embalagem dos itens no cupom fiscal é impresso apenas com 2 casas decimais.
+* A venda foi feita da seguinte forma:
+Produto 1 ; Quantidade: 1,987 ; Valor: 24,90
+Produto 2 ; Quantidade: 1,789 ; Valor: 59,90
+
+*Com os parâmetros "Casas decimais do valor unitário = 3" e "Casa decimais da embalagem = 4"*
+* A embalagem dos itens no cupom fiscal é impresso apenas com 3 casas decimais.
+* A venda foi feita da seguinte forma:
+Produto 1 ; Quantidade: 1,9876 ; Valor: 24,90
+Produto 2 ; Quantidade: 1,6789 ; Valor: 59,90
+
+*Obs.: Segue em anexo imagem dos cupons*

@@ -1,0 +1,22 @@
+Importação de XML - No campo 'Natureza de Operação' o sistema está trazendo a mesma informação do XML, o correto seria trazer a equivalente
+*1) Qual o comportamento observado?*
+Ao importar um arquivo XML no lançamento de nota de compra, o campo 'Natureza de Operação' deverá ser preenchido com a informação +equivalente+ a que está no XML. Hoje o sistema está vinculando a mesma Natureza de Operação que vem no arquivo XML
+*Exemplo:* No XML tem a CFOP 5102 (Venda), o sistema deverá vincular a CFOP 1102 (Compra);
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo a ser importado, fazer a associação dos produtos e clicar em 'Confirmar';
+4- Verificar que no campo 'Natureza de Operação' o sistema está vinculando a mesma informação que consta no arquivo XML.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao importar um arquivo XML no lançamento de nota de compra, o sistema preencha o campo 'Natureza de Operação' com a informação equivalente a que veio no XML, não a mesma informação;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*========== Anotações da Reunião de Planejamento ==========*
+
+h3. Informações Adicionais:
+
+* Já existe um trecho de código de conversão, que deve estar bugada. Este mesmo foi implementado por Thay e Felix. Ao qual converte o código de saída para a de entrada correspondente e vice-versa;

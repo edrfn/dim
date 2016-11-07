@@ -1,0 +1,12 @@
+[CASE] Digitar Nota Fiscal de Compra -  Fazer com que os produtos permaneçam na ordem  em que foram inseridos após a gravação do registro
+*Como:* Tester
+*Quero:* Que os produtos permaneçam na ordem em que foram inseridos após a gravação do registro.
+*Para:* Que seja fácil o usuário conferir posteriormente os produtos inseridos. 
+Da forma que está, a atividade se torna árdua se inserida uma quantidade grande de produtos, pois eles ficam "embaralhados" no grid.
+
+*Critério de Validação:*
+- Acessar a rotina pelo camminho: Compras - Movimentos - Digitar Nota Fiscal de Compra;
+- Preencher os campos iniciais;
+- Inserir os produtos e salvar o registro;
+- Fechar a rotina e abrir novamente, pesquisando o registro salvo anteriormente;
+- verificar que os produtos não estão mais na ordem em que forma inseridos.

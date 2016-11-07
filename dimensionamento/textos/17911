@@ -1,0 +1,24 @@
+Mensagem de erro ao iniciar a rotina de Pedido de Venda 
+Descrição:
+
+Sistema exibe mensagem de erro ao iniciarmos outra rotina antes de abrir a rotina de Pedido de Venda;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao iniciarmos qualquer outra rotina do sistema e depois iniciarmos a rotina de Pedido de Venda, a mensagem de erro é exibida: "Cannot focus a disabled or invisible window";
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Iniciar qualquer rotina (em um determinado módulo) > Sair da rotina iniciada > Ir para o módulo de Vendas > Movimentos > Pedido de Venda > Erro!
+
+3) Qual o comportamento esperado?
+
+Espera-se que o sistema não exiba mensagem de erro se iniciarmos outra rotina antes de abrirmos a rotina de Pedido de Venda;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Iniciar qualquer rotina (em um determinado módulo) > Sair da rotina iniciada > Ir para o módulo de Vendas > Movimentos > Pedido de Venda > Sistema iniciar a rotina sem exibir nenhuma mensagem de erro para o usuário;
+
+h3. Observação da situação anterior:
+
+Após darmos OK na mensagem de erro exibida ao tentar iniciar a rotina, podemos perceber que o título da rotina é alterado, surge um novo botão intitulado Opções ao lado do botão Excluir, e ao clicarmos em Novo, todos os botões da rotina são ativados. 

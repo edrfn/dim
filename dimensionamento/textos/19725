@@ -1,0 +1,13 @@
+Refatorar o cadastro de centro de custo
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de centro de custo
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Validação se o centro de custo já foi cadastrado;
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

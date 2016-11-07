@@ -1,0 +1,18 @@
+Sistema aborta ao apagarmos o campo Cliente e dermos Page Down em Cancelamento de NFe
+Sistema aborta ao apagarmos o campo Cliente e dermos Page Down em Cancelamento de NFe;
+
+*1) Qual o comportamento observado?*
+Foi observado que ao preenchermos o campo Cliente e depois o apagarmos, ao dermos Page Down, o sistema aborta automaticamente; 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente e depois o apaga > Pressiona Page Down no campo > Sistema aborta automaticamente;
+
+*3) Qual o comportamento esperado?*
+Espera-se que ao apagarmos o campo Cliente e dermos Page Down, o sistema não aborte e abra à janela de pesquisa de clientes;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+Vendas > Movimentos > Cancelamento de NFe > Preenche o campo Cliente e depois o apaga > Pressiona Page Down no campo > Sistema exibe a janela de pesquisa de clientes;
+
+h3. Observação rápida:
+
+1- Ao realizarmos o mesmo processo no campo Nota Fiscal, o sistema exibe na janela de pesquisa do campo o registro apagado anteriormente, quando deveria exibir todos os registros daquele Cliente selecionado.

@@ -1,0 +1,20 @@
+Refatoração da Tela de Comprador
+*Descrição*
+
+Iniciando a série de refatorações necessárias à interface do PDV, essa história visa corrigir a tela de Comprador e as suas subtelas Cliente, Forma de Pagamento e Vendedor, tornando-as mais responsivas.
+
+*Quero:* Tela de Comprador e suas subtelas mais responsivas a diferentes tamanhos de tela.
+*Como:* Refatorando todo o código da tela de Comprador e suas subtelas para substituir o uso de AnchorPane por outros gerenciadores de layout mais adaptáveis e fáceis de manter.
+*Para:* Evitar deformações da interface ao rodar o sistema em diferentes tamanhos de monitor.
+
+*Critério de validação*
+
+Ao visualizar o sistema em monitores de diferentes resoluções, notar que os componentes da interface são ajustados de maneira satisfatória, sem deformações ou efeitos estéticos desagradáveis.
+
+*Como implementar*
+
+* Criar um novo arquivo .fxml para a tela de Comprador, a tela de Cliente, a tela de Forma de Pagamento e a tela de * Vendedor, reconstruindo a interface sem o uso de AnchorPane.
+* Criar o CSS para os novos fxml.
+* Linkar os eventos e rotinas das telas antigas às novas telas.
+* Corrigir bug encontrado.
+* Corrigir os botões inativos que estão muito apagados na tela de comprador.

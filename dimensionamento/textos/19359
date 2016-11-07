@@ -1,0 +1,16 @@
+[Licença] Encriptação do Arquivo de Licença
+*Como:* Administrador do sistema xpto
+*Quero:* Encriptar arquivo de licença
+*Para:* Comunicação segura com o License Manager
+
+*Critério de validação* 
+
+O ERP deve ler e gerar os arquivos encriptados;
+
+*Como implementar* 
+O PDV irá gerar um arquivo criptografado em 3 tipos de algoritmos:
+* DES;
+* AES;
+* Blowfish;
+
+O ERP irá tentar ler em algum dos 3 e com isso validar qual será escolhido e terá menos impacto;

@@ -1,0 +1,16 @@
+[Configurador] Alterar dados de login e senha no configurador
+*1) Quais os comportamentos observados?*
+1.1- Ao instalar o Dinâmico PDV, o configurador traz nos dados de login e senha "postgres/root" e esse usuário não tem permissão para criar banco de dados;
+1.2- Caso o banco do Dinâmico Varejo esteja com nome diferente de dinamico_erp, também não é possível criar o banco do PDV, mesmo informando usuário com permissão, o configurador apresenta a mensagem: FATAL: database "dinamico_erp" does not exist
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Instalar o Dinâmico PDV ou deletar o banco e executar o configurador;
+2- Para o tópico 1.1 - Tentar configurar usando o login "postgres/root";
+2- Para o tópico 1.2 - Tentar configurar usando login com permissão para criar banco, porém, verificando se o nome do banco do Dinâmico Varejo está diferente de dinamico_erp;
+
+*3) Qual o comportamento esperado?*
+É esperado que o login que vem por padrão no configurador tenha permissão para criar banco de dados e consiga criar o banco do PDV.
+É esperado também que o nome do banco do Dinâmico Varejo não seja fator impeditivo para a criação do banco do PDV. 
+
++Observação:+ Aproveitar esse momento para ser definido qual login será carregado no configurador e garantir que esse usuário tenha as permissões necessárias.
+

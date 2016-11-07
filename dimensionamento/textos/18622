@@ -1,0 +1,20 @@
+Criação do conversor TagComércio
+*Como:* Product Owner
+*Quero:* Criação de um Conversor
+*Para:* Conseguirmos novos Contratos
+
+*Critério de validação*
+Criação de um conversor de dados do Sistema TAG COMERCIO para o Dinamico/Automaster
+
+*Como implementar*
+Validar os dados do banco Mysql pelo software(NAViCat) do sistema Tag Comércio e converter:
+
+Cadastros: Cliente , Fornecedor , Produto , Grupo e estoque.
+
+Segue abaixo a Planilha de Conversão.
+Banco Mysql
+Usuário e senha padrão do banco de dados:
+u: root
+s: root
+
+Caminho da Base: "\Teste\Bases Redmine\TAGCOMERCIO"

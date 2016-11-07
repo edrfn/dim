@@ -1,0 +1,16 @@
+Validação da DLL NFC-e ACBr
+Validação da DLL NFC-e ACBr
+
+
+-> Configuração inicial (análoga a que você me mostrou da NF-e);
+-> Verificação do status do servidor sefaz (NFCE.StatusServico);
+-> Verificação do status de uma determinada nota (NFCE.StatusNota);
+-> Criação de XML (NFCE.CriarNFe);
+-> Assinatura de XML (NFCE.AssinarNFe);
+-> Validação de XML (validar a estrutura - NFCE.ValidarNFe);
+-> Envio de XML (NFCE.EnviarNFe);
+-> Cancelamento de nota (NFCE.CancelarNFe);
+-> Inutilização de nota (NFCE.InutilizarNFe);
+-> Download de XML (NFCE.Download);
+-> Retornar informação de uma nota (protocolo de autorização, link da nota nos ervidor sefaz (para gerar o qrcode da DANFE), data de emissão, serie, numero, chave de acesso, situação(codigo e descrição) - NFCE.ConsultarNFe)
+-> Envio de DANFE e XML por email (NFCE.EnviarEmail);

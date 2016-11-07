@@ -1,0 +1,27 @@
+[ACAOBACKLOG]Relatorio de Cadastro de produto informar filtro para "NCM ,REFERENCIA e COD.BARRA"
+Breve descrição do caso:
+O cliente solicita que ao Emitir o relatorio de cadastro de produtos  seja criado o no filtro para sair as informações  " Codigo de Barras,Referencia e NCM"  
+
+Qual o comportamento observado?
+Ao emitir o relatorio por cadastro de produtos tem o filtro chamado  "Exibir na coluna" e nele tem as opções de filtro que atualmente são: " NCM ou Referencia "  ,  o cliente solicita que tenha a opção no filtro que informe  o "Ncm , Referencia e Codigo de barras" para selecionar essa opção no filtro e sair as 3 opções no relatorio.
+
+
+Quais as etapas para reproduzir o comportamento observado?
+
+F2--> Produtos-->Alt+R--> no parametro Exibir na Coluna contem as opções de escolhe o "NCM ou REFERENCIA" ou seja ou sai uma informação ou a outra.
+
+Qual o comportamento esperado?
+Quando o parametro Exibir na Coluna obtiver a opção "NCM, REFERENCIA e COD.BARRA" ao selecionar informe no relatorio as 3 informações para assim sair na impressão do relatorio.
+
+
+Quais as etapas para reproduzir o comportamento esperado?
+
+F2--> Produtos-->Alt+R--> no parametro Exibir na Coluna contem as opções de escolhe o "NCM ,REFERENCIA e COD.BARRA" ou seja ou  informação das 3 opções sairam no relatorio.
+
+
+Qual a versão do produto e sistema operacional utilizados ?
+4.5i
+
+
+Informações adicionais.
+

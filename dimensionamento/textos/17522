@@ -1,0 +1,14 @@
+[License Manager] Gerar arquivo de validação de licença para os sistemas Windows, por concessão
+*Como:* Usuário do License Manager
+*Quero:* Construção da rotina de geração de arquivo de validação de licença para sistemas Windows, para clientes sob regime de concessão
+*Para:* Gerar arquivos de validação de licença para clientes sob regime de concessão
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu.
+* Informar obrigatoriamente o CNPJ do cliente e o motivo da concessão.
+
+*Como implementar* 
+* Incluir um link de acesso a rotina no menu ferramentas.
+* Criar formulário para que o usuário informe o CNPJ e o motivo da concessão.
+* Gerar o arquivo no mesmo padrão estalecido no ticket #17446.
+* Gravar no banco do Smart o CNPJ do cliente e o motivo da concessão.

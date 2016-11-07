@@ -1,0 +1,3 @@
+Erro ao cadastrar cliente na tela de devolução
+Ao tentar cadastrar um cliente na tela de devolução do web ( Vendas-> Devolução ). Selecione realizar devolução, entre com usuário balcão. Caso não tenha adicione um em ( Vendas-> usuário Balcão ) cadastre e acesse a tela de devolução.
+Apos logar com o usuário balcão na tela de devolução selecione a matriz vá em adicionar um cliente. No campo endereço, a tabela onde deve ser mostrado rua, avenida, km não carrega as informações como mostra a imagem. Caso seja selecionado pessoa jurídica a tabela é mostrada mas para pessoa física não. Essa funcionalidade foi testada nos navegadores chrome, firefox e opera utilizando dois bancos diferentes e mesmo assim o erro ocorreu. 

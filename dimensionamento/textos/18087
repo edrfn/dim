@@ -1,0 +1,20 @@
+Erro ao darmos ESC na janela de Desconto na rotina de Orçamento
+Descrição:
+
+Erro ao darmos ESC na janela de Desconto na rotina de Orçamento;
+
+1) Qual o comportamento observado?
+
+Foi observado que após preenchermos a janela de Desconto - exibida ao clicarmos em Page Down no campo Valor Unitário na janela Inserir Produto - e dermos ESC, o sistema apaga todos os dados inseridos nos campos da rotina, exceto os campos da janela de Inserir Produto. Ao clicarmos novamente em Page Down nesse mesmo campo, a mensagem de erro é exibida: "Cannot focus a disabled or invisible window";
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Preenche todos os campos obrigatórios superiores > Seleciona Novo no grid de Itens do Orçamento > Preenche o campo (na janela de Inserir Produto) Produto e Quantidade > Pressiona Page Down no campo Valor Unitário > Na janela de Desconto preenche o campo (%) de Desconto > Seleciona Page Down novamente no campo Valor Unitário e dar ESC > Sistema apaga os campos superiores - e se pressionarmos mais uma vez Page Down no campo Valor Unitário, o sistema exibe a mensagem de erro: "Cannot focus a disabled or invisible window";
+
+3) Qual o comportamento esperado?
+
+Espera-se que ao dermos ESC na janela de Desconto, o sistema não apague os campos e não exiba mensagem de erro;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Preenche todos os campos obrigatórios superiores > Seleciona Novo no grid de Itens do Orçamento > Preenche o campo (na janela de Inserir Produto) Produto e Quantidade > Pressiona Page Down no campo Valor Unitário > Na janela de Desconto preenche o campo (%) de Desconto > Seleciona Page Down novamente no campo Valor Unitário e dar ESC > Sistema não apaga os campos e não exibe mensagem de erro, somente foca no campo Vendedor.

@@ -1,0 +1,12 @@
+Não permitir integrar com mais de uma espécie do grupo dinherio
+*Como:* Analista de negócio
+*Quero:* Corrigir a integração para não permitir que mais de uma espécie do grupo Dinheiro
+*Para:* Evitar erros na validação e utilização do PDV.
+
+*Critérios de validação*
+- Alterar um arquivo de integração na mão já que o varejo não permite cadastrar
+- Fazer vendas com dinheiro e com troco, e realizar prévia de fechamento (#12345678)
+
+*Como Implementar*
+- Alterar o layout de integração e explicitar sobre a validação
+- Verificar no cadastro de espécie se já existe a espécie do tipo dinheiro

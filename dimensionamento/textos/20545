@@ -1,0 +1,27 @@
+Problemas encontrados em Pedido de Venda
+*Comportamento observado:*
+
+- Ao identificar o cliente, o sistema sugeriu a CFOP padrão, porém não preencheu a descrição:
+
+> o   Também não retornou o valor na consulta.
+
+*- Ao inserir um item, para situações fora do estado, o sistema não consegue identificar a alíquota:*
+
+> o   Não deixa pesquisar outro produto.
+> o   Não deixa salvar, ok.
+> o   Só permite sair da tela de inserção por Cancelar, porém adiciona o item na lista de itens com valor total e não contabiliza no total da venda.
+
+- Faturamento:
+
+> o   Não existe espécie do grupo Duplicada/promissório! O grupo é OUTROS.
+> o   Validação de pagamento com cheque. Data de vencimento MAIOR que a emissão o sistema está bloqueando a operação com validação incorreta.
+
+- Se cancelada recuperação de venda após um erro é visto o seguinte erro:
+
+> [FireDAC][Phys][PG][libpq] ERROR: function fn_cancelar_edicao_pedido(integer) does not exist.
+> No function matches the given name and argument types. You might need to add explicit type casts.
+> 
+* Se tentarmos excluir o pedido manualmente, o seguinte erro é exibido:
+> 
+> [FireDAC][Phys][PG][libpq] ERROR: update or delete on table "pedido" violates foreign key constraint "fk_pedido" on table "pedido_fila".
+> Key (id_pedido) = (5) is still referenced from table "pedido_fila"

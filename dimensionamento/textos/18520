@@ -1,0 +1,19 @@
+Cancelar cupom em aberto na impressora
+*Comportamento observado:*
+
+Durante uma venda o sistema sofreu um crash e o computador foi reiniciado e por algum motivo o sistema quando reiniciou não conseguiu recuperar o cupom. Nesse caso o cupom deve ser cancelado, porém, o sistema não consegue cancelar ocasionando o travamento da impressora e sendo necessária a intervenção da ACBR para que o cupom possa ser cancelado e o sistema aberto novamente.
+
+*Passos para reproduzir o comportamento:*
+
+- Dar crash no sistema durante uma venda e reiniciar o computador.
+- Reiniciar o sistema e esperar o mesmo não reconhecer que há um cupom aberto na impressora.
+
+*Comportamento esperado:*
+
+Que o sistema cancele um cupom aberto que o mesmo não consegue reconhecer na impressora.
+
+Como implementar
+- Teste de rastreabilidade
+- Correção
+- Teste da correção
+

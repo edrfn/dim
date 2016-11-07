@@ -1,0 +1,14 @@
+Erro ao pesquisar centro de custo no lançamento de títulos (contas a pagar e a receber)
+*1) Qual o comportamento observado?*
+Ao efetuar lançamento de títulos no contas a pagar ou a receber, na pesquisa de centro de custo está apresentando mensagem de erro, conforme arquivo anexo.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Financeiro - Movimento - Contas a pagar - Lançamento de título;
+2- Preencher os campos iniciais;
+3- Pesquisar um centro de custo e verificar a mensagem que é apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema apresente a tela de pesquisa de centro de custo;
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

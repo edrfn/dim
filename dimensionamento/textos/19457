@@ -1,0 +1,19 @@
+Desconto sendo aplicado duas vezes quando utilizada forma de pagamento com desconto e  impresso orçamento em Bobina 1 ou 2 linhas
+*1) Qual o comportamento observado?*
+
+Visto que ao utilizar uma forma de pagamento com desconto no orçamento e utilizar a impressão com Bobina 1 ou 2 linhas, o desconto está sendo aplicado duas vezes.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça um orçamento utilizando uma forma de pagamento com desconto;
+Imprima em Bobina 1 ou 2 linhas;
+Verifique o desconto duplicado;
+
+
+*3) Qual o comportamento esperado?*
+
+O sistema deverá aplicar o desconto apenas uma vez.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+As mesmas etapas do passo 2.

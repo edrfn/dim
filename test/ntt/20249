@@ -1,1 +1,1 @@
- cliente  meridiano  emitir  nota  cst  60  sai  cst  10   cliente  meridiano  emitir  nota  deveria  sair  cst  60  saindo  cst  10   impedindo  cliente  emitir  notas  corretamente  
+cliente meridiano emitir nota cst 60 sai cst 10 cliente meridiano emitir nota deveria sair cst 60 saindo cst 10 impedindo cliente emitir notas corretamente 

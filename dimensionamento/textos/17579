@@ -1,0 +1,15 @@
+Erro log ao efetuar devolução a cliente
+1. Breve descrição do caso:
+
+Ao efetuar devolução a cliente de um pedido com quantidade de 110.000,00 é apresentado erro log.
+ 
+2. Etapas para o Comportamento Observado:
+
+Faça uma venda com valor acima R$110.000,00;
+Feche o dia;
+Faça uma devolução desta quantidade;
+Observe o erro log;
+
+3. Comportamento esperado:
+
+Ao realizar uma devolução, o sistema deve aceitar a quantidade vendida, sem apresentar erro log.

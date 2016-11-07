@@ -1,0 +1,14 @@
+Refatoração da tela de opções iniciais
+Quero: Tela de opções iniciais que não desconfigure com diversos tipos de monitores. 
+Como: Melhorando o CSS e o FXML da tela.
+Para: Não desconfigurar em qualquer tipo de monitor.
+
+*Critério de validação:*
+
+- Tela de opções iniciais funcional que não fique desconfigurada com monitores diversos.
+
+*Como Implementar:*
+
+- Criar novo FXML
+- Criar novo CSS
+- Adaptar o controller atual

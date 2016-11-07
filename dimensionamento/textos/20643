@@ -1,0 +1,8 @@
+Mudança do XML para a nova versão 
+Como: Scrum Master.
+Quero: Mudar o atual XML utilizado pelo Servidor de PDV para o mesmo utilizado pelo Varejo.
+Para: Os sistemas compartilhem o mesmo XML.
+
+Como implementar:
+
+- O sistema deve passar a ler o XML utilizado pelo Varejo.

@@ -1,0 +1,14 @@
+Implementação da nova versão do IBPT
+*Porque?*
+
+A versão da tabela de cargas tributários foi modificada e especifica os impostos como Federal e Estadual.
+
+*Como?*
+
+A versão da tabela de cargas tributários foi modificada e especifica os impostos como Federal e Estadual.
+
+*Como implementar?*
+- Criar os campos no PDV;
+- Sincronização dos campos;
+- Realizar os cálculos e alterar a mensagem;
+- Testes; 

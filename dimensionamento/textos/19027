@@ -1,0 +1,10 @@
+Solicitação de carga inicial
+*Como:* Scrum Master
+*Quero:* Que o servidor de PDV peça a carga inicial
+*Para:* Deixar o processo automatizado
+
+*Critério de validação*
+- Pedir a carga inicial assim que o serviço for iniciado
+
+*Como Implementar*
+-Enviar uma mensagem ao ws do ERP para solicitar os arquivos

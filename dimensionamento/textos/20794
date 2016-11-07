@@ -1,0 +1,14 @@
+Sped - Bloco 0
+*Como:* Analista de negócios
+*Quero:* Construir o bloco 0
+*Para:* Gerar o Sped Fiscal
+
+*Critérios de validação*
+- Validador oficial do arquivo gerado
+
+*Como Implementar*
+- Registro 0205. Único registro faltante para implementação - Registro dependente de Omar.
+
+Primeiro o período com data inicial e final e segundo a entidade.
+
+h2. A sessão de como implementar está sendo atualizada a medida que os sqls são enviados por Omar ou João Gabriel.

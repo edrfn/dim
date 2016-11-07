@@ -1,0 +1,15 @@
+Refatoração do Framework - Aliquota ICMS
+Como: Coordenadora de Projetos
+Quero: Refatoração da Rotina Aliquota ICMS.
+Para: A rotina ser adaptada ao novo formado proposto.
+
+*Critério de validação*
+
+    Ter acesso à funcionalidade através do menu: Estoque -> Cadastro -> Aliquota ICMS
+    Inserir, alterar, excluir, pesquisar.
+    Poder gravar os dados, novos ou alterados, da aliquota;
+
+*Como implementar*
+
+    Adaptar a rotina ao novo formato;
+

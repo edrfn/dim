@@ -1,0 +1,18 @@
+Ajustes de integração
+O que?
+Reunião com a equipe do Sollaris para testes e correções do processo de comunicação e integração do ERP com o PDV;
+
+*Comportamento Observado*
+- O sistema está parando o temporizador de integração em alguns tipos de exceções geradas;
+- Os arquivos de Outras referencias e embalagens extras estão sendo gravados sem as referencias dos produtos.
+
+*Comportamento esperado*
+- Que o sistema não pare o temporizador quando encontrar um erro;
+- Que seja informado em log o erro encontrado e não gravar as informações.
+
+Como implementar?
+1. Validar o funcionamento da integração junto a um membro da outra equipe;
+2. Correção das eventuais falhas encontradas nas validações;
+2.1. Correção da validação de USUÁRIO e SENHA;
+2.2. Alterar a forma de validar a importação do CAIXA ao gravar no painel;
+2.3. Não gravar a "capa" da pré-venda se os arquivos não estiverem ok;

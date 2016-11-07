@@ -1,0 +1,23 @@
+[License Manager] Renovar a data de expiração das licenças para períodos diferentes
+*LOCAL:*
+License Manager - Renovar licenças
+License Manager - Cadastro dos Clientes
+
+*DESCRIÇÃO:*
+
+*Como:* Usuário do License Manager e Smart
+*Quero:* Renovar as licenças dos clientes para períodos diferentes, conforme o mês base.
+*Para:* evitar que clientes que possuem contrato de licenças com período maior que as mensais são sejam atualizados todos os meses no banco do SMART e consequentemente as revendes recebam o relatório de licenças com datas criptografadas erradas.
+
+*Critério de validação* 
+* Os critérios para renovação devem permanecer os mesmos, ou seja;
+> * O contrato do cliente devem estar ativo no SMART (contrato.codsituacaocontrato = 'ATIV').
+> * O contrato do cliente devem ter o código do serviço no SMART:
+> > * [Dincash Web|contrato.codservico = 342 ou 35 ou 298 ou 401 ou 168 ou 295]
+> > * [Cashone Web|contrato.codservico = 342 ou 35 ou 298 ou 401 ou 168 ou 295]
+> > * [Triton Web |contrato.codservico = 136 ou 297 ou 296]
+> * Contudo deve ser adicionada verificação do mês base para que após a validação as licenças sejam atualizadas para o mês base informado no Smart, pois atualmente todas a licenças são atualizadas para o mês seguinte.(Esta condição ainda é necessário revisar para definir se há exceções).
+> * Contratos do tipo manutenção terão sempre atualização mensal (Confirmar).
+
+*Como implementar*
+* Ao renovar as licenças a data das mesmas devem ser atualizadas conforme o campo mês base do SMART, respeitando as condições acima.

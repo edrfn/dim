@@ -1,0 +1,15 @@
+Adicionar cliente nas opções de busca do pedido de venda
+*Como:* Analista de negócios
+*Quero:* pesquisar um pedido pelo cliente
+*Para:* Facilitar a busca
+
+*Critérios de validação*
+- Coluna com o nome do cliente na busca
+- Ordenar as colunas por:
+|Número do Pedido|Cliente|Data do Pedido|Valor Total|Situação|
+
+*Como implementar*
+- Adicionar a coluna de cliente na busca de pedidos (visualização e edição)
+- Reduzir o tamanho da coluna "Valor" e renomear para "Valor Total"
+- Reduzir o tamanho da coluna "Data do Pedido", o valor é fixo.
+- Reduzir o tamanho da coluna "Situação"

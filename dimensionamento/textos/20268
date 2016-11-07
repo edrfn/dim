@@ -1,0 +1,17 @@
+Sangria trava o caixa durante o horario de fechamento do caixa.
+LOCAL:
+Dincash PDV- Sangria
+
+VERSÃO:
+Identificado na versão (2.8G)
+
+PRÉ-CONDIÇÕES:
+ Usar NFCE
+
+ERRO:
+O sistema trava em determinado momento da noite ao tentar emitir a sangria.
+
+SITUAÇÃO DESEJADA:
+O sistema nao deveria travar ao emitir a sangria.
+
+Em anexo LOG que mostra o momento que foi travado o sistema.

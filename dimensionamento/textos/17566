@@ -1,0 +1,12 @@
+Retirada de funcionalidade Receita Agronômica do sistema
+*Como:* Usuário do sistema
+*Quero:* Remover a funcionalidade de receita agronômica do sistema
+*Para:* não ter acesso a essa funcionalidade não utilizada e concebida erroneamente
+
+*Critério de validação* 
+* Não encontrar resquícios de cadastros e configurações de receita agronômica nas telas do Web
+* Não existir regras de negócio associados a receita agronômica no Web e PDV.
+
+*Como implementar* 
+* Remover campo de receita agronômica da pre-venda;
+* Remover o código referente a receita agronômica do sistema.

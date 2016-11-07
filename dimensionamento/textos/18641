@@ -1,0 +1,13 @@
+Inutilização de faixa de Nfe - Criação do CRUD da Tela de Inutilização de Faixa de NF-e
+*Como:* Usuário do sistema
+*Quero:* Criação do CRUD da tela de Inutilização de Faixa de NF-e (inserção, consulta, edição e remoção de dados)
+*Para:* Fazer a manipulação de dados de Inutilização de Faixa de NF-e no banco de dados sistema, via PROCESSAMENTO INTERNO.
+
+*Critério de validação* 
+* Fazer a inserção dos dados inseridos na interface no banco de dados;
+* Fazer a Edição dos dados inseridos na interface no banco de dados;
+* Fazer a remoção dos dados inseridos na interface no banco de dados;
+* O cliente não poderá ter acesso às funções de CRUD pela interface gráfica, as funções devem estar disponíveis apenas internamente.
+
+*Como implementar* 
+* Criar as functions/procedures para edição, inserção, consulta e remoção de dados no formulário descrito no ticket #18640;

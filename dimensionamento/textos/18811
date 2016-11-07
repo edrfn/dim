@@ -1,0 +1,24 @@
+Não estão sendo exibidos registros com data a partir de 01-09-15 pois, o sistema exibe mensagem de erro, no Relatório Movimento de Entrada
+*1) Qual o comportamento observado?*
+Observou-se que ao informar a data 01-09-15 no campo Data Inicial, o sistema exibe mensagem de erro ou diz que não há dados para serem exibidos, mesmo havendo registros dentro do período definido.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Obs.: É necessário haver no sistema notas com data de emissão/digitação a partir de 01-09-15.
+
+1- Acessar a rotina pelo caminho Compras - Relatórios - Relatório de Movimento de Entrada;
+2- No campo Data Inicial informar a data 01-09-15 e deixar o campo Data Final com a data que o sistema carrega;
+3- Clicar no botão imprimir;
+4- Observar que é exibida uma mensagem de erro ou uma mensagem informando que não há dados para serem exibidos, mesmo havendo dados com data dentro desse período;
+
+*3) Qual o comportamento esperado?*
+Que seja possível visualizar os registros que estejam dentro do período informado.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas do passo 2.
+
+=========================================
+
+h3. Anotações da Reunião de Planejamento:
+
+> - Possivelmente o problema seja o status da nota no banco que esteja errado.
+> - Antes era gravado 5 "fechado" e passou a gravar 6;

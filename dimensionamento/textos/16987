@@ -1,0 +1,4 @@
+ Exporta com data de validade não confere a senha informada
+Ao colocar a nova versão do utilitario exporta que valida a senha com data não funciona, apos informar a senha passada pelo financeiro o aplicativo informa que a senha não confere.
+Para replicar o erro basta excutar o utilitario e tentar colocar a senha de liberação
+OBS: A base onde executei esta na publica, na pasta Andre, nome da base Armarinho. O novo exporta e a senha passada pelo financeiro tambem se encontra na pasta.

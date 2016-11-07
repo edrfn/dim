@@ -1,0 +1,32 @@
+Notas de balanço estão sendo gravadas incompletas
+*Comportamento observado*
+- As notas de balanço estão aparecendo na busca de notas de entrada
+- As informações da nota não estão preenchidas corretamente
+- Não deve ser possível cancelar uma nota de balanço, exceto pela própria rotina de balanço
+
+*Comportamento esperado*
+- Gravas as notas de balanço com todos os dados corretamente
+- Não exibir notas de balanço na rotina de compras ou NF-e, apenas nos relatórios de movimento.
+
+*Passos para reproduzir o comportamento*
+- Realizar um balanço que gere notas entradas
+- liberar o balanço. Ver a nota na rotina de busca em Compras.
+
+*O que deve ser corrigido*
+Número da nota - Deve ser preenchido com o número da nota do balanço
+Série - Deve ser preenchido com valor "1"
+Modelo - Deve ser preenchido com valor "1"
+Fornecedor - A própria licenciada (para notas de entrada)
+Cliente - A própria licenciada (para notas de saída)
+Natureza da operação:
+19491 - "Outras entradas não especificadas" (Notas de Entrada)
+59491 - "Outras saídas não especificadas" (Notas de Saída)
+Data de emissão - Data da abertura do balanço
+Data de entrada - Data da liberação do balanço
+Não gerar impostos!
+Valor total dos produtos - Soma total dos produtos
+Valor da nota fiscal - Soma total dos produtos
+
+- Não deve ser possível visualizar as notas, exceto em relatórios.
+
+Obs: Todas as observações devem ser validadas em notas de saída!

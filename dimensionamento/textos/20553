@@ -1,0 +1,4 @@
+Problemas na geração de títulos a partir de vendas
+*Comportamento observado*
+
+* A data de vencimento está sendo preenchida com o vencimento da última parcela, o que causa erro no momento da edição do título. Deve ser analisado quando o valor a ser preenchido nos campos de Data de vencimento e Segundo Vencimento para que sejam consistente com a data de vencimento apresentadas na parcela.

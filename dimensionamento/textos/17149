@@ -1,0 +1,6 @@
+Criação do utilitário AUTmst para Windows
+*Como:* Product Owner;
+
+*Quero:* Um utilitário chamado AUTmst funcione em versões 64bits do Windows;
+
+*Para:* Existem clientes que fazem utilização do utilitário, porém não podem, uma vez que este só funciona em versões 32bits atravé do MSDos;

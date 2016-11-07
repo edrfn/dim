@@ -1,0 +1,13 @@
+Funcionamento do PDV com espécies não cadastradas na impressora
+*Como:* Time Scrum
+*Quero:* Melhorar o funcionamento do sistema quanto é identificado que o mesmo possui espécies que diferem das cadastradas na impressora.
+*Para:* Facilitar o processo de venda e pagamento de títulos.
+
+*Critério de validação* 
+* Não apresentar na forma de pagamento as espécies que a ECF não tiver.
+* Indicar em log ou qualquer outro ponto a revenda ou cliente final as diferenças entre as espécies cadastradas e no sistema e na ECF. 
+
+*Como implementar* 
+* Verificar as espécies cadastras no sistema e na ECF;
+* Validar as espécies para está disponível na operação;
+* Apresentar as diferenças entre o sistema e o banco.

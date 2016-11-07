@@ -1,0 +1,15 @@
+Melhoria da classe de modelo do PDV
+Quero: Melhorar o tempo de consulta dos produtos e modelos do PDV.
+Como: Devem ser buscadas novas metodologias de busca para facilitar a manutenção da classe de modelo. A classe também deve ser reescrita de forma que a consulta tenha um desempenho melhor que o desempenho atual.
+Para: Diminuir o tempo que o PDV passa buscando produtos e otimizar a busca.
+
+*Critério de validação*
+
+Ter uma busca mais rápida dos produtos no PDV quando é utilizado uma base de dados grande.
+Código da classe de modelo mais limpo, legível e documentado.
+
+*Tickets*
+
+1 - Estudo de formas de otimizar buscas com Hibernate.
+2 - Implementar a melhor forma de otimização.
+3 - Teste de desempenho. 

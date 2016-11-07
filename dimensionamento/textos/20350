@@ -1,0 +1,19 @@
+Geração de sintegra
+Descrição
+
+Como: Analista de negócio.
+Quero: Que seja realizada à refatoração da rotina de geração de Sintegra.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação:
+
+- Ser possível gerar os arquivos de sintegra.
+
+Como implementar:
+
+- Interface para o cadastro
+Permitir que sejam indicados na interface os seguintes parâmetros de entrada:
+  - Filial;
+  - Data inicial e final;
+  - Finalidade.
+Exibir o caminho onde será salvo o arquivo, mas sem permitir alteração por parte do usuário

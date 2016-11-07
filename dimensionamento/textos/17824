@@ -1,0 +1,10 @@
+Cadastrar cliente com as validações da inscrição estadual
+Eu quero acessar o sistema realizar meu login e cadastrar um cliente.
+
+
+
+**Validações**
+
+* As validações são as que estão escritas nos requisitos de produto #17346, com as validações de inscrição estadual;
+* Deverá ser gravado o log de quem editou os cliente;
+* Passar por todos os testes escritos;

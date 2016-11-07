@@ -1,0 +1,13 @@
+Problemas com permissões para novos usuários
+*1) Qual o comportamento observado?*
+Foi identificado que, ao cadastrar um novo usuário no sistema, o mesmo não possui permissão para várias rotinas, por exemplo: cadastro de produtos, unidade de medida, NCM e etc. 
+Obs.: O comportamento se repete em outros módulos.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+Crie um novo usuário;
+Crie um grupo de permissões;
+Associe o usuário criado ao grupo de permissões;
+Verifique que algumas opções não são disponibilizadas, mesmo tendo permitido todas no grupo;
+
+*3) Qual o comportamento esperado?*
+O cliente deve ter acesso a todas as funcionalidades que foram permitidas no grupo de permissões.

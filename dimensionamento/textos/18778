@@ -1,0 +1,11 @@
+Teste - Criar o relatório de Movimento de Entrada
+Quero: Testar a leitura de todas as informações necessárias no relatório de movimento de Entrada.
+Como: Gerando o relatório do movimento
+Para: Ajudar ao usuário na visualização do que está sendo movimentado na sua empresa.
+
+Critério de validação:
+
+O usuário ter a permissão para ser gerado o relatório de movimento de entrada.
+Gerar o relatório gráfico.
+Que seja permitido sua visualização em impressora e em tela.
+

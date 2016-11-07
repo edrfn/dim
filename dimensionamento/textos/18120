@@ -1,0 +1,20 @@
+Testar a revisão do cadastro de produto 
+Principais pontos a serem validados
+1- Dados iniciais:
+* Verificar a sequência da tecla enter;
+* Verificar se o código de barras, gerado automaticamente, está sendo gravado no banco e sendo exibido na pesquisa;
+* Verificar se está sendo possível vincular um fornecedor inativo ao produto. 
+* Verificar se está sendo possível alterar a unidade física da embalagem principal para uma já listada no grid da aba Outras Embalagens.
+ 
+
+2- Aba Detalhes;
+*  Verificar se os valores e o label do campo Situação Tributária estão mudando, conforme muda o estado da licenciada para super simples;
+* Verificar se está sendo possível salvar um registro ou alteração, com o campo 'Preço de Promoção' preenchido e o campo 'Validade da Promoção' vazio. 
+
+3- Aba Outras Embalagens;
+* Verificar se está sendo possível inserir uma outra embalagem com mesma unidade física da embalagem principal;
+* Verificar se está aparecendo mensagens de erros ao apagar os campos  'Percentual e Valor de acréscimo/desconto a prazo' ;
+* Verificar se o foco permanece no botão 'Novo', após inserir uma embalagem.
+
+4- Aba Outros Fornecedores;
+* Verificar se é exibida mensagem de erro após inserir no campo código de barras, um, já vinculado a um produto;

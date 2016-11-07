@@ -1,0 +1,4 @@
+Orçamento com duas formas de pagamento trazendo valor de um deles incorreto
+Ao fazer um orçamento com duas formas de pagamento, a primeira sem nenhum acréscimo e a segunda com encargos financeiros e despesas acessórias, os valores exibidos em SUB-TOTAL e TOTAL estão incorretos, ficando, inclusive, com valores inferiores a primeira forma de pagamento que não possui acréscimo nenhum.
+
+ps: ver comentário inserido no anexo.

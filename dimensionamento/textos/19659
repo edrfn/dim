@@ -1,0 +1,16 @@
+Refatorar o relatório de títulos baixados a receber
+*Como:* Analista de negócios
+*Quero:* Que seja realizado a refatoração do relatório de títulos baixados a receber.
+*Para:* Que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Geração do relatório Títulos baixados a receber com os filtros sugeridos no requisito.
+
+*Como implementar:*
+
+- Interface para a geração do relatório.
+- Possibilidade de exportar em pdv, excel e visualização em tela.
+
+*Requisito:*
+Seguir o padrão já existente no sistema.

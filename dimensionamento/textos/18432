@@ -1,0 +1,12 @@
+Correções na tela do relatório de movimento de entrada
+*Comportamento observado*
+
+# Está sendo possível escolher uma nota de um fornecedor diferente do informado no campo, ou seja, o campo número da nota não está exibindo apenas as notas do fornecedor informado;
+# O nome do campo Número da nota está com o acento na letra errada, e a palavra saída está sem acento (no campo Dispositivo de saída);
+# Na abertura da rotina, o foco está indo para o botão Sair;
+# Verificar a sequência da tecla enter/tab, pois do campo data final está indo para o botão Imprimir, e do botão sair está indo para o campo Relatório Ordenado Por;
+# Após limpar o campo Data final e dar enter, é exibida a mensagem informando que a data está no formato inválido, o que não poderia acontecer visto que o campo ficou sem dados;
+
+*Passos para reproduzir o procedimento esperado*
+
+Realizar os passos do procedimento observado.

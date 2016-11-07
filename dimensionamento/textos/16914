@@ -1,0 +1,19 @@
+[ACAOBACKLOG]Sistema trazendo valor incorreto da venda ao reimprimir a nota de conferência do pedido
+1) Qual o comportamento observado?
+
+No pedido de conferência, o sistema está imprimindo no campo "VENCIMENTO" o valor que informei na tela como recebido do cliente, mas na verdade tem que ser o valor liquido. Recebi R$100,00 do cliente, porém o valor da Venda é 72,65. Esta situação ocorre quando o sistema está configurado para impressão 'Papel ao Meio'. Já ao usar o modelo 'PreNota', o sistema traz no campo 'Valor Dupl.' o valor inserido recebido pelo cliente. Seguem as telas em anexo.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Fazer um pedido de venda;
+Registrar o pedido digitando um valor maior, para que seja gerado troco na venda;
+Utilizar a opção de impressão "Papel ao Meio" ou "PreNota"; 
+Após registrar o recebimento, utilizar a opção de reimprimir pedido;
+
+3) Qual o comportamento esperado?
+
+Ao registrar um pedido com valor maior e gerar troco, o sistema deve trazer na reimpressão do pedido o valor da venda e não o valor recebido pelo cliente.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.

@@ -1,0 +1,14 @@
+Impressão de Identificação PAF-ECF não está sendo feita em impressoras Daruma
+*Qual o comportamento observado?*
+
+Quando selecionada opção para impressão de Identificação PAF-ECF, no menu fiscal, o sistema não emite o documento.
+
+*Quais as etapas para obter o comportamento observado?*
+
+1º Ter o sistema com o PAF ativo
+2º Pressionar F4 na tela de vendas
+3º Selecionar a opção "Identificação PAF-ECF" e observar o resultado.
+
+*Qual o comportamento esperado?*
+
+Que o sistema emita o documento de Identificação PAF-ECF também com as impressoras Daruma.

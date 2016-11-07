@@ -1,0 +1,8 @@
+Tela de solicitação da Licença na abertura do sistema.
+Descrição
+
+Como: Tester
+Quero: Que a tela de solicitação de licença seja executada na inicialização do sistema quando a validade estiver esgotada.
+
+Critério de validação
+ALterar a data do computador de forma que fique maior que a data de validade.

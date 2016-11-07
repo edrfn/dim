@@ -1,0 +1,21 @@
+Na tela de Inserir NF de Compra, está sendo permitido inserir modelo da nota com tres digitos
+*1) Qual o comportamento observado?***
+Ao fazer o lançamento manual de compras no sistema, está permitindo inserir o modelo da nota com três dígitos, o que não pode por prejudicar a criação do Sintegra.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Digitar Nf de Compras
+2- Preencher todas as informações obrigatórias e pertinentes da nota, e colocar o modelo com três digitos
+3- Gerar o Sintegra pelo menu Cadastro - Arqs Fiscais - Exportação para o Sintegra
+4- Preencher a data inicial e final com os dados pertinentes, bem como o local da gravação do arquivo;
+5 - Clicar em OK.
+6 - Verifique que houve um aviso de erro dizendo que o tamanho do campo é de 127 caracteres.
+
+*3) Qual o comportamento esperado?*
+É esperado que o sistema não permita que o modelo da nota seja cadastrado com três dígitos, mas apenas dois.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+1- Acessar a rotina pelo menu: Compras - Digitar Nf de Compras
+2- Tentar preencher o modelo da nota e verificar que o tamanho máximo é dois digitos.
+
+
+

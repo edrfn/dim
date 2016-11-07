@@ -1,0 +1,15 @@
+Adicionar no relatório de movimento de saída o subrelatório Totais
+*Como:* Desenvolvedor
+*Quero:* Construir relatório de Totais;
+*Para:* Visualizar o resumo das notas;
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Venda - Relatórios - Movimento de Saída;
+* Selecionar a opção Totais em formatos;
+* Apertar em imprimir e visualizar os os resumos das notas.
+
+
+*Como implementar* 
+* Criar a query do resumo das notas;
+* Criar o relatório no report builder;
+* Fazer as alterações na tela do relatório para quando seja escolhido a opção totais aparece o relatório com o resumo das notas.

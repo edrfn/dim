@@ -1,0 +1,16 @@
+Setar valor 0,00 (zero) quando os campos de valores destacados na nota de entrada forem apagados
+*1) Qual o comportamento observado?***
+Na digitação de nota de entrada, caso o usuário apague o conteúdo dos campos dos valores destacados na nota (base de ICMS, valor de ICMS, frete, etc), o sistema está deixando o campo vazio e não grava nada no banco de dados, o correto seria gravar valor 0,00 (zero).  
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar Nota de Compra;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Apagar os valores dos campos dos valores destacados na nota (base de ICMS, valor de ICMS, frete, etc);
+4- Verificar que no sistema os valores ficam vazios, onde deveria ficar com 0,00;
+5- Verificar que no banco de dados, não foi gravado nada nos campos referentes a esses valores.
+
+*3) Qual o comportamento esperado?*
+É esperado que caso o usuário apague o conteúdo dos campos de valores destacados na nota, o sistema deixe esses campos com o valor 0,00 (zero), para que não ocorra problemas na geração de sintegra e sped.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

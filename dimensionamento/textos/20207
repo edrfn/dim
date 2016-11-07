@@ -1,0 +1,12 @@
+Parâmetros de estoque
+*Como:* Analista de negócio
+*Quero:* Criar os parâmetros de estoque do sistema
+*Para:* Que o usuário possa configurar o sistema ao seu uso
+
+*Critério de validação*
+- Ter funcionando no sistema cada um dos parâmetros e suas opções de parametrização
+
+*Como implementar*
+- Criar uma interface de configuração com o usuário
+- Salvar essas configurações
+- Manter disponível para os demais programadores os parâmetros para suas rotinas.

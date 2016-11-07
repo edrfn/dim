@@ -1,0 +1,17 @@
+Erro ao gerar Registro do PAF-ECF
+*Qual o comportamento observado?*
+Ao emitir um Registro do PAF-ECF após emitir (pelo exe) um DAV (orçamento) ou Pré-venda é mostrada uma mensagem de nullpointer na tela do sistema. Ao fechar o sistema e abrir novamente é possível emitir o registro do PAF corretamente.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Emitir um DAV no exe da Pré-venda, mas sem imprimir;
+2. Gerar o Registro do PAF, em Menu Fiscal; 
+3. Imprimir o orçamento emitido;
+4. Gerar o Registro do PAF; (verifique que o erro ocorre)
+5. Fechar o sistema (F12 > F8);
+6. Abrir o sistema;
+7. Gerar o Registro do PAF; (verifique que o registro foi gerado corretamente)
+
+*Qual o comportamento esperado?*
+Emitir o registro do PAF-ECF sem ocorrência de erros.
+
+Obs.: Segue log em anexo.

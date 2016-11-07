@@ -1,0 +1,12 @@
+Tratar a geração de títulos através do lançamento de  nota de entrada
+Como: Scrumaster
+Quero: Implementação da opção de gerar de títulos através do lançamento de nota de entrada
+Para: Alimentar o contas a pagar de acordo os os títulos gerados com o lançamento de notas de entrada.
+
+*Critério de validação*
+Ter acesso à funcionalidade através do menu Compras - Movimento - Digitar nota de entrada;
+Poder efetuar a geração de títulos com base no valor da nota de no momento da digitação da mesma;
+
+Como implementar
+Na aba títulos, tratar a inclusão e alteração e exclusão de títulos;
+Em caso de parcelamento, validar se o total das parcelas correspondem ao valor total da nota em edição.

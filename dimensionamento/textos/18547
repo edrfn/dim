@@ -1,0 +1,19 @@
+Ao parametrizar o sistema para consistir limite de crédito na venda sem liberação, o mesmo não permite vender para clientes que não possuem limite no cadastro
+*1) Qual o comportamento observado?*
+
+Ao parametrizar o sistema para consistir limite de crédito na venda "sem liberação", o mesmo não permite vender para clientes que não possuem limite de crédito no cadastro, solicitando a senha de acesso que possa liberar a venda
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar o parâmetro pelo menu: Gerenciador - Configurações - Parâmetros - Informações sobre Vendas;
+2- No parâmetro Consistência do Limite de Crédito, colocar "Sem liberação";
+3- Cadastrar um novo cliente sem limite de crédito;
+4- Fazer um pedido de venda com qualquer valor;
+5- Verificar a mensagem de bloqueio apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+
+Ao deixar o cadastro do cliente no campo Limite sem valor informado, o sistema não deve consistir valores para bloqueio da venda. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+
+Mesmo passo 2.

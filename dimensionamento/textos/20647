@@ -1,0 +1,11 @@
+As telas de busca estão diferindo caracteres maiúsculos e minúsculos.
+*Comportamento Observado*
+- As buscas retornam vazio se digitado em alguma condição diferente do escrito.
+
+*Comportamento esperado*
+- Ser possível pesquisar independente de ter sido gravado maiúsculo ou minúsculo.
+
+*Passos para reproduzir o comportamento*
+Situação salva: Charlene Almeida
+Pesquisa: CHARLENE, charlene (retorno vazio)
+Pesquisa: Char... (retorno 1 ocorrência)

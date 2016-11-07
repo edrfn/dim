@@ -1,0 +1,15 @@
+Valor Total do pedido de venda diferente dos valores dos itens
+Ao inserir um item no sistema (piloto preto na base do servidor por exemplo) o sistema estar calculando o valor total da compra errado
+
+*Comportamento Observado*
+
+# Entrar na tela de pedido de venda;
+# Selecionar o vendedor e cliente;
+# Inserir um item(piloto preto, apelido Hamilton), com quantidade 1;
+# Verifica-se que o valor total do pedido é de R$5,00, porém o valor do item é de R$5,04;
+
+*Comportamento esperado*
+
+Após realizar os passos acima o valor total do pedido fosse igual ao valor do item.
+
+*OBs.* Problema encontrado quando estava sendo resolvido o ticket #20553

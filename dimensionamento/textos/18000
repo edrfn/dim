@@ -1,0 +1,17 @@
+Ajuste e melhorias no Painel de controle
+*Como:* PO
+*Quero:* Melhorar o funcionamento do Painel de controle.
+*Para:* Fornecer melhor experiência do usuário (Agilidade e transparência nas rotinas).
+
+*Critério de validação* 
+* Comparar o funcionamento/tela atual com a reforma.
+
+*Como implementar* 
+* *Bloco 1:*  Alterar o ícone de "Sair" para "Fechar";
+            Alterar a nomenclatura do sistema de "Painel de Controle" para "Servidor de PDV";
+            Alterar o nome "Orion Tray" da bandeja de trabalho para "Servidor de PDV";
+            Alterar o texto de "persistir" das mensagens de detalhes para "Gravando.../salvando... dados";
+            Colocar a barra de scroll de detalhes na ultima posição;
+* *Bloco 2:* Travar, se possível, o scroll onde o usuário desejar ver.
+* *Bloco 3:* Adicionar as informações de número do PDV e IP, na tela de PDVs;
+* Testes;

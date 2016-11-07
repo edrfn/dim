@@ -1,0 +1,9 @@
+Mostrar mensagem de incompatibilidade de versão do Java
+Ao executar o Painel com uma versão incompatível do Java é mostrada uma mensagem de erro pouco intuitiva. Seria interessante que esta mensagem indicasse que o erro é ocorrido por conta da versão do Java.
+
+*Critérios de validação*
+Mensagem indicando que o erro ocorrido é por conta da versão do Java.
+
+*Como implementar*
+* Desenvolvimento
+* Testes.

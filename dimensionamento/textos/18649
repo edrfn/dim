@@ -1,0 +1,12 @@
+Criar query gerar e colocar no sistema o relatório  de movimento de saida
+*Como*: Desenvolvedor
+*Quero*: Criar a query de consulta dos dados para a geração do relatórios de movimento de saida sintético somente com as notas exportadas e colocar ele no sistema sem ordenação e filtros;
+*Para*: Gerar o relatório sem filtros;
+
+*Critérios de Validações*
+
+Relatório sendo gerado sem validação dos filtros da tela e de forma sintética;
+
+*Como implementar*
+
+Criar a query com os dados da capa  notas e criar o relatório sintético e colocar ele no sistema

@@ -1,0 +1,15 @@
+Verificar se o caixa abre se não houver o cadastro da espécie dinheiro no sistema
+*Qual o comportamento observado?*
+Ao abrir o caixa o sistema solicita o valor do suprimento, independente do valor informado, inclusive nada, ocorre erro no sistema, caso não tenha cadastrado no sistema a espécie dinheiro. Segue em anexo o log.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Cadastrar espécies no sistema, exceto a espécie dinheiro;
+2. Abrir o caixa do PDV; Perceba que o erro ocorre;
+
+*Qual o comportamento esperado?*
+Que o sistema abra o caixa sem erros.
+
+Tarefas:
+- Testar a abertura do sistema com a espécie dinheiro cadastrada;
+- Testar a abertura do sistema sem a espécie dinheiro cadastrada;
+- Alterar o Layout de Integração, solicitando o cadastro obrigatório da espécie dinheiro;

@@ -1,0 +1,39 @@
+Devolução ao Fornecedor - Pequenos erros em algumas validações de campo da rotina
+
+*1) Qual o comportamento observado?*
+*A* - é necessário pressionar enter duas vezes, para sair do campo fornecedor, até o próximo campo (desconto).
+*B* - ao pesquisar uma devolução, ele permite que eu altere um produto já lançado, mesmo com o modo de
+alteração ainda não habilitado
+*C* - trazer foco no no campo "FORNECEDOR", já que o campo filial já vem preenchido automaticamente.
+*D* - desabilitar a edição do campo filial, já que o controle de filiais ainda não está em uso, deixando-o apenas para visualização
+*E* - Campo "Percentual de desconto" não tem utilidade, visto que a tela já possui os campos necessários para este fim
+
+
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+*A* - Acessar a rotina pelo menu: COMPRAS - MOVIMENTOS - DEVOLUÇÃO AO FORNECEDOR
+      Preencher o campo fornecedor e pressionar enter duas vezes.
+
+*B* - Acessar a rotina pelo menu: COMPRAS - MOVIMENTOS - DEVOLUÇÃO AO FORNECEDOR
+      Pesquisar um pedido de devolução já feito
+      Clicar no botão alteração de produtos ja lançados, sem habilitar o modo de alteração da rotina
+
+*C* - Acessar a rotina pelo menu: COMPRAS - MOVIMENTOS - DEVOLUÇÃO AO FORNECEDOR;
+      Pressionar ALT+N (NOVO)
+
+*D* - Acessar a rotina pelo menu: COMPRAS - MOVIMENTOS - DEVOLUÇÃO AO FORNECEDOR;
+      Pressionar ALT+N (NOVO)
+
+*E* - Acessar a rotina pelo menu: COMPRAS - MOVIMENTOS - DEVOLUÇÃO AO FORNECEDOR;
+      Pressionar ALT+N (NOVO)
+
+*3) Qual o comportamento esperado?*
+*A* - Ao selecionar o fornecedor e pressionar enter, o sistema deveria direcionar imediatamente para o próximo campo
+*B* - A alteração de produtos deveria ser permitida apenas quando o modo de alteração (ALT+N) fosse ativado
+*C* - Trazer o foco inicial da tela no campo fornecedor, visto que a filial é padrão.
+*D* - Que o campo filial seja desativado, ficando apenas visível para o usuário, visto que o controle de filiais ainda está inativo.
+*E* - A Rotina já possui os campos necessários para validação do desconto na nota de devolução ao fornecedor.
+
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

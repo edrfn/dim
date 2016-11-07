@@ -1,0 +1,10 @@
+Testar rotina Balanço
+Como: Coordenadora de Projetos
+Quero: Testes na rotina Balanço - Abertura de Balanço e Finalizar digitação do balanço.
+Para: Verificar se a rotina está apresentando funcionamento correto.
+
+*Critério de validação*
+* Ter acesso à funcionalidade através do menu: Estoque - Movimento - Abertura de Balanço e Finalizar digitação do Balanço;
+* Validar se a abertura e a finalização estão sendo feito corretamente;
+* Validar a atualização do estoque;
+* Validar a gravação no banco;

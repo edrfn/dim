@@ -1,0 +1,13 @@
+Implementação de uma Nova Etiqueta
+*Como:* Product Owner
+*Quero:* Que implemente o Layout de etiqueta
+*Para:* Atender a expectativa dos nossos clientes atuais.
+
+*Critério de validação:*
+Foi feita a solicitação para que seja implementado no sistema etiqueta semelhante ao modelo "52" acrescentando o codigo de produto.
+
+*Implementar:*
+O cliente solicitou uma etiqueta semelhante a do anexo, algo que lembre o "modelo 52" sendo que contenha o código de produto.
+
+*Como implementar:*
+Verificar a etiqueta em anexo e desenvolver uma semelhante;

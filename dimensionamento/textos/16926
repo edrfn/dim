@@ -1,0 +1,26 @@
+Campo da data relativa a ultima entrada de mercadoria(DT_ULT_E) não está sento preenchido - Sped Fiscal
+1) Qual o comportamento observado?
+
+Após validação do Sped Fiscal foi observado que o campo DT_ULT_E, referente a Data relativa a última entrada da mercadoria está em branco o que esta ocasionando erro na estrutura do arquivo.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Geração do arquivo --> Gerenciador --> Utilitários --> Exportação de Dados --> Sped Fiscal / Validação do arquivo no validador.
+
+
+3) Qual o comportamento esperado?
+
+Que o campo data seja preenchido corretamente para validação do arquivo no PVA.
+
+
+4) Quais as etapas para executar o comportamento esperado?
+
+As mesmas do passo3
+
+5) Qual a versão do produto e sistema operacional utilizados?
+
+Automaster 6.0 e
+
+6) Informações adicionais
+
+BAse se encontra em: Y:\Teste\Bases Redmine\Olyver Motor

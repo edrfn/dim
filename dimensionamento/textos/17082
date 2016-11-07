@@ -1,0 +1,20 @@
+Rotina de cancelar pedido fechado não acha a nota caso a numeração esteja repetida no AUTnff
+1) Qual o comportamento observado?
+
+Foi identificado que em clientes que possuem numerações de notas repetidas na tabela AUTnff para operações e clientes diferentes, o sistema não consegue identificar a nota correta para cancelamento do pedido fechado.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Tenha uma base com o mesmo uma numeração de nota repetida (vendas/devolução a fornecedor para clientes diferentes);
+Faça com que uma nota tenha XML e outra não (uma venda NFe e outra cupom); Vale ressaltar que a venda cupom deve ter sido feita com uma data antes da venda com exportação da NFe; Para que a numeração fique igual, basta registrar a nota como D1 com número igual ao cupom;
+Tente cancelar o pedido fechado;
+
+3) Qual o comportamento esperado?
+
+O sistema deve validar o número de acordo com algum outro campo que não seja apenas o número da nota fiscal, permitindo assim que o cancelamento seja feito corretamente.
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Mesmo passo 2.
+
+*OBS.:* Vale ressaltar que este problema ocorre em várias rotinas. Devolução, cancelamento, carta de correção.

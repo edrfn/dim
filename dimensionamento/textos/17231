@@ -1,0 +1,15 @@
+Criar a rotina de Fechamento do Dia
+Criar a rotina de Fechamento do Dia do módulo de Vendas com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/).
+
+Como implementar:
+
+# Analisar requisitos
+
+# -Criação da interface-
+# -Criação do método de salvar opções selecionadas por usuário-
+# -Layout do relatório-
+# -Relatório de vendas por forma de pagamento-
+# -Relatório de vendas por vendedor-
+# -Relatório de vendas canceladas-
+# -Relatório de títulos a receber-
+# Testes da rotina

@@ -1,0 +1,20 @@
+Janela Observação para Orçamento não permite inserção de dados na rotina de Orçamento
+Descrição:
+
+Janela Observação para Orçamento não permite a inserção de dados na rotina de Orçamento;
+
+1) Qual o comportamento observado?
+
+Foi observado que ao selecionarmos o atalho F11, a janela de Observação para Orçamento não permite a inserção de nenhum tipo de caracteres;
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Seleciona o botão F11 > Janela de Observação para Orçamento não permite a inserção de dados;
+
+3) Qual o comportamento esperado?
+
+Espera-se que o usuário consiga inserir dados na janela de Observação para Orçamento;
+
+4) Quais as etapas para executar o comportamento esperado?
+
+Vendas > Movimentos > Orçamento > Novo (botão superior para inserção) > Seleciona o botão F11 > Janela de Observação para Orçamento permite a inserção de dados.

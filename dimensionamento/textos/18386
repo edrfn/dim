@@ -1,0 +1,9 @@
+Implementar comunicação do Total Ecf com Java 8
+*Como:* Product Owner
+
+*Quero:* Que o Total ecf monitor seja compatível com a ultima versão do java (versão 8)
+
+*Para:* Atender clientes que utilizam Total Ecf e o Sistema de bancário na mesma maquina.
+
+
+*Obs:* Hoje a maioria dos clientes de pequeno porte utilizam em uma única maquina o Total ecf monitor e os sistemas bancários,sendo que os sistemas dos bancos rodam com o java atualizado , ao efetuar atualização do mesmo o Total Ecf apresenta alguns problemas , como solução de contorno em alguns cliente utilizamos dois javas em uma unica maquina (Java 8 para o banco e Java 7 Up 21 para o Total Ecf), só que nem todos as maquinas funcionam perfeitamente com duas execuções deste mesmo aplicativo.

@@ -1,0 +1,16 @@
+Pedido de Venda - Alteração de pedidos com status LIBERADO sendo habilitada se clicar no botão de deletar produtos ou importar orçamento
+*1) Qual o comportamento observado?*
+Um pedido de venda após ser gerado a NFe e o status passar a ser LIBERADO não pode ser alterado, porém, se pesquisar um pedido liberado e clicar no botão de deletar produto ou clicar na opção de importar orçamento e depois sair da tela de importação de orçamento, o botão 'Alterar' do menu principal da tela de digitação de pedido fica habilitado e com isso está possibilitando a alteração de pedidos liberados.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Pedido de Venda;
+2- Clicar no botão 'Pesquisar' ou pressionar ALT+P;
+3- Localizar e abrir um pedido de venda com status LIBERADO;
+4- Clicar no botão de deletar produto ou na opção de importar orçamento 'ALP+O';
+5- Verificar que o botão 'Alterar' do menu principal ficou ativo, permitindo alterar o pedido após emissão de NFe.
+
+*3) Qual o comportamento esperado?*
+É esperado que um pedido de venda após ser emitida a NFe e o status passar a ser liberado, não possa ser alterado em hipótese alguma.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

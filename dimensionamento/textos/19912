@@ -1,0 +1,16 @@
+não está sendo permitido fazer impressão da carta de correção eletrônica
+
+
+1) Qual o comportamento observado?
+
+Não é possível fazer a impressão da carta de correção.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+. Fazer uma carta de correção: vendas balcão, procedimentos especiais, carta de correção eletrônica;
+. Ao concluir as correções, clicar em F9 para enviar e logo após pedir a impressão;
+. É apresentado a mensagem:" Erro ao imprimir a Carta de Correcao Eletronica: Caminho do arquivo de impressão do EVENTO não assinalado."
+
+3) Qual o comportamento esperado?
+
+Que seja permitido pedir a impressão da carta de correção.

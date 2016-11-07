@@ -1,0 +1,18 @@
+Pedidos de Venda - Erro ao alterar um produto
+*1) Qual o comportamento observado?*
+Ao alterar um produto já lançado no pedido e clicar no botão "OK" sem fazer nenhuma alteração, sistema apresenta erro!
+(Caso altere algum valor ou quantidade do produto, o erro não ocorre)
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimentos - Pedidos de Venda.
+2- Preencher pelo menos os campos obrigatórios;
+3- Inserir um produto na venda
+4- altera-lo e clicar no "OK" sem fazer nenhuma modificação no produto;
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema grave a alteração corretamente.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+

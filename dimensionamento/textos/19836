@@ -1,0 +1,16 @@
+Refatoração do Cadastro de Contador
+*Como:* Coordenadora de Projetos
+*Quero:* Que seja realizado a refatoração do cadastro de cobrador
+*Para:* que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação:*
+
+- Realizar o cadastro solicitado 
+- Realizar a busca do cadastro.
+
+*Como implementar:*
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 
+- Interface para a busca.
+- Possibilidade de pesquisar por qualquer dos campos.

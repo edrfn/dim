@@ -1,0 +1,15 @@
+Alteração na forma de emissão TEF quando emitida NFC-e
+*Como:* Product Owner
+*Quero:* Alteração na forma de emissão TEF quando emitida NFC-e
+*Para:* Adequação a nova forma de emissão em substituição ao cupom fiscal
+
+*Critérios de validação*
+* O TEF deve ser aprovado e impresso antes da transmissão da Nota;
+
+*Como implementar, vide e-mail da Belinda da D-TEF (em anexo)* 
+
+*1ª opção*
+* A transação de TEF será aprovada, impressa e confirmada automaticamente. Nesse caso o cliente deve ser orientado a efetuar uma reimpressão se houver problemas de impressão do comprovante TEF.
+
+*2ª opção*
+* Ao fim de cada impressão de TEF a aplicação deverá apresentar uma mensagem perguntando ao operador se a transação TEF foi impressa corretamente, "Sim, Não e Reimprime". Se optar por "Sim" a confirmação e finalização da transação deverão ser efetuadas, se optar por "Não" a aplicação deverá desfazer a transação enviando somente o finaliza transação e se optar por "Reimprimir" o cupom deverá ser impresso novamente voltando a mensagem inicial para efetuar o tratamento. Nas transações administrativas como reimpressão e cancelamento devem conter somente o Sim e Reimprime. O Não pode ficar desabilitado na mensagem ou não existir.

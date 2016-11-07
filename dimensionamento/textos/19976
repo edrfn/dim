@@ -1,0 +1,14 @@
+Liberar balanço
+*Como:* Analista de negócio
+*Quero:* Liberar os balanços digitados
+*Para:* Atualiza os saldos de estoque
+
+*Critérios de validação*
+- Ter o estoque dos produtos atualizados. 
+
+*Como Implementar*
+- Verificar se o sistema possui pedidos abertos - Solicitar que o usuário cancele ou conclua os pedidos para prosseguir.
+- Permitir a inserção de itens.
+- Permitir que o item seja excluído da lista.
+- Gerar notas de entrada e saída.
+- Liberar as notas de entrada e saída automaticamente.

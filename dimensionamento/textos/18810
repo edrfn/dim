@@ -1,0 +1,20 @@
+Valor unitário mostrado é diferente do que é usado para acréscimo ou desconto.
+*Qual o comportamento observado?*
+
+Sistema apresenta valores diferentes para o valor unitario de um mesmo produto.
+
+1º Na lista de busca do produto está sendo apresentado um valor.
+
+2º Quando o sistema apresenta a tela de digitação é exibido um valor diferente.
+
+3º Quando o produto é inserido na venda o sistema mostra como "valor unitario" o valor mostrado na segunda etapa, porém se esse valor sofreu alteração, como acrescimo, o calculo é feito em cima do que é mostrado na tela de busca de produtos.
+
+4º Em caso de inserção do produto sem nenhum tipo de acrescimo o sistema insere o produto com o valor mostrado na lista de produto e coloca o valor acima do valor unitario como acrescimo.
+
+*Quais as etapas para obter o comportamento observado?*
+
+Inserir um item na venda utilizando o banco de teste.
+
+*Qual o comportamento esperado?*
+
+Que os valores mostrados em tela sejam os que seram usados para o calculo na venda

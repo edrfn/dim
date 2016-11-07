@@ -1,0 +1,12 @@
+Permissões para rotinas "novas" do sistema.
+*Comportamento observador:*
+
+Sistema não possui a permissão para as rotinas novas (a maioria delas estão relacionadas a relatórios)
+
+Quando criado um grupo de permissão, as permissões "padrão" não permitem que o usuário acesse essas rotinas.
+
+*Comportamento esperado:*
+
+Que o sistema possua as devidas permissões para as rotinas existentes.
+
+(Em anexo um backup do banco para testes)

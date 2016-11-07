@@ -1,0 +1,12 @@
+Campo de valor do produto deve ser apresentado somente para produtos pesados.
+*Como:* Scrum Master
+*Quero:* Que o campo de Valor do Produto só venha a ser exibido quando o produto estiver configurado como pesado.
+*Para:* Evitar alguns problemas com permissão e outros fatores que esse parametro ativo pode trazer.
+
+*Critério de validação*
+
+- Caso o produto não esteja caracterizado como produto pesado o campo para confirmação de valor do produto não deve aparecer.
+
+*Como Implementar*
+
+- Sistema não deve mais possuir ativação de "Digita valor do produto" parametro agora sera ativado na condição do produto ser pesado, caso contrario não deve ser possivel ativar esse parametro.

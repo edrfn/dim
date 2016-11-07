@@ -1,0 +1,11 @@
+Faturar Pedidos de vendas com créditos de devolução
+*Como:* Analista de negócios
+*Quero:* Utilizar créditos de devolução para pagamento das vendas
+*Para:* Utilizar os créditos do cliente
+
+*Critérios de validação*
+- Histórico do crédito utilizado
+- Histórico do crédito gerado
+
+*Como implementar*
+vide especificação (Faturar Pedido)

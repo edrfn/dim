@@ -1,0 +1,20 @@
+Problemas encontrados na rotina de Outras Saídas
+*Comportamento observado:*
+
+Cliente:
+
+o   Não permite nem terminar de fazer o pedido;
+o   O sistema trata com erro de memória e erros de campos;
+
+Fornecedor:
+
+o   Não permite inserir itens com valores que não sejam inteiros;
+o   Exibi o item com ICMS de substituição (qualquer item) com valor -1;
+o   Indica erro de campo e ausência de valores com tudo preenchido e sem indicar qual o campo;
+o   Ao concluir o pedido, a cfop não fica gravada;
+
+Outras observações de outras saídas:
+
+o   Está carregando as cfops de vendas;
+o   Está carregando as cfops de devolução;
+

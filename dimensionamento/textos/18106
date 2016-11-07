@@ -1,0 +1,14 @@
+Problema na criação de campo de usuario na sincronização de produtos com o SAP 9.1
+*Qual o comportamento observado?*
+
+Durante o processo de sincronização de produtos do Cashone com o SAP 9.1 o sistema está apresentando erro referente ao campo U_SalUnitMsrPrice, foi observado que o campo não está sendo criado pelo próprio Cashone sendo necessário que inserir o campo manualmente na tabela através do SQL.
+
+(Logs e imagens em anexo)
+
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar a sincronização do SAP 9.1 com o Cashone.
+
+*Qual o comportamento esperado?*
+
+Que o sistema possa criar o campo normalmente sem que seja necessário a intervenção manual.

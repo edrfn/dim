@@ -1,0 +1,15 @@
+[NFe] Ocorre rejeição na emissão de NFe sempre que altera o valor unitário do produto na digitação do pedido de venda
+*1) Qual o comportamento observado?*
+Quando altera o valor unitário do produto na digitação do pedido de venda, ao tentar emitir NFe o sistema apresenta a seguinte rejeição: "Valor do Produto difere do produto Valor Unitário de Comercialização e Quantidade Comercial", conforme imagem anexo. 
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Pedido de venda;
+2- Digitar um pedido de venda alterando o valor unitário na digitação do produto;
+3- Faturar e tentar emitir NFe;
+4- Verificar a mensagem de rejeição apresentada pelo sistema;
+
+*3) Qual o comportamento esperado?*
+É esperado que ao alterar o valor unitário na digitação do produto, o sistema faça o tratamento necessário para que não ocorra rejeição na emissão de NFe.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As etapas de 1 a 3 do passo 2.

@@ -1,0 +1,17 @@
+Melhorar a Visualização do Valor Total do pedido de venda, pois difere dos valores dos itens
+Descrição Melhorada pendente de Análise
+
+Ao inserir um item no sistema (piloto preto na base do servidor por exemplo) o sistema esta calculando o valor total da compra com descontos e
+
+*Comportamento Observado*
+
+# Entrar na tela de pedido de venda;
+# Selecionar o vendedor e cliente;
+# Inserir um item(piloto preto, apelido Hamilton), com quantidade 1;
+# Verifica-se que o valor total do pedido é de R$5,00, porém o valor do item é de R$5,04;
+
+*Comportamento esperado*
+
+Após realizar os passos acima o valor total do pedido fosse igual ao valor do item.
+
+*OBS.* Problema encontrado quando estava sendo resolvido o ticket #20553

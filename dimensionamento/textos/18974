@@ -1,0 +1,10 @@
+Logs do Sistema - Parte II
+*Como:* Coordenadora de Projetos
+*Quero:* Ajustar os logs do sistema
+*Para:* Facilitar a leitura do usuário na identificação de problemas e do suporte ao receber uma demanda.
+
+*Critério de validação* 
+* Entregar o log do sistema a outros não envolvidos na construção e verificar feedbacks 
+
+*Como implementar* 
+- Será definidas partes para implementar no sistema. Iniciaremos por Logs trace (rastreamento)

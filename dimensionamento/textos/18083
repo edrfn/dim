@@ -1,0 +1,54 @@
+Implementar o Registro M205 e M605
+*Como:* Product Owner
+*Quero*: Que o sistema gere os registros M205 e M605
+*Para:* Atender as especificações do Sped Contribuições
+
+*Critério de validação*
+
+Os registros M205 e M605 passaram a ser obrigatórios a partir de 04/2014 e são referentes aos dados para recolhimento pelo Darf (Codigo de Receita,forma de tributação e valor a recolher)
+  
+M205 - Contribuição para o PIS/Pasep a Recolher  Detalhamento por Código de Receita (Visão Débito DCTF)
+M605 - Contribuição para a Seguridade Social - COFINS a Recolher  Detalhamento por Código de Receita (Visão Débito DCTF)
+
+Nestes registros serão consolidadas as contribuições sociais apuradas no período da escrituração, nos regimes não-cumulativo e
+cumulativo, bem como procedido ao desconto dos créditos não cumulativos apurados no próprio período, dos créditos
+apurados em períodos anteriores, dos valores retidos na fonte e de outras deduções previstas em Lei, demonstrando em seu
+final os valores devidos a recolher
+
+Sendo assim as condições para geração deste registro é:
+
+Se estiver preenchido algum valor no campo 08 ou campo 12 do M200 ou M600 será gerado o (M205 e M605).
+Campo 08: Valor da Contribuição Não Cumulativa a Recolher/Pagar
+Campo 12: Valor da Contribuição Cumulativa a Recolher/Pagar
+
+Detalhamento das informações a serem preenchidas:
+
+|1º campo| M205 ou M605 |Texto Fixo do M205 ou M605|
+|2º campo| NUM_CAMPO | Informar o número do campo do registro M200 ou M600 (Campo 08 (contribuição não cumulativa) ou Campo 12 (contribuição cumulativa)), objeto de detalhamento neste registro| 
+
+|3º campo| COD_REC   | Informar o Codigo da receita especifica para empresa e regima|
+|4º campo| VL_DEBITO | Informar o mesmo valor do registro M200 ou M600 com o respetivo campo , sendo 8 ou 12| Validação feita para E-Auditoria|
+
+
+
+*Como implementar*
+
+1º Se gerar o valor de contribuição M200 e M600 no campos (cumulativo"campo 12" ou não-cumulativo "campo 8") o sistema deverá criar o M205 e M605
+
+2º Na geração do M205 e M605 o NUM_CAMPO será informado o digito ao qual tem dados preenchidos "valores" do M200 e M600 (informar apenas o Digito 12 ou 8)
+
+3º Criar um parâmetro na tela de exportação do Sped contribuições, para se precisar gerar o registro o usuário poderá preencher o código de receita respectivo ao seu regime. (Habilitar na tela de exportação de Sped um campo "Edit" semelhante  Sped Fiscal, deixando por parte do usuário a digitação)
+
+4º o campo Valor de Debito será preenchido com os dados informados no registro Pai (M200 e M600) ( Apenas replicar o dado do campo ou 8 ou 12).
+
+
+*Informações Adicionais:*
+As informações acima foi validada no Guia Prático : http://www1.receita.fazenda.gov.br/sistemas/efd-contribuicoes/download/Guia_Pratico_EFD_Contribuicoes_Versao_1.20-22_06_2015.pdf
+
+E alinhamento com os consultores Queops e Carla da E-Auditoria , contato feito em atendimento telefônico.
+
+A base para teste esta em:\Teste\Bases Redmine\BRACO FORTE
+Gerar o arquivo do Mês de Maio de 2015
+
+Segue a imagem do erro no PVA 
+A solução de contorno adotada é a geração Manual das informações juntamente com a contabilidade do cliente Braço Forte.

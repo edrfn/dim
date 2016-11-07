@@ -1,0 +1,8 @@
+Emissão NFC-e Migrate e consulta pelo QRCode na Bahia / Liberação do Cliente Chalé Catarinense
+*Situação:* 
+
+Sistema configurado para NFC-e Migrate não consulta nota via QRCode gerado na impressão. O problema ocorria devido erro no calculo do código hashign por parte das dll's da Daruma (Migrate). A GNE.Framework.dll também não continha os liks de consulta referente ao estado da Bahia.
+
+*Escopo de teste:*
+
+Realizar testes de emissão e consulta de notas via QRCode afim de validar a liberação de uso em produção para o cliente.

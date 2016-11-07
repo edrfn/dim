@@ -1,0 +1,14 @@
+O campo entidade cliente fica nulo na tabela 'documento' causando erro na sincronização de vendas
+1) Qual o comportamento observado?
+De tempos em tempos um erro JAVA NULL POINTER EXCEPTION é reportado pela Swatch impedindo a sincronização de vendas. Este erro é causado por um campo nulo na tabela documento, "entidade_cliente", que ocorre de forma esporádica no cliente.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+1- Utilizar o Cashone vendendo com frequência com o cliente padrão.
+2- Remover de forma manual o campo entidade cliente com a sincronização parada.
+3- Observar o erro gerado na sincronização de vendas
+
+3) Qual o comportamento esperado?
+É esperado que este campo não fique nulo em hipótese alguma, para garantir a funcionalidade da integração.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do item 2, porém no passo 3 não deve apresentar erro.

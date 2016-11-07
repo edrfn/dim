@@ -1,0 +1,22 @@
+[CASE DE SUCESSO] Cancelar pedido de venda trazer tambem os pedidos e devoluções efetivados
+*Como:* Tester
+*Quero:* Que a rotina de cancelar pedido de venda traga também os pedidos e devoluções efetivados.
+*Para:* Ser possível cancelar além de pedidos em aberto, também os pedidos fechados com uso da rotina de efetivar pedido.
+
+*Critério de validação* 
+* Ter acesso à funcionalidade através do menu: Vendas - Movimentos - Cancelar Pedido
+* Poder pesquisar e cancelar pedidos de vendas efetivados;
+* Poder pesquisar e cancelar devoluções efetivadas;
+* Os títulos gerados através da efetivação de pedidos devem ser estornados;
+* O limite de crédito do cliente deve ser restabelecido;
+* O estoque dos produtos deve ser atualizado de acordo com o movimento cancelado;
+  
+*Como implementar* 
+* Alterar o select para buscar além das notas eletrônicas, os pedidos de venda, outras saídas e devoluções (cliente/fornecedor) efetivados;
+* Fazer o estorno de possíveis títulos gerados na efetivação desses movimentos;
+* Atualizar o saldo dos produtos movimentados;
+* Atualizar o saldo do limite de crédito dos clientes.
+
+h2. Observações da reunião de planejamento
+
+O cancelamento das vendas confirmadas irá acontecer na rotina de Cancelamento de Nf-e

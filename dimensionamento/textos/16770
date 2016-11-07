@@ -1,0 +1,20 @@
+[Não-Fiscal]  Valores diferentes de um mesmo produto com três casas decimais/ Truncamento X Arredondamento 
+*Observado*
+* Foi observado que ao vender um produto com três casas decimais, o sistema mostra valores diferentes na tela do PDV, no preço unitário do produto no cupom e no valor total do item no cupom. O que ocorre é que no PDV e no valor unitário está sendo truncado e quando é impresso no cupom o valor do item é mostrado com arredondamento. 
+* Quando há desconto/acréscimo na venda também ocorre esse comportamento, sendo o valor com desconto/acréscimo calculado com base no valor arredondado.
+* Quando realizado os testes alterando o modo de trabalho da impressora não houve diferença entre os cupons com modo arredondamento e truncamento.
+* Quando o produto com três casas decimais é vendido com dinheiro também há a diferença quando é dado troco na venda. 
+
+Para melhor entendimento segue imagens de cupons. 
+
+*Passos* 
+* Ter produto com três casas decimais (nos testes foi usado 2,525);
+* Adicionar o produto à venda 
+* Verifique o valor mostrado no PDV
+* Conclua a venda
+* Verifique no cupom: o valor unitário, o valor do item o valor total e o valor na forma de pagamento 
+* No web vá em Vendas>Visualizar Movimentação e olhe o valor total da venda
+
+*Esperado*
+Que o valor do produto esteja correto em todas as situações, respeitando o truncamento ou o arredondamento aplicado.
+

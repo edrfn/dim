@@ -1,0 +1,11 @@
+Todas as espécies cadastradas no sistema são mostradas ao quitar título
+*Qual o comportamento observado?*
+Ao quitar um título (na tela de checkout) o sistema está mostrando todas as espécies cadastradas no sistema, até mesmo as espécies que não estão relacionadas a nenhum plano de pagamento, e as espécies inativas.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Ter espécie inativa no sistema (campo situação = I, na tabela especie no banco do Servidor; campo ativa = false, na tabela especie no banco do PDV);
+2. Ter espécie não relacionada ao plano de pagamento (campo especie_id na tabela parcelaplanopagamento no banco do Servidor; campo especie_id na tabela especieparcela no banco do PDV);
+3. Quitar um título e verificar que todas as espécies cadastradas no sistema estão sendo mostras na tela de checkout; 
+
+*Qual o comportamento esperado?*
+Que as espécies mostradas na tela de checkout seja apenas as espécies relacionadas ao plano de pagamento escolhido, e as espécies inativas não devem ser mostradas. O comportamento ideal para o funcionamento correto das espécies mostradas para quitar um título deve ser igual ao funcionamento para quitar uma venda. 

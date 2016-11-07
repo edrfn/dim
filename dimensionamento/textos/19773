@@ -1,0 +1,10 @@
+Refatorar a Tela de Itens no cadastro de Digitar NF de Compra
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração da tela de Itens no cadastro de Digitar NF de Compras.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+*Critérios de validação*
+- Validação se está sendo permitido inserir itens.
+
+*Como implementar:*
+- Interface para permitir a visualização.

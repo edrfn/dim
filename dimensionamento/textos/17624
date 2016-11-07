@@ -1,0 +1,8 @@
+[License Manager] Ignorar caracteres especiais na pesquisa por CNPJ
+
+
+* Descrição:
+Ao realizar uma consulta pelo CNPJ a mesma não funciona com caracteres especiais (pontos, barra, traço), cliente solicita que seja criada uma mascara para que nessa consulta possa ser colado o CNPJ com esses caracteres.
+
+* Esperado:
+Hoje ao fazer uma pesquisa pelo CNPJ o cliente copia o campo do Smart que contém máscara e ao jogar no license o mesmo tem que sair apagando os pontos e demais caracteres especiais. Fazer com o que o sistema ignore esses caracteres pesquisando apenas os números.

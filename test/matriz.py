@@ -38,25 +38,27 @@ for filename in glob.glob(os.path.join(path, '*')):
     textwords = open(filename, 'r', encoding='utf8').read()
 
     id = str(filename[4:])
-    textos.append(id + '\t' + textwords)
-    #textos.append(textwords)
+    #textos.append(id + '\t' + textwords)
+    textos.append(textwords)
 
 
 texto = ''
 for x in textos:
     texto = '%s %s \n' % (texto, x)
-    texto = rem_space(texto)
+
+texto = rem_space(texto)
+texto = texto[1:]
 
 
-
-t = open('matriz01', 'w')
+t = open('matriz02', 'w', encoding='utf8')
 t.write(texto)
 t.close()
 
-t2 = open('matriz01', 'r')
+t2 = open('matriz02', 'r', encoding='utf8')
 
 f2 = nltk.FreqDist(w.lower() for w in t2)
 print(f2.most_common())
+
 
 # x = freq_dist.keys()[:1000]
 # print(x)

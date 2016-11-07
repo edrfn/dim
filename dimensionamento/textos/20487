@@ -1,0 +1,2 @@
+Orçamento com apenas uma forma de pagamento, forma esta que possui acréscimo, está contabilizando o acréscimo 2x
+Ao efetuar um orçamento que possui apenas uma forma de pagamento, se esta forma possuir acréscimo, este acréscimo é cobrado duas vezes ao invés de uma só.

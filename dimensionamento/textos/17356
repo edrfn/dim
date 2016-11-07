@@ -1,0 +1,24 @@
+Colocar máscara nos campos do PDV
+Permitir que as entradas de dados por usuário estejam limitadas a caracteres válidos naquela sessão:
+1. Alfanumérico
+2. Numérico
+3. Somente letras
+
+*Obs.:* Nesta história devem ser identificadas todas as telas do sistema que precisam de validação nos campos.  Abaixo seguem as já identificadas.
+
+Campos já identificados, não bloqueados:
+1. Entrada de suprimento
+2. Baixa de titulo
+3. Rotina de Nota fiscal (datas, valores, tamanhos)
+4. Numero da pré-venda (limitar caracteres)
+5. Tela de checkout - entrada de valores nos campos das espécies
+6. Código de barras (pesquisar por item - tela de cancelamento do item)
+7. Datas das opções do menu fiscal, incluindo memória fiscal
+8. Percentual de desconto - tela de desconto
+9. Pesquisar pelo número do cupom - recuperação de cupom
+
+*Como implementar?*
+- Identificar os tipos de máscaras necessárias;
+- Implementar as máscaras;
+- Testes;
+

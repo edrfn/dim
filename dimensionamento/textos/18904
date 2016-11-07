@@ -1,0 +1,17 @@
+Importação de XML - O fornecedor que consta no XML não está sendo gravado no banco, ocasionando erros ao gravar novos cadastros de produtos e também ao gravar a nota
+*1) Qual o comportamento observado?*
+Ao importar um arquivo XML no lançamento de nota de compra, caso o fornecedor que consta no XML seja novo, o mesmo não está sendo gravado no banco de dados, ocasionando erros aos gravar novos cadastros de produtos incluídos através da rotina de importação de XML e também ao gravar a nota de compra (Seguem imagens dos erros e arquivo XML).
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo a ser importado;
+4- Clicar no botão de cadastrar produtos, preencher pelo menos os campos obrigatórios e clicar em gravar, nesse momento o sistema apresenta o erro da imagem: Erro ao gravar produto.jpg. Para conseguir gravar o produto, basta informar um fornecedor já existente no banco de dados,
+5- Associar ou relacionar os todos os produtos;
+6- Clicar no botão de gravar a nota, nesse momento o sistema apresenta o erro da imagem: Erro ao gravar nota.jpg.
+
+*3) Qual o comportamento esperado?*
+É esperado que ao importar um arquivo XML no lançamento de nota de compra, caso o fornecedor ainda não exista no banco de dados, o mesmo seja gravado antes da gravação dos produtos vinculados ou da própria nota de entrada.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

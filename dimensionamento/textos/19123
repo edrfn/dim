@@ -1,0 +1,12 @@
+Integração - Comunicação com o PDV para carga inicial através de arquivo
+*Como:* Usuário do sistema
+*Quero:* Troca de informações entre o Dinâmico ERP e o PDV para carga inicial do PDV através de arquivo.
+*Para:* Utilizar os dados previamente cadastrados no ERP para fazer vendas no PDV e obter do lado do ERP as movimentações feitas pelo PDV.
+
+*Critério de validação* 
+* Leitura do arquivo de carga inicial na pasta pertinente;
+* Geração dos arquivos de exportação na pasta pertinente do sistema, seguindo o layout estabelecido.
+
+*Como implementar* 
+* Fazer a leitura do arquivo na pasta;
+* Disparar o motor de geração dos cadastros do sistema.

@@ -1,0 +1,14 @@
+[CERT.TEF] Aceitar numeros e letras no NSU (numero de autorização) com pagamento TEF
+A efetuar o passo 7 da certificação TEF é passado a String "99999999ABC" para o campo NSU  (numero de autorização) porém o dincash apenas reconhece no formato LONG ( apenas numeros ) retornando no log o erro a seguir.
+
+1700524 2016-01-19 09:07:16,576 ERROR Thread-8 com.total.dincash.workflow.PagarCartaoTefDiscado - Um erro inesperado aconteceu..
+java.lang.NumberFormatException: For input string: "999999999ABC"
+	at java.lang.NumberFormatException.forInputString(NumberFormatException.java:65)
+	at java.lang.Long.parseLong(Long.java:441)
+	at java.lang.Long.valueOf(Long.java:540)
+	at com.total.dincash.workflow.PagarCartaoTefDiscado.realizarTransacao(PagarCartaoTefDiscado.java:81)
+	at com.total.dincash.workflow.PagarCartaoTefDiscado.execute(PagarCartaoTefDiscado.java:46)
+	at org.jbpm.gop.Execution.fire(Execution.java:102)
+	at org.jbpm.gop.Execution.enter(Execution.java:93)
+	at org.jbpm.gop.Execution.take(Execution.java:88)
+	at org.jbpm.gop.Execution.run(Execution.java:79)

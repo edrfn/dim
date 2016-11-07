@@ -1,0 +1,19 @@
+Devolução de cliente - Ao cancelar uma inserção e abrir novamente a tela o campo filial está vindo vazio
+*1) Qual o comportamento observado?***
+Na tela de devolução de cliente ao cancelar uma inserção e abrir novamente a tela o campo filial está vindo vazio.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Vendas - Movimento - Devolução de Cliente;
+2- Clicar no botão 'Novo' ou pressionar ALT+N;
+3- Digitar um código inválido no campo filial e dar OK na mensagem que é apresentada;
+4- Cancelar a inserção e fechar a tela;
+5- Abrir novamente a tela de devolução de cliente e clicar no botão 'Novo' ou pressionar ALT+N;
+6- Verificar que  campo 'Filial' vem preenchido com 0 (zero);
+
+*3) Qual o comportamento esperado?*
+É esperado que ao entrar na tela de devolução ao cliente, o campo filial venha preenchido com os dados da filial padrão.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*Observação:* Ao seguir os passos para reproduzir o problema outras telas também apresentam o mesmo comportamento, como a emissão de NFe e a geração do sintegra, por exemplo.

@@ -1,0 +1,21 @@
+Problemas com o fechamento do caixa (MovimentoCaixa)
+*Comportamento Observado*
+- Ao solicitar fechar o caixa o sistema não está respondendo corretamente. Mesmo o sistema respondendo, o banco não guarda a informação. Não atualiza a informação de movimento.
+
+*Passos para reproduzir o comportamento*
+- Abrir o sistema;
+- Abrir o caixa;
+- fechar o caixa;
+- Observar o banco de dados;
+- Ao abrir o sistema, o mesmo deveria solicitar abertura, porém como não há registro de movimento fechado, o sistema abre disponível para a venda.
+- Repetir o procedimento, fechando e abrindo o sistema.
+Obs: Não tem registro no log.
+
+*Comportamento Esperado*
+- Que ao fechar o caixa, o registro seja atualizado no banco e que o sistema responda solicitando que o movimento seja aberto.
+
+Como Implementar:
+
+Localizar o problema.
+Implementar a solução.
+Testes.

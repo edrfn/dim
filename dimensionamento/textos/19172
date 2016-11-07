@@ -1,0 +1,12 @@
+Criar query gerar e colocar no sistema o relatório de posição de estoque
+Como: Coordenadora
+Quero: Criar a query de consulta dos dados para a geração do relatórios de posição de estoque e colocar ele no sistema sem ordenação e filtros;
+Para: Gerar o relatório sem filtros;
+
+Critérios de Validações
+
+Relatório sendo gerado sem validação dos filtros da tela e de forma sintética;
+
+Como implementar
+
+Criar a query com os dados da posição de estoque e criar o relatório sintético e colocar ele no sistema;

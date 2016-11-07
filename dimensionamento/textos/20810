@@ -1,0 +1,26 @@
+Corrigir erros de outras embalagens, outras referências e outros códigos de barras
+*Qual o comportamento observado?*
+1. Na tela de consultar produtos é mostrado o produto principal e a embalagem secundária na primeira vez que é aberta, das próximas vezes é mostrado apenas o produto principal. Nesta tela não deve ser mostrado a opção do produto com a embalagem secundária; 
+2. Ao pressionar PageDown e escolher o produto a partir da lista de produtos não foi mostrada a tela com as opções das diferentes embalagens; 
+3. Referente a Outras referências e Outros códigos de barras são apenas informações adicionais do mesmo produto, que podem ser usadas para buscar o mesmo produto. Porém, ao buscar o produto pela referência secundária, o sistema não encontrou;
+4. Ao buscar o produto pelo código de barras da embalagem secundária o sistema vende o produto principal;
+5. A tela que mostra as diferentes embalagens do produto é mostrada apenas uma vez. Após vender as embalagens mostradas na tela, o sistema vende o produto principal ao digitar o código de barras. Ao sair da tabela e voltar, o produto não é mostrado novamente. Para simular novamente as telas com embalagens secundárias é preciso importar novamente os arquivos referente ao produto;
+6. Deve ser verificado o funcionamento das outras embalagens quanto a situação (ativo/inativo), por que não dá pra validar, já que as embalagens somem após serem vendidas. Mas de início a validação da situação não é realizada; 
+7. Não foi possível inserir mais de uma embalagem secundária, por que ao sincronizar a segunda embalagem secundária, o sistema sobrescreve na primeira embalagem. Aparentemente o sistema está considerando o código de retaguarda do produto como chave primária da embalagem secundária;
+8. Referente a Outros código de barras deve ser verificado sobre a necessidade de utilização e a utilização deste no ERP, já que na teoria o mesmo produto não pode ter mais de um código de barras;
+
+*Quais as etapas para obter o comportamento observado?*
+1. Cadastrar um produto com Outras embalagens; (segue em anexo o arquivo de importação do produto e da embalagem secundária)
+2. Digitar o código de barras do produto principal, no campo de busca na tela principal do sistema, e pressionar ENTER. Será mostrada uma tela com duas opções deste produto. Uma opção é o produto com as informações da embalagem principal e a outra com as informações da embalagem secundária;
+
+
+*Qual o comportamento esperado?*
+O comportamento esperado será detalhado para cada tópico apontado acima. 
+1. Na tela de consultar produto deve ser mostrado apenas o produto principal, e ao escolher este é mostrada a tela com as outras embalagens;
+2. Ao pressionar PageDown e escolher o produto (tela de consultar produto) deve ser mostrada a tela de Outras embalagens. A tela de Outras embalagens deve ser chamada independente da forma que o produto principal for buscado, seja digitando o código de barras, seja buscando pelo nome, seja pela tela de consultar produto, ou pelo campo de buscar produtos;
+3. Deve ser analisado se o PDV deve realizar a busca do produto pela referência e/ou outras referências, mas hoje o sistema não faz a busca por este código; 
+4. Ao buscar o produto pelo código de barras da embalagem secundária o sistema deve vender o produto com a embalagem secundária;
+5. A tela que mostra as diferentes embalagens do produto é mostrada apenas uma vez. O sistema deve mostrar a tela de outras embalagens todas as vezes que o produto que possuir outras embalagens for vendido; 
+6. O sistema deve validar se a embalagem secundária está com a situação ativa ou inativa para mostrar na tela do PDV. Quando a embalagem secundária estiver inativa, ela não deve ser mostrada no PDV;
+7. O sistema deve permitir que o mesmo produto possua mais de uma embalagem secundária;
+8. Este ponto deve ser verificado junto ao PO, qual deve ser o comportamento do sistema; 

@@ -1,0 +1,4 @@
+Mapear os locais de chamada das funções de nf-e, e colocar as novas funções pra nfc-e, parametrizadas conforme modelo (55 ou 65)
+*Como:* Product Owner
+*Quero:* Mapear os locais de chamada das funções de NF-e e colocar as novas funções para NFC-e, parametrizadas conforme modelo (55 ou 65)
+*Para:* Emitir NFC-e para Automaster/Dinamico

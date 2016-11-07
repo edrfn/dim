@@ -1,0 +1,7 @@
+Titulos baixados no PDV ficam sempre como Tipo T no Banco
+Foi verificado que ao fazer uma baixa Parcial ou Total no PDV ele faz a baixa, mas ficam no banco de dados sempre como Baixa Total.
+
+Como proceder o erro?
+Apertar F8 no PDV e realizar uma baixa Parcial e Outra Geral. Depois va no Mysql na tabela baixatitulo e veja que os titulos estão como tipo T
+
+Deveria aparecer uma sigla referente a Parcial (P por exemplo) para diferenciar os tipos 

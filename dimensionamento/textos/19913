@@ -1,0 +1,14 @@
+Erro.log na rotina de confirmar nota fiscal
+1) Qual o comportamento observado?
+
+Na tela de confirmar nota fiscal ao clicar em F9 Transportador, é emitido um erro.log.
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+. Fazer uma venda e depois ir para a rotina de confirmar nota fiscal;
+. Clicar no F9, logo após é mostrado o erro.log e aborta o sistema.
+
+3) Qual o comportamento esperado?
+
+Que não seja mostrado o erro.log e nem abortado o sistema
+Em anexo o erro

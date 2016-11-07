@@ -1,0 +1,15 @@
+A nota de Compra gerada pela finalização do Balanço está sendo gerada com campos obrigatórios vazios
+*1) Qual o comportamento observado?*
+A nota gerada pelo fechamento do balanço está com alguns campos vazios. (Os campos série, Modelo, Data Emissão.)
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Abrir um balanço inserindo produtos e quantidades nele. Estoque- Movimento- Abertura de balanço;
+2- Fechar o balanço. Estoque- Movimento- Finalizar Digitação de balanço;
+3- Pesquisar, na rotina Digitar nf de Compra, a nota gerada pelo fechamento do Balanço;
+4- Observar que os campos mencionados estão vazios.
+
+*3) Qual o comportamento esperado?*
+Que a nota possua todos os campos obrigatórios preenchidos.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas citadas no passo 2.

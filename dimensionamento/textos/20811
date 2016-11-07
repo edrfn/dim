@@ -1,0 +1,35 @@
+Bugs encontrados no testes da rotina de devolução
+*1) Qual o comportamento observado?*
+* Foram encontrados alguns erros durante os testes da rotina de devolução de cliente/fornecedor, segue a relação:
+
+1- Não está permitindo abrir uma devolução como pesquisa ou edição, apresenta a seguinte mensagem: tbDefault: Dataset not in edit 
+or insert mode.
+2- Na tela de busca de nota, ordenar por data de emissão;
+3- Na tela de busca não está exibindo a data de emissão das notas efetivadas;
+4- Na digitação Manual o valor dos impostos não foram calculados. Foi testado com todas as configurações de regime tributário no cadastro da licenciada; 
+5- Quando o cliente informado é de fora do estado o sistema não está sugerindo a natureza de operação;
+6- Permitiu salvar uma nota sem itens;
+7- Os Campos vendedor e cobrador devem ser preenchidos com base nos dados da nota escolhida - NÃO PASSOU;
+8- Para as notas efetivadas o sistema não está exibindo a data de emissão;
+9- Digitação de produtos:
+9.1- Campo Quantidade - Limitar a quantidade de dígitos a 6 e retirar a máscara - NÃO PASSOU - A quantidade de dígitos está correta, porém ainda está com a máscara de valor;
+9.2- Valor dos Produtos - Ao passar pelo campo o sistema desconsidera o valor digitado. Colocar a máscara (999.999,99) - NÃO PASSOU - Continua da mesma forma.
+9.3- Campos desconto - Limitar a quantidade de dígitos (99,99) - NÃO PASSOU 
+9.4- MVA e IPI - Limitar a quantidade de dígitos (999,99) - NÃO PASSOU 
+9.5- Geral - Alinhar os labels que estão cortados - NÃO PASSOU - Campos com label cortado: valor unitário, valor total e natureza de operação.
+
+* Melhoria:
+
+1- Habilitar o pagedown na pesquisa da nota referenciada e conseguir abrir com enter ou duplo clique, só está sendo possível clicando no botão Selecionar;
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Cadastros - Vendas - Devolução de cliente;
+2- Digitar devolução manual e referenciando uma nota;
+
+*3) Qual o comportamento esperado?*
+É esperado que a rotina esteja consistente, sem apresentar bugs ou falhas nas validações. 
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+*Observação:* Arquivo com as especificações da rotina de devolução anexo.

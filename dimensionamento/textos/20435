@@ -1,0 +1,20 @@
+[Total NFCE] Demora no envio da nota.
+LOCAL:
+Dincash PDV  Envio de NFC-e  Tela de pagamento
+
+VERSÃO:
+Identificado na última versão (2.8k)
+
+PRÉ-CONDIÇÕES:
+  Acessar o ambiente de homologação;
+  Utilizar total-Nfce
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Efetue uma venda com o sistema configurado para total NFCE.
+
+ERRO:
+O sistema leva 2 minutos para finalizar o processo de envio de NFCE.
+
+SITUAÇÃO DESEJADA:
+O envio não deve passar de 10 segundos. Em momentos de conexão normal, 6 segundos é o tempo aceitável para envio da venda.
+

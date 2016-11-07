@@ -1,0 +1,9 @@
+Realizar login no sistema
+Eu como usuário quero realizar login no sistema digitando meu usuário e senha acessando assim a pagina inicial do sistema
+
+**Validações**
+
+* Todas descritas no requisito de produto #17764;
+* Todas as telas do sistema devem precisar de login;
+* Passar por todos os testes escritos;
+* Deverá ser gravado o log de quem logou.

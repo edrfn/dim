@@ -1,0 +1,9 @@
+Validação de Caracteres especiais na integração.
+* Descrição:
+
+Foi verificado que a integração com o WEB não é blindada o suficiente como acontece com o PDV.
+Em algumas situações é importado cadastros de Terceiros, e só é reparado a irregularide ao importar os mesmos para o PDV, como é o caso de caracteres especiais em descrições de produto e Expressões reservadas.
+
+* Esperado: 
+
+É esperado que a mesma validação feita na integração com o PDV x WEB, seja feita na integração com WEB x Terceiros, localizando irregularidades antes que a importação seja feita, e registrando no Log os problemas encontrados.

@@ -1,0 +1,35 @@
+Lentidão na abertura do cupom e inclusão de item. ( Registrar Recebimento Junto)
+*Breve descrição do caso:*
+
+Foi constatado que o total ecf monitor faz a comunicação com a impressoras:"Daruma , Epson, Bematech e Elgin" , porém estamos com uma lentidão na abertura do primeiro cupom e inclusão de itens.
+
+(Registrar recebimento Junto)
+
+
+*Qual o comportamento observado?*
+
+Foi verificado em vários clientes que ao abrir uma venda com ECF,ocorre uma lentidão que em media 12 a 18 segundos para incluir o primeiro item.
+
+
+*Quais as etapas para reproduzir o comportamento observado?*
+Parâmetro de venda:(Formato de Registrar Recebimento "Junto)
+Vendas -> Vendas Balcão -> Digitar Pedido de vendas
+
+*Qual o comportamento esperado?*
+
+Queue seja tratado essa performasse de forma que a inclusão do item não tenha esta lentidão.
+
+
+*Quais as etapas para reproduzir o comportamento esperado?*
+Parâmetro de venda:(Formato de Registrar Recebimento "Junto)
+Vendas -> Vendas Balcão -> Digitar Pedido de vendas
+
+*Qual a versão do produto e sistema operacional utilizados ?*
+
+Automaster 6.1b e Total ECF Monitor 4972
+
+*Informações adicionais.*
+
+*Obs:* Foi alinhado com o Setor de Testes e foi constatado essa lentidão sendo simulada em qualquer base de dados.
+
+Com a opção de Registrar recebimento separado a performasse é bem maior , o problema ocorre com registrar recebimento "Junto" 

@@ -1,0 +1,21 @@
+[Baixa de títulos] Erros nos filtros de títulos a serem baixados
+*1) Quais os comportamentos observados?*
+1.1- Na tela de filtrar os títulos a serem baixados, caso sejam preenchidos os campos 'Emissão Entre' e/ou 'Vencimento Entre' após passar desses campo o sistema apresenta mensagem de erro, imagem anexo;
+1.2- Após realizar uma baixa com sucesso o sistema volta para a tela dos filtros, nesse momento, se clicar no filtro 'Título' o sistema apresenta mensagem de erro.
+
+*2) Quais as etapas para reproduzir o comportamento observado no tópico 1.1?*
+1- Acessar a rotina pelo menu: Financeiro - A Receber - Baixa;
+2- Colocar um período de emissão e/ou vencimento e clicar na tecla TAB;
+3- Verificar a mensagem de erro apresentada pelo sistema;
+
+*3) Qual o comportamento esperado no tópico 1.1?*
+É esperado que o sistema filtre os títulos conforme o período informado sem apresentar erros;
+
+*4) Quais as etapas para reproduzir o comportamento observado no tópico 1.2?*
+1- Acessar a rotina pelo menu: Financeiro - A Receber - Baixa;
+2- Filtrar um título e realizar a baixa total;
+3- Após clicar no OK da confirmação da baixa e o sistema voltar a exibir a tela de filtros, clicar no filtro 'Título';
+4- Verificar a mensagem de erro apresentada pelo sistema;
+
+*5) Qual o comportamento esperado no tópico 1.2?*
+É esperado que o sistema exiba os títulos sem apresentar erros;

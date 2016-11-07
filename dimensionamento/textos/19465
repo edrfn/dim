@@ -1,0 +1,17 @@
+Sistema não possui parametrização nos cadastros de Embalagem
+*Qual o comportamento observado?*
+
+Na tela de cadastro de embalagem só é possível inserir o nome e unidade de medida, quando para o cadastro é necessário que seja fornecida as seguintes informações:
+
+-Quantidade da embalagem-
+Números de decimais da quantidade
+Unidade de Referência
+Número de decimais do valor
+
+*Quais as etapas para obter o comportamento observado?*
+
+Realizar o cadastro de uma embalagem.
+
+*Qual o comportamento esperado?*
+
+Que o cadastro possibilite a parametrização de tais valores

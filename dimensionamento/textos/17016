@@ -1,0 +1,10 @@
+Mudança para o Java 8
+*Porque?*
+
+O sistema foi iniciado com Java 7 porque as mudanças necessárias não poderiam ser verificadas diretamente com Java 8.
+
+*Como implementar?*
+
+-Alterar o Java e verificar o comportamento do sistema do configurador e do PDV.
+-Testes;
+

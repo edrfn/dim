@@ -1,0 +1,15 @@
+O arquivo de sangria (999999.SAN) está sendo exportado vazio
+*Qual o comportamento observado?*
+Ao realizar sangria no PDV, o sistema deve exportar um arquivo com as informações da sangria realizada, mas o arquivo está sendo gravado vazio. 
+
+*Quais as etapas para obter o comportamento observado?*
+1. Com o painel ativo, realizar uma sangria no PDV;
+2. Verificar que o arquivo de sangria (999999.SAN) foi gravado vazio;
+
+*Qual o comportamento esperado?*
+Que o sistema exporte o arquivo de sangria com as informações da sangria realizada.
+
+*Como implementar?*
+- Identificar a causa do problema;
+- Implementar solução;
+- Testes.

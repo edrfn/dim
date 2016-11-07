@@ -1,0 +1,7 @@
+Refatorar a Regra de Imposto de Entrada
+Como: Coordenadora de Projetos
+Quero: Que seja realizado a refatoração da rotina de regra de imposto.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação
+- Validar se as regras estão sendo aplicadas corretamente.

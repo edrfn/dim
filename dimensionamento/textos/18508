@@ -1,0 +1,18 @@
+Devolução ao Fornecedor - Produto sendo duplicado ao realizar uma alteração do mesmo.
+*1) Qual o comportamento observado?*
+Ao alterar uma devolução(ALT+N), logo após clicar em alterar (produto), confirmar a alteração sem fazer qualquer modificação, gravar o pedido e pesquisa-lo logo em seguida, será observado que todos os produtos contidos na devolução são apresentados duplicados no grid.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimentos - Devolução a fornecedor
+2- Alterar uma devolução ja existente (ALT+N);
+3- Clicar no botão alterar(produtos);
+4- Confirmar o produto sem fazer nenhuma alteração e logo em seguida gravar o pedido de devolução
+5- Pesquisar novamente o pedido de devolução alterado
+6- Verificar produtos duplicados no grid
+
+
+*3) Qual o comportamento esperado?*
+Que ao fazer algum tipo de alteração nos produtos do grid, não haja nenhum tipo de duplicação, mantendo a estrutura correta, de acordo a nota de compra.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

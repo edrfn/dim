@@ -1,0 +1,11 @@
+Gerar o créditos para o cliente na Devolução de Cliente
+*Como:* Analista de negócio
+*Quero:* Gerar créditos na devolução de cliente
+*Para:* Utilizar esses créditos em outras vendas
+
+*Critérios de validação*
+- Ter os créditos gerados ao final de cada devolução
+- Ter um comprovante de crédito criado de acordo com o tipo de devolução
+
+*Como Implementar*
+- vide requisito (Tratamentos da rotina - Funcionamento)

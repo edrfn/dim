@@ -1,0 +1,11 @@
+Validar a importação de XML
+Como: Tester
+Quero: Testes na rotina de importar XML.
+Para: Verificar se todas as funcionalidades estão sendo atendidas corretamente.
+
+Critério de validação
+Ter acesso à funcionalidade através do menu: Compras - Movimento - Nota Fiscal de Compras;
+Validar a inserção do xml;
+Validar a gravação de produtos;
+Validar todas as informações pertinentes para o cadastro do produto;
+Validar o cadastro de fornecedor na importação do XML;

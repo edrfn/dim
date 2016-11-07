@@ -1,0 +1,12 @@
+[CASE DE SUCESSO] A opção de recuperação de senha de usuário por e-mail não está funcionando
+*1) Qual o comportamento observado?*
+Na tela de login a opção de recuperação de senha de usuário por e-mail não está funcionando devido a mudanças na configuração do e-mail padrão, está apresentando a mensagem "Não foi possível enviar a sua senha por e-mail. Entre em contato com o administrador do seu sistema."
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Executar o sistema e na tela de login informar apenas o usuário, clicar na opção "Esqueceu a senha" e digitar a palavra chave informada no cadastro do usuário.
+
+*3) Qual o comportamento esperado?*
+É esperado que seja enviada a senha para o e-mail informado no cadastro do usuário.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

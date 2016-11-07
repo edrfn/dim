@@ -1,0 +1,18 @@
+Ao criar um romaneio de carga e exportar as NFes pelo número do mesmo, o sistema não exporta as notas.
+*1) Qual o comportamento observado?*
+
+Foi identificado que, ao criar um romaneio de carga e ir na tela de exportação de NF-e, colocando para exportar através do número de romaneio, o sistema não consegue realizar a exportação destas notas.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Faça vários pedidos em aberto no sistema;
+Faça um romaneio e adicione pedidos;
+Vá na tela de exportar NF-e e coloque para exportar através do número do romaneio;
+Verifique a mensagem apresentada: "Não há dados a serem processados";
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve exportar todas as notas pertencentes ao romaneio.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.

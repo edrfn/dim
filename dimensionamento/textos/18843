@@ -1,0 +1,22 @@
+Sistema está calculando incorretamente o ICMS na NFC-e
+LOCAL:
+PDV  NFCE  XML/INVOICY.
+
+VERSÃO:
+Identificado na última versão (2.8G)
+
+PRÉ-CONDIÇÕES:
+ Utilizar NFC-e Migrate
+ Dar desconto no fim da Venda
+
+PASSOS PARA REPRODUÇÃO DO ERRO:
+1) Uma vez já logado no sistema , efetue uma venda.
+2) Dê um desconto no fim da venda.
+3) Verifique no portal Invoicy como ficou o calculo de ICMS
+
+
+ERRO:
+O sistema Está calculando o ICMS baseando-se no valor bruto da venda sem levar em conta o desconto dado, isto gera uma diferença de ICMS que causa um prejuízo ao cliente.
+
+SITUAÇÃO DESEJADA:
+O valor de icms deve ser calculado tendo como base o valor da venda incluído do desconto ou acréscimo da mesma.

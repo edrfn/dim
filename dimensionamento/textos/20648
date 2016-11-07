@@ -1,0 +1,19 @@
+XML - validações necessárias não sendo realizadas.
+*Comportamento observado*
+- Mesmo com o produto cadastrado, com mesmo código de barras e mesmo fornecedor, não é possível identificar como o sistema valida que o produto está cadastrado.
+- Mesmo cancelando o xml, o usuário não é informado que o produto foi cadastrado.
+- O sistema não está validando a licenciada para preencher a situação tributária. Caso seja simples nacional, a busca sempre retorna CST.
+
+*Critérios para validação*
+- Associar o produto pelo código de barras ou código do fornecedor como determina a especificação: (Maior gravidade)
+a. O sistema deve verificar o código de barras e/ou o código de referência dos produtos para verificar se o produto já está cadastrado na base
+- Verificar o que o banco está considerando como conjunto de restrição para diferenciar produtos - Considerar apenas o código de barras e a referência.
+
+- Se o processo de importação é cancelado perguntar ao usuário como determina a especificação: (Menos relevante)
+3. Caso seja cancelado o processo, ou na tela de associação de produtos ou na tela principal de importação, perguntar ao usuário, caso produtos tenham sido cadastrados, se mantém os cadastros.
+
+- Alterar a licenciada e verificar se ao cadastrar por xml, trás a cst ou csosn como determina a especificação: (Maior gravidade)
+f. Ao clicar no combobox de CST/CSOSN abrir as opções de CST/CSOSN e aplicar o valor para todas as linhas selecionadas. A opção deve abrir a lista de CSOSN para o caso de licenciada configurada como simples nacional. E CST para os demais casos
+
+*Passos para reproduzir o comportamento*
+- Importar xmls que possuem o mesmo produto.

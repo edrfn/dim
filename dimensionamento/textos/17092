@@ -1,0 +1,10 @@
+Criar  a Rotina de Carta de Correção Eletrônica
+Criar a rotina de Carta de Correção Eletrônica do módulo de Vendas com base na especificação de requisitos definida no wiki (http://192.168.0.92/projetosollaris/).
+
+Como implementar:
+
+# Definir modelo de dados
+# Criar rotina de carta de correção eletrônica
+# Criar interação da carta de correção eletrônica com a DLL de nota fiscal eletrônica
+# Testes de emissão da carta de correção eletrônica
+# Criar documentação da carta de correção eletrônica

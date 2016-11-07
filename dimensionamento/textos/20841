@@ -1,0 +1,12 @@
+Adicionar as validações de estoque do PDV a opção "Não Liberar" para estoque negativo
+*Como:* Scrum Master
+*Quero:* Que o PDV possa fazer a validação de "Não liberar" para estoque negativo
+*Para:* Que no sistema haja o controle de não ser possivel realizar venda com estoque negativo mesmo que o PDV não esteja como PAF
+
+*Critérios de validação:*
+
+- Realizar a configuração do Varejo para "Vender com estoque negativo -> Não Liberar" e realizar a importação no PDV para que o mesmo possua também essa validação.
+
+*Como Implementar:*
+
+- Adicionar no sistema, que já possui outras validações, a validação de não permitir venda com estoque negativo, isso deve ser previsto também na leitura do arquivo de configuração.

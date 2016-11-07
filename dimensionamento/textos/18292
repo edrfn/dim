@@ -1,0 +1,12 @@
+[License Manager] Gravar a data e a versão da licença no Smart ao realizar a renovação
+*Como:* Usuário do License Manager e Smart
+*Quero:* Guardar no banco de dados do Smart a data de expiração e versão das licenças renovadas, assim como já ocorre com a data criptografada, que é gravada na campo 'senhadincash' 
+*Para:* Consultar as versões as datas de versões das data criptografas das licenças atualizadas no Smart
+
+*Critério de validação* 
+* Todas a licença/contrato atualizadas devem ter a data e a versão gravada.
+
+*Como implementar* 
+* Ao renovar as licenças dos clientes e gravar a data criptografada no banco de dados, a versão e a data de expiração validade da licença também devem ser gravadas.
+* A versão deve ser gravada no campo "numeroserial" da tabela contrato com o sufixo "Versao - " Ex: (Versao - 2.8i)
+* A data de expiração da licença deve ser gravada no campo "dataliberacao" da tabela contrato.

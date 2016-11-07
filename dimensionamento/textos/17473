@@ -1,0 +1,12 @@
+Correção de campos nas telas do Painel de Controle
+Como: Alterando os campos que estão incorretos nas telas do Painel de Controle
+Quero: Correção de campos nas telas do Painel de Controle
+Para: Usuário do sistema
+
+*Critério de validação*
+* Tela Processos: corrigir campo Descrição, para que sejam mostrados todos os erros e estes possam ser lidos por inteiro;
+* Tela Processos: as informações na área de Transferência não devem estar cortadas;   
+* Tela Processos: corrigir a apresentação da quantidade de itens transferidos, quando a quantidade é muito alta os números são mostrados incompletos;
+* Tela  Processos: corrigir a porcentagem da quantidade de itens transferidos. Seria interessante mostrar apenas duas casas decimais; 
+* Tela Processos: mostrar alguma informação na tela enquanto o sistema lê os arquivos. Em uma base com muitos dados, a tela do painel fica muito tempo sem apresentar nada, dando a impressão que todos os arquivos já foram lidos e sincronizados.
+* Tela PDVs: O número do PDV dentro da "tela do monitor" deve ser referente ao número do PDV.

@@ -12,8 +12,6 @@ start = time.time()
 
 
 
-stopwords = open('stop2.txt', 'r').read().split()
-
 textos = []
 for filename in glob.glob(os.path.join(path, '*')):
     textwords = open(filename, 'r', encoding='utf8').read().split()
@@ -25,14 +23,16 @@ for x in textos:
     texto = '%s %s ' % (texto, x)
 
 
-t = open('todos', 'w')
+t = open('todos', 'w', encoding='utf8')
 t.write(texto)
 t.close()
 
-t2 = open('todos', 'r')
+t2 = open('todos', 'r', encoding='utf8')
 
 f2 = nltk.FreqDist(w.lower() for w in t2)
 print(f2.most_common())
+for x in f2.most_common():
+    print(x[:1])
 
 # x = freq_dist.keys()[:1000]
 # print(x)

@@ -1,0 +1,14 @@
+[Migrate NFCE] Implementar validações de pagamentos com espécie cartão segundo alterações NT2015/002
+*Descrição*
+
+Como: Tester
+Quero: Implementação referente a pagamento com espécie cartão
+Para: Atender às validações de Id YA04a, YA05, YA06 e YA07 da NT2015/002
+
+*Critério de validação*
+
+O sistema deverá Após a emissão de uma nota com espécie de pagamento cartão, consultar o XML da mesma, o XML deve conter tags presentes na imagem em anexo.
+
+*Como implementar*
+
+OBS.: Lógica de implementação deverá ser analisada pelo desenvolvedor.

@@ -1,0 +1,22 @@
+Importação de XML - Ao tentar alterar ou reprocessar um produto, esporadicamente os campos 'Produto' e 'NCM' vem vazios, impossibilitando qualquer alteração ou reprocessamento 
+*1) Qual o comportamento observado?*
+No lançamento de nota de entrada através da importação de arquivo XML, ao tentar alterar ou reprocessar um produto esporadicamente os campos 'Produto' e 'NCM' vem vazios, impossibilitando qualquer alteração ou reprocessamento (imagem anexo).  
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimento - Digitar NF de Compra;
+2- Clicar no botão 'XML';
+3- Localizar o arquivo a ser importado, fazer a associação dos produtos e confirmar;
+4- Acessar a aba dos produtos e clicar no botão de alterar itens;
+5- verificar que esporadicamente os campos 'Produto' e 'NCM' vem vazios, impossibilitando qualquer alteração ou reprocessamento.  
+
+*3) Qual o comportamento esperado?*
+É esperado que ao importar um arquivo XML no lançamento de nota de compra, caso seja necessário alterar ou reprocessar algum produto, sistema permita que esse processo seja realizado sem erros.
+
+*4) Quais as etapas para executar o comportamento esperado?*
+As mesmas etapas do passo 2.
+
+========== Anotações da Reunião de Planejamento ==========
+
+h3. Sugestões:
+
+* Levantar mensagens nos campos para poder saber quando chegaram nulos. Com isso o teste fica sabendo quais campos reportar nas depurações dos problemas;

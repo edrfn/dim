@@ -1,0 +1,20 @@
+Ao importar orçamento e a junção dos acréscimos da forma de pagamento ultrapassar 99,99% do valor do pedido o sistema não permite sair da tela.
+1) Qual o comportamento observado?
+
+Ao fazer a importação de um orçamento na tela de vendas, e este possuir o valor da junção dos acréscimos maior que 99,99% do valor do produto o sistema emite uma mensagem informando que isto não pode ocorrer e indicando alterar a forma de pagamento porém, a forma de pagamento não pode ser alterada quando estamos lidando com importação de orçamento na venda. Ao tentar efetuar o procedimento indicado pela mensagem (mudar a forma de pagamento) ou sair da tela, não é possível executar nenhuma das opções.
+
+- anexo com tela da situação apresentada. -
+
+2) Quais as etapas para reproduzir o comportamento observado?
+
+1. Incluir um orçamento onde a forma de pagamento dele possua acréscimo e despesas acessórias que, juntos, ultrapasse o valor do pedido;
+2. Importar este orçamento em uma venda;
+3. Tentar concluir a venda;
+4. Verificar a mensagem apresentada;
+5. Tentar mudar a forma de pagamento (é correto não permitir isso!);
+6. Tentar sair da tela.
+
+
+3) Qual o comportamento esperado?
+
+É esperado que a forma de pagamento realmente não seja alterada mas que seja possível sair da tela.

@@ -1,0 +1,15 @@
+Refatorar o cadastro de vendedores
+Como: Analista de negócio
+Quero: Que seja realizado a refatoração do cadastro de vendedores.
+Para: que seja adequado ao novo framework e ao novo banco.
+
+Critérios de validação:
+
+- Validação Endereço; 
+- Validação Telefone; 
+- Validação ao relacionar contato;
+
+Como implementar:
+
+- Interface para o cadastro
+- Possibilidade inserir, alterar, pesquisar e excluir 

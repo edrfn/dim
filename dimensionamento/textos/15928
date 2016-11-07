@@ -1,0 +1,31 @@
+Inserir instrução para que a conexão do Banco de dados não seja perdida
+*Qual o comportamento observado?*
+Hoje temos com frequência problemas de sincronização entre Banco de dados do PDV e Web, sendo que este ocorre por falha/perda
+de conexão com o BD.
+
+*Qual as etapas para reproduzir o comportamento observado?*
+Não é possível efetuar a simulação, já que o problema
+ocorrer geralmente no cliente.
+
+*Qual o comportamento esperado?*
+Que ao colocar a instrução
+removeAbandoned="true" 
+logAbandoned="true" 
+removeAbandonedTimeout="3600" 
+validationQuery="SELECT 1" 
+testOnBorrow="true" 
+testOnReturn="false" 
+testWhileIdle="true" 
+timeBetweenEvictionRunsMillis="1000" 
+minEvictableIdleTimeMillis="60000"
+no arquivo  dincash_web2 (Arquivo XML) este problema de sincronização seja minimizado.
+
+*Qual a motivação?*
+Evitar falhas constantes de sincronização
+
+*Qual a versão do produto?*
+PDV_4306_WEB_3508
+
+*Informações adicionais*
+Resolvemos problemas de integração utilizando a instrução
+nos Clientes Parana Refrigeração(A2R) e Carioca (Tribus). 

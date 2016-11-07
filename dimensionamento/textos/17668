@@ -1,0 +1,14 @@
+Analisar comportamento e corrigir tempo de importação dos dados para o Painel
+*Para:* Usuário Final
+*Quero:* Diminuir o tempo e analisar melhoras para a integração
+*Como:* Melhorando as formas de indexar e aplicar melhorias do hibernate, além de validar rotinas para diminuir futuros erros de sincronização, espelhando essas validações do PDV.
+
+*Critério de validação* 
+* Verificar que o tempo de importação dos arquivos diminuiu;
+* Importar arquivos com registros que seriam validados no PDV para testar se há equivalência dos dados;
+
+*Como implementar*
+* Adicionar índices aos modelos;
+* Adicionar ao JPAFactory mesmas configurações adicionadas ao do PDV;
+* Validar rotinas para tornar semelhantes aos do PDV, evitando tratamentos distintos;
+* Testes;

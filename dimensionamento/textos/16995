@@ -1,0 +1,2 @@
+Regra para exigir CPF na emissão do cupom
+Visto a necessidade que o sistema terá de exigir o número de CPF a partir de um valor definido, diferente por estado, de forma fixa deve-se ser decidido como o sistema irá carregar essas informações sem que tenha que ser gerado uma versão para cada estado, porém não temos ainda os valores para todos os estados. 

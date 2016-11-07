@@ -1,0 +1,21 @@
+Devolução ao Fornecedor - Sistema não permite alteração de quantidade de um produto já lançado na devolução
+*1) Qual o comportamento observado?*
+Ao alterar uma devolução a fornecedor e logo em seguida tentar alterar a quantidade de um produto já lançado (clicando na canetinha).
+e pressionando "OK", sem fazer qualquer alteração na quantidade, o sistema não permite a gravação, entendendo como se fosse um novo lançamento,
+apresentando a mensagem: "A quantidade devolvida não poderá ser maior que a atual".
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+1- Acessar a rotina pelo menu: Compras - Movimentos - Devolução a fornecedor
+2- Alterar uma devolução ja existente (ALT+N);
+3- Clicar no botão alterar(produtos);
+4- Clicar na canetinha para alteração da quantidade do produto
+5- Clicar no botão OK sem fazer nenhuma alteração de quantidade
+6- Verificar a mensagem
+
+*3) Qual o comportamento esperado?*
+Espera-se que o sistema entenda a execução da rotina descrita a cima como uma alteração e não um novo lançamento.
+pois em momento algum o usuário alterou, adicionou ou aumentou a quantidade do produto a ser devolvido.
+O Sistema deveria reconhecer a NÃO alteração dos valores e permitir a gravação da maneira como está.
+
+4) Quais as etapas para executar o comportamento esperado?
+As mesmas etapas do passo 2.

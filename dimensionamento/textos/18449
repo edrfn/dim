@@ -1,0 +1,22 @@
+Erro na sincronização de VENDAS 
+* Breve descrição:
+
+O seguinte erro ocorre ao atualizar um cliente de uma versão anterior para mais atual 2.8F 
+
+java.lang.NullPointerException
+	at total.sap.sbo.dao.DocumentoDAO.getEstadoClientePadrao(DocumentoDAO.java:287)
+	at total.sap.sbo.dao.DocumentoDAO.getCFOPByState(DocumentoDAO.java:244)
+	at total.sap.sbo.dao.DocumentoDAO.getCFOPCode(DocumentoDAO.java:240)
+	at total.sap.sbo.dao.VendaDAO.inserirVenda(VendaDAO.java:241)
+	at total.sap.sync.InvoiceSynchronizer.inserirDocumentoFiscal(InvoiceSynchronizer.java:174)
+	at total.sap.sync.InvoiceSynchronizer.synchonize(InvoiceSynchronizer.java:93)
+	at total.sap.sync.SynchronizerTask.execute(SynchronizerTask.java:91)
+	at org.quartz.core.JobRunShell.run(JobRunShell.java:216)
+	at org.quartz.simpl.SimpleThreadPool$WorkerThread.run(SimpleThreadPool.java:549)
+
+*comportamento esperado:
+
+É necessário setar um estado padrão para o cliente sem precisar efetuar todo o select feito pelo sistema, que acaba quebrando a sincronização.
+No caso deste cliente em específico o estado é BAHIA.
+
+

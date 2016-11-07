@@ -1,0 +1,9 @@
+Expirar a licença de uso após o prazo de validade.
+Descrição
+
+Como: Tester
+Quero: A Implementação de rotina que permita o sistema impedir o uso após o período de validade.
+
+Critério de validação
+ALterar a data do computador de forma que fique maior que a data de validade.
+

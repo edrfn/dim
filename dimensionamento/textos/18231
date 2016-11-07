@@ -1,0 +1,8 @@
+Melhoria da comunicação com a DI Server
+Descrição:
+Conforme Spike, implementar
+
+_Hoje devido ao acumulo de informações na DI Server, é necessário reinicia-la diversas vezes ao dia, quando esse acumulo ocorre algumas situações como não sincronizar as vendas com o SAP. Segundo relato do cliente Dita Casa, esse acumulo chega a travar o SAP, o mesmo concluiu informando que em algumas situações dessas desativou o serviço da DI e o SAP voltou a funcionar normalmente. _
+
+
+

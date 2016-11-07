@@ -1,0 +1,14 @@
+Impresora Bematech MP400 não fiscal não imprime QRCode
+*1) Qual o comportamento observado?*
+
+Foi identificado que a impressora Bematech MP4000 não fiscal não faz impressão do QR Code.
+
+*2) Quais as etapas para reproduzir o comportamento observado?*
+
+Pegue uma MP4000 não fiscal;
+Emita um NFC-e;
+Observe que o sistema não imprime o QRCode;
+
+*3) Qual o comportamento esperado?*
+
+O sistema deve imprimir corretamente.

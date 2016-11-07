@@ -1,0 +1,12 @@
+Erro no fechamento da tela de Menu LMF
+*Qual o comportamento observado?*
+Ao acessar a tela de Menu LMF (Memória Fiscal) e pressionar ESC, é mostrada a tela do Menu Fiscal. O comportamento correto seria simplesmente sair da tela.
+
+*Quais as etapas para obter o comportamento observado?*
+1. Abrir o PDV;
+2. Pressionar F12;
+3. Pressionar F7;
+4. Pressionar ESC;
+
+*Qual o comportamento esperado?*
+Ao pressionar ESC na tela de Menu LMF a tela deve ser fechada, e não deve chamar nenhuma outra tela.

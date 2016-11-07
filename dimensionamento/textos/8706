@@ -1,0 +1,11 @@
+O sistema está aceitando produtos diferentes com o mesmo código de barras
+Ao cadastrar na aba 'Outras embalagens' e 'Outros Códigos de Barras' em modelo de produtos, um código de barras já existente, sistema não emite aviso.
+Ele permite que seja salvo dois produtos com o mesmo código de barras.
+
+Caminho:
+\\Total-20\teste$\Projetos\Web\Dincash Web 2.0\Dincash Web\Vídeos\SalvandoProdutosComMesmoCodigoDeBarras.avi
+
+Passo a passo:
+1) Foi mostrado no vídeo primeiramente, um produto 'Mucilon', com 3 códigos de barras diferentes.
+2) O código de barras cadastrado ao produto foi o '4', o código de barras cadastrado na aba 'Outra embalagens' que foi '44' e o código de barras cadastrado na aba 'Outros códigos de barras' que foi o '24'. 
+3) Foi mostrado no vídeo outro produto 'Leite', onde foi gravado os mesmos códigos do produto citado, tanto em 'Outras embalagens' quanto em 'Outros códigos de barras'.

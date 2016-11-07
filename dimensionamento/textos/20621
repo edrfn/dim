@@ -1,0 +1,2 @@
+Ao criar um orçamento e dar desconto nos Itens utilizando duas formas de pagamentos o descontos não estão sendo aplicados a segunda forma
+Ao criar um orçamento e dar descontos nos Itens utilizando duas formas de pagamentos os descontos tem que ser aplicados a segunda forma também, permitindo a gravação correta no banco e exibição na impressão em relação ao subtotal e total.

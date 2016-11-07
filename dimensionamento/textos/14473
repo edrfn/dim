@@ -1,0 +1,30 @@
+Ordem dos Itens na recuperação de um Pedido em Aberto
+Breve descrição do caso:
+
+Ao recuperar um pedido o sistema organiza os produtos de forma diferente do original, dificultando a conferencia por parte do cliente.
+
+Qual o comportamento observado?
+
+"No Cliente Mercadinho Gomes(João de Deus) muitas vezes eles deixam um pedido em aberto, e depois recuperam através do F11, porem o pedido não esta vindo na ordem que foi digitado, 
+e sim na Ordem Crescente dos Codigos dos Produtos. O que esta dificultando na conferencia dos Itens por parte do caixa.
+Verifiquei o Parametro "ORDEM DOS ITENS DE VENDA/ORCAMENTO" e esta marcado como DIGITAÇÃO, mesmo assim, sempre que abrimos um pedido que esta em aberto ele tras na ordem crescente dos codigos" - André 
+
+Verficado e testado em base de testes e o que André citou acima está realmente acontecendo.
+
+Quais as etapas para reproduzir o comportamento observado?
+
+Fazer um pedido com produtos em ordem aleatória, depois recuperar o mesmo e observar se foi reorganizado.
+
+Qual o comportamento esperado?
+
+O pedido deve ser recuperado com a mesma ordem para que o cliente possa verificar. O parâmetro citado deveria garantir isso.
+
+Quais as etapas para reproduzir o comportamento esperado?
+
+Fazer um pedido com produtos em ordem aleatória, depois recuperar o mesmo e observar se foi reorganizado.
+
+Qual a versão do produto e sistema operacional utilizados ?
+
+4.5g
+
+Informações adicionais.

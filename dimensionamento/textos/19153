@@ -1,0 +1,18 @@
+[License Manager]  Criar tela para edição dos dados de licença do Dinâmico ERP
+*Como:* Usuário do License Manager
+*Quero:* Carregar o arquivo de solicitação da licença ou editar uma licença já existente no Dinâmico ERP
+*Para:* Realizar o controle de licenças do Dinãmico ERP
+
+*Critério de validação* 
+* Carregar o arquivo de solicitação de licença do Dinâmico ERP.
+* Diferenciar o entre arquivos de solicitação do WEB e do Dinâmico ERP.
+* Poder atualizar licença existente, seja recebendo o request e atualizando os dados, ou editando um registro existente.
+* Poder renovar as licenças referentes ao sistema Dinâmico ERP e gerar um novo arquivo de licença.
+
+*Como implementar* 
+* Editar a tela para edição dos dados de licença dos sistemas WEB para ficar compatível com o Dinâmico ERP.
+> * Persistir dados
+> * Adicionar numero de usuário PDV
+> * Adicionar numero de usuário ERP
+> * Adicionar numero de Filias
+> * Remover as abas não utilizadas

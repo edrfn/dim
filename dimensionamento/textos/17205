@@ -1,0 +1,4 @@
+Criação de novo projeto dincash-NFCe
+o Criação do protocolo de comunicação com o Acbr Monitor;
+o Criação do motor de espera de respostas da SEFAZ (resposta do monitor);
+o Interpretação e tomada de decisão dos retornos do Acbr Monitor;

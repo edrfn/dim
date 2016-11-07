@@ -1,0 +1,24 @@
+Criar espécie do Grupo Vale Compra
+*Como:* Analista de negócio
+*Quero:* Criar uma espécie do Grupo Vale Compra
+*Para:* Utilizar créditos proveniente de devolução
+
+*Critérios de Validação*
+- Instalar o sistema e já constar no insert padrão
+- Não permitir alterar os itens marcados na especificação como não editáveis
+- Não criar validações pelo nome da espécie,mas sim pelo grupo
+
+*Como Implementar*
+Tratamentos da rotina  Cadastro necessário
+Nova espécie de pagamento
+>Nome: Vale troca (Editável)
+>Sigla: VCR (Não editável)
+>Grupo: Vale Compra (Não editável)
+>Consistir limite de crédito: Não (Não editável)
+>Espécie pré-datada: Não (Não editável)
+>TEF: Não (Não editável)
+>>Modalidade/bandeira: vazio ou valor qualquer (Não editável)
+>Espelho do cupom: Não (Editável)
+>Deve constar no insert padrão
+>Não é possível excluir, mesmo na condição em que não exista movimentação.
+>Não deve ser possível cadastrar outras espécies do grupo Vale Compra (Fazer o mesmo tratamento que Dinheiro e Cheque)

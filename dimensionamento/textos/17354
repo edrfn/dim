@@ -1,0 +1,21 @@
+Correções de melhoria no configurador do sistema
+Durante o CrowdTest e Batidão de Integração foram identificadas alguns pontos de melhoria no configurador do sistema:
+
+1. Apresentação do botão "voltar" quando o mesmo não realiza nenhuma atividade;
+2. Acentuar a palavra total informática no rodapé;
+3. Validar teste de conexão com o banco com dados incompatíveis;
+4. Verificar permissões de usuário para que seja possível criar/salvar/alterar o arquivo dinamicopdv.DCONF;
+5. Resposta do configurador ao verificar se o servidor está ativo (Resposta lenta, quando inativo);
+6. Colocar máscaras nos campos de "Totalizadores de sangria", "Totalizadores de suprimento", "timeout" e etc;
+7. Alterar a frase "Navegue O menu..." para "Navegue NO menu...";
+8. Retirar a opção Posto;
+9. Retirar as opções de coisas que não funcionam ou não sabemos se funcionam: Teclado gertec, display, matricial, etc;
+10. Alinhar as opções de periféricos indicando um sub-menu;
+11. Colocar máscaras em todos os campos necessários e validar os mesmos;
+12. Retirar a opção do modelo de impressora TestDefault (MA01), pois esta opção não pode ser usada pelo cliente;
+13. Alterar as palavras escritas em inglês para português, de forma intuitiva para o usuário. São elas Disable, default, TestDefault;
+14. Bloquear todas as opções que não fazem parte do escopo do ORION (Posto);
+15. Reduzir o números de ecfs permitidas para Bematech, Daruma e Epson;
+16. Implementar por demanda qualquer outro periferico (balança, teclado e afins) - por hora, bloquear no configurador;
+17. Não utilizar ECNF (Impressora não fiscal)
+18. Na aba de ECF escrever (Arredondamento e Truncamento, ao invés de A ou T);

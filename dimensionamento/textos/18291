@@ -1,0 +1,6 @@
+Testar o cadastro de natureza de operação no novo formato
+* Realizar teste completo do módulo de cadastro de natureza 
+
+* Principais pontos a validar:
+Operações básicas: Incluir, pesquisar, alterar e excluir;
+Validar a gravação dos dados no banco;
