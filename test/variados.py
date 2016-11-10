@@ -20,8 +20,6 @@ texto_longo = '''Esta é uma demonstração de como podemos escrever: textos
  este, tenha certeza disto! Força! texto até mais, texto texto texto texto texto texto texto texto.
  '''
 
-
-
 # minusculas
 texto_longo = texto_longo.lower()
 #print(texto_longo)
@@ -112,8 +110,14 @@ print(matrizA)
 # transformar a lista acima em uma única linha da matriz
 line = ''
 for x in matrizA:
-    line = line+x
+    line = line+' '+x
 
 print(line)
 # for t in textwords:
 #     filteredtext = [t.lower() for t in textwords if t.lower() not in stopwords]
+
+matriz02 = open('matriz02', 'r', encoding='utf8')
+
+lines = matriz02.readlines()
+for line in lines:
+    print(line)
