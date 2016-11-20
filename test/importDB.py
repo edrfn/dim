@@ -17,7 +17,7 @@ cur = conn.cursor()
 #cur.execute("SELECT * FROM db where tamanho = 20")
 
 # Select
-cur.execute("SELECT * FROM db")
+cur.execute("SELECT id, tamanho, titulo, descricao FROM db")
 
 print(cur.description)
 
