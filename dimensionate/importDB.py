@@ -5,12 +5,12 @@ from __future__ import print_function
 import pymysql
 import re
 import string
-import os
 import time
-import glob
 import nltk
 from nltk.corpus import stopwords
 from unicodedata import normalize
+
+
 
 start = time.time()
 
@@ -19,8 +19,11 @@ def cleanText(sentence):
     def remover_acentos(sentence):
         return normalize('NFKD', sentence).encode('ASCII', 'ignore').decode('ASCII')
 
+    def remove_numbers(sentence):
+        return [token.lower() for token in nltk.word_tokenize(sentence) if token.isdigit() is False]
+
     def remove_stopwords(sentence):
-        return [token for token in nltk.word_tokenize(sentence) if token.lower() not in stopwords.words('portuguese')]
+        return [token for token in sentence if token.lower() not in stopwords.words('portuguese')]
 
     def remove_punctuation_old(sentence):
         pontos = ['.', '•', '‘', '’', '“', '”', '–', ',', '!', '?', ';', "'", '"', ':', '/', '|', "\\", '(', ')', '[', ']', '{', '}', '#', '*', '@', '=', '#', '$', '%', '>', '<']
@@ -35,7 +38,7 @@ def cleanText(sentence):
         regex = re.compile(r'[\n\r\t\x90\x91\x92\x93\x94\x95\x96\x97\x98]')
         return regex.sub(" ", sentence)
 
-    return remove_stopwords(remove_punctuation(remove_lines(sentence)))
+    return remove_stopwords(remove_numbers(remove_punctuation(remove_lines(sentence))))
 
 #------------------ importDB     ------------------#
 
@@ -91,10 +94,10 @@ def importDB(command):
 
 #"SELECT * FROM db where tamanho = 20"
 #"SELECT * FROM db"
-lines = importDB("SELECT * FROM db where length(descricao) + length(titulo) > 50")
+dados = importDB("SELECT * FROM db where tamanho = 20 AND length(descricao) + length(titulo) > 50")
 
 textosPrincipais = open('textosPrincipais','w',encoding='utf8')
-textosPrincipais.writelines(str(line)+'\n' for line in lines)
+textosPrincipais.writelines(str(line)+'\n' for line in dados)
 textosPrincipais.close()
 # for x in lines:
 #     print(x)
@@ -103,7 +106,7 @@ textosPrincipais.close()
 #------------------ createColumns -----------------#
 
 somenteTextos = []
-for line in lines:
+for line in dados:
     somenteTextos.append(line[2:])
 
 textao = ''
@@ -154,11 +157,13 @@ for line in lines:
     matI = []
     linha = ''
     line = nltk.word_tokenize(str(line)[2:len(line)-3])
+    l2 = ''
+
 
     fdist = nltk.FreqDist(line)
     for i in col:
 
-        if i in fdist:
+        if i.lower() in fdist:
             x = str(fdist[i])
             z = fdist[i]
             linha = linha+x.zfill(4)+' '
@@ -194,6 +199,35 @@ matrix.write(texto)
 matrix.close()
 
 
+
 end = time.time()
 print("\n tempo total:\n")
 print('%s' % (end-start))
+
+# #print(matrizB)
+#
+# from sklearn.feature_extraction.text import TfidfTransformer
+# transformer = TfidfTransformer(smooth_idf=False)
+#
+# tfidf = transformer.fit_transform(matrizB)
+#
+# print(tfidf.toarray())
+# print(tfidf)
+#
+# matrizC = tfidf.toarray()
+#
+# print(matrizC)
+#
+# texto = ''
+# for x in col:
+#     texto = texto+x+' '
+# texto = texto[:len(texto)-1]+'\n'
+# for m in matrizC:
+#     m = str(m)
+#     texto = texto+m+'\n'
+# matrix = open('matrixSaida3','w',encoding='utf8')
+# matrix.write(texto)
+# matrix.close()
+#
+# for x in matrizC:
+#     print(x)
