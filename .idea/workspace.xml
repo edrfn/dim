@@ -1,14 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f4b90c42-f571-4891-8518-b56fabfdd47e" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dimensionate/attributes" afterPath="$PROJECT_DIR$/dimensionate/attributes" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dimensionate/cats.txt" afterPath="$PROJECT_DIR$/dimensionate/cats.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dimensionate/colunas" afterPath="$PROJECT_DIR$/dimensionate/colunas" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dimensionate/importDB.py" afterPath="$PROJECT_DIR$/dimensionate/importDB.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/dimensionate/textosPrincipais" afterPath="$PROJECT_DIR$/dimensionate/textosPrincipais" />
-    </list>
+    <list default="true" id="f4b90c42-f571-4891-8518-b56fabfdd47e" name="Default" comment="" />
     <ignored path="dim2.iws" />
     <ignored path=".idea/workspace.xml" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
