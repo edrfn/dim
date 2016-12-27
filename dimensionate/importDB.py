@@ -92,9 +92,9 @@ def importDB(command):
 
     return(lines)
 
-#"SELECT * FROM db where tamanho = 20"
+#"SELECT * FROM db where tamanho = 20 /// tamanho = 20 AND length(descricao) + length(titulo) > 50"
 #"SELECT * FROM db"
-dados = importDB("SELECT * FROM db where tamanho = 20 AND length(descricao) + length(titulo) > 50")
+dados = importDB("SELECT * FROM db where id between 20850 and 20900")
 
 textosPrincipais = open('textosPrincipais','w',encoding='utf8')
 textosPrincipais.writelines(str(line)+'\n' for line in dados)
